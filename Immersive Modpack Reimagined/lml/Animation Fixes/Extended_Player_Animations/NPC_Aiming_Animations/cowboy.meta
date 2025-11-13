@@ -1,0 +1,3871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<content>
+
+	<groupData xmlns:xi="http://www.w3.org/2001/XInclude">
+		<Item key="COWBOY">
+			<Default>COWBOY_ZERO_INTENSITY</Default>
+			<Sets>
+				<xi:include href="commongroupfilters.meta" xpointer="xpointer(/content/CommonGroupFilters/PlayerFirstPerson/Item)" />
+				<xi:include href="commongroupfilters.meta" xpointer="xpointer(/content/CommonGroupFilters/Melee/Item)" />
+				<xi:include href="commongroupfilters.meta" xpointer="xpointer(/content/CommonGroupFilters/Grounded/Item)" />
+				<xi:include href="commongroupfilters.meta" xpointer="xpointer(/content/CommonGroupFilters/HardCover/Item)" />
+				<xi:include href="commongroupfilters.meta" xpointer="xpointer(/content/CommonGroupFilters/SoftCover/General/Item)" />
+				<Item>
+					<Set>COWBOY_CROUCH_ZERO_INTENSITY</Set>
+					<ValidFor>
+                        <BodyPose>Crouch</BodyPose>
+                        <Injury>Healthy</Injury>
+						<Intensity>Unspecified</Intensity>
+					</ValidFor>
+				</Item>
+				<Item>
+					<Set>GANG_CROUCH_LOW_INTENSITY</Set>
+					<ValidFor>
+                        <BodyPose>Crouch</BodyPose>
+						<Intensity>Unspecified</Intensity>
+					</ValidFor>
+				</Item>
+				<xi:include href="commongroupfilters.meta" xpointer="xpointer(/content/CommonGroupFilters/Crouching/Item)" />
+				<xi:include href="commongroupfilters.meta" xpointer="xpointer(/content/CommonGroupFilters/Injured/Item)" />
+				<Item>
+					<Set>COWBOY_LONGARMS_ZERO_INTENSITY</Set>
+					<ValidFor>
+						<Intensity>Zero</Intensity>
+                        <WeaponGroup>Longarm</WeaponGroup>
+					</ValidFor>
+				</Item>
+				<Item>
+					<Set>COWBOY_DUAL_ZERO_INTENSITY</Set>
+					<ValidFor>
+	                    <WeaponPose>Dual</WeaponPose>
+                        <Injury>Healthy</Injury>
+						<Intensity>Unspecified Zero</Intensity>
+					</ValidFor>
+				</Item>
+				<Item>
+					<Set>JAVIER_ZERO_INTENSITY</Set>
+					<ValidFor>
+	                    <WeaponPose>Dual</WeaponPose>
+						<Intensity>Unspecified Zero</Intensity>
+					</ValidFor>
+				</Item>
+				<Item>
+					<Set>COWBOY_ZERO_INTENSITY</Set>
+					<ValidFor>
+						<Intensity>Unspecified Zero</Intensity>
+					</ValidFor>
+				</Item>
+				<Item>
+					<Set>COWBOY_LOW_INTENSITY</Set>
+					<ValidFor>
+						<Intensity>Low</Intensity>
+					</ValidFor>
+				</Item>
+				<Item>
+					<Set>COWBOY_MEDIUM_INTENSITY</Set>
+					<ValidFor>
+						<Intensity>Medium</Intensity>
+					</ValidFor>
+				</Item>
+				<Item>
+					<Set>COWBOY_HIGH_INTENSITY</Set>
+					<ValidFor>
+						<Intensity>High</Intensity>
+					</ValidFor>
+				</Item>
+			</Sets>
+		</Item>
+	</groupData>
+
+	<animData xmlns:xi="http://www.w3.org/2001/XInclude">
+		<Item key="COWBOY_CROUCH_ZERO_INTENSITY" type="CWeaponAnimationsSet">
+			<FallbackChain>
+				<Item>COWBOY_CROUCHING_FALLBACK</Item>
+				<Item>COWBOY</Item>
+				<Item>default</Item>
+			</FallbackChain>
+			<WeaponAnimations>
+				<Item key="GENERIC_1H" type="CWeaponAnimations">
+					<StrafeAnimationSet ref="Cowboy_Crouching_1H_ZeroIntensity" />
+					<NormalSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<HipSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<CrouchSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<ClipSetVariationTagRules>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_CROUCH_HIP_TO_NORMAL</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_NORMAL</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_CROUCH_CARRY_TO_NORMAL</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_LOW</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_HIGH</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+					</ClipSetVariationTagRules>
+					<IntroVariationRangeSets>
+						<Item>
+							<RangeSet ref="SHORTARMS_NPC_CROUCH_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_CROUCH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<RangeSet ref="SHORTARMS_CROUCH_HIP_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_CROUCH_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<RangeSet ref="SHORTARMS_CROUCH_HIP_LOWER_NORMAL_UPPER_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_CROUCH_KNEE_DOWN</WeaponActionIndex>
+						</Item>
+					</IntroVariationRangeSets>
+					<NormalPairSet>
+						<PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@JOHN@GENERIC@COMMON@UPPERBODY@1H</PedSet>
+						<WeaponSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@JOHN@GENERIC@COMMON@WEAPON@CATTLEMAN_FALLBACK</WeaponSet>
+					</NormalPairSet>
+					<AimingVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@CROUCH@LOW_INTENSITY@UPPERBODY@1H</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@CROUCH@LOW_INTENSITY@UPPERBODY@1H</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH_IN_MOTION</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH_HIP@BASE@CATTLEMAN</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@SWEEP_IRON_SIGHT</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH_CARRY@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH_WEAPON_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH_AIR@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH_IN_AIR</WeaponActionIndex>
+						</Item>
+					</AimingVariationClipSets>
+					<ChamberVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@SWEEP_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@SWEEP_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@SWEEP_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_OFFHAND_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@SWEEP_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_OFFHAND_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@SWEEP_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_HIP_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@SWEEP_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_HIP_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@SWEEP_LOCO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_OFFHAND_LOCO_READY_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@SWEEP_LOCO_READY_OFFHAND@HIGH@INTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_OFFHAND_LOCO_INTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@SWEEP_LOCO_READY@HIGH@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_OFFHAND_LOCO_OUTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@SWEEP_LOCO_READY@HIGH@INTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_LOCO_INTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@SWEEP_LOCO_READY@HIGH@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_LOCO_OUTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@SWEEP_LOCO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_LOCO_READY_HIGH</WeaponActionIndex>
+						</Item>
+					</ChamberVariationClipSets>
+					<TransitionVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CROUCH_BASE_TO_CROUCH_AIR</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_NORMAL_TO_IN_AIR</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CROUCH_AIR_TO_CROUCH_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CROUCH_BASE_TO_CROUCH_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_NORMAL_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CROUCH_HIP_TO_CROUCH_BASE_KNEE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_HIP_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CROUCH_BASE_TO_CROUCH_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_NORMAL_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CROUCH_CARRY_TO_CROUCH_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CARRY_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CROUCH_BASE_TO_CROUCH_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_NORMAL_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CROUCH_IRON_TO_CROUCH_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IRON_SIGHT_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CROUCH_HIP_TO_CROUCH_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_HIP_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CROUCH_CARRY_TO_CROUCH_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CARRY_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CROUCH_HIP_TO_CROUCH_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_HIP_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CROUCH_BASE_TO_CROUCH_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IRON_SIGHT_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CROUCH_IRON_TO_CROUCH_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IRON_SIGHT_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CROUCH_CARRY_TO_CROUCH_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CARRY_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CROUCH_BASE_TO_CROUCH_AIR</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IRON_SIGHT_TO_IN_AIR</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CROUCH_AIR_TO_CROUCH_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CROUCH_AIR_TO_CROUCH_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CROUCH_AIR_TO_CROUCH_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_CROUCH_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@TRANS@SWEEP_TO_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_CROUCH_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH_HIP@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponSet></WeaponSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_CROUCH_HIP_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH_HIP@BASE@TRANS@SWEEP_TO_READY@LOW</PedSet>
+							<WeaponSet></WeaponSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_CROUCH_HIP_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@TRANS@SWEEP_TO_READY_OFFHAND@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_CROUCH_OFFHAND_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@TRANS@SWEEP_TO_READY_OFFHAND@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_CROUCH_OFFHAND_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@TRANS@READY_TO_SWEEP@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@TRANS@READY_TO_SWEEP_OFFHAND@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_OFFHAND_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@TRANS@READY_TO_SWEEP_OFFHAND@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_OFFHAND_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH_CARRY@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CARRY_TO_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH_CARRY@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CARRY_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@TRANS@SWEEP_TO_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IRON_SIGHTS_TO_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IRON_SIGHTS_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH_CARRY@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CHAMBER_TO_CARRY_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH_CARRY@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CHAMBER_TO_CARRY_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@TRANS@READY_TO_SWEEP@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CHAMBER_TO_IRON_SIGHTS_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CHAMBER_TO_IRON_SIGHTS_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH_CARRY@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH_CARRY@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@SWEEP_RF_TO_READY_RF_OFFHAND@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_CHAMBER_OFFHAND_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@SWEEP_RF_TO_READY_RF_OFFHAND@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_CHAMBER_OFFHAND_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH_HIP@BASE@TRANS@READY_TO_SWEEP@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_HIP_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH_HIP@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_HIP_HIGH</WeaponActionIndex>
+						</Item>
+					</TransitionVariationClipSets>
+					<OutroVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_OUTRO_CROUCH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH_HIP@BASE@SWEEP@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_OUTRO_CROUCH_HIP</WeaponActionIndex>
+						</Item>
+					</OutroVariationClipSets>
+					<AimIkBaseBoneOffsetSetsMale>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_NORMAL</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeShortArms"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_CROUCH</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeShortArmsCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeShortArmsHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_CROUCH_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeShortArmsCrouchHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CoverShortArms"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CoverShortArmsHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_RUN_AND_GUN</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeShortArms"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COMBAT_DIVE</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CombatDiveShortArms"/>
+						</Item>
+					</AimIkBaseBoneOffsetSetsMale>
+					<AimIkBaseBoneOffsetSetsFemale>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_NORMAL</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeShortArms"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_CROUCH</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeShortArmsCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeShortArmsHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_CROUCH_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeShortArmsCrouchHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleCoverShortArms"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleCoverShortArmsHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_RUN_AND_GUN</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeShortArms"/>
+						</Item>
+					</AimIkBaseBoneOffsetSetsFemale>
+
+					<AimIntroHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@CROUCH@GENERIC@HOLSTERED@BASE@1H</AimIntroHolsteredOverrideClipSetHash>
+					<AimIntroUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@CROUCH@GENERIC@UNHOLSTERED@BASE@1H</AimIntroUnholsteredOverrideClipSetHash>
+					<AimIntroSniperHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@CROUCH@GENERIC@HOLSTERED@BASE@1H</AimIntroSniperHolsteredOverrideClipSetHash>
+					<AimIntroSniperUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@CROUCH@GENERIC@UNHOLSTERED@BASE@1H</AimIntroSniperUnholsteredOverrideClipSetHash>
+					<AimIntroSurprisedHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@CROUCH@GENERIC@HOLSTERED@BASE@1H</AimIntroSurprisedHolsteredOverrideClipSetHash>
+					<AimIntroSurprisedUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@CROUCH@GENERIC@UNHOLSTERED@BASE@1H</AimIntroSurprisedUnholsteredOverrideClipSetHash>
+					<AimIntroActionHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@CROUCH@GENERIC@HOLSTERED@BASE@1H</AimIntroActionHolsteredOverrideClipSetHash>
+					<AimIntroActionUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@CROUCH@GENERIC@UNHOLSTERED@BASE@1H</AimIntroActionUnholsteredOverrideClipSetHash>
+					<AimIntroActionSniperHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@CROUCH@GENERIC@HOLSTERED@BASE@1H</AimIntroActionSniperHolsteredOverrideClipSetHash>
+					<AimIntroActionSniperUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@CROUCH@GENERIC@UNHOLSTERED@BASE@1H</AimIntroActionSniperUnholsteredOverrideClipSetHash>
+					<AimIntroActionSurprisedHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@CROUCH@GENERIC@HOLSTERED@BASE@1H</AimIntroActionSurprisedHolsteredOverrideClipSetHash>
+					<AimIntroActionSurprisedUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@CROUCH@GENERIC@UNHOLSTERED@BASE@1H</AimIntroActionSurprisedUnholsteredOverrideClipSetHash>
+					
+					<AimTurnClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@CROUCH@GENERIC@BASE@1H</AimTurnClipSetHash>
+					<AimTurnSniperClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@CROUCH@GENERIC@BASE@1H</AimTurnSniperClipSetHash>
+					<AimTurnSurprisedClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@CROUCH@GENERIC@BASE@1H</AimTurnSurprisedClipSetHash>
+
+					<FiringVariationsStandingClipSetHash>NO_CLIPSET</FiringVariationsStandingClipSetHash>
+					<HipFiringVariationsClipSetHash>NO_CLIPSET</HipFiringVariationsClipSetHash>
+
+					<GestureBeckonOverrideClipSetHash>NO_CLIPSET</GestureBeckonOverrideClipSetHash>
+					<GestureGlancesOverrideClipSetHash>NO_CLIPSET</GestureGlancesOverrideClipSetHash>
+					<GestureHaltOverrideClipSetHash>NO_CLIPSET</GestureHaltOverrideClipSetHash>
+					<GestureOverThereOverrideClipSetHash>NO_CLIPSET</GestureOverThereOverrideClipSetHash>
+
+					<BuddyShotOverrideClipSetHash>NO_CLIPSET</BuddyShotOverrideClipSetHash>
+					<BulletFlinchOverrideClipSetHash>NO_CLIPSET</BulletFlinchOverrideClipSetHash>
+					
+					<AimPoseOverrideHash>CowboyCrouching</AimPoseOverrideHash>
+
+					<VariationAdditiveSetups>
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Shortarms/Blocked/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Shortarms/BlockedCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Shortarms/BlockedHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Shortarms/BlockedHipCrouched/Item)" />
+					</VariationAdditiveSetups>
+
+				</Item>
+				<Item key="GENERIC_2H" type="CWeaponAnimations">
+					<StrafeAnimationSet ref="Default_2H" />
+					<NormalSweepProfile ref="LONGARMS_COWBOY_0" />
+					<HipSweepProfile ref="LONGARMS_L45" />
+					<CrouchSweepProfile ref="LONGARMS_COWBOY_0" />
+					<NormalPairSet>
+						<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@BASE@WEAPON@CARBINE</PedSet>
+					</NormalPairSet>
+					<ClipSetVariationTagRules>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_CROUCH_HIP_TO_NORMAL</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_NORMAL</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_CROUCH_CARRY_TO_NORMAL</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_LOW</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_HIGH</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+					</ClipSetVariationTagRules>
+					<IntroVariationRangeSets>
+						<Item>
+							<RangeSet ref="LONGARMS_NPC_CROUCH_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_CROUCH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<RangeSet ref="LONGARMS_CROUCH_HIP_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_CROUCH_HIP</WeaponActionIndex>
+						</Item>
+					</IntroVariationRangeSets>
+					<AimingVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH@BASE@CARBINE</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH_HIP@BASE@CARBINE</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH@BASE@SWEEP_IRON_SIGHT</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH_CARRY@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH_WEAPON_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH_AIR@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH_IN_AIR</WeaponActionIndex>
+						</Item>
+					</AimingVariationClipSets>
+                    <ChamberVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH@BASE@SWEEP_READY@HIGH</PedSet>
+							<!-- TEMP-->
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH@BASE@SWEEP_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH@BASE@SWEEP_LOCO_READY@HIGH@INTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_LOCO_INTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH@BASE@SWEEP_LOCO_READY@HIGH@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_LOCO_OUTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH@BASE@SWEEP_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_HIP_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH@BASE@SWEEP_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_HIP_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH@BASE@SWEEP_LOCO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_LOCO_READY_HIGH</WeaponActionIndex>
+						</Item>
+					</ChamberVariationClipSets>
+					<TransitionVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CROUCH_BASE_TO_CROUCH_AIR</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_NORMAL_TO_IN_AIR</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CROUCH_AIR_TO_CROUCH_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CROUCH_BASE_TO_CROUCH_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_NORMAL_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CROUCH_HIP_TO_CROUCH_BASE_KNEE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_HIP_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CROUCH_BASE_TO_CROUCH_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_NORMAL_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CROUCH_CARRY_TO_CROUCH_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CARRY_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CROUCH_BASE_TO_CROUCH_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_NORMAL_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CROUCH_IRON_TO_CROUCH_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IRON_SIGHT_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CROUCH_HIP_TO_CROUCH_CARRY_KNEE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_HIP_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CROUCH_CARRY_TO_CROUCH_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CARRY_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CROUCH_HIP_TO_CROUCH_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_HIP_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CROUCH_IRON_TO_CROUCH_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IRON_SIGHT_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CROUCH_IRON_TO_CROUCH_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IRON_SIGHT_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CROUCH_CARRY_TO_CROUCH_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CARRY_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CROUCH_IRON_TO_CROUCH_AIR</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IRON_SIGHT_TO_IN_AIR</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CROUCH_AIR_TO_CROUCH_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CROUCH_AIR_TO_CROUCH_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CROUCH_AIR_TO_CROUCH_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<!-- TEMP-->
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_CROUCH_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_CROUCH_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<!-- TEMP-->
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH_CARRY@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CARRY_TO_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH_CARRY@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CARRY_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH@BASE@TRANS@IRON_SIGHT_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IRON_SIGHTS_TO_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH@BASE@TRANS@IRON_SIGHT_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IRON_SIGHTS_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH_CARRY@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CHAMBER_TO_CARRY_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH_CARRY@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CHAMBER_TO_CARRY_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH@BASE@TRANS@READY_TO_IRON_SIGHT@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CHAMBER_TO_IRON_SIGHTS_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH@BASE@TRANS@READY_TO_IRON_SIGHT@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CHAMBER_TO_IRON_SIGHTS_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH_AIR@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH_AIR@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH_HIP@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_HIP_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH_HIP@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_HIP_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH_HIP@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponSet></WeaponSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_CROUCH_HIP_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CROUCH_HIP@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponSet></WeaponSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_CROUCH_HIP_LOW</WeaponActionIndex>
+						</Item>
+					</TransitionVariationClipSets>
+					<AimIkBaseBoneOffsetSetsMale>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_NORMAL</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeLongArms"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_CROUCH</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeLongArmsCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeLongArmsHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_CROUCH_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeLongArmsHipCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CoverLongArms"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CoverLongArmsHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_RUN_AND_GUN</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="RunAndGunLongArms"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COMBAT_DIVE</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CombatDiveLongArms"/>
+						</Item>
+					</AimIkBaseBoneOffsetSetsMale>
+					<AimIkBaseBoneOffsetSetsFemale>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_NORMAL</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeLongArms"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_CROUCH</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeLongArmsCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeLongArmsHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_CROUCH_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeLongArmsCrouchHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleCoverLongArms"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleCoverLongArmsHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_RUN_AND_GUN</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="RunAndGunLongArms"/>
+						</Item>
+					</AimIkBaseBoneOffsetSetsFemale>
+
+					<AimIntroHolsteredOverrideClipSetHash>NO_CLIPSET</AimIntroHolsteredOverrideClipSetHash>
+					<AimIntroUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@CROUCH@GENERIC@UNHOLSTERED@BASE@2H</AimIntroUnholsteredOverrideClipSetHash>
+					<AimIntroSniperHolsteredOverrideClipSetHash>NO_CLIPSET</AimIntroSniperHolsteredOverrideClipSetHash>
+					<AimIntroSniperUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@CROUCH@GENERIC@UNHOLSTERED@BASE@2H</AimIntroSniperUnholsteredOverrideClipSetHash>
+					<AimIntroSurprisedHolsteredOverrideClipSetHash>NO_CLIPSET</AimIntroSurprisedHolsteredOverrideClipSetHash>
+					<AimIntroSurprisedUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@CROUCH@GENERIC@UNHOLSTERED@BASE@2H</AimIntroSurprisedUnholsteredOverrideClipSetHash>
+					<AimIntroActionHolsteredOverrideClipSetHash>NO_CLIPSET</AimIntroActionHolsteredOverrideClipSetHash>
+					<AimIntroActionUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@CROUCH@GENERIC@UNHOLSTERED@BASE@2H</AimIntroActionUnholsteredOverrideClipSetHash>
+					<AimIntroActionSniperHolsteredOverrideClipSetHash>NO_CLIPSET</AimIntroActionSniperHolsteredOverrideClipSetHash>
+					<AimIntroActionSniperUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@CROUCH@GENERIC@UNHOLSTERED@BASE@2H</AimIntroActionSniperUnholsteredOverrideClipSetHash>
+					<AimIntroActionSurprisedHolsteredOverrideClipSetHash>NO_CLIPSET</AimIntroActionSurprisedHolsteredOverrideClipSetHash>
+					<AimIntroActionSurprisedUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@CROUCH@GENERIC@UNHOLSTERED@BASE@2H</AimIntroActionSurprisedUnholsteredOverrideClipSetHash>
+
+					<AimTurnClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@CROUCH@GENERIC@BASE@2H</AimTurnClipSetHash>
+					<AimTurnSniperClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@CROUCH@GENERIC@BASE@2H</AimTurnSniperClipSetHash>
+					<AimTurnSurprisedClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@CROUCH@GENERIC@BASE@2H</AimTurnSurprisedClipSetHash>
+					
+					<FiringVariationsStandingClipSetHash>NO_CLIPSET</FiringVariationsStandingClipSetHash>
+					<HipFiringVariationsClipSetHash>NO_CLIPSET</HipFiringVariationsClipSetHash>
+
+					<GestureBeckonOverrideClipSetHash>NO_CLIPSET</GestureBeckonOverrideClipSetHash>
+					<GestureGlancesOverrideClipSetHash>NO_CLIPSET</GestureGlancesOverrideClipSetHash>
+					<GestureHaltOverrideClipSetHash>NO_CLIPSET</GestureHaltOverrideClipSetHash>
+					<GestureOverThereOverrideClipSetHash>NO_CLIPSET</GestureOverThereOverrideClipSetHash>
+
+					<BuddyShotOverrideClipSetHash>NO_CLIPSET</BuddyShotOverrideClipSetHash>
+					<BulletFlinchOverrideClipSetHash>NO_CLIPSET</BulletFlinchOverrideClipSetHash>
+					
+					<AimPoseOverrideHash>CowboyCrouching</AimPoseOverrideHash>
+
+					<VariationAdditiveSetups>
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Longarms/Blocked/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Longarms/BlockedCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Longarms/BlockedHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Longarms/BlockedHipCrouched/Item)" />
+					</VariationAdditiveSetups>
+				</Item>
+				<Item key="GENERIC_DUAL" type="CWeaponAnimations">
+					<StrafeAnimationSet ref="Cowboy_Crouching_Dual_ZeroIntensity" />
+					<NormalSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<HipSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<CrouchSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<ClipSetVariationTagRules>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_IN_AIR_TO_HIP</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_HIP</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+					</ClipSetVariationTagRules>
+					<NormalPairSet>
+						<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@WEAPON@CATTLEMAN</PedSet>
+						<WeaponSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@WEAPON@CATTLEMAN</WeaponSet>
+					</NormalPairSet>
+					<IntroVariationRangeSets>
+						<Item>
+							<RangeSet ref="DUAL_NORMAL_CROUCH_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_CROUCH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<RangeSet ref="DUAL_CROUCH_HIP_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_CROUCH_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<RangeSet ref="DUAL_CROUCH_HIP_LOWER_NORMAL_UPPER_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_CROUCH_KNEE_DOWN</WeaponActionIndex>
+						</Item>
+					</IntroVariationRangeSets>
+					<MotionClipSetHash>CLIPSET@MECH_WEAPONS_DUAL@LOCO@ARTHUR@NORMAL@REVOLVER@IDLE</MotionClipSetHash>
+					<AimingVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH@BASE@CATTLEMAN</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH_IN_MOTION</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH_HIP@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH@BASE@SWEEP_IRON_SIGHT</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH_CARRY@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH_WEAPON_CARRY</WeaponActionIndex>
+						</Item>
+					</AimingVariationClipSets>
+                    <ChamberVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH@BASE@SWEEP_LOCO_READY@HIGH@INTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_LOCO_INTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH@BASE@SWEEP_LOCO_READY@HIGH@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_LOCO_OUTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH@BASE@SWEEP_LOCO_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_LOCO_READY_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH@BASE@SWEEP_LOCO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_LOCO_READY_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH@BASE@SWEEP_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH@BASE@SWEEP_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH@BASE@SWEEP_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_HIP_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH@BASE@SWEEP_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_HIP_HIGH</WeaponActionIndex>
+						</Item>
+					</ChamberVariationClipSets>
+					<TransitionVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CROUCH_BASE_TO_CROUCH_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_NORMAL_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CROUCH_BASE_TO_CROUCH_AIR</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_NORMAL_TO_IN_AIR</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CROUCH_AIR_TO_CROUCH_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CROUCH_HIP_TO_CROUCH_BASE_KNEE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_HIP_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CROUCH_AIR_TO_CROUCH_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH@BASE@TRANS@SWEEP_TO_READY@LOW</PedSet>
+							<WeaponSet></WeaponSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_CROUCH_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponSet></WeaponSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_CROUCH_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IRON_SIGHTS_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH_HIP@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponSet></WeaponSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_CROUCH_HIP_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH_HIP@BASE@TRANS@SWEEP_TO_READY@LOW</PedSet>
+							<WeaponSet></WeaponSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_CROUCH_HIP_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CHAMBER_TO_IRON_SIGHTS_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH@BASE@TRANS@READY_TO_SWEEP@LOW</PedSet>
+							<WeaponSet></WeaponSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponSet></WeaponSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH_HIP@BASE@TRANS@READY_TO_SWEEP@LOW</PedSet>
+							<WeaponSet></WeaponSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_HIP_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH_HIP@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponSet></WeaponSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_HIP_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CROUCH_BASE_TO_CROUCH_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_NORMAL_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CROUCH_CARRY_TO_CROUCH_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CARRY_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH_CARRY@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CARRY_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH_AIR@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH_CARRY@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CHAMBER_TO_CARRY_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CROUCH_BASE_TO_CROUCH_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_NORMAL_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CROUCH_IRON_TO_CROUCH_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IRON_SIGHT_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CROUCH_HIP_TO_CROUCH_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_HIP_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CROUCH_CARRY_TO_CROUCH_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CARRY_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CROUCH_HIP_TO_CROUCH_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_HIP_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CROUCH_IRON_TO_CROUCH_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IRON_SIGHT_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CROUCH_IRON_TO_CROUCH_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IRON_SIGHT_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CROUCH_CARRY_TO_CROUCH_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CARRY_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CROUCH_AIR_TO_CROUCH_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CROUCH_IRON_TO_CROUCH_AIR</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IRON_SIGHT_TO_IN_AIR</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CROUCH_AIR_TO_CROUCH_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+					</TransitionVariationClipSets>
+					<OutroVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH@BASE@SWEEP@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_OUTRO_CROUCH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH_HIP@BASE@SWEEP@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_OUTRO_CROUCH_HIP</WeaponActionIndex>
+						</Item>
+					</OutroVariationClipSets>
+					<AimIkBaseBoneOffsetSetsMale>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualLeft"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualRight"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_CROUCH_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualLeftCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_CROUCH_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualRightCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_HIP_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualLeftHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_HIP_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualRightHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_CROUCH_HIP_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualLeftHipCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_CROUCH_HIP_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualRightHipCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_DUAL_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CoverDualLeft"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_DUAL_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CoverDualRight"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_HIP_DUAL_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CoverDualLeftHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_HIP_DUAL_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CoverDualRightHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COMBAT_DIVE_DUAL_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CombatDiveDualLeft"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COMBAT_DIVE_DUAL_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CombatDiveDualRight"/>
+						</Item>
+					</AimIkBaseBoneOffsetSetsMale>
+					<AimIkBaseBoneOffsetSetsFemale>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeDualLeft"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeDualRight"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_CROUCH_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualLeftCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_CROUCH_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualRightCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_HIP_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualLeftHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_HIP_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualRightHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_CROUCH_HIP_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualLeftHipCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_CROUCH_HIP_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualRightHipCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_DUAL_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleCoverDualLeft"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_DUAL_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleCoverDualRight"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_HIP_DUAL_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CoverDualLeftHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_HIP_DUAL_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CoverDualRightHip"/>
+						</Item>
+					</AimIkBaseBoneOffsetSetsFemale>
+
+                    <AimIntroHolsteredOverrideClipSetHash>NO_CLIPSET</AimIntroHolsteredOverrideClipSetHash>
+                    <AimIntroUnholsteredOverrideClipSetHash>NO_CLIPSET</AimIntroUnholsteredOverrideClipSetHash>
+                    <AimIntroSniperHolsteredOverrideClipSetHash>NO_CLIPSET</AimIntroSniperHolsteredOverrideClipSetHash>
+                    <AimIntroSniperUnholsteredOverrideClipSetHash>NO_CLIPSET</AimIntroSniperUnholsteredOverrideClipSetHash>
+                    <AimIntroSurprisedHolsteredOverrideClipSetHash>NO_CLIPSET</AimIntroSurprisedHolsteredOverrideClipSetHash>
+                    <AimIntroSurprisedUnholsteredOverrideClipSetHash>NO_CLIPSET</AimIntroSurprisedUnholsteredOverrideClipSetHash>
+                    <AimIntroActionHolsteredOverrideClipSetHash>NO_CLIPSET</AimIntroActionHolsteredOverrideClipSetHash>
+                    <AimIntroActionUnholsteredOverrideClipSetHash>NO_CLIPSET</AimIntroActionUnholsteredOverrideClipSetHash>
+                    <AimIntroActionSniperHolsteredOverrideClipSetHash>NO_CLIPSET</AimIntroActionSniperHolsteredOverrideClipSetHash>
+                    <AimIntroActionSniperUnholsteredOverrideClipSetHash>NO_CLIPSET</AimIntroActionSniperUnholsteredOverrideClipSetHash>
+                    <AimIntroActionSurprisedHolsteredOverrideClipSetHash>NO_CLIPSET</AimIntroActionSurprisedHolsteredOverrideClipSetHash>
+                    <AimIntroActionSurprisedUnholsteredOverrideClipSetHash>NO_CLIPSET</AimIntroActionSurprisedUnholsteredOverrideClipSetHash>
+                    
+                    <AimTurnClipSetHash>NO_CLIPSET</AimTurnClipSetHash>
+                    <AimTurnSniperClipSetHash>NO_CLIPSET</AimTurnSniperClipSetHash>
+                    <AimTurnSurprisedClipSetHash>NO_CLIPSET</AimTurnSurprisedClipSetHash>
+			        
+                    <FiringVariationsStandingClipSetHash>NO_CLIPSET</FiringVariationsStandingClipSetHash>
+                    <HipFiringVariationsClipSetHash>NO_CLIPSET</HipFiringVariationsClipSetHash>
+			        
+                    <GestureBeckonOverrideClipSetHash>NO_CLIPSET</GestureBeckonOverrideClipSetHash>
+                    <GestureGlancesOverrideClipSetHash>NO_CLIPSET</GestureGlancesOverrideClipSetHash>
+                    <GestureHaltOverrideClipSetHash>NO_CLIPSET</GestureHaltOverrideClipSetHash>
+                    <GestureOverThereOverrideClipSetHash>NO_CLIPSET</GestureOverThereOverrideClipSetHash>
+			        
+                    <BuddyShotOverrideClipSetHash>NO_CLIPSET</BuddyShotOverrideClipSetHash>
+                    <BulletFlinchOverrideClipSetHash>NO_CLIPSET</BulletFlinchOverrideClipSetHash>
+
+					<VariationAdditiveSetups>
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/Blocked/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedLeft/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedRight/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedLeftCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedRightCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedLeftHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedRightHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedHipCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedLeftHipCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedRightHipCrouched/Item)" />
+					</VariationAdditiveSetups>
+				</Item>
+				<Item key="GENERIC_BOW" type="CWeaponAnimations">
+					<IntroVariationRangeSets>
+						<Item>
+							<RangeSet ref="BOW_NORMAL_INTROS"/>
+							<WeaponActionIndex>WARS_BOW_INTRO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<RangeSet ref="BOW_NORMAL_CROUCH_INTROS"/>
+							<WeaponActionIndex>WARS_BOW_INTRO_CROUCH</WeaponActionIndex>
+						</Item>
+					</IntroVariationRangeSets>
+				</Item>
+				<Item key="WEAPON_PISTOL_MAUSER" type="CWeaponAnimations">
+					<VariationAdditiveSetups>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_ONEHAND</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseOneHandedHip</Template>
+							<VariationSetup ref="SHORTARMS_HIP_ONEHAND"/>
+						</Item>
+					</VariationAdditiveSetups>
+				</Item>
+				<Item key="WEAPON_PISTOL_SEMIAUTO" type="CWeaponAnimations">
+					<VariationAdditiveSetups>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_ONEHAND</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseOneHandedHip</Template>
+							<VariationSetup ref="SHORTARMS_HIP_ONEHAND"/>
+						</Item>
+					</VariationAdditiveSetups>
+				</Item>
+				<Item key="WEAPON_PISTOL_M1899" type="CWeaponAnimations">
+					<VariationAdditiveSetups>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_ONEHAND</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseOneHandedHip</Template>
+							<VariationSetup ref="SHORTARMS_HIP_ONEHAND"/>
+						</Item>
+					</VariationAdditiveSetups>
+				</Item>
+				<Item key="WEAPON_REVOLVER_DOUBLEACTION" type="CWeaponAnimations">
+					<VariationAdditiveSetups>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_ONEHAND</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseOneHandedHip</Template>
+							<VariationSetup ref="SHORTARMS_HIP_ONEHAND"/>
+						</Item>
+					</VariationAdditiveSetups>
+				</Item>
+                <Item key="WEAPON_PISTOL_VOLCANIC" type="CWeaponAnimations">
+					<AimingVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@HIP@BASE@VOLCANIC</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH_HIP@BASE@SWEEP_2H_FOREND</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH_HIP</WeaponActionIndex>
+						</Item>
+					</AimingVariationClipSets>
+					<VariationAdditiveSetups>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_BLOCKED</WeaponActionIndex>
+							<Template>template_WEAPON_BlockShortarms_2H_HIP</Template>
+							<VariationSetup ref="SHORTARMS_2H_BLOCKED_HIP"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_BLOCKED_CROUCHED</WeaponActionIndex>
+							<Template>template_WEAPON_BlockShortarms_2H_HIP</Template>
+							<VariationSetup ref="SHORTARMS_2H_BLOCKED_HIP"/>
+						</Item>
+					</VariationAdditiveSetups>
+					<BodyAdditiveTemplates>
+						<Item>
+							<Template>template_WEAPON_AdditiveStrafeMovementGunForend</Template>
+							<WeaponActionIndex>WABD_GUN_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<Template>template_WEAPON_AdditiveStrafeMovementGunForend</Template>
+							<WeaponActionIndex>WABD_GUN_CROUCH_HIP</WeaponActionIndex>
+						</Item>
+					</BodyAdditiveTemplates>
+				</Item>
+                <Item key="WEAPON_SHOTGUN_SAWEDOFF" type="CWeaponAnimations">
+					<AimingVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@HIP@BASE@SWEEP_2H_FOREND</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH_HIP@BASE@SWEEP_2H_FOREND</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH_HIP</WeaponActionIndex>
+						</Item>
+					</AimingVariationClipSets>
+					<VariationAdditiveSetups>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_BLOCKED</WeaponActionIndex>
+							<Template>template_WEAPON_BlockShortarms_2H_HIP</Template>
+							<VariationSetup ref="SHORTARMS_2H_SHOTGUN_BLOCKED_HIP"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_BLOCKED_CROUCHED</WeaponActionIndex>
+							<Template>template_WEAPON_BlockShortarms_2H_HIP</Template>
+							<VariationSetup ref="SHORTARMS_2H_SHOTGUN_BLOCKED_HIP"/>
+						</Item>
+					</VariationAdditiveSetups>
+					<BodyAdditiveTemplates>
+						<Item>
+							<Template>template_WEAPON_AdditiveStrafeMovementGunForend</Template>
+							<WeaponActionIndex>WABD_GUN_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<Template>template_WEAPON_AdditiveStrafeMovementGunForend</Template>
+							<WeaponActionIndex>WABD_GUN_CROUCH_HIP</WeaponActionIndex>
+						</Item>
+					</BodyAdditiveTemplates>
+				</Item>
+				<Item key="LEFT_LANTERN_RIGHT_GUN" type="CWeaponAnimations">
+					<GenericFallback>GENERIC_DUAL</GenericFallback>
+					<StrafeAnimationSet ref="Cowboy_Crouching_Dual_ZeroIntensity" />
+					<NormalSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<HipSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<CrouchSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<ClipSetVariationTagRules>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_CROUCH_CHAMBER_TO_IRON_SIGHTS_HIGH</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_CROUCH_CHAMBER_TO_CARRY_HIGH</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_LOW</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_HIGH</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+					</ClipSetVariationTagRules>
+					<NormalPairSet>
+						<PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@JOHN@GENERIC@COMMON@WEAPON@CATTLEMAN_FALLBACK</PedSet>
+						<WeaponSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@JOHN@GENERIC@COMMON@WEAPON@CATTLEMAN_FALLBACK</WeaponSet>
+					</NormalPairSet>
+					<IntroVariationRangeSets>
+						<Item>
+							<RangeSet ref="LEFT_LANTERN_RIGHT_GUN_NORMAL_CROUCH_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_CROUCH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<RangeSet ref="LEFT_LANTERN_RIGHT_GUN_CROUCH_HIP_LOWER_NORMAL_UPPER_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_CROUCH_KNEE_DOWN</WeaponActionIndex>
+						</Item>
+					</IntroVariationRangeSets>
+					<AimingVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@CROUCH@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@CROUCH@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH_IN_MOTION</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@SWEEP_IRON_SIGHT</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@CARRY@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH_WEAPON_CARRY</WeaponActionIndex>
+						</Item>
+					</AimingVariationClipSets>
+					<OutroVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@CROUCH@BASE@SWEEP@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_OUTRO_CROUCH</WeaponActionIndex>
+						</Item>
+					</OutroVariationClipSets>
+					<TransitionVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@TRANS@BASE_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_NORMAL_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@TRANS@CARRY_TO_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CARRY_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@TRANS@BASE_TO_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_NORMAL_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@TRANS@IRON_TO_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IRON_SIGHT_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@TRANS@IRON_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IRON_SIGHT_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@TRANS@CARRY_TO_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CARRY_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@CROUCH@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_CROUCH_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@CROUCH@BASE@TRANS@SWEEP_TO_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_CROUCH_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_IRON_SIGHTS_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@TRANS@CARRY_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CARRY_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@CROUCH@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@CROUCH@BASE@TRANS@READY_TO_SWEEP@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_CROUCH_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CHAMBER_TO_IRON_SIGHTS_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@TRANS@READY_TO_CARRY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CROUCH_CHAMBER_TO_CARRY_HIGH</WeaponActionIndex>
+						</Item>
+					</TransitionVariationClipSets>
+					<ChamberVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@SWEEP_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@SWEEP_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@CROUCH@BASE@SWEEP_LOCO_READY@HIGH@INTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_LOCO_INTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@CROUCH@BASE@SWEEP_LOCO_READY@HIGH@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_LOCO_OUTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH@BASE@SWEEP_LOCO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_CROUCH_LOCO_READY_HIGH</WeaponActionIndex>
+						</Item>
+					</ChamberVariationClipSets>
+					<VariationAdditiveSetups>
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/Blocked/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedLeft/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedRight/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedLeftCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedRightCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedLeftHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedRightHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedHipCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedLeftHipCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedRightHipCrouched/Item)" />
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_RELAXED_R</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseDualRelaxed</Template>
+							<VariationSetup ref="DUAL_RELAXED_RIGHT"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_RELAXED_L</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseDualRelaxed</Template>
+							<VariationSetup ref="DUAL_RELAXED_LEFT"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_RELAXED_R</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseDualRelaxed</Template>
+							<VariationSetup ref="DUAL_HIP_RELAXED_RIGHT"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_RELAXED_L</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseDualRelaxed</Template>
+							<VariationSetup ref="DUAL_HIP_RELAXED_LEFT"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_UNDERFIRE</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseOffsetHalf</Template>
+							<VariationSetup ref="DUAL_UNDERFIRE"/>
+						</Item>
+					</VariationAdditiveSetups>
+				</Item>
+			</WeaponAnimations>
+		</Item>
+		<Item key="COWBOY_DUAL_ZERO_INTENSITY" type="CWeaponAnimationsSet">
+			<FallbackChain>
+				<Item>COWBOY_LOW_INTENSITY</Item>
+				<Item>COWBOY</Item>
+				<Item>default</Item>
+			</FallbackChain>
+			<WeaponAnimations>
+				<Item key="GENERIC_DUAL" type="CWeaponAnimations">
+					<StrafeAnimationSet ref="Default_Dual" />
+					<NormalSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<HipSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<CrouchSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<ClipSetVariationTagRules>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_IN_AIR_TO_HIP</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_CROUCH_IN_AIR_TO_HIP</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_TO_CHAMBER_HIGH</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_TO_CHAMBER_LOW</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_IN_AIR_TO_CHAMBER_LOW</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_IN_AIR_TO_CHAMBER_HIGH</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+					</ClipSetVariationTagRules>
+					<IntroVariationRangeSets>
+						<Item>
+							<RangeSet ref="DUAL_NORMAL_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<RangeSet ref="DUAL_HIP_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_HIP</WeaponActionIndex>
+						</Item>
+					</IntroVariationRangeSets>
+					<NormalPairSet>
+						<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@WEAPON@CATTLEMAN</PedSet>
+						<WeaponSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@WEAPON@CATTLEMAN</WeaponSet>
+					</NormalPairSet>
+					<AimingVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CARRY@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_WEAPON_AIM_FPS_SWAP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CATTLEMAN</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@AIR@BASE@SWEEP_RF</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_IN_AIR</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@HIP@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@BASE@SWEEP_IRON_SIGHT</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CARRY@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_WEAPON_CARRY</WeaponActionIndex>
+						</Item>
+					</AimingVariationClipSets>
+					<ChamberVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@AI_COMBAT@RELOAD_SWEEPS@DUTCH@GENERIC@COMMON@UPPERBODY@DUAL</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_SWEEP</WeaponActionIndex> <!-- Deprecated reloads support -->
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@AI_COMBAT@RELOAD_SWEEPS@DUTCH@GENERIC@COMMON@UPPERBODY@DUAL</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@AI_COMBAT@RELOAD_SWEEPS@DUTCH@GENERIC@COMMON@UPPERBODY@DUAL</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@BASE@SWEEP_LOCO_READY@LOW@INTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_INTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@BASE@SWEEP_LOCO_READY@LOW@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_OUTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@BASE@SWEEP_LOCO_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_READY_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@BASE@SWEEP_LOCO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_READY_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@HIP@BASE@SWEEP_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_HIP_LOW</WeaponActionIndex>
+						</Item>
+					</ChamberVariationClipSets>
+					<TransitionVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@BASE_TO_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_NORMAL_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@BASE_TO_AIR</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_NORMAL_TO_IN_AIR</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@BASE_TO_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IN_AIR_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@HIP_TO_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_HIP_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@AIR_TO_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IN_AIR_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@BASE_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@BASE_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@HIP@BASE@TRANS@SWEEP_TO_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_HIP_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHTS_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@AIR_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IN_AIR_TO_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@BASE@TRANS@READY_TO_SWEEP@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CHAMBER_TO_IRON_SIGHTS_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@HIP@BASE@TRANS@READY_TO_SWEEP@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_HIP_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@HIP@BASE@TRANS@READY_TO_SWEEP@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_HIP_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@BASE_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_NORMAL_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CARRY_TO_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CARRY_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@BASE@TRANS@CARRY_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CARRY_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@AIR_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IN_AIR_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@BASE@TRANS@READY_TO_CARRY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CHAMBER_TO_CARRY_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@BASE_TO_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_NORMAL_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@IRON_TO_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHT_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@HIP_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_HIP_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CARRY_TO_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CARRY_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@HIP_TO_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_HIP_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@IRON_TO_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHT_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@IRON_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHT_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@CARRY_TO_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CARRY_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@AIR_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IN_AIR_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@IDLE_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_FPS_SWAP_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@IRON_TO_AIR</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHT_TO_IN_AIR</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@TRANS@AIR_TO_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IN_AIR_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+					</TransitionVariationClipSets>
+					<OutroVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@BASE@SWEEP@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_OUTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@HIP@BASE@SWEEP@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_OUTRO_HIP</WeaponActionIndex>
+						</Item>
+					</OutroVariationClipSets>
+					<AimIkBaseBoneOffsetSetsMale>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualLeft"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualRight"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_CROUCH_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualLeftCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_CROUCH_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualRightCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_HIP_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualLeftHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_HIP_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualRightHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_CROUCH_HIP_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualLeftHipCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_CROUCH_HIP_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualRightHipCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_DUAL_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CoverDualLeft"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_DUAL_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CoverDualRight"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_HIP_DUAL_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CoverDualLeftHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_HIP_DUAL_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CoverDualRightHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COMBAT_DIVE_DUAL_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CombatDiveDualLeft"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COMBAT_DIVE_DUAL_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CombatDiveDualRight"/>
+						</Item>
+					</AimIkBaseBoneOffsetSetsMale>
+					<AimIkBaseBoneOffsetSetsFemale>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeDualLeft"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeDualRight"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_CROUCH_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualLeftCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_CROUCH_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualRightCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_HIP_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualLeftHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_HIP_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualRightHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_CROUCH_HIP_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualLeftHipCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_DUAL_CROUCH_HIP_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeDualRightHipCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_DUAL_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleCoverDualLeft"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_DUAL_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleCoverDualRight"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_HIP_DUAL_LEFT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CoverDualLeftHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_HIP_DUAL_RIGHT</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CoverDualRightHip"/>
+						</Item>
+					</AimIkBaseBoneOffsetSetsFemale>
+
+					<!-- AimIntros OnFoot -->
+					<BulletFlinchOverrideClipSetHash>CLIPSET@AI_COMBAT@BULLET_FLINCHES@DUTCH@GENERIC@BASE@DUAL</BulletFlinchOverrideClipSetHash>
+					<FiringVariationsStandingClipSetHash>CLIPSET@AI_COMBAT@FIRE_VARIATIONS@DUTCH@GENERIC@MEDIUM_INTENSITY@BASE@DUAL</FiringVariationsStandingClipSetHash>
+
+					<AimIntroHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@DUTCH@GENERIC@HOLSTERED@BASE@DUAL</AimIntroHolsteredOverrideClipSetHash>
+					<AimIntroUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@DUTCH@GENERIC@UNHOLSTERED@BASE@DUAL</AimIntroUnholsteredOverrideClipSetHash>
+					<AimIntroSniperHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@DUTCH@GENERIC@HOLSTERED@BASE@DUAL</AimIntroSniperHolsteredOverrideClipSetHash>
+					<AimIntroSniperUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@DUTCH@GENERIC@UNHOLSTERED@BASE@DUAL</AimIntroSniperUnholsteredOverrideClipSetHash>
+					<AimIntroSurprisedHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@DUTCH@GENERIC@HOLSTERED@BASE@DUAL</AimIntroSurprisedHolsteredOverrideClipSetHash>
+					<AimIntroSurprisedUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@DUTCH@GENERIC@UNHOLSTERED@BASE@DUAL</AimIntroSurprisedUnholsteredOverrideClipSetHash>
+					<AimIntroActionHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@DUTCH@GENERIC@HOLSTERED@BASE@DUAL</AimIntroActionHolsteredOverrideClipSetHash>
+					<AimIntroActionUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@DUTCH@GENERIC@UNHOLSTERED@BASE@DUAL</AimIntroActionUnholsteredOverrideClipSetHash>
+					<AimIntroActionSniperHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@DUTCH@GENERIC@HOLSTERED@BASE@DUAL</AimIntroActionSniperHolsteredOverrideClipSetHash>
+					<AimIntroActionSniperUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@DUTCH@GENERIC@UNHOLSTERED@BASE@DUAL</AimIntroActionSniperUnholsteredOverrideClipSetHash>
+					<AimIntroActionSurprisedHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@DUTCH@GENERIC@HOLSTERED@BASE@DUAL</AimIntroActionSurprisedHolsteredOverrideClipSetHash>
+					<AimIntroActionSurprisedUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@DUTCH@GENERIC@UNHOLSTERED@BASE@DUAL</AimIntroActionSurprisedUnholsteredOverrideClipSetHash>
+
+					<AimTurnClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@DUTCH@GENERIC@BASE@DUAL</AimTurnClipSetHash>
+					<AimTurnSniperClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@DUTCH@GENERIC@BASE@DUAL</AimTurnSniperClipSetHash>
+					<AimTurnSurprisedClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@DUTCH@GENERIC@BASE@DUAL</AimTurnSurprisedClipSetHash>
+
+					<AimPoseOverrideHash>DutchStanding</AimPoseOverrideHash>
+					
+					<!-- Natural Motion Blend Out Sets -->
+					<NMPoseData>
+						<AimingCentre>NMBS_AIMING_RECOVERY_DUTCH_DUAL_CENTRE</AimingCentre>
+						<AimingRight>NMBS_AIMING_RECOVERY_DUTCH_DUAL_RIGHT</AimingRight>
+						<AimingLeft>NMBS_AIMING_RECOVERY_DUTCH_DUAL_LEFT</AimingLeft>
+						<PelvisOffsetAngle value="-27" />
+					</NMPoseData>
+					
+					<VariationAdditiveSetups>
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/Blocked/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedLeft/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedRight/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedLeftCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedRightCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedLeftHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedRightHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedHipCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedLeftHipCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedRightHipCrouched/Item)" />
+					</VariationAdditiveSetups>
+					
+				</Item>
+				<Item key="LEFT_LANTERN_RIGHT_GUN" type="CWeaponAnimations">
+					<GenericFallback>GENERIC_DUAL</GenericFallback>
+					<StrafeAnimationSet ref="Default_Dual" />
+					<NormalSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<HipSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<CrouchSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<IntroVariationRangeSets>
+						<Item>
+							<RangeSet ref="LEFT_LANTERN_RIGHT_GUN_NORMAL_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_NORMAL</WeaponActionIndex>
+						</Item>
+					</IntroVariationRangeSets>
+					<AimingVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_IN_MOTION</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@SWEEP_IRON_SIGHT</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@CARRY@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_WEAPON_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@CARRY@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_WEAPON_AIM_FPS_SWAP</WeaponActionIndex>
+						</Item>
+					</AimingVariationClipSets>
+					<OutroVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@SWEEP@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_OUTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@CROUCH@BASE@SWEEP@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_OUTRO_CROUCH</WeaponActionIndex>
+						</Item>
+					</OutroVariationClipSets>
+					<TransitionVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@TRANS@BASE_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_NORMAL_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@TRANS@CARRY_TO_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CARRY_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@TRANS@BASE_TO_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_NORMAL_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@TRANS@IRON_TO_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHT_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@TRANS@IRON_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHT_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@TRANS@CARRY_TO_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CARRY_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@TRANS@IDLE_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_FPS_SWAP_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@TRANS@SWEEP_TO_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHTS_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@TRANS@CARRY_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CARRY_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@TRANS@READY_TO_SWEEP@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CHAMBER_TO_IRON_SIGHTS_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@TRANS@READY_TO_CARRY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CHAMBER_TO_CARRY_HIGH</WeaponActionIndex>
+						</Item>
+					</TransitionVariationClipSets>
+					<ChamberVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_RF_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_SWEEP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_RF_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_RF_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@SWEEP_LOCO_READY@LOW@INTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_INTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@SWEEP_LOCO_READY@LOW@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_OUTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_LOCO_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_READY_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_LOCO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_READY_HIGH</WeaponActionIndex>
+						</Item>
+					</ChamberVariationClipSets>
+					<VariationAdditiveSetups>
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/Blocked/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedLeft/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedRight/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedLeftCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedRightCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedLeftHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedRightHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedHipCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedLeftHipCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedRightHipCrouched/Item)" />
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_RELAXED_R</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseDualRelaxed</Template>
+							<VariationSetup ref="DUAL_RELAXED_RIGHT"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_RELAXED_L</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseDualRelaxed</Template>
+							<VariationSetup ref="DUAL_RELAXED_LEFT"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_RELAXED_R</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseDualRelaxed</Template>
+							<VariationSetup ref="DUAL_HIP_RELAXED_RIGHT"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_RELAXED_L</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseDualRelaxed</Template>
+							<VariationSetup ref="DUAL_HIP_RELAXED_LEFT"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_UNDERFIRE</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseOffsetHalf</Template>
+							<VariationSetup ref="DUAL_UNDERFIRE"/>
+						</Item>
+					</VariationAdditiveSetups>
+				</Item>
+			</WeaponAnimations>
+		</Item>
+        <Item key="COWBOY_LONGARMS_ZERO_INTENSITY" type="CWeaponAnimationsSet">
+            <FallbackChain>
+                <Item>COWBOY</Item>
+                <Item>default</Item>
+            </FallbackChain>
+            <WeaponAnimations>
+                <Item key="GENERIC_2H" type="CWeaponAnimations">
+                    <StrafeAnimationSet ref="Cowboy_2H_ZeroIntensity" />
+                    <NormalSweepProfile ref="LONGARMS_COWBOY_0" />
+                    <HipSweepProfile ref="LONGARMS_COWBOY_0" />
+                    <CrouchSweepProfile ref="LONGARMS_COWBOY_0" />
+                    <NormalPairSet>
+                        <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@LOW_INTENSITY@UPPERBODY@2H@CARBINE</PedSet>
+                    </NormalPairSet>
+                    <AimingVariationClipSets>
+                        <Item>
+                            <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@LOW_INTENSITY@UPPERBODY@2H@CARBINE</PedSet>
+                            <WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+                        </Item>
+                    </AimingVariationClipSets>
+
+					<FiringVariationsStandingClipSetHash>CLIPSET@AI_COMBAT@FIRE_VARIATIONS@COWBOY@GENERIC@BASE@2H</FiringVariationsStandingClipSetHash>
+                    <HipFiringVariationsClipSetHash>NO_CLIPSET</HipFiringVariationsClipSetHash>
+
+				    <AimTurnClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@GENERIC@BASE@2H</AimTurnClipSetHash>
+					<AimTurnSniperClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@SNIPER@BASE@2H</AimTurnSniperClipSetHash>
+					<AimTurnSurprisedClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@GENERIC@BASE@2H</AimTurnSurprisedClipSetHash>
+					
+					<VariationAdditiveSetups>
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Longarms/Blocked/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Longarms/BlockedCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Longarms/BlockedHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Longarms/BlockedHipCrouched/Item)" />
+					</VariationAdditiveSetups>
+                </Item>
+                <Item key="WEAPON_REVOLVER_CATTLEMAN" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_REPEATER_CARBINE" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_REPEATER_WINCHESTER" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_RIFLE_BOLTACTION" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_RIFLE_SPRINGFIELD" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_SHOTGUN_DOUBLEBARREL" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_SHOTGUN_SAWEDOFF" type="CWeaponAnimations">
+                    <HipFiringVariationsClipSetHash>NO_CLIPSET</HipFiringVariationsClipSetHash>
+                </Item>
+            </WeaponAnimations>
+        </Item>
+        
+
+		<Item key="COWBOY" type="CWeaponAnimationsSet">
+			<FallbackChain>
+				<Item>default</Item>
+			</FallbackChain>
+			<UseAsPoseFallbackRoot value="true" />
+			<WeaponAnimations>
+				<Item key="GENERIC_1H" type="CWeaponAnimations">
+					<StrafeAnimationSet ref="Cowboy_1H_LowIntensity" />
+					<NormalSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<HipSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<CrouchSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<NormalPairSet>
+						<PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@COMMON@UPPERBODY@1H@CATTLEMAN</PedSet>
+					</NormalPairSet>
+					<AimingVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@COMMON@UPPERBODY@1H@CATTLEMAN</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+						</Item>
+					</AimingVariationClipSets>
+					<ChamberVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@AI_COMBAT@RELOAD_SWEEPS@COWBOY@GENERIC@COMMON@UPPERBODY@1H</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@AI_COMBAT@RELOAD_SWEEPS@COWBOY@GENERIC@COMMON@UPPERBODY@1H</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+					</ChamberVariationClipSets>
+					
+
+					<FiringVariationsStandingClipSetHash>CLIPSET@AI_COMBAT@FIRE_VARIATIONS@COWBOY@GENERIC@BASE@1H</FiringVariationsStandingClipSetHash>
+					<HipFiringVariationsClipSetHash>NO_CLIPSET</HipFiringVariationsClipSetHash>
+
+					<AimIntroHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@GENERIC@HOLSTERED@BASE@1H</AimIntroHolsteredOverrideClipSetHash>
+					<AimIntroUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@GENERIC@UNHOLSTERED@BASE@1H</AimIntroUnholsteredOverrideClipSetHash>
+					<AimIntroSniperHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@SNIPER@HOLSTERED@BASE@1H</AimIntroSniperHolsteredOverrideClipSetHash>
+					<AimIntroSniperUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@SNIPER@UNHOLSTERED@BASE@1H</AimIntroSniperUnholsteredOverrideClipSetHash>
+					<AimIntroSurprisedHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@SURPRISED@HOLSTERED@BASE@1H</AimIntroSurprisedHolsteredOverrideClipSetHash>
+					<AimIntroSurprisedUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@SURPRISED@UNHOLSTERED@BASE@1H</AimIntroSurprisedUnholsteredOverrideClipSetHash>
+					<AimIntroActionHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO_ACTION@COWBOY@GENERIC@HOLSTERED@BASE@1H</AimIntroActionHolsteredOverrideClipSetHash>
+					<AimIntroActionUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO_ACTION@COWBOY@GENERIC@UNHOLSTERED@BASE@1H</AimIntroActionUnholsteredOverrideClipSetHash>
+					<AimIntroActionSniperHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO_ACTION@COWBOY@SNIPER@HOLSTERED@BASE@1H</AimIntroActionSniperHolsteredOverrideClipSetHash>
+					<AimIntroActionSniperUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO_ACTION@COWBOY@SNIPER@UNHOLSTERED@BASE@1H</AimIntroActionSniperUnholsteredOverrideClipSetHash>
+					<AimIntroActionSurprisedHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO_ACTION@COWBOY@SURPRISED@HOLSTERED@BASE@1H</AimIntroActionSurprisedHolsteredOverrideClipSetHash>
+					<AimIntroActionSurprisedUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO_ACTION@COWBOY@SURPRISED@UNHOLSTERED@BASE@1H</AimIntroActionSurprisedUnholsteredOverrideClipSetHash>
+
+					<AimTurnClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@GENERIC@BASE@1H</AimTurnClipSetHash>
+					<AimTurnSniperClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@SNIPER@BASE@1H</AimTurnSniperClipSetHash>
+					<AimTurnSurprisedClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@SURPRISED@BASE@1H</AimTurnSurprisedClipSetHash>
+
+					<BulletFlinchOverrideClipSetHash>CLIPSET@AI_COMBAT@BULLET_FLINCHES@COWBOY@GENERIC@BASE@1H</BulletFlinchOverrideClipSetHash>            
+					<BuddyShotOverrideClipSetHash>CLIPSET@AI_COMBAT@BUDDY_SHOT@COWBOY@ACTION@BASE@1H</BuddyShotOverrideClipSetHash>
+					<GestureBeckonOverrideClipSetHash>AI_COMBAT@GESTURES@COWBOY@GENERIC@BECKON@1H</GestureBeckonOverrideClipSetHash>
+					<GestureGlancesOverrideClipSetHash>AI_COMBAT@GESTURES@COWBOY@GENERIC@GLANCES@1H</GestureGlancesOverrideClipSetHash>
+					<GestureHaltOverrideClipSetHash>AI_COMBAT@GESTURES@COWBOY@GENERIC@HALT@1H</GestureHaltOverrideClipSetHash>
+					<GestureOverThereOverrideClipSetHash>AI_COMBAT@GESTURES@COWBOY@GENERIC@OVERTHERE@1H</GestureOverThereOverrideClipSetHash>
+
+					<AimPoseOverrideHash>CowboyStanding</AimPoseOverrideHash>
+					<AimIkBaseBone>elbow</AimIkBaseBone>
+					
+					<!-- Natural Motion Blend Out Sets -->
+					<NMPoseData>
+						<AimingCentre>NMBS_AIMING_RECOVERY_COWBOY_1H_CENTRE</AimingCentre>
+						<AimingRight>NMBS_AIMING_RECOVERY_COWBOY_1H_RIGHT</AimingRight>
+						<AimingLeft>NMBS_AIMING_RECOVERY_COWBOY_1H_LEFT</AimingLeft>
+						<PelvisOffsetAngle value="-35" />
+					</NMPoseData>
+					
+					<VariationAdditiveSetups>
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Shortarms/Blocked/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Shortarms/BlockedCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Shortarms/BlockedHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Shortarms/BlockedHipCrouched/Item)" />
+					</VariationAdditiveSetups>
+					
+					<WeaponBlockingTest>
+						<WeaponBlockingTestNormalFixedOffsetRange>
+							<LeftOffset x="0.2f" y="-0.035f" z="0.0f" />
+							<RightOffset x="0.2f" y="0.17f" z="0.0f" />
+						</WeaponBlockingTestNormalFixedOffsetRange>
+					</WeaponBlockingTest>
+				</Item>
+				<Item key="GENERIC_2H" type="CWeaponAnimations">
+					<StrafeAnimationSet ref="Cowboy_2H_LowIntensity" />
+					<NormalSweepProfile ref="LONGARMS_COWBOY_0" />
+					<HipSweepProfile ref="LONGARMS_COWBOY_0" />
+					<CrouchSweepProfile ref="LONGARMS_COWBOY_0" />
+					<NormalPairSet>
+						<PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@COMMON@UPPERBODY@2H@CARBINE</PedSet>
+					</NormalPairSet>
+					<AimingVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@COMMON@UPPERBODY@2H@CARBINE</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+						</Item>
+					</AimingVariationClipSets>
+					<ChamberVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@AI_COMBAT@RELOAD_SWEEPS@COWBOY@GENERIC@COMMON@UPPERBODY@2H</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@AI_COMBAT@RELOAD_SWEEPS@COWBOY@GENERIC@COMMON@UPPERBODY@2H</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+					</ChamberVariationClipSets>
+					<AimIkBaseBoneOffsetSetsMale>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_NORMAL</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeLongArmsCowboy"/>
+						</Item>
+					</AimIkBaseBoneOffsetSetsMale>
+					<AimIkBaseBoneOffsetSetsFemale>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_NORMAL</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeLongArmsCowboy"/>
+						</Item>
+					</AimIkBaseBoneOffsetSetsFemale>
+					<FiringVariationsStandingClipSetHash>CLIPSET@AI_COMBAT@FIRE_VARIATIONS@COWBOY@GENERIC@BASE@2H</FiringVariationsStandingClipSetHash>
+					<HipFiringVariationsClipSetHash>NO_CLIPSET</HipFiringVariationsClipSetHash>
+
+					<GestureBeckonOverrideClipSetHash>AI_COMBAT@GESTURES@COWBOY@GENERIC@BECKON@2H</GestureBeckonOverrideClipSetHash>
+					<GestureGlancesOverrideClipSetHash>AI_COMBAT@GESTURES@COWBOY@GENERIC@GLANCES@2H</GestureGlancesOverrideClipSetHash>
+					<GestureHaltOverrideClipSetHash>AI_COMBAT@GESTURES@COWBOY@GENERIC@HALT@2H</GestureHaltOverrideClipSetHash>
+					<GestureOverThereOverrideClipSetHash>AI_COMBAT@GESTURES@COWBOY@GENERIC@OVERTHERE@2H</GestureOverThereOverrideClipSetHash>
+
+					<AimIntroHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@GENERIC@HOLSTERED@BASE@2H</AimIntroHolsteredOverrideClipSetHash>
+					<AimIntroUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@GENERIC@UNHOLSTERED@BASE@2H</AimIntroUnholsteredOverrideClipSetHash>
+					<AimIntroSniperHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@GENERIC@HOLSTERED@BASE@2H</AimIntroSniperHolsteredOverrideClipSetHash>
+					<AimIntroSniperUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@SNIPER@UNHOLSTERED@BASE@2H</AimIntroSniperUnholsteredOverrideClipSetHash>
+					<AimIntroSurprisedHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@GENERIC@HOLSTERED@BASE@2H</AimIntroSurprisedHolsteredOverrideClipSetHash>
+					<AimIntroSurprisedUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@SURPRISED@UNHOLSTERED@BASE@2H</AimIntroSurprisedUnholsteredOverrideClipSetHash>
+					<AimIntroActionHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@GENERIC@HOLSTERED@BASE@2H</AimIntroActionHolsteredOverrideClipSetHash>
+					<AimIntroActionUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO_ACTION@COWBOY@GENERIC@UNHOLSTERED@BASE@2H</AimIntroActionUnholsteredOverrideClipSetHash>
+					<AimIntroActionSniperHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@GENERIC@HOLSTERED@BASE@2H</AimIntroActionSniperHolsteredOverrideClipSetHash>
+					<AimIntroActionSniperUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO_ACTION@COWBOY@SNIPER@UNHOLSTERED@BASE@2H</AimIntroActionSniperUnholsteredOverrideClipSetHash>
+					<AimIntroActionSurprisedHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@GENERIC@HOLSTERED@BASE@2H</AimIntroActionSurprisedHolsteredOverrideClipSetHash>
+					<AimIntroActionSurprisedUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO_ACTION@COWBOY@SURPRISED@UNHOLSTERED@BASE@2H</AimIntroActionSurprisedUnholsteredOverrideClipSetHash>
+
+					<AimTurnClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@GENERIC@BASE@2H</AimTurnClipSetHash>
+					<AimTurnSniperClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@SNIPER@BASE@2H</AimTurnSniperClipSetHash>
+					<AimTurnSurprisedClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@GENERIC@BASE@2H</AimTurnSurprisedClipSetHash>
+					<BulletFlinchOverrideClipSetHash>CLIPSET@AI_COMBAT@BULLET_FLINCHES@COWBOY@GENERIC@BASE@2H</BulletFlinchOverrideClipSetHash>
+					<BuddyShotOverrideClipSetHash>CLIPSET@AI_COMBAT@BUDDY_SHOT@COWBOY@ACTION@BASE@2H</BuddyShotOverrideClipSetHash>
+					<AimPoseOverrideHash>CowboyStanding</AimPoseOverrideHash>
+					
+					<!-- Natural Motion Blend Out Sets -->
+					<NMPoseData>
+						<AimingCentre>NMBS_AIMING_RECOVERY_COWBOY_2H_CENTRE</AimingCentre>
+						<AimingRight>NMBS_AIMING_RECOVERY_COWBOY_2H_RIGHT</AimingRight>
+						<AimingLeft>NMBS_AIMING_RECOVERY_COWBOY_2H_LEFT</AimingLeft>
+						<PelvisOffsetAngle value="-65" />
+					</NMPoseData>
+					
+					<VariationAdditiveSetups>
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Longarms/Blocked/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Longarms/BlockedCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Longarms/BlockedHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Longarms/BlockedHipCrouched/Item)" />
+					</VariationAdditiveSetups>
+					
+					</Item>
+				<Item key="GENERIC_DUAL" type="CWeaponAnimations">
+					<StrafeAnimationSet ref="Cowboy_Dual" />
+					<NormalSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<HipSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<CrouchSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<NormalPairSet>
+						<PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@UPPERBODY@DUAL@CATTLEMAN</PedSet>
+					</NormalPairSet>
+					<AimingVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@UPPERBODY@DUAL@CATTLEMAN</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@UPPERBODY@DUAL@CATTLEMAN</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH</WeaponActionIndex>
+						</Item>
+					</AimingVariationClipSets>
+
+					<FiringVariationsStandingClipSetHash>CLIPSET@AI_COMBAT@FIRE_VARIATIONS@COWBOY@GENERIC@BASE@DUAL</FiringVariationsStandingClipSetHash>
+					<HipFiringVariationsClipSetHash>NO_CLIPSET</HipFiringVariationsClipSetHash>
+					
+
+					<GestureBeckonOverrideClipSetHash>NO_CLIPSET</GestureBeckonOverrideClipSetHash>
+					<GestureGlancesOverrideClipSetHash>NO_CLIPSET</GestureGlancesOverrideClipSetHash>
+					<GestureHaltOverrideClipSetHash>NO_CLIPSET</GestureHaltOverrideClipSetHash>
+					<GestureOverThereOverrideClipSetHash>NO_CLIPSET</GestureOverThereOverrideClipSetHash>
+
+					<AimIntroHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@GENERIC@HOLSTERED@BASE@DUAL</AimIntroHolsteredOverrideClipSetHash>
+					<AimIntroUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@GENERIC@UNHOLSTERED@BASE@DUAL</AimIntroUnholsteredOverrideClipSetHash>
+					<AimIntroSniperHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@SNIPER@HOLSTERED@BASE@DUAL</AimIntroSniperHolsteredOverrideClipSetHash>
+					<AimIntroSniperUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@SNIPER@UNHOLSTERED@BASE@DUAL</AimIntroSniperUnholsteredOverrideClipSetHash>
+					<AimIntroSurprisedHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@SURPRISED@HOLSTERED@BASE@DUAL</AimIntroSurprisedHolsteredOverrideClipSetHash>
+					<AimIntroSurprisedUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO@COWBOY@SURPRISED@UNHOLSTERED@BASE@DUAL</AimIntroSurprisedUnholsteredOverrideClipSetHash>
+
+					<AimIntroActionHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO_ACTION@COWBOY@GENERIC@HOLSTERED@BASE@DUAL</AimIntroActionHolsteredOverrideClipSetHash>
+					<AimIntroActionUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO_ACTION@COWBOY@GENERIC@UNHOLSTERED@BASE@DUAL</AimIntroActionUnholsteredOverrideClipSetHash>
+					<AimIntroActionSniperHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO_ACTION@COWBOY@SNIPER@HOLSTERED@BASE@DUAL</AimIntroActionSniperHolsteredOverrideClipSetHash>
+					<AimIntroActionSniperUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO_ACTION@COWBOY@SNIPER@UNHOLSTERED@BASE@DUAL</AimIntroActionSniperUnholsteredOverrideClipSetHash>
+					<AimIntroActionSurprisedHolsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO_ACTION@COWBOY@SURPRISED@HOLSTERED@BASE@DUAL</AimIntroActionSurprisedHolsteredOverrideClipSetHash>
+					<AimIntroActionSurprisedUnholsteredOverrideClipSetHash>CLIPSET@AI_COMBAT@AIM_INTRO_ACTION@COWBOY@SURPRISED@UNHOLSTERED@BASE@DUAL</AimIntroActionSurprisedUnholsteredOverrideClipSetHash>
+
+					<AimTurnClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@GENERIC@BASE@DUAL</AimTurnClipSetHash>
+					<AimTurnSniperClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@SNIPER@BASE@DUAL</AimTurnSniperClipSetHash>
+					<AimTurnSurprisedClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@SURPRISED@BASE@DUAL</AimTurnSurprisedClipSetHash>
+
+					<BuddyShotOverrideClipSetHash>NO_CLIPSET</BuddyShotOverrideClipSetHash>
+					<BulletFlinchOverrideClipSetHash>NO_CLIPSET</BulletFlinchOverrideClipSetHash>
+
+					<AimPoseOverrideHash>CowboyStanding</AimPoseOverrideHash>
+					<AimIkBaseBone>elbow</AimIkBaseBone>		 
+
+					<!-- Natural Motion Blend Out Sets -->
+					<NMPoseData>
+						<AimingCentre>NMBS_AIMING_RECOVERY_COWBOY_1H_CENTRE</AimingCentre>
+						<AimingRight>NMBS_AIMING_RECOVERY_COWBOY_1H_RIGHT</AimingRight>
+						<AimingLeft>NMBS_AIMING_RECOVERY_COWBOY_1H_LEFT</AimingLeft>
+						<PelvisOffsetAngle value="-35" />
+					</NMPoseData>
+					
+					<VariationAdditiveSetups>
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/Blocked/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedLeft/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedRight/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedLeftCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedRightCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedLeftHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedRightHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedHipCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedLeftHipCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Dual/BlockedRightHipCrouched/Item)" />
+					</VariationAdditiveSetups>
+ 
+				</Item>
+				<Item key="WEAPON_REVOLVER_CATTLEMAN" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_REPEATER_CARBINE" type="CWeaponAnimations">
+				</Item>
+				<Item key="WEAPON_REPEATER_WINCHESTER" type="CWeaponAnimations">
+				</Item>
+				<Item key="WEAPON_RIFLE_BOLTACTION" type="CWeaponAnimations">
+				</Item>
+				<Item key="WEAPON_RIFLE_SPRINGFIELD" type="CWeaponAnimations">
+				</Item>
+				<Item key="WEAPON_SHOTGUN_DOUBLEBARREL" type="CWeaponAnimations">
+				</Item>
+			</WeaponAnimations>
+		</Item>
+		<Item key="COWBOY_ZERO_INTENSITY" type="CWeaponAnimationsSet">
+			<FallbackChain>
+				<Item>default</Item>
+			</FallbackChain>
+			<UseAsPoseFallbackRoot value="true" />
+			<WeaponAnimations>
+				<Item key="GENERIC_1H" type="CWeaponAnimations">
+					<StrafeAnimationSet ref="Cowboy_ZeroIntensity_1H" />
+					<NormalSweepProfile ref="SHORTARMS_ZERO_INTENSITY" />
+					<HipSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<CrouchSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<ClipSetVariationTagRules>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_HIP_TO_NORMAL</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_IN_AIR_TO_NORMAL</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_CARRY_TO_NORMAL</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_TO_AIM_LOW</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_TO_AIM_HIGH</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+					</ClipSetVariationTagRules>
+					<IntroVariationRangeSets>
+						<Item>
+							<RangeSet ref="SHORTARMS_NPC_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<RangeSet ref="SHORTARMS_HIP_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<RangeSet ref="SHORTARMS_HIT_REACT_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_HIT_REACT</WeaponActionIndex>
+						</Item>
+					</IntroVariationRangeSets>
+					<AimingVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CARRY@BASE@SWEEP_RF</PedSet>
+							<WeaponActionIndex>WACV_WEAPON_AIM_FPS_SWAP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@ZERO_INTENSITY@COMMON@UPPERBODY@1H</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@HIP@BASE@CATTLEMAN</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@WEAPON@CATTLEMAN@IRON_SIGHT</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CARRY@BASE@SWEEP_RF</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_WEAPON_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@AIR@BASE@SWEEP_RF</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_IN_AIR</WeaponActionIndex>
+						</Item>
+					</AimingVariationClipSets>
+					<ChamberVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@AI_COMBAT@RELOAD_SWEEPS@DUTCH@GENERIC@COMMON@UPPERBODY@1H</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@AI_COMBAT@RELOAD_SWEEPS@DUTCH@GENERIC@COMMON@UPPERBODY@1H</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_RF_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_OFFHAND_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_RF_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_OFFHAND_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@HIP@BASE@SWEEP_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_HIP_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_LOCO_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_OFFHAND_LOCO_READY_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_LOCO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_OFFHAND_LOCO_READY_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_LOCO_READY@LOW@INTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_INTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_LOCO_READY@LOW@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_OUTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_LOCO_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_READY_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_LOCO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_READY_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_LOCO_READY_OFFHAND@LOW@INTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_OFFHAND_LOCO_INTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_LOCO_READY@LOW@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_OFFHAND_LOCO_OUTRO</WeaponActionIndex>
+						</Item>
+					</ChamberVariationClipSets>
+					<TransitionVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@BASE_RF_TO_AIR_RF</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_NORMAL_TO_IN_AIR</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@AIR_RF_TO_BASE_RF</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IN_AIR_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@BASE_RF_TO_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_NORMAL_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@HIP_TO_BASE_RF</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_HIP_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@BASE_RF_TO_CARRY_RF</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_NORMAL_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CARRY_RF_TO_BASE_RF</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CARRY_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@BASE_TO_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_NORMAL_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@IRON_TO_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHT_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@HIP_TO_CARRY_RF</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_HIP_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CARRY_RF_TO_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CARRY_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@HIP_TO_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_HIP_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@IRON_TO_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHT_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@IRON_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHT_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@CARRY_TO_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CARRY_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@IRON_TO_AIR</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHT_TO_IN_AIR</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@AIR_TO_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IN_AIR_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@AIR_RF_TO_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IN_AIR_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@AIR_RF_TO_CARRY_RF</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IN_AIR_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@IDLE_TO_CARRY_RF</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_FPS_SWAP_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@BASE_RF_TO_CARRY_RF</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@BASE_RF_TO_CARRY_RF</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@SWEEP_RF_TO_READY_RF_OFFHAND@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_OFFHAND_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@SWEEP_RF_TO_READY_RF_OFFHAND@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_OFFHAND_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@HIP@BASE@TRANS@SWEEP_TO_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_HIP_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@READY_RF_TO_SWEEP_RF@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@READY_RF_TO_SWEEP_RF@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@READY_RF_TO_SWEEP_RF_OFFHAND@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_OFFHAND_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@READY_RF_TO_SWEEP_RF_OFFHAND@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_OFFHAND_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@HIP@BASE@TRANS@READY_TO_SWEEP@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_HIP_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@CARRY_RF_TO_READY_RF@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CARRY_TO_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@CARRY_RF_TO_READY_RF@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CARRY_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@IRON_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHTS_TO_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@IRON_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHTS_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@READY_RF_TO_CARRY_RF@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CHAMBER_TO_CARRY_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@READY_RF_TO_CARRY_RF@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CHAMBER_TO_CARRY_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@READY_RF_TO_SWEEP_RF@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CHAMBER_TO_IRON_SIGHTS_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@READY_RF_TO_SWEEP_RF@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CHAMBER_TO_IRON_SIGHTS_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@AIR_RF_TO_CARRY_RF</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IN_AIR_TO_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@TRANS@AIR_RF_TO_CARRY_RF</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IN_AIR_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@SWEEP_RF_TO_READY_RF_OFFHAND@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IN_AIR_TO_CHAMBER_OFFHAND_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@SWEEP_RF_TO_READY_RF_OFFHAND@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IN_AIR_TO_CHAMBER_OFFHAND_HIGH</WeaponActionIndex>
+						</Item>
+					</TransitionVariationClipSets>
+					<OutroVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@HIP@BASE@SWEEP@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_OUTRO_HIP</WeaponActionIndex>
+						</Item>
+					</OutroVariationClipSets>
+					<AimIkBaseBoneOffsetSetsMale>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_NORMAL</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeShortArms"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_CROUCH</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeShortArmsCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeShortArmsHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_CROUCH_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeShortArmsCrouchHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CoverShortArms"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CoverShortArmsHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_RUN_AND_GUN</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeShortArms"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COMBAT_DIVE</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CombatDiveShortArms"/>
+						</Item>
+					</AimIkBaseBoneOffsetSetsMale>
+					<AimIkBaseBoneOffsetSetsFemale>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_NORMAL</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeShortArms"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_CROUCH</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeShortArmsCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeShortArmsHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_CROUCH_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeShortArmsCrouchHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleCoverShortArms"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleCoverShortArmsHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_RUN_AND_GUN</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeShortArms"/>
+						</Item>
+					</AimIkBaseBoneOffsetSetsFemale>
+
+					<!-- Natural Motion Blend Out Sets -->
+					<NMPoseData>
+						<AimingCentre>NMBS_AIMING_RECOVERY_ZERO_INTENSITY_1H_CENTRE</AimingCentre>
+						<AimingRight>NMBS_AIMING_RECOVERY_ZERO_INTENSITY_1H_RIGHT</AimingRight>
+						<AimingLeft>NMBS_AIMING_RECOVERY_ZERO_INTENSITY_1H_LEFT</AimingLeft>
+						<PelvisOffsetAngle value="60" />
+					</NMPoseData>
+					
+					<AimPoseOverrideHash>CowboyStanding</AimPoseOverrideHash>
+					
+					<VariationAdditiveSetups>
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Shortarms/Blocked/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Shortarms/BlockedCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Shortarms/BlockedHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Shortarms/BlockedHipCrouched/Item)" />
+					</VariationAdditiveSetups>
+					
+				</Item>
+				<Item key="GENERIC_2H" type="CWeaponAnimations">
+					<StrafeAnimationSet ref="Default_2H" />
+					<NormalSweepProfile ref="LONGARMS_COWBOY_0" />
+					<HipSweepProfile ref="LONGARMS_L45" />
+					<CrouchSweepProfile ref="LONGARMS_COWBOY_0" />
+                    <NormalPairSet>
+						<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@BASE@WEAPON@CARBINE</PedSet>
+					</NormalPairSet>
+					<ClipSetVariationTagRules>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_HIP_TO_NORMAL</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_NORMAL_TO_IN_AIR</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_IN_AIR_TO_NORMAL</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_CARRY_TO_NORMAL</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_TO_AIM_LOW</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+						<Item>
+							<WeaponClipSetVariationActionIndex>WACV_GUN_TRANS_TO_AIM_HIGH</WeaponClipSetVariationActionIndex>
+							<Rules>BlendOutAtInterrupt</Rules>
+						</Item>
+					</ClipSetVariationTagRules>
+					<IntroVariationRangeSets>
+						<Item>
+							<RangeSet ref="LONGARMS_JOHN_NORMAL_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<RangeSet ref="LONGARMS_HIP_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<RangeSet ref="LONGARMS_HIT_REACT_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_HIT_REACT</WeaponActionIndex>
+						</Item>
+					</IntroVariationRangeSets>
+					<AimingVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@BASE@SWEEP_LF</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CARRY@BASE@SWEEP_LF</PedSet>
+							<WeaponActionIndex>WACV_WEAPON_AIM_FPS_SWAP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@HIP@BASE@SWEEP_LF</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@BASE@WEAPON@CARBINE@IRON_SIGHT</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CARRY@BASE@SWEEP_LF</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_WEAPON_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@AIR@BASE@SWEEP_LF</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_IN_AIR</WeaponActionIndex>
+						</Item>
+					</AimingVariationClipSets>
+					<ChamberVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@BASE@SWEEP_LF_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_SWEEP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@BASE@SWEEP_LOCO_READY@LOW@INTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_INTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@BASE@SWEEP_LOCO_READY@LOW@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_OUTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@BASE@SWEEP_LF_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@BASE@SWEEP_LF_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@HIP@BASE@SWEEP_LF_READY@LOW</PedSet>
+							<!-- TEMP-->
+							<WeaponActionIndex>WACV_GUN_CHAMBER_HIP_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@HIP@BASE@SWEEP_LF_READY@LOW</PedSet>
+							<!-- TEMP-->
+							<WeaponActionIndex>WACV_GUN_CHAMBER_HIP_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@BASE@SWEEP_LOCO_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_READY_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@BASE@SWEEP_LOCO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_READY_HIGH</WeaponActionIndex>
+						</Item>
+					</ChamberVariationClipSets>
+					<TransitionVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@BASE_LF_TO_AIR_LF</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_NORMAL_TO_IN_AIR</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@AIR_LF_TO_BASE_LF</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IN_AIR_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@BASE_LF_TO_HIP_LF</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_NORMAL_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@HIP_LF_TO_BASE_LF</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_HIP_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@BASE_LF_TO_CARRY_LF</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_NORMAL_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CARRY_LF_TO_BASE_LF</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CARRY_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@BASE_TO_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_NORMAL_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@IRON_TO_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHT_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@HIP_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_HIP_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CARRY_TO_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CARRY_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@HIP_TO_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_HIP_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@IRON_TO_HIP</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHT_TO_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@IRON_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHT_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@CARRY_TO_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CARRY_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@IRON_TO_AIR</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHT_TO_IN_AIR</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@AIR_TO_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IN_AIR_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@AIR_LF_TO_HIP_LF</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IN_AIR_TO_HIP</WeaponActionIndex>
+						</Item>
+
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@AIR_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IN_AIR_TO_CARRY</WeaponActionIndex>
+						</Item>
+
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@TRANS@IDLE_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_FPS_SWAP_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@BASE@TRANS@SWEEP_LF_TO_READY_LF@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@BASE@TRANS@SWEEP_LF_TO_READY_LF@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@HIP@BASE@TRANS@SWEEP_LF_TO_READY_LF@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_HIP_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@HIP@BASE@TRANS@SWEEP_LF_TO_READY_LF@LOW</PedSet>
+							<!-- TEMP-->
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_HIP_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@BASE@TRANS@READY_LF_TO_SWEEP_LF@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@BASE@TRANS@READY_LF_TO_SWEEP_LF@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@HIP@BASE@TRANS@READY_LF_TO_SWEEP_LF@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_HIP_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@HIP@BASE@TRANS@READY_LF_TO_SWEEP_LF@LOW</PedSet>
+							<!-- TEMP-->
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_HIP_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CARRY@BASE@TRANS@SWEEP_LF_TO_READY_LF@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CARRY_TO_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CARRY@BASE@TRANS@SWEEP_LF_TO_READY_LF@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CARRY_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@BASE@TRANS@IRON_SIGHT_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHTS_TO_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@BASE@TRANS@IRON_SIGHT_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHTS_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CARRY@BASE@TRANS@READY_LF_TO_SWEEP_LF@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CHAMBER_TO_CARRY_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@CARRY@BASE@TRANS@READY_LF_TO_SWEEP_LF@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CHAMBER_TO_CARRY_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@BASE@TRANS@READY_TO_IRON_SIGHT@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CHAMBER_TO_IRON_SIGHTS_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@BASE@TRANS@READY_TO_IRON_SIGHT@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CHAMBER_TO_IRON_SIGHTS_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@AIR@BASE@TRANS@AIR_LF_TO_READY_LF@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IN_AIR_TO_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_LONGARMS@AIR@BASE@TRANS@AIR_LF_TO_READY_LF@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IN_AIR_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+					</TransitionVariationClipSets>
+					<AimIkBaseBoneOffsetSetsMale>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_NORMAL</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeLongArms"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_CROUCH</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeLongArmsCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeLongArmsHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_CROUCH_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="StrafeLongArmsHipCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CoverLongArms"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CoverLongArmsHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_RUN_AND_GUN</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="RunAndGunLongArms"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COMBAT_DIVE</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="CombatDiveLongArms"/>
+						</Item>
+					</AimIkBaseBoneOffsetSetsMale>
+					<AimIkBaseBoneOffsetSetsFemale>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_NORMAL</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeLongArms"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_CROUCH</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeLongArmsCrouch"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeLongArmsHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_CROUCH_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleStrafeLongArmsCrouchHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleCoverLongArms"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_COVER_HIP</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="FemaleCoverLongArmsHip"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBOS_GUN_RUN_AND_GUN</WeaponActionIndex>
+							<BaseBoneOffsetSet ref="RunAndGunLongArms"/>
+						</Item>
+					</AimIkBaseBoneOffsetSetsFemale>
+					<FiringVariationsStandingClipSetHash>CLIPSET@AI_COMBAT@FIRE_VARIATIONS@COWBOY@GENERIC@BASE@2H</FiringVariationsStandingClipSetHash>
+
+				    <AimTurnClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@GENERIC@BASE@2H</AimTurnClipSetHash>
+					<AimTurnSniperClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@SNIPER@BASE@2H</AimTurnSniperClipSetHash>
+					<AimTurnSurprisedClipSetHash>CLIPSET@AI_COMBAT@REACTIONS@COWBOY@GENERIC@BASE@2H</AimTurnSurprisedClipSetHash>
+					
+					<VariationAdditiveSetups>
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Longarms/Blocked/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Longarms/BlockedCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Longarms/BlockedHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/Longarms/BlockedHipCrouched/Item)" />
+					</VariationAdditiveSetups>
+					
+				</Item>
+				<Item key="GENERIC_DUAL" type="CWeaponAnimations">
+					<StrafeAnimationSet ref="Default_Dual" />
+					<NormalSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<HipSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<CrouchSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<NormalPairSet>
+						<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@WEAPON@CATTLEMAN</PedSet>
+						<WeaponSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@WEAPON@CATTLEMAN</WeaponSet>
+					</NormalPairSet>
+					<AimingVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CATTLEMAN</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@CROUCH@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH</WeaponActionIndex>
+						</Item>
+					</AimingVariationClipSets>
+				</Item>
+				<Item key="WEAPON_KIT_CAMERA" type="CWeaponAnimations">
+					<StrafeAnimationSet ref="Default_Dual" />
+					<NormalPairSet>
+						<PedSet>CLIPSET@MECH_WEAPONS_SPECIAL@TORCH</PedSet>
+					</NormalPairSet>
+					<SwapPairSet>
+						<PedSet>CLIPSET@MECH_INVENTORY@EQUIP@FALLBACK@BASE@UNARMED@SATCHEL@CAMERA</PedSet>
+					</SwapPairSet>
+					<IntroVariationRangeSets>
+						<Item>
+							<RangeSet ref="CAMERA_WEAPON_NORMAL_INTROS"/>
+							<WeaponActionIndex>WARS_SCOPED_KIT_INTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<RangeSet ref="CAMERA_WEAPON_CROUCH_INTROS"/>
+							<WeaponActionIndex>WARS_SCOPED_KIT_INTRO_CROUCH</WeaponActionIndex>
+						</Item>
+					</IntroVariationRangeSets>
+					<AimingVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SPECIAL@CAMERA@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_WEAPON_AIM_FPS_SWAP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SPECIAL@CAMERA@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_SCOPED_KIT_AIM_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SPECIAL@CAMERA@CROUCH@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_SCOPED_KIT_AIM_CROUCH_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SPECIAL@CAMERA@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_SCOPED_KIT_AIM</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SPECIAL@CAMERA@CROUCH@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_SCOPED_KIT_AIM_CROUCH</WeaponActionIndex>
+						</Item>
+					</AimingVariationClipSets>
+					<RideWeaponClipSetHash>CLIPSET@VEH_HORSEBACK@AIM@FRONT@SPECIAL@CAMERA</RideWeaponClipSetHash >
+					<RideFemaleWeaponClipSetHash>CLIPSET@VEH_HORSEBACK@AIM@FRONT@SPECIAL@CAMERA@FEMALE</RideFemaleWeaponClipSetHash>
+					<MotionClipSetHash>CLIPSET@MECH_WEAPONS_SPECIAL@TORCH</MotionClipSetHash>
+					<MotionFilterHash>RightArm_NoSpine_filter</MotionFilterHash>
+					<WeaponClipSetStreamedHash />
+					<AlternateAimingStandingClipSetHash />
+					<FiringVariationsStandingClipSetHash />
+					<MeleeOnMountCoreClipSetHash>CLIPSET@MECH_MELEE@UNARMED@_MALE@_AMBIENT@_HEALTHY@ON_MOUNT@_STREAMED</MeleeOnMountCoreClipSetHash>
+					<MeleeOffhandClipSetHash>CLIPSET@MECH_WEAPONS_DUAL@LOCO@ARTHUR@NORMAL@TORCH@IDLE</MeleeOffhandClipSetHash>
+					<ShellShockedClipSetHash>ai_react@shellshock@unarmed</ShellShockedClipSetHash>
+					<DoorUpperbodyClipSetHash>CLIPSET@MECH_WEAPONS_SPECIAL@LOCO@ARTHUR@NORMAL@CAMERA@IDLE</DoorUpperbodyClipSetHash>
+					<JumpUpperbodyClipSetHash>CLIPSET@MECH_WEAPONS_SPECIAL@LOCO@ARTHUR@NORMAL@CAMERA@IDLE</JumpUpperbodyClipSetHash>
+					<VaultUpperbodyClipSetHash>CLIPSET@MECH_WEAPONS_SPECIAL@LOCO@ARTHUR@NORMAL@CAMERA@IDLE</VaultUpperbodyClipSetHash>
+					<FallUpperbodyClipSetHash>CLIPSET@MECH_WEAPONS_SPECIAL@LOCO@ARTHUR@NORMAL@CAMERA@IDLE</FallUpperbodyClipSetHash>
+					<DropdownUpperbodyClipSetHash>CLIPSET@MECH_WEAPONS_SPECIAL@LOCO@ARTHUR@NORMAL@CAMERA@IDLE</DropdownUpperbodyClipSetHash>
+					<SwapWeaponFilterHash>RightArm_NoSpine_filter</SwapWeaponFilterHash>
+					<SwapWeaponInLowCoverFilterHash>RightArm_NoSpine_filter</SwapWeaponInLowCoverFilterHash>
+					<AnimFireRateModifier value="0.000000" />
+					<AnimBlindFireRateModifier value="0.000000" />
+					<AimingDownTheBarrel value="true" />
+					<WeaponSwapData ref="SWAP_DEFAULT" />
+				</Item>
+				<Item key="WEAPON_REVOLVER_CATTLEMAN" type="CWeaponAnimations">
+					<AimingVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@ZERO_INTENSITY@COMMON@UPPERBODY@1H@CATTLEMAN</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+						</Item>
+					</AimingVariationClipSets>
+				</Item>
+				<Item key="WEAPON_PISTOL_MAUSER" type="CWeaponAnimations">
+					<VariationAdditiveSetups>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_ONEHAND</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseOneHandedHip</Template>
+							<VariationSetup ref="SHORTARMS_HIP_ONEHAND"/>
+						</Item>
+					</VariationAdditiveSetups>
+				</Item>
+				<Item key="WEAPON_PISTOL_SEMIAUTO" type="CWeaponAnimations">
+					<VariationAdditiveSetups>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_ONEHAND</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseOneHandedHip</Template>
+							<VariationSetup ref="SHORTARMS_HIP_ONEHAND"/>
+						</Item>
+					</VariationAdditiveSetups>
+				</Item>
+                <Item key="WEAPON_PISTOL_VOLCANIC" type="CWeaponAnimations">
+					<AimingVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@HIP@BASE@VOLCANIC</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH_HIP@BASE@SWEEP_2H_FOREND</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH_HIP</WeaponActionIndex>
+						</Item>
+					</AimingVariationClipSets>
+					<VariationAdditiveSetups>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_BLOCKED</WeaponActionIndex>
+							<Template>template_WEAPON_BlockShortarms_2H_HIP</Template>
+							<VariationSetup ref="SHORTARMS_2H_BLOCKED_HIP"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_BLOCKED_CROUCHED</WeaponActionIndex>
+							<Template>template_WEAPON_BlockShortarms_2H_HIP</Template>
+							<VariationSetup ref="SHORTARMS_2H_BLOCKED_HIP"/>
+						</Item>
+					</VariationAdditiveSetups>
+					<BodyAdditiveTemplates>
+						<Item>
+							<Template>template_WEAPON_AdditiveStrafeMovementGunForend</Template>
+							<WeaponActionIndex>WABD_GUN_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<Template>template_WEAPON_AdditiveStrafeMovementGunForend</Template>
+							<WeaponActionIndex>WABD_GUN_CROUCH_HIP</WeaponActionIndex>
+						</Item>
+					</BodyAdditiveTemplates>
+				</Item>
+				<Item key="WEAPON_REVOLVER_DOUBLEACTION" type="CWeaponAnimations">
+					<VariationAdditiveSetups>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_ONEHAND</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseOneHandedHip</Template>
+							<VariationSetup ref="SHORTARMS_HIP_ONEHAND"/>
+						</Item>
+					</VariationAdditiveSetups>
+				</Item>
+                <Item key="WEAPON_SHOTGUN_SAWEDOFF" type="CWeaponAnimations">
+					<AimingVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@HIP@BASE@SWEEP_2H_FOREND</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@CROUCH_HIP@BASE@SWEEP_2H_FOREND</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_CROUCH_HIP</WeaponActionIndex>
+						</Item>
+					</AimingVariationClipSets>
+					<VariationAdditiveSetups>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_BLOCKED</WeaponActionIndex>
+							<Template>template_WEAPON_BlockShortarms_2H_HIP</Template>
+							<VariationSetup ref="SHORTARMS_2H_SHOTGUN_BLOCKED_HIP"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_BLOCKED_CROUCHED</WeaponActionIndex>
+							<Template>template_WEAPON_BlockShortarms_2H_HIP</Template>
+							<VariationSetup ref="SHORTARMS_2H_SHOTGUN_BLOCKED_HIP"/>
+						</Item>
+					</VariationAdditiveSetups>
+					<BodyAdditiveTemplates>
+						<Item>
+							<Template>template_WEAPON_AdditiveStrafeMovementGunForend</Template>
+							<WeaponActionIndex>WABD_GUN_HIP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<Template>template_WEAPON_AdditiveStrafeMovementGunForend</Template>
+							<WeaponActionIndex>WABD_GUN_CROUCH_HIP</WeaponActionIndex>
+						</Item>
+					</BodyAdditiveTemplates>
+				</Item>
+				<Item key="LEFT_LANTERN_RIGHT_GUN" type="CWeaponAnimations">
+					<GenericFallback>GENERIC_DUAL</GenericFallback>
+					<StrafeAnimationSet ref="Default_Dual" />
+					<NormalSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<HipSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<CrouchSweepProfile ref="SHORTARMS_COWBOY_0" />
+					<IntroVariationRangeSets>
+						<Item>
+							<RangeSet ref="LEFT_LANTERN_RIGHT_GUN_NORMAL_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_NORMAL</WeaponActionIndex>
+						</Item>
+					</IntroVariationRangeSets>
+					<AimingVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_IN_MOTION</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@SWEEP_IRON_SIGHT</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@CARRY@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_WEAPON_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@CARRY@BASE@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_WEAPON_AIM_FPS_SWAP</WeaponActionIndex>
+						</Item>
+					</AimingVariationClipSets>
+					<OutroVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@SWEEP@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_OUTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@CROUCH@BASE@SWEEP@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_OUTRO_CROUCH</WeaponActionIndex>
+						</Item>
+					</OutroVariationClipSets>
+					<TransitionVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@TRANS@BASE_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_NORMAL_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@TRANS@CARRY_TO_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CARRY_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@TRANS@BASE_TO_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_NORMAL_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@TRANS@IRON_TO_BASE</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHT_TO_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@TRANS@IRON_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHT_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@TRANS@CARRY_TO_IRON</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CARRY_TO_IRON_SIGHT</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@TRANS@IDLE_TO_CARRY</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_FPS_SWAP_TO_CARRY</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@TRANS@SWEEP_TO_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@TRANS@SWEEP_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_IRON_SIGHTS_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@TRANS@CARRY_TO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CARRY_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@TRANS@READY_TO_SWEEP@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@TRANS@READY_TO_SWEEP@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CHAMBER_TO_IRON_SIGHTS_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@TRANS@READY_TO_CARRY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_CHAMBER_TO_CARRY_HIGH</WeaponActionIndex>
+						</Item>
+					</TransitionVariationClipSets>
+					<ChamberVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_RF_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_SWEEP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_RF_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_RF_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@SWEEP_LOCO_READY@LOW@INTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_INTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_DUAL@LANTERN@BASE@SWEEP_LOCO_READY@LOW@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_OUTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_LOCO_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_READY_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_LOCO_READY@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_READY_HIGH</WeaponActionIndex>
+						</Item>
+					</ChamberVariationClipSets>
+					<VariationAdditiveSetups>
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/Blocked/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedLeft/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedRight/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedLeftCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedRightCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedLeftHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedRightHip/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedHipCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedLeftHipCrouched/Item)" />
+						<xi:include href="includes.meta" xpointer="xpointer(/Root/VariationAdditiveSetups/WeaponBlock/Default/DualLantern/BlockedRightHipCrouched/Item)" />
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_RELAXED_R</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseDualRelaxed</Template>
+							<VariationSetup ref="DUAL_RELAXED_RIGHT"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_RELAXED_L</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseDualRelaxed</Template>
+							<VariationSetup ref="DUAL_RELAXED_LEFT"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_RELAXED_R</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseDualRelaxed</Template>
+							<VariationSetup ref="DUAL_HIP_RELAXED_RIGHT"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_HIP_RELAXED_L</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseDualRelaxed</Template>
+							<VariationSetup ref="DUAL_HIP_RELAXED_LEFT"/>
+						</Item>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_UNDERFIRE</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseOffsetHalf</Template>
+							<VariationSetup ref="DUAL_UNDERFIRE"/>
+						</Item>
+					</VariationAdditiveSetups>
+				</Item>
+				<Item key="LEFT_CARRYING_LARGE_RIGHT_GUN" type="CWeaponAnimations">
+					<GenericFallback>GENERIC_1H</GenericFallback>
+					<StrafeAnimationSet ref="Default_1H" />
+					<NormalSweepProfile ref="SHORTARMS_R90" />
+					<HipSweepProfile ref="SHORTARMS_HIP_0" />
+					<CrouchSweepProfile ref="SHORTARMS_CROUCH_0" />
+					<NormalPairSet>
+						<PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@JOHN@GENERIC@COMMON@WEAPON@CATTLEMAN_FALLBACK</PedSet>
+						<WeaponSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@JOHN@GENERIC@COMMON@WEAPON@CATTLEMAN_FALLBACK</WeaponSet>
+					</NormalPairSet>
+					<IntroVariationRangeSets>
+						<Item>
+							<RangeSet ref="SHORTARMS_CARRYING_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_NORMAL</WeaponActionIndex>
+						</Item>
+					</IntroVariationRangeSets>
+					<AimingVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@WEAPON@CATTLEMAN_RF</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@WEAPON@CATTLEMAN_LOCO</PedSet>
+							<WeaponActionIndex>WACV_GUN_AIM_IN_MOTION</WeaponActionIndex>
+						</Item>
+					</AimingVariationClipSets>
+					<TransitionVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@SWEEP_RF_CARRY_PED_TO_READY_RF@LARGE@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@SWEEP_RF_CARRY_PED_TO_READY_RF@LARGE@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@READY_RF_TO_SWEEP_RF_CARRY_PED@LARGE@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@READY_RF_TO_SWEEP_RF_CARRY_PED@LARGE@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_HIGH</WeaponActionIndex>
+						</Item>
+					</TransitionVariationClipSets>
+					<ChamberVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_RF_READY@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_SWEEP</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_LOCO_READY_CARRY_PED@LARGE@LOW@INTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_INTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_LOCO_READY_CARRY_PED@LARGE@LOW@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_OUTRO</WeaponActionIndex>
+						</Item>
+					</ChamberVariationClipSets>
+					<VariationAdditiveSetups>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_CARRYING_LARGE</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseCarryPedHeavy</Template>
+							<VariationSetup ref="SHORTARMS_CARRYING_LARGE"/>
+						</Item>
+					</VariationAdditiveSetups>
+				</Item>
+				<Item key="LEFT_CARRYING_MEDIUM_RIGHT_GUN" type="CWeaponAnimations">
+					<GenericFallback>GENERIC_1H</GenericFallback>
+					<StrafeAnimationSet ref="Default_1H" />
+					<NormalSweepProfile ref="SHORTARMS_R90" />
+					<HipSweepProfile ref="SHORTARMS_HIP_0" />
+					<CrouchSweepProfile ref="SHORTARMS_CROUCH_0" />
+					<NormalPairSet>
+						<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@WEAPON@CATTLEMAN</PedSet>
+						<WeaponSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@WEAPON@CATTLEMAN</WeaponSet>
+					</NormalPairSet>
+					<IntroVariationRangeSets>
+						<Item>
+							<RangeSet ref="SHORTARMS_CARRYING_INTROS"/>
+							<WeaponActionIndex>WARS_GUN_INTRO_NORMAL</WeaponActionIndex>
+						</Item>
+					</IntroVariationRangeSets>
+					<TransitionVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@SWEEP_RF_CARRY_PED_TO_READY_RF@MEDIUM@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@SWEEP_RF_CARRY_PED_TO_READY_RF@MEDIUM@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_CHAMBER_HIGH</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@READY_RF_TO_SWEEP_RF_CARRY_PED@MEDIUM@LOW</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_LOW</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@TRANS@READY_RF_TO_SWEEP_RF_CARRY_PED@MEDIUM@HIGH</PedSet>
+							<WeaponActionIndex>WACV_GUN_TRANS_TO_AIM_HIGH</WeaponActionIndex>
+						</Item>
+					</TransitionVariationClipSets>
+					<ChamberVariationClipSets>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_LOCO_READY_CARRY_PED@MEDIUM@LOW@INTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_INTRO</WeaponActionIndex>
+						</Item>
+						<Item>
+							<PedSet>CLIPSET@MECH_WEAPONS_SHORTARMS@BASE@SWEEP_LOCO_READY_CARRY_PED@MEDIUM@LOW@OUTRO@SWEEP</PedSet>
+							<WeaponActionIndex>WACV_GUN_CHAMBER_LOCO_OUTRO</WeaponActionIndex>
+						</Item>
+					</ChamberVariationClipSets>
+					<VariationAdditiveSetups>
+						<Item>
+							<WeaponActionIndex>BBVS_GUN_CARRYING_MEDIUM</WeaponActionIndex>
+							<Template>template_WEAPON_AdditivePoseCarryPedHeavy</Template>
+							<VariationSetup ref="SHORTARMS_CARRYING_MEDIUM"/>
+						</Item>
+					</VariationAdditiveSetups>
+				</Item>
+			</WeaponAnimations>
+		</Item>
+        <Item key="COWBOY_LOW_INTENSITY" type="CWeaponAnimationsSet">
+            <FallbackChain>
+                <Item>COWBOY</Item>
+                <Item>default</Item>
+            </FallbackChain>
+            <WeaponAnimations>
+                <Item key="GENERIC_1H" type="CWeaponAnimations">
+                    <StrafeAnimationSet ref="Cowboy_1H_LowIntensity" />
+                    <NormalSweepProfile ref="SHORTARMS_COWBOY_0" />
+                    <HipSweepProfile ref="SHORTARMS_COWBOY_0" />
+                    <CrouchSweepProfile ref="SHORTARMS_COWBOY_0" />
+                    <NormalPairSet>
+                        <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@LOW_INTENSITY@UPPERBODY@1H@CATTLEMAN</PedSet>
+                    </NormalPairSet>
+                    <AimingVariationClipSets>
+                        <Item>
+                            <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@LOW_INTENSITY@UPPERBODY@1H@CATTLEMAN</PedSet>
+                            <WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+                        </Item>
+                    </AimingVariationClipSets>
+
+                    <FiringVariationsStandingClipSetHash>CLIPSET@AI_COMBAT@FIRE_VARIATIONS@COWBOY@GENERIC@LOW_INTENSITY@BASE@1H</FiringVariationsStandingClipSetHash>
+                    <HipFiringVariationsClipSetHash>CLIPSET@AI_COMBAT@FIRE_VARIATIONS@COWBOY@HIP_FIRE@LOW_INTENSITY@1H</HipFiringVariationsClipSetHash>
+                </Item>
+                <Item key="GENERIC_2H" type="CWeaponAnimations">
+                    <StrafeAnimationSet ref="Cowboy_2H_LowIntensity" />
+                    <NormalSweepProfile ref="LONGARMS_COWBOY_0" />
+                    <HipSweepProfile ref="LONGARMS_COWBOY_0" />
+                    <CrouchSweepProfile ref="LONGARMS_COWBOY_0" />
+                    <NormalPairSet>
+                        <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@LOW_INTENSITY@UPPERBODY@2H@CARBINE</PedSet>
+                    </NormalPairSet>
+                    <AimingVariationClipSets>
+                        <Item>
+                            <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@LOW_INTENSITY@UPPERBODY@2H@CARBINE</PedSet>
+                            <WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+                        </Item>
+                    </AimingVariationClipSets>
+
+                    <FiringVariationsStandingClipSetHash>CLIPSET@AI_COMBAT@FIRE_VARIATIONS@COWBOY@GENERIC@LOW_INTENSITY@BASE@2H</FiringVariationsStandingClipSetHash>
+                    <HipFiringVariationsClipSetHash>NO_CLIPSET</HipFiringVariationsClipSetHash>
+                </Item>
+                <Item key="GENERIC_DUAL" type="CWeaponAnimations">
+                    <NormalSweepProfile ref="SHORTARMS_COWBOY_0" />
+                    <HipSweepProfile ref="SHORTARMS_COWBOY_0" />
+                    <CrouchSweepProfile ref="SHORTARMS_COWBOY_0" />
+                    <NormalPairSet>
+                        <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@UPPERBODY@DUAL@CATTLEMAN</PedSet>
+                    </NormalPairSet>
+                    <AimingVariationClipSets>
+                        <Item>
+                            <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@UPPERBODY@DUAL@CATTLEMAN</PedSet>
+                            <WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+                        </Item>
+                        <Item>
+                            <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@UPPERBODY@DUAL@CATTLEMAN</PedSet>
+                            <WeaponActionIndex>WACV_GUN_AIM_CROUCH</WeaponActionIndex>
+                        </Item>
+                    </AimingVariationClipSets>
+
+                    <FiringVariationsStandingClipSetHash>NO_CLIPSET</FiringVariationsStandingClipSetHash>
+                    <HipFiringVariationsClipSetHash>NO_CLIPSET</HipFiringVariationsClipSetHash>
+                </Item>
+                <Item key="WEAPON_REVOLVER_CATTLEMAN" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_REPEATER_CARBINE" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_REPEATER_WINCHESTER" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_RIFLE_BOLTACTION" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_RIFLE_SPRINGFIELD" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_SHOTGUN_DOUBLEBARREL" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_SHOTGUN_SAWEDOFF" type="CWeaponAnimations">
+                    <HipFiringVariationsClipSetHash>NO_CLIPSET</HipFiringVariationsClipSetHash>
+                </Item>
+            </WeaponAnimations>
+        </Item>
+        <Item key="COWBOY_MEDIUM_INTENSITY" type="CWeaponAnimationsSet">
+            <FallbackChain>
+                <Item>COWBOY</Item>
+                <Item>default</Item>
+            </FallbackChain>
+            <WeaponAnimations>
+                <Item key="GENERIC_1H" type="CWeaponAnimations">
+                    <StrafeAnimationSet ref="Cowboy_1H_MediumIntensity" />
+                    <NormalSweepProfile ref="SHORTARMS_COWBOY_0" />
+                    <HipSweepProfile ref="SHORTARMS_COWBOY_0" />
+                    <CrouchSweepProfile ref="SHORTARMS_COWBOY_0" />
+                    <NormalPairSet>
+                        <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@MEDIUM_INTENSITY@UPPERBODY@1H@CATTLEMAN</PedSet>
+                    </NormalPairSet>
+                    <AimingVariationClipSets>
+                        <Item>
+                            <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@MEDIUM_INTENSITY@UPPERBODY@1H@CATTLEMAN</PedSet>
+                            <WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+                        </Item>
+                    </AimingVariationClipSets>
+
+                    <FiringVariationsStandingClipSetHash>CLIPSET@AI_COMBAT@FIRE_VARIATIONS@COWBOY@GENERIC@MEDIUM_INTENSITY@BASE@1H</FiringVariationsStandingClipSetHash>
+                    <HipFiringVariationsClipSetHash>CLIPSET@AI_COMBAT@FIRE_VARIATIONS@COWBOY@HIP_FIRE@HIGH_INTENSITY@1H</HipFiringVariationsClipSetHash>
+                </Item>
+                <Item key="GENERIC_2H" type="CWeaponAnimations">
+                    <StrafeAnimationSet ref="Cowboy_2H_MediumIntensity" />
+                    <NormalSweepProfile ref="LONGARMS_COWBOY_0" />
+                    <HipSweepProfile ref="LONGARMS_COWBOY_0" />
+                    <CrouchSweepProfile ref="LONGARMS_COWBOY_0" />
+                    <NormalPairSet>
+                        <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@MEDIUM_INTENSITY@UPPERBODY@2H@CARBINE</PedSet>
+                    </NormalPairSet>
+                    <AimingVariationClipSets>
+                        <Item>
+                            <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@MEDIUM_INTENSITY@UPPERBODY@2H@CARBINE</PedSet>
+                            <WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+                        </Item>
+                    </AimingVariationClipSets>
+
+
+                    <FiringVariationsStandingClipSetHash>CLIPSET@AI_COMBAT@FIRE_VARIATIONS@COWBOY@GENERIC@MEDIUM_INTENSITY@BASE@2H</FiringVariationsStandingClipSetHash>
+                    <HipFiringVariationsClipSetHash>NO_CLIPSET</HipFiringVariationsClipSetHash>
+                </Item>
+                <Item key="GENERIC_DUAL" type="CWeaponAnimations">
+                    <NormalSweepProfile ref="SHORTARMS_COWBOY_0" />
+                    <HipSweepProfile ref="SHORTARMS_COWBOY_0" />
+                    <CrouchSweepProfile ref="SHORTARMS_COWBOY_0" />
+                    <NormalPairSet>
+                        <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@UPPERBODY@DUAL@CATTLEMAN</PedSet>
+                    </NormalPairSet>
+                    <AimingVariationClipSets>
+                        <Item>
+                            <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@UPPERBODY@DUAL@CATTLEMAN</PedSet>
+                            <WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+                        </Item>
+                        <Item>
+                            <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@UPPERBODY@DUAL@CATTLEMAN</PedSet>
+                            <WeaponActionIndex>WACV_GUN_AIM_CROUCH</WeaponActionIndex>
+                        </Item>
+                    </AimingVariationClipSets>
+
+                    <FiringVariationsStandingClipSetHash>NO_CLIPSET</FiringVariationsStandingClipSetHash>
+                    <HipFiringVariationsClipSetHash>NO_CLIPSET</HipFiringVariationsClipSetHash>
+                </Item>
+                <Item key="WEAPON_REVOLVER_CATTLEMAN" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_REPEATER_CARBINE" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_REPEATER_WINCHESTER" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_RIFLE_BOLTACTION" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_RIFLE_SPRINGFIELD" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_SHOTGUN_DOUBLEBARREL" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_SHOTGUN_SAWEDOFF" type="CWeaponAnimations">
+                    <HipFiringVariationsClipSetHash>NO_CLIPSET</HipFiringVariationsClipSetHash>
+                </Item>
+            </WeaponAnimations>
+        </Item>
+        <Item key="COWBOY_HIGH_INTENSITY" type="CWeaponAnimationsSet">
+            <FallbackChain>
+                <Item>COWBOY</Item>
+                <Item>default</Item>
+            </FallbackChain>
+            <WeaponAnimations>
+                <Item key="GENERIC_1H" type="CWeaponAnimations">
+                    <StrafeAnimationSet ref="Cowboy_1H_HighIntensity" />
+                    <NormalSweepProfile ref="SHORTARMS_COWBOY_0" />
+                    <HipSweepProfile ref="SHORTARMS_COWBOY_0" />
+                    <CrouchSweepProfile ref="SHORTARMS_COWBOY_0" />
+                    <NormalPairSet>
+                        <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@HIGH_INTENSITY@UPPERBODY@1H@CATTLEMAN</PedSet>
+                    </NormalPairSet>
+                    <AimingVariationClipSets>
+                        <Item>
+                            <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@HIGH_INTENSITY@UPPERBODY@1H@CATTLEMAN</PedSet>
+                            <WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+                        </Item>
+                    </AimingVariationClipSets>
+
+                    <FiringVariationsStandingClipSetHash>CLIPSET@AI_COMBAT@FIRE_VARIATIONS@COWBOY@GENERIC@HIGH_INTENSITY@BASE@1H</FiringVariationsStandingClipSetHash>
+                    <HipFiringVariationsClipSetHash>CLIPSET@AI_COMBAT@FIRE_VARIATIONS@COWBOY@HIP_FIRE@HIGH_INTENSITY@1H</HipFiringVariationsClipSetHash>
+                </Item>
+                <Item key="GENERIC_2H" type="CWeaponAnimations">
+                    <StrafeAnimationSet ref="Cowboy_2H_HighIntensity" />
+                    <NormalSweepProfile ref="LONGARMS_COWBOY_0" />
+                    <HipSweepProfile ref="LONGARMS_COWBOY_0" />
+                    <CrouchSweepProfile ref="LONGARMS_COWBOY_0" />
+                    <NormalPairSet>
+                        <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@HIGH_INTENSITY@UPPERBODY@2H@CARBINE</PedSet>
+                    </NormalPairSet>
+                    <AimingVariationClipSets>
+                        <Item>
+                            <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@HIGH_INTENSITY@UPPERBODY@2H@CARBINE</PedSet>
+                            <WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+                        </Item>
+                    </AimingVariationClipSets>
+
+                    <FiringVariationsStandingClipSetHash>CLIPSET@AI_COMBAT@FIRE_VARIATIONS@COWBOY@GENERIC@HIGH_INTENSITY@BASE@2H</FiringVariationsStandingClipSetHash>
+                    <HipFiringVariationsClipSetHash>NO_CLIPSET</HipFiringVariationsClipSetHash>
+                </Item>
+                <Item key="GENERIC_DUAL" type="CWeaponAnimations">
+                    <NormalSweepProfile ref="SHORTARMS_COWBOY_0" />
+                    <HipSweepProfile ref="SHORTARMS_COWBOY_0" />
+                    <CrouchSweepProfile ref="SHORTARMS_COWBOY_0" />
+                    <NormalPairSet>
+                        <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@UPPERBODY@DUAL@CATTLEMAN</PedSet>
+                    </NormalPairSet>
+                    <AimingVariationClipSets>
+                        <Item>
+                            <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@UPPERBODY@DUAL@CATTLEMAN</PedSet>
+                            <WeaponActionIndex>WACV_GUN_AIM_NORMAL</WeaponActionIndex>
+                        </Item>
+                        <Item>
+                            <PedSet>CLIPSET@AI_COMBAT@AIM_SWEEPS@COWBOY@GENERIC@UPPERBODY@DUAL@CATTLEMAN</PedSet>
+                            <WeaponActionIndex>WACV_GUN_AIM_CROUCH</WeaponActionIndex>
+                        </Item>
+                    </AimingVariationClipSets>
+                </Item>
+                <Item key="WEAPON_REVOLVER_CATTLEMAN" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_REPEATER_CARBINE" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_REPEATER_WINCHESTER" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_RIFLE_BOLTACTION" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_RIFLE_SPRINGFIELD" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_SHOTGUN_DOUBLEBARREL" type="CWeaponAnimations">
+                </Item>
+                <Item key="WEAPON_SHOTGUN_SAWEDOFF" type="CWeaponAnimations">
+                    <HipFiringVariationsClipSetHash>NO_CLIPSET</HipFiringVariationsClipSetHash>
+                </Item>
+            </WeaponAnimations>
+        </Item>
+    </animData>
+</content>

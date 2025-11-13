@@ -1,0 +1,1697 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CVfxExplosionInfoMgr>
+  <UNK_MEMBER_0x70725FE7>
+    <Item key="0x01A00532" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>EXP_WATER_SPOUT</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>EXP_WATER_SPOUT</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>EXP_WATER_SPOUT</ptFxGroundLodName>
+          <ptFxAirLodName>EXP_WATER_SPOUT</ptFxAirLodName>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042/>
+          <UNK_MEMBER_0xCAEE57D4/>
+          <ptFxScale value="1.10000000"/>
+          <UNK_MEMBER_0x8CFF024B value="false"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="0.00000000"/>
+          <UNK_MEMBER_0x297AD32D value="0"/>
+          <UNK_MEMBER_0xB0C57ED8 value="0.00000000"/>
+          <createScorches value="true"/>
+          <scorchRadius value="2.70000000"/>
+          <UNK_MEMBER_0xB217A65B value="10.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="1.00000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="0.00000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="0.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="0.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.00000000"/>
+          <UNK_MEMBER_0x460D43E2 value="0.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.00000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="0.00000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="0.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="0.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="0.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="5.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="10.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="exp_vfxtag_dir_steam" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>EXP_SHT_STEAM</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>EXP_SHT_STEAM</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>EXP_SHT_STEAM</ptFxGroundLodName>
+          <ptFxAirLodName>EXP_SHT_STEAM</ptFxAirLodName>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042/>
+          <UNK_MEMBER_0xCAEE57D4/>
+          <ptFxScale value="1.10000000"/>
+          <UNK_MEMBER_0x8CFF024B value="false"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="0.00000000"/>
+          <UNK_MEMBER_0x297AD32D value="0"/>
+          <UNK_MEMBER_0xB0C57ED8 value="0.00000000"/>
+          <createScorches value="true"/>
+          <scorchRadius value="0.70000000"/>
+          <UNK_MEMBER_0xB217A65B value="0.10000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="0.25000000"/>
+          <UNK_MEMBER_0x49D32EDE value="0.75000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="0.00000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="0.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="0.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.00000000"/>
+          <UNK_MEMBER_0x460D43E2 value="0.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.00000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="0.00000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="0.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="0.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="0.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="5.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="10.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="0x146DC46B" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>SCR_EXP_OUTLAW2_FORTWALL_MP</Item>
+            <Item>EXP_GRD_SMOKE_POST</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>SCR_EXP_OUTLAW2_FORTWALL_MP</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>SCR_EXP_OUTLAW2_FORTWALL_MP</ptFxGroundLodName>
+          <ptFxAirLodName>SCR_EXP_OUTLAW2_FORTWALL_MP</ptFxAirLodName>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042>0x091F1CF9</UNK_MEMBER_0x387B8042>
+          <UNK_MEMBER_0xCAEE57D4>0x7DADD6C4</UNK_MEMBER_0xCAEE57D4>
+          <ptFxScale value="1.00000000"/>
+          <UNK_MEMBER_0x8CFF024B value="true"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="-0.10000000"/>
+          <UNK_MEMBER_0x297AD32D value="7"/>
+          <UNK_MEMBER_0xB0C57ED8 value="5.00000000"/>
+          <createScorches value="true"/>
+          <scorchRadius value="1.50000000"/>
+          <UNK_MEMBER_0xB217A65B value="5.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="0.80000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="0.50000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="0.00000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="0.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="0.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.00000000"/>
+          <UNK_MEMBER_0x460D43E2 value="0.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.00000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="0.00000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="0.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="0.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="10.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="6.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="9.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.50000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.70000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="exp_vfxtag_vehicle" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>EXP_GRD_DYNAMITE</Item>
+            <Item>EXP_GRD_SMOKE_POST</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>EXP_GRD_DYNAMITE</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>EXP_GRD_DYNAMITE</ptFxGroundLodName>
+          <ptFxAirLodName>EXP_GRD_DYNAMITE</ptFxAirLodName>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042/>
+          <UNK_MEMBER_0xCAEE57D4/>
+          <ptFxScale value="1.20000000"/>
+          <UNK_MEMBER_0x8CFF024B value="true"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="0.00000000"/>
+          <UNK_MEMBER_0x297AD32D value="0"/>
+          <UNK_MEMBER_0xB0C57ED8 value="0.00000000"/>
+          <createScorches value="true"/>
+          <scorchRadius value="1.20000000"/>
+          <UNK_MEMBER_0xB217A65B value="0.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="1.00000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="0.00000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="0.50000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="0.50000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.70000000"/>
+          <UNK_MEMBER_0x460D43E2 value="1.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.80000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="1.50000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="1.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="1.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="5.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="5.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="10.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="exp_vfxtag_dynamite" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>EXP_GRD_DYNAMITE</Item>
+            <Item>EXP_GRD_SMOKE_POST</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>EXP_AIR_DYNAMITE</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>EXP_GRD_DYNAMITE</ptFxGroundLodName>
+          <ptFxAirLodName>EXP_AIR_DYNAMITE</ptFxAirLodName>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042>0x091F1CF9</UNK_MEMBER_0x387B8042>
+          <UNK_MEMBER_0xCAEE57D4>0x7DADD6C4</UNK_MEMBER_0xCAEE57D4>
+          <ptFxScale value="1.20000000"/>
+          <UNK_MEMBER_0x8CFF024B value="true"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="-0.10000000"/>
+          <UNK_MEMBER_0x297AD32D value="7"/>
+          <UNK_MEMBER_0xB0C57ED8 value="5.00000000"/>
+          <createScorches value="true"/>
+          <scorchRadius value="1.50000000"/>
+          <UNK_MEMBER_0xB217A65B value="5.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="0.80000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="0.50000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="true"/>
+          <UNK_MEMBER_0x8A342782 value="0.00000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="0.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="0.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.00000000"/>
+          <UNK_MEMBER_0x460D43E2 value="0.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.00000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="0.00000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="0.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="0.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="10.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="6.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="9.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.50000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.70000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="exp_vfxtag_tracking_arrow" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>EXP_TRACKING_ARROW</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>EXP_TRACKING_ARROW</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>EXP_TRACKING_ARROW</ptFxGroundLodName>
+          <ptFxAirLodName>EXP_TRACKING_ARROW</ptFxAirLodName>
+          <fireFuelInfoName>0xEFE9EC46</fireFuelInfoName>
+          <UNK_MEMBER_0x387B8042/>
+          <UNK_MEMBER_0xCAEE57D4/>
+          <ptFxScale value="1.20000000"/>
+          <UNK_MEMBER_0x8CFF024B value="false"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="0.00000000"/>
+          <UNK_MEMBER_0x297AD32D value="0"/>
+          <UNK_MEMBER_0xB0C57ED8 value="0.00000000"/>
+          <createScorches value="true"/>
+          <scorchRadius value="0.00000000"/>
+          <UNK_MEMBER_0xB217A65B value="10.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="0.10000000"/>
+          <UNK_MEMBER_0x49D32EDE value="0.25000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="0.00000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="0.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="0.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.00000000"/>
+          <UNK_MEMBER_0x460D43E2 value="0.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.00000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="0.00000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="0.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="0.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="10.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="0.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="0.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="false"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="exp_vfxtag_fire_arrow" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames/>
+          <ptFxAirNames/>
+          <ptFxGroundLodName/>
+          <ptFxAirLodName/>
+          <fireFuelInfoName>0xEFE9EC46</fireFuelInfoName>
+          <UNK_MEMBER_0x387B8042/>
+          <UNK_MEMBER_0xCAEE57D4/>
+          <ptFxScale value="1.10000000"/>
+          <UNK_MEMBER_0x8CFF024B value="false"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="0.00000000"/>
+          <UNK_MEMBER_0x297AD32D value="0"/>
+          <UNK_MEMBER_0xB0C57ED8 value="0.00000000"/>
+          <createScorches value="true"/>
+          <scorchRadius value="0.00000000"/>
+          <UNK_MEMBER_0xB217A65B value="10.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="0.10000000"/>
+          <UNK_MEMBER_0x49D32EDE value="0.25000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="0.25000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="0.50000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="0.50000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.70000000"/>
+          <UNK_MEMBER_0x460D43E2 value="1.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.80000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="1.50000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="0.50000000"/>
+          <UNK_MEMBER_0x1142A242 value="5.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="10.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="0.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="0.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="0x3EDF47EC" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>SCR_EXP_REVENGE1_BARRICADE_MP</Item>
+            <Item>EXP_GRD_SMOKE_POST</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>SCR_EXP_REVENGE1_BARRICADE_MP</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>SCR_EXP_REVENGE1_BARRICADE_MP</ptFxGroundLodName>
+          <ptFxAirLodName>SCR_EXP_REVENGE1_BARRICADE_MP</ptFxAirLodName>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042>0x091F1CF9</UNK_MEMBER_0x387B8042>
+          <UNK_MEMBER_0xCAEE57D4>0x7DADD6C4</UNK_MEMBER_0xCAEE57D4>
+          <ptFxScale value="1.00000000"/>
+          <UNK_MEMBER_0x8CFF024B value="true"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="-0.10000000"/>
+          <UNK_MEMBER_0x297AD32D value="7"/>
+          <UNK_MEMBER_0xB0C57ED8 value="5.00000000"/>
+          <createScorches value="true"/>
+          <scorchRadius value="1.50000000"/>
+          <UNK_MEMBER_0xB217A65B value="5.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="0.80000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="0.50000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="0.00000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="0.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="0.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.00000000"/>
+          <UNK_MEMBER_0x460D43E2 value="0.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.00000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="0.00000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="0.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="0.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="10.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="6.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="9.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.50000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.70000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="EXP_VFXTAG_BULLET" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>EXP_BULLET</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>EXP_BULLET</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>EXP_BULLET</ptFxGroundLodName>
+          <ptFxAirLodName>EXP_BULLET</ptFxAirLodName>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042/>
+          <UNK_MEMBER_0xCAEE57D4/>
+          <ptFxScale value="1.10000000"/>
+          <UNK_MEMBER_0x8CFF024B value="false"/>
+          <UNK_MEMBER_0x38AAE645 value="0.80000000"/>
+          <UNK_MEMBER_0x446DA3FF value="-0.10000000"/>
+          <UNK_MEMBER_0x297AD32D value="0"/>
+          <UNK_MEMBER_0xB0C57ED8 value="0.00000000"/>
+          <createScorches value="true"/>
+          <scorchRadius value="0.40000000"/>
+          <UNK_MEMBER_0xB217A65B value="10.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="0.25000000"/>
+          <UNK_MEMBER_0x49D32EDE value="0.50000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="0.00000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="0.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="0.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.00000000"/>
+          <UNK_MEMBER_0x460D43E2 value="0.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.00000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="0.00000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="0.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="0.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="0.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="0.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="0.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="exp_vfxtag_phosphorous_bullet" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>EXP_INCENDIARY_BULLET</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>EXP_INCENDIARY_BULLET</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>EXP_INCENDIARY_BULLET</ptFxGroundLodName>
+          <ptFxAirLodName>EXP_INCENDIARY_BULLET</ptFxAirLodName>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042/>
+          <UNK_MEMBER_0xCAEE57D4/>
+          <ptFxScale value="0.70000000"/>
+          <UNK_MEMBER_0x8CFF024B value="false"/>
+          <UNK_MEMBER_0x38AAE645 value="0.50000000"/>
+          <UNK_MEMBER_0x446DA3FF value="0.00000000"/>
+          <UNK_MEMBER_0x297AD32D value="0"/>
+          <UNK_MEMBER_0xB0C57ED8 value="0.00000000"/>
+          <createScorches value="true"/>
+          <scorchRadius value="0.95000000"/>
+          <UNK_MEMBER_0xB217A65B value="10.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="1.00000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="0.50000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="0.50000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="0.50000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.70000000"/>
+          <UNK_MEMBER_0x460D43E2 value="1.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.80000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="1.50000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="1.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="1.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="5.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="5.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="10.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="exp_vfxtag_dynamite_stack" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>EXP_DYNAMITE_CRATES</Item>
+            <Item>EXP_GRD_SMOKE_POST</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>EXP_DYNAMITE_CRATES</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>EXP_DYNAMITE_CRATES</ptFxGroundLodName>
+          <ptFxAirLodName>EXP_DYNAMITE_CRATES</ptFxAirLodName>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042>0x091F1CF9</UNK_MEMBER_0x387B8042>
+          <UNK_MEMBER_0xCAEE57D4>0x7DADD6C4</UNK_MEMBER_0xCAEE57D4>
+          <ptFxScale value="1.20000000"/>
+          <UNK_MEMBER_0x8CFF024B value="true"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="0.00000000"/>
+          <UNK_MEMBER_0x297AD32D value="7"/>
+          <UNK_MEMBER_0xB0C57ED8 value="5.00000000"/>
+          <createScorches value="false"/>
+          <scorchRadius value="2.70000000"/>
+          <UNK_MEMBER_0xB217A65B value="5.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="1.00000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="0.00000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="2.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="4.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.70000000"/>
+          <UNK_MEMBER_0x460D43E2 value="1.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.80000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="2.50000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="1.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="0.25000000"/>
+          <UNK_MEMBER_0x26A5183F value="10.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="5.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="10.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="exp_vfxtag_dir_flame" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>EXP_SHT_FLAME</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>EXP_SHT_FLAME</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>EXP_SHT_FLAME</ptFxGroundLodName>
+          <ptFxAirLodName>EXP_SHT_FLAME</ptFxAirLodName>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042/>
+          <UNK_MEMBER_0xCAEE57D4/>
+          <ptFxScale value="1.10000000"/>
+          <UNK_MEMBER_0x8CFF024B value="false"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="0.00000000"/>
+          <UNK_MEMBER_0x297AD32D value="0"/>
+          <UNK_MEMBER_0xB0C57ED8 value="0.00000000"/>
+          <createScorches value="false"/>
+          <scorchRadius value="2.70000000"/>
+          <UNK_MEMBER_0xB217A65B value="10.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="1.00000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="0.00000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="0.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="0.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.00000000"/>
+          <UNK_MEMBER_0x460D43E2 value="0.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.00000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="0.00000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="0.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="0.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="0.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="5.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="10.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="0x702BD2BF" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>SCR_UTOPIA2_EXP_GROUND</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames/>
+          <ptFxGroundLodName>SCR_UTOPIA2_EXP_GROUND</ptFxGroundLodName>
+          <ptFxAirLodName/>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042/>
+          <UNK_MEMBER_0xCAEE57D4/>
+          <ptFxScale value="1.00000000"/>
+          <UNK_MEMBER_0x8CFF024B value="false"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="0.00000000"/>
+          <UNK_MEMBER_0x297AD32D value="0"/>
+          <UNK_MEMBER_0xB0C57ED8 value="0.00000000"/>
+          <createScorches value="true"/>
+          <scorchRadius value="2.70000000"/>
+          <UNK_MEMBER_0xB217A65B value="10.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="1.00000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="0.00000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="0.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="0.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.00000000"/>
+          <UNK_MEMBER_0x460D43E2 value="0.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.00000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="0.00000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="0.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="0.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="0.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="5.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="10.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="exp_vfxtag_dynamite_volatile" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>EXP_GRD_DYNAMITE_VOLATILE</Item>
+            <Item>EXP_GRD_SMOKE_POST_VOLATILE</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>EXP_AIR_DYNAMITE_VOLATILE</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>EXP_GRD_DYNAMITE_VOLATILE</ptFxGroundLodName>
+          <ptFxAirLodName>EXP_AIR_DYNAMITE_VOLATILE</ptFxAirLodName>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042>0x091F1CF9</UNK_MEMBER_0x387B8042>
+          <UNK_MEMBER_0xCAEE57D4>0x7DADD6C4</UNK_MEMBER_0xCAEE57D4>
+          <ptFxScale value="1.20000000"/>
+          <UNK_MEMBER_0x8CFF024B value="true"/>
+          <UNK_MEMBER_0x38AAE645 value="1.10000000"/>
+          <UNK_MEMBER_0x446DA3FF value="-0.10000000"/>
+          <UNK_MEMBER_0x297AD32D value="7"/>
+          <UNK_MEMBER_0xB0C57ED8 value="5.00000000"/>
+          <createScorches value="true"/>
+          <scorchRadius value="1.70000000"/>
+          <UNK_MEMBER_0xB217A65B value="5.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="0.80000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="0.50000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="true"/>
+          <UNK_MEMBER_0x8A342782 value="0.00000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="0.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="0.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.00000000"/>
+          <UNK_MEMBER_0x460D43E2 value="0.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.00000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="0.00000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="0.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="0.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="10.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="6.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="9.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="exp_vfxtag_poison_bottle" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>EXP_POISON_BOTTLE</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>EXP_POISON_BOTTLE</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>EXP_POISON_BOTTLE</ptFxGroundLodName>
+          <ptFxAirLodName>EXP_POISON_BOTTLE</ptFxAirLodName>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042/>
+          <UNK_MEMBER_0xCAEE57D4/>
+          <ptFxScale value="1.00000000"/>
+          <UNK_MEMBER_0x8CFF024B value="false"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="0.00000000"/>
+          <UNK_MEMBER_0x297AD32D value="0"/>
+          <UNK_MEMBER_0xB0C57ED8 value="0.00000000"/>
+          <createScorches value="false"/>
+          <scorchRadius value="0.00000000"/>
+          <UNK_MEMBER_0xB217A65B value="10.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="1.00000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="0.00000000"/>
+          <UNK_MEMBER_0x66441B6D value="true"/>
+          <UNK_MEMBER_0x68F96335 value="0.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="0.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.00000000"/>
+          <UNK_MEMBER_0x460D43E2 value="0.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.00000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="0.00000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="0.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="0.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="10.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="0.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="0.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="exp_vfxtag_lightning" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>EXP_LIGHTNING_STRIKE</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>EXP_LIGHTNING_STRIKE</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>EXP_LIGHTNING_STRIKE</ptFxGroundLodName>
+          <ptFxAirLodName>EXP_LIGHTNING_STRIKE</ptFxAirLodName>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042/>
+          <UNK_MEMBER_0xCAEE57D4/>
+          <ptFxScale value="1.00000000"/>
+          <UNK_MEMBER_0x8CFF024B value="false"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="-0.10000000"/>
+          <UNK_MEMBER_0x297AD32D value="7"/>
+          <UNK_MEMBER_0xB0C57ED8 value="5.00000000"/>
+          <createScorches value="true"/>
+          <scorchRadius value="1.50000000"/>
+          <UNK_MEMBER_0xB217A65B value="5.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="0.80000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="0.50000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="1.00000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="1.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="1.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="1.00000000"/>
+          <UNK_MEMBER_0x460D43E2 value="1.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.00000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="0.00000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="1.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="3.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="10.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="6.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="9.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="exp_vfxtag_train" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>EXP_GRD_DYNAMITE</Item>
+            <Item>EXP_GRD_SMOKE_POST</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>EXP_GRD_DYNAMITE</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>EXP_GRD_DYNAMITE</ptFxGroundLodName>
+          <ptFxAirLodName>EXP_GRD_DYNAMITE</ptFxAirLodName>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042/>
+          <UNK_MEMBER_0xCAEE57D4/>
+          <ptFxScale value="2.20000000"/>
+          <UNK_MEMBER_0x8CFF024B value="false"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="0.00000000"/>
+          <UNK_MEMBER_0x297AD32D value="0"/>
+          <UNK_MEMBER_0xB0C57ED8 value="0.00000000"/>
+          <createScorches value="true"/>
+          <scorchRadius value="2.70000000"/>
+          <UNK_MEMBER_0xB217A65B value="10.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="1.00000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="0.00000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="0.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="0.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.00000000"/>
+          <UNK_MEMBER_0x460D43E2 value="0.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.00000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="0.00000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="0.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="0.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="0.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="5.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="10.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="exp_vfxtag_lantern" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>EXP_GRD_LANTERN</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>EXP_GRD_LANTERN</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>EXP_GRD_LANTERN</ptFxGroundLodName>
+          <ptFxAirLodName>EXP_GRD_LANTERN</ptFxAirLodName>
+          <fireFuelInfoName>0xEF2AF21C</fireFuelInfoName>
+          <UNK_MEMBER_0x387B8042/>
+          <UNK_MEMBER_0xCAEE57D4/>
+          <ptFxScale value="1.10000000"/>
+          <UNK_MEMBER_0x8CFF024B value="false"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="0.00000000"/>
+          <UNK_MEMBER_0x297AD32D value="0"/>
+          <UNK_MEMBER_0xB0C57ED8 value="0.00000000"/>
+          <createScorches value="false"/>
+          <scorchRadius value="1.20000000"/>
+          <UNK_MEMBER_0xB217A65B value="10.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="1.00000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="0.80000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="0.50000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="0.50000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.70000000"/>
+          <UNK_MEMBER_0x460D43E2 value="1.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.80000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="1.50000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="1.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="5.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="10.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="0.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="2.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="exp_vfxtag_cannonball" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>EXP_GRD_CANNON</Item>
+            <Item>EXP_GRD_SMOKE_POST</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>EXP_GRD_CANNON</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>EXP_GRD_CANNON</ptFxGroundLodName>
+          <ptFxAirLodName>EXP_GRD_CANNON</ptFxAirLodName>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042/>
+          <UNK_MEMBER_0xCAEE57D4/>
+          <ptFxScale value="1.10000000"/>
+          <UNK_MEMBER_0x8CFF024B value="true"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="-0.50000000"/>
+          <UNK_MEMBER_0x297AD32D value="0"/>
+          <UNK_MEMBER_0xB0C57ED8 value="0.00000000"/>
+          <createScorches value="true"/>
+          <scorchRadius value="1.70000000"/>
+          <UNK_MEMBER_0xB217A65B value="10.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="1.00000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="0.00000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="0.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="0.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.00000000"/>
+          <UNK_MEMBER_0x460D43E2 value="0.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.00000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="0.00000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="0.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="0.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="10.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="6.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="9.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="exp_vfxtag_boat" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>EXP_GRD_DYNAMITE</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>EXP_AIR_DYNAMITE</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>EXP_GRD_DYNAMITE</ptFxGroundLodName>
+          <ptFxAirLodName>EXP_AIR_DYNAMITE</ptFxAirLodName>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042/>
+          <UNK_MEMBER_0xCAEE57D4/>
+          <ptFxScale value="1.50000000"/>
+          <UNK_MEMBER_0x8CFF024B value="false"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="0.00000000"/>
+          <UNK_MEMBER_0x297AD32D value="0"/>
+          <UNK_MEMBER_0xB0C57ED8 value="0.00000000"/>
+          <createScorches value="true"/>
+          <scorchRadius value="2.70000000"/>
+          <UNK_MEMBER_0xB217A65B value="10.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="1.00000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="1.20000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="1.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="2.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.70000000"/>
+          <UNK_MEMBER_0x460D43E2 value="1.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.80000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="1.50000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="1.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="0.25000000"/>
+          <UNK_MEMBER_0x26A5183F value="0.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="5.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="10.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="0xA0BF61B1" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>EXP_AIR_FIREBOTTLE_VOLATILE</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>EXP_AIR_FIREBOTTLE_VOLATILE</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>EXP_AIR_FIREBOTTLE_VOLATILE</ptFxGroundLodName>
+          <ptFxAirLodName>EXP_AIR_FIREBOTTLE_VOLATILE</ptFxAirLodName>
+          <fireFuelInfoName>0xEF2AF21C</fireFuelInfoName>
+          <UNK_MEMBER_0x387B8042/>
+          <UNK_MEMBER_0xCAEE57D4/>
+          <ptFxScale value="0.80000000"/>
+          <UNK_MEMBER_0x8CFF024B value="false"/>
+          <UNK_MEMBER_0x38AAE645 value="1.50000000"/>
+          <UNK_MEMBER_0x446DA3FF value="0.00000000"/>
+          <UNK_MEMBER_0x297AD32D value="0"/>
+          <UNK_MEMBER_0xB0C57ED8 value="0.00000000"/>
+          <createScorches value="false"/>
+          <scorchRadius value="0.00000000"/>
+          <UNK_MEMBER_0xB217A65B value="10.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="1.00000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="1.25000000"/>
+          <UNK_MEMBER_0x66441B6D value="true"/>
+          <UNK_MEMBER_0x68F96335 value="0.50000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="0.50000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.70000000"/>
+          <UNK_MEMBER_0x460D43E2 value="1.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.80000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="1.50000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="3.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="1.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="10.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="0.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="5.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="0xC22E127D" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>SCR_DISC_CAVE_EXPLOSION</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>SCR_DISC_CAVE_EXPLOSION</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>SCR_DISC_CAVE_EXPLOSION</ptFxGroundLodName>
+          <ptFxAirLodName>SCR_POISONED_WELL_EXP</ptFxAirLodName>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042>0x091F1CF9</UNK_MEMBER_0x387B8042>
+          <UNK_MEMBER_0xCAEE57D4>0x7DADD6C4</UNK_MEMBER_0xCAEE57D4>
+          <ptFxScale value="1.10000000"/>
+          <UNK_MEMBER_0x8CFF024B value="false"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="0.00000000"/>
+          <UNK_MEMBER_0x297AD32D value="7"/>
+          <UNK_MEMBER_0xB0C57ED8 value="5.00000000"/>
+          <createScorches value="false"/>
+          <scorchRadius value="2.70000000"/>
+          <UNK_MEMBER_0xB217A65B value="5.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="1.00000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="0.00000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="2.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="4.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.70000000"/>
+          <UNK_MEMBER_0x460D43E2 value="1.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.80000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="2.50000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="1.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="0.25000000"/>
+          <UNK_MEMBER_0x26A5183F value="10.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="5.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="10.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="exp_vfxtag_placed_dynamite" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>EXP_GRD_DYNAMITE_PLACED</Item>
+            <Item>EXP_GRD_SMOKE_POST_SMALL</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames/>
+          <ptFxGroundLodName>EXP_GRD_DYNAMITE_PLACED</ptFxGroundLodName>
+          <ptFxAirLodName/>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042>0x091F1CF9</UNK_MEMBER_0x387B8042>
+          <UNK_MEMBER_0xCAEE57D4>0x7DADD6C4</UNK_MEMBER_0xCAEE57D4>
+          <ptFxScale value="0.80000000"/>
+          <UNK_MEMBER_0x8CFF024B value="true"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="0.00000000"/>
+          <UNK_MEMBER_0x297AD32D value="7"/>
+          <UNK_MEMBER_0xB0C57ED8 value="5.00000000"/>
+          <createScorches value="true"/>
+          <scorchRadius value="2.70000000"/>
+          <UNK_MEMBER_0xB217A65B value="5.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="1.00000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="0.00000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="0.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="0.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.00000000"/>
+          <UNK_MEMBER_0x460D43E2 value="0.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.00000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="0.00000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="0.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="0.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="10.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="5.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="10.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="0xE03C5FDF" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>EXP_GRD_MOONSHINE</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames/>
+          <ptFxGroundLodName>EXP_GRD_MOONSHINE</ptFxGroundLodName>
+          <ptFxAirLodName/>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042/>
+          <UNK_MEMBER_0xCAEE57D4/>
+          <ptFxScale value="1.10000000"/>
+          <UNK_MEMBER_0x8CFF024B value="false"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="0.00000000"/>
+          <UNK_MEMBER_0x297AD32D value="0"/>
+          <UNK_MEMBER_0xB0C57ED8 value="0.00000000"/>
+          <createScorches value="false"/>
+          <scorchRadius value="2.70000000"/>
+          <UNK_MEMBER_0xB217A65B value="10.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="1.00000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="1.50000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="1.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="2.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.70000000"/>
+          <UNK_MEMBER_0x460D43E2 value="1.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.80000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="1.50000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="1.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="0.25000000"/>
+          <UNK_MEMBER_0x26A5183F value="0.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="0.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="5.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="0xE958B916" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>EXP_AIR_FIREBOTTLE</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>EXP_AIR_FIREBOTTLE</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>EXP_AIR_FIREBOTTLE</ptFxGroundLodName>
+          <ptFxAirLodName>EXP_AIR_FIREBOTTLE</ptFxAirLodName>
+          <fireFuelInfoName>0xEF2AF21C</fireFuelInfoName>
+          <UNK_MEMBER_0x387B8042/>
+          <UNK_MEMBER_0xCAEE57D4/>
+          <ptFxScale value="0.80000000"/>
+          <UNK_MEMBER_0x8CFF024B value="false"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="0.00000000"/>
+          <UNK_MEMBER_0x297AD32D value="0"/>
+          <UNK_MEMBER_0xB0C57ED8 value="0.00000000"/>
+          <createScorches value="false"/>
+          <scorchRadius value="0.00000000"/>
+          <UNK_MEMBER_0xB217A65B value="10.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="1.00000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="1.25000000"/>
+          <UNK_MEMBER_0x66441B6D value="true"/>
+          <UNK_MEMBER_0x68F96335 value="0.50000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="0.50000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.70000000"/>
+          <UNK_MEMBER_0x460D43E2 value="1.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.80000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="1.50000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="3.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="1.00000000"/>
+          <UNK_MEMBER_0x26A5183F value="10.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="0.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="5.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="EXP_VFXTAG_POISONED_WELL" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>SCR_POISONED_WELL_EXP</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>SCR_POISONED_WELL_EXP</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>SCR_POISONED_WELL_EXP</ptFxGroundLodName>
+          <ptFxAirLodName>SCR_POISONED_WELL_EXP</ptFxAirLodName>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042>0x091F1CF9</UNK_MEMBER_0x387B8042>
+          <UNK_MEMBER_0xCAEE57D4>0x7DADD6C4</UNK_MEMBER_0xCAEE57D4>
+          <ptFxScale value="1.10000000"/>
+          <UNK_MEMBER_0x8CFF024B value="false"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="0.00000000"/>
+          <UNK_MEMBER_0x297AD32D value="7"/>
+          <UNK_MEMBER_0xB0C57ED8 value="5.00000000"/>
+          <createScorches value="false"/>
+          <scorchRadius value="2.70000000"/>
+          <UNK_MEMBER_0xB217A65B value="5.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="1.00000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="0.00000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="2.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="4.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.70000000"/>
+          <UNK_MEMBER_0x460D43E2 value="1.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.80000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="2.50000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="1.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="0.25000000"/>
+          <UNK_MEMBER_0x26A5183F value="10.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="5.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="10.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+    <Item key="EXP_VFXTAG_TRN4_DYNAMITE" type="0x8E41FDEE">
+      <UNK_MEMBER_0xCEE2F413>
+        <Item>
+          <ptFxGroundNames>
+            <Item>SCR_TRN4_WALL_DYNAMITE</Item>
+          </ptFxGroundNames>
+          <ptFxAirNames>
+            <Item>SCR_TRN4_WALL_DYNAMITE</Item>
+          </ptFxAirNames>
+          <ptFxGroundLodName>SCR_TRN4_WALL_DYNAMITE</ptFxGroundLodName>
+          <ptFxAirLodName>SCR_TRN4_WALL_DYNAMITE</ptFxAirLodName>
+          <fireFuelInfoName/>
+          <UNK_MEMBER_0x387B8042>0x091F1CF9</UNK_MEMBER_0x387B8042>
+          <UNK_MEMBER_0xCAEE57D4>0x7DADD6C4</UNK_MEMBER_0xCAEE57D4>
+          <ptFxScale value="1.10000000"/>
+          <UNK_MEMBER_0x8CFF024B value="false"/>
+          <UNK_MEMBER_0x38AAE645 value="1.00000000"/>
+          <UNK_MEMBER_0x446DA3FF value="0.00000000"/>
+          <UNK_MEMBER_0x297AD32D value="7"/>
+          <UNK_MEMBER_0xB0C57ED8 value="5.00000000"/>
+          <createScorches value="false"/>
+          <scorchRadius value="2.70000000"/>
+          <UNK_MEMBER_0xB217A65B value="5.00000000"/>
+          <UNK_MEMBER_0x1C08A48D value="1.00000000"/>
+          <UNK_MEMBER_0xB2A1C79D value="1.00000000"/>
+          <UNK_MEMBER_0x9FB11329 value="1.00000000"/>
+          <UNK_MEMBER_0x320DC114 value="1.00000000"/>
+          <UNK_MEMBER_0x355A7E81 value="1.00000000"/>
+          <UNK_MEMBER_0x49D32EDE value="1.00000000"/>
+          <UNK_MEMBER_0x0B2868C7 value="false"/>
+          <UNK_MEMBER_0x8A342782 value="0.00000000"/>
+          <UNK_MEMBER_0x66441B6D value="false"/>
+          <UNK_MEMBER_0x68F96335 value="2.00000000"/>
+          <UNK_MEMBER_0xA8C46BCA value="4.00000000"/>
+          <UNK_MEMBER_0xFCB4406F value="0.70000000"/>
+          <UNK_MEMBER_0x460D43E2 value="1.00000000"/>
+          <UNK_MEMBER_0xED0CCA48 value="0.80000000"/>
+          <UNK_MEMBER_0x88CA1CE0 value="2.50000000"/>
+          <UNK_MEMBER_0x8CFF9E67 value="1.00000000"/>
+          <UNK_MEMBER_0x1142A242 value="0.25000000"/>
+          <UNK_MEMBER_0x26A5183F value="10.00000000"/>
+          <UNK_MEMBER_0xB4A4CC31 value="5.00000000"/>
+          <UNK_MEMBER_0xA467BD9A value="10.00000000"/>
+          <UNK_MEMBER_0xAC7ED844 value="1.00000000"/>
+          <UNK_MEMBER_0x34BE604D value="1.00000000"/>
+          <UNK_MEMBER_0x2C1B8785 value="true"/>
+        </Item>
+      </UNK_MEMBER_0xCEE2F413>
+    </Item>
+  </UNK_MEMBER_0x70725FE7>
+  <UNK_MEMBER_0x50D2F810>
+    <Item key="VFXGROUP_VOID" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_GENERIC" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_CONCRETE" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_TARMAC" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_STONE" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_BRICK" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_MARBLE" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_PAVING" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_SANDSTONE" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_SANDSTONE_BRITTLE" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_SAND_COMPACT" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_DIRT</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_SAND_DRY_DEEP" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_DIRT</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_SAND_WET" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_MUD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_SAND_WET_DEEP" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_MUD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_QUICKSAND" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_MUD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_TAR_PIT" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_MUD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_ICE" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_SNOW_LOOSE" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_SNOW</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="true"/>
+    </Item>
+    <Item key="VFXGROUP_SNOW_COMPACT" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_SNOW</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="true"/>
+    </Item>
+    <Item key="VFXGROUP_GRAVEL" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_GRAVEL_LARGE" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_GRAVEL_DEEP" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_GRAVEL_DIRT" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_GRAVEL_GRASS" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_GRAVEL_MUDDY" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_MUD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_GRAVEL_MUDDY_DEEP" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_MUD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_DIRT_DRY" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_DIRT_DRY_DEEP" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_DIRT</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_DIRT_GRASS" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_SOIL" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_DIRT</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_SOIL_DEEP" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_DIRT</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_MUD_HARD" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_MUD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_MUD_SOFT" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_MUD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_MUD_DEEP" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_MUD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_MUD_UNDERWATER" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_CLAY" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_MUD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_MANURE" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_MUD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_MARSH" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_MUD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_MARSH_DEEP" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_MUD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_ASH" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_GRASS" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_GRASS_SHORT" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_GRASS_LUSH" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_GRASS_DEAD" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_HAY" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_GRASS</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_BUSHES" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_BUSHES_SPARSE" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_BUSHES_DENSE" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_TREE_BARK" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_WOOD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_TREE_PINE" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_WOOD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_LEAVES" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_LEAVES</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_LEAVES_MAPLE" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_LEAVES</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_LEAVES_OAK" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_LEAVES</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_LEAVES_FICUS" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_LEAVES</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_LEAVES_TOBACCO" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_FLAME</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_CROP_HUSK" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_DIRT</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_MOSS" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_MUD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_PINE_NEEDLES" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_TWIGS" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_CACTUS" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_WOOD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_METAL" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_METAL</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_METAL_THIN" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_METAL</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_WOOD" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_WOOD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_WOOD_DUSTY" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_WOOD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_WOOD_POLISHED" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_WOOD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_WOOD_SPLINTER" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_WOOD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_WOOD_BURNING" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_WOOD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_WOOD_BURNT" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_WOOD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_WOOD_ROTTEN" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_WOOD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_CERAMIC" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_CLOTH" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_FLAME</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_CARPET_FABRIC" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_FLAME</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_CARPET_FABRIC_DUSTY" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_FLAME</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_RUBBER" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_PLASTER_BRITTLE" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_PAPER" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_FLAME</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_FEATHERS" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_FEATHER</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_WICKER" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_LEATHER" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_FLAME</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_GLASS" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_GLASS</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_GLASS_BULLETPROOF" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_GLASS</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_GLASS_SHOOT_THROUGH" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_GLASS</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_CAR_METAL" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_WOOD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_CAR_GLASS" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_GLASS</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_CAR_WOOD" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_WOOD</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_PELT_FUR" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_FLAME</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_FRESH_MEAT" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_FLESH</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_DRIED_MEAT" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_BONE" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_CONCRETE</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_PED_TORSO" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_FLESH</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_PED_LIMB" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_FLESH</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+    <Item key="VFXGROUP_PED_CAPSULE" type="0x0A2805EE">
+      <ptFxHashName>EXP_MTL_FLESH</ptFxHashName>
+      <UNK_MEMBER_0xC9E700AD value="false"/>
+    </Item>
+  </UNK_MEMBER_0x50D2F810>
+</CVfxExplosionInfoMgr>

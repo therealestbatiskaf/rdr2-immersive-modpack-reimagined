@@ -1,0 +1,1 @@
+Rockstar for some reason removed all intimidate animations on later patches, the only ones that remained were the idle animations, which made for peculiar transitions. This file restores all of that.

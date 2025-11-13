@@ -1,0 +1,22 @@
+<!---
+This is an example IPL Set file
+The File Starts with <IPL> tag and ends with </IPL> tag.
+<IPLMeta Name="Setname here" is the name of the set not that important but should be filled out.
+<Load Hash="Enter the hash of the IPL in hex format that you want to load"/>
+<Unload Hash="Enter the hash of the IPL in hex format that you want to unload"/>
+For interiors <Interior ID="Unique id that identifies that interior" Name="The name of the interior"/>
+
+You can add as many entries as you want they will be proccessed line by line first all loads and than all unloads.
+---->
+<IPL>
+	<IPLMeta Name="Example"/>
+	<Load Hash="0xCB28C7F6"/>
+	<Load Hash="0x0FE8850C"/>
+	<Load Hash="0x8BE643CA"/>
+	<Interior ID="77313" Name="mp006_mshine_theme_christmas"/>
+	<Interior ID="77313" Name="mp006_mshine_still_hatch"/>
+	<Interior ID="77313" Name="mp006_mshine_Still_02"/>
+	<Interior ID="77313" Name="mp006_mshine_shelfwall2"/>
+	<Interior ID="77313" Name="mp006_mshine_band2"/>
+	<Interior ID="77313" Name="mp006_mshine_bar_benchAndFrame"/>
+</IPL>

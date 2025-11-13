@@ -1,0 +1,1255 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<fwAnimSceneData>
+  <sceneOrigin type="fwAnimSceneMatrixData">
+    <matrix content="matrix34">
+      -0.999781 -0.020942 0 668.45
+      0.020942 -0.999781 0 -1242.3
+      0 0 1 45.55
+    </matrix>
+  </sceneOrigin>
+  <entities>
+    <Item key="P_CRD_2_C01X" type="0x44DEE094">
+      <toolData/>
+      <conditions/>
+      <evaluationType>0xBAFBD7EA</evaluationType>
+      <0x8A944233>P_CRD_2_C01X</0x8A944233>
+      <0xDC110A02/>
+      <optional value="false" />
+      <transient value="false" />
+      <0xE47BA481 value="false" />
+      <0x03EFD81F/>
+      <0xE825C15F value="false" />
+      <createEntity value="false" />
+      <physicalFlags />
+      <linkedEntity>
+        <entityId />
+      </linkedEntity>
+      <weaponName />
+      <0xE158CE1B />
+    </Item>
+    <Item key="LOOP" type="0x34AD1B0E">
+      <toolData/>
+      <conditions/>
+      <evaluationType>0xBAFBD7EA</evaluationType>
+      <value value="false" />
+      <0xBAC8E518 value="true" />
+    </Item>
+    <Item key="JOSIAHTRELAWNY" type="0x64D97283">
+      <toolData/>
+      <conditions/>
+      <evaluationType>0xBAFBD7EA</evaluationType>
+      <0x8A944233>CS_JOSIAHTRELAWNY</0x8A944233>
+      <0xDC110A02/>
+      <optional value="false" />
+      <transient value="false" />
+      <0xE47BA481 value="false" />
+      <0x03EFD81F/>
+      <0xE825C15F value="false" />
+      <createEntity value="false" />
+      <physicalFlags />
+      <linkedEntity>
+        <entityId />
+      </linkedEntity>
+      <leadIns />
+      <initialInventory>
+        <inventory />
+      </initialInventory>
+      <pedFlags />
+      <outfit />
+      <subOutfit />
+      <0xFF8220B9/>
+    </Item>
+    <Item key="AUDIO" type="0x9B9E7F24">
+      <toolData/>
+      <conditions/>
+      <evaluationType>0xBAFBD7EA</evaluationType>
+      <0x91B14099>
+        <Item>
+          <0x84B954E7>
+            <entityId>ARTHUR</entityId>
+          </0x84B954E7>
+          <0xEE56E9D8>ARTHUR</0xEE56E9D8>
+        </Item>
+        <Item>
+          <0x84B954E7>
+            <entityId>JOSIAHTRELAWNY</entityId>
+          </0x84B954E7>
+          <0xEE56E9D8>TRELAWNY</0xEE56E9D8>
+        </Item>
+      </0x91B14099>
+      <0x62ADE224>0x926AAD85</0x62ADE224>
+      <0xA5E7A3A7>0x419EE504</0xA5E7A3A7>
+      <0x2BA84559>
+        <Item>
+          <PlayListId>0xFF387E65</PlayListId>
+          <0x7E7D4D7B>
+            <Item>0xE7FA9F61</Item>
+          </0x7E7D4D7B>
+        </Item>
+        <Item>
+          <PlayListId />
+          <0x7E7D4D7B>
+            <Item>0xE7FA9F61</Item>
+          </0x7E7D4D7B>
+        </Item>
+        <Item>
+          <PlayListId>PL_BASE_TO_STARE</PlayListId>
+          <0x7E7D4D7B>
+            <Item>0xE7FA9F61</Item>
+          </0x7E7D4D7B>
+        </Item>
+      </0x2BA84559>
+    </Item>
+    <Item key="ARTHUR" type="0x64D97283">
+      <toolData/>
+      <conditions/>
+      <evaluationType>0xBAFBD7EA</evaluationType>
+      <0x8A944233>PLAYER_ZERO</0x8A944233>
+      <0xDC110A02/>
+      <optional value="false" />
+      <transient value="false" />
+      <0xE47BA481 value="false" />
+      <0x03EFD81F/>
+      <0xE825C15F value="false" />
+      <createEntity value="false" />
+      <physicalFlags />
+      <linkedEntity>
+        <entityId />
+      </linkedEntity>
+      <leadIns />
+      <initialInventory>
+        <inventory />
+      </initialInventory>
+      <pedFlags />
+      <outfit />
+      <subOutfit />
+      <0xFF8220B9/>
+    </Item>
+  </entities>
+  <sections>
+    <Item key="BASE" type="0x64E8AC67">
+      <0xC618212A/>
+      <0xBB18B485>
+        <entityId>LOOP</entityId>
+      </0xBB18B485>
+      <0x47B47045 value="true" />
+      <loopCount value="0" />
+      <events>
+        <events>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>JOSIAHTRELAWNY</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="9.30000000" />
+            <0x420E8F0C value="4.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <clip>
+              <clipDictionaryName>SCRIPT_RC@CHRB@LEADIN@RC1</clipDictionaryName>
+              <clipName>BASE_TRELAWNY</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags>0xCC5C6615, 0xB46C05A7, 0x3A00B430</animFlags>
+            <flags>0x517B9778, 0x028D8D60, 0xFD520F94</flags>
+            <ragdollBlockingFlags />
+            <ikFlags>0x7CA83DA7, 0x9E7C192B, 0x3AB0EBA0, 0x2B84BDEB</ikFlags>
+            <aiFlags />
+            <physFlags />
+            <filter />
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.00000000" />
+            <blendOutDuration value="0.00000000" />
+            <0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <0x68303946 value="true" />
+            <0x1F1E9763 value="false" />
+            <0x03EFD81F/>
+            <pApproach/>
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>P_CRD_2_C01X</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="9.30000000" />
+            <0x420E8F0C value="4.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <clip>
+              <clipDictionaryName>SCRIPT_RC@CHRB@LEADIN@RC1</clipDictionaryName>
+              <clipName>0x8310455F</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags>0xCC5C6615</animFlags>
+            <flags>0x517B9778</flags>
+            <ragdollBlockingFlags />
+            <ikFlags />
+            <aiFlags />
+            <physFlags />
+            <filter />
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.00000000" />
+            <blendOutDuration value="0.00000000" />
+            <0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <0x68303946 value="false" />
+            <0x1F1E9763 value="false" />
+            <0x03EFD81F/>
+            <pApproach/>
+          </Item>
+          <Item type="0xB27E6751">
+            <entity>
+              <entityId>P_CRD_2_C01X</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="9.30000000" />
+            <0x420E8F0C value="0.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="true" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <attachEntity>
+              <entityId>JOSIAHTRELAWNY</entityId>
+            </attachEntity>
+            <attachOffset x="0.00000000" y="0.00000000" z="0.00000000" />
+            <0xF0B2D799 x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+            <0x42598F73 value="false" />
+            <attachBone>ID_PH_R_HAND</attachBone>
+            <action>0x6376976E</action>
+          </Item>
+          <Item type="0xF41A59B9">
+            <entity>
+              <entityId>ARTHUR</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="9.30000000" />
+            <0x420E8F0C value="4.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="true" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <clip>
+              <clipDictionaryName/>
+              <clipName/>
+            </clip>
+            <blendInDuration value="0.00000000" />
+            <blendOutDuration value="0.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+          </Item>
+        </events>
+      </events>
+      <locationData>
+        <Item key="P_CRD_2_C01X" type="0xAD5DFE3C">
+          <startPos x="0.00000000" y="0.00000000" z="0.00000000" />
+          <startRot x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+          <startTime value="0.00000000" />
+          <endPos x="-0.00004600" y="0.00008100" z="0.00004400" />
+          <endRot x="0.00007700" y="-0.00008000" z="0.00010600" w="1.00000000" />
+          <endTime value="9.30000000" />
+        </Item>
+        <Item key="JOSIAHTRELAWNY" type="0xAD5DFE3C">
+          <startPos x="-5.74692400" y="-25.46039000" z="-0.04871200" />
+          <startRot x="0.00000000" y="0.00000000" z="-0.33115900" w="0.94357500" />
+          <startTime value="0.00000000" />
+          <endPos x="-5.74692400" y="-25.46039000" z="-0.04871200" />
+          <endRot x="0.00000000" y="0.00000000" z="-0.33115900" w="0.94357500" />
+          <endTime value="9.30000000" />
+        </Item>
+        <Item key="ARTHUR" type="0xAD5DFE3C">
+          <startPos x="1E10" y="1E10" z="1E10" />
+          <startRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <startTime value="0.00000000" />
+          <endPos x="1E10" y="1E10" z="1E10" />
+          <endRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <endTime value="9.30000000" />
+        </Item>
+      </locationData>
+      <0x0696FE9E/>
+    </Item>
+    <Item key="BASE_TO_STARE" type="0x64E8AC67">
+      <0xC618212A/>
+      <0xBB18B485>
+        <entityId />
+      </0xBB18B485>
+      <0x47B47045 value="false" />
+      <loopCount value="1" />
+      <events>
+        <events>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>JOSIAHTRELAWNY</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="6.13333300" />
+            <0x420E8F0C value="4.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <clip>
+              <clipDictionaryName>SCRIPT_RC@CHRB@LEADIN@RC1</clipDictionaryName>
+              <clipName>BASE_TO_STARE_TRELAWNY</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags>0xCC5C6615, 0xB46C05A7, 0x3A00B430</animFlags>
+            <flags>0x517B9778, 0x028D8D60, 0xFD520F94</flags>
+            <ragdollBlockingFlags />
+            <ikFlags>0x7CA83DA7, 0x9E7C192B</ikFlags>
+            <aiFlags />
+            <physFlags />
+            <filter />
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="1.00000000" />
+            <blendOutDuration value="0.00000000" />
+            <0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <0x68303946 value="true" />
+            <0x1F1E9763 value="false" />
+            <0x03EFD81F/>
+            <pApproach/>
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>P_CRD_2_C01X</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="6.13333300" />
+            <0x420E8F0C value="4.00000000" />
+            <pChildren type="0xEED7E46F">
+              <events>
+                <Item type="0xB27E6751">
+                  <entity>
+                    <entityId>P_CRD_2_C01X</entityId>
+                  </entity>
+                  <startTime value="0.00000000" />
+                  <endTime value="6.13333300" />
+                  <0x420E8F0C value="0.00000000" />
+                  <pChildren/>
+                  <0xAB28F89C value="true" />
+                  <state>0x9D9DEE9D</state>
+                  <toolData/>
+                  <attachEntity>
+                    <entityId>JOSIAHTRELAWNY</entityId>
+                  </attachEntity>
+                  <attachOffset x="0.00000000" y="0.00000000" z="0.00000000" />
+                  <0xF0B2D799 x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+                  <0x42598F73 value="false" />
+                  <attachBone>ID_PH_R_HAND</attachBone>
+                  <action>0x6376976E</action>
+                </Item>
+              </events>
+            </pChildren>
+            <0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <clip>
+              <clipDictionaryName>SCRIPT_RC@CHRB@LEADIN@RC1</clipDictionaryName>
+              <clipName>0xAA5902A4</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags>0xCC5C6615</animFlags>
+            <flags>0x517B9778</flags>
+            <ragdollBlockingFlags />
+            <ikFlags />
+            <aiFlags />
+            <physFlags />
+            <filter />
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.00000000" />
+            <blendOutDuration value="0.00000000" />
+            <0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <0x68303946 value="false" />
+            <0x1F1E9763 value="false" />
+            <0x03EFD81F/>
+            <pApproach/>
+          </Item>
+          <Item type="0x865451B7">
+            <entity>
+              <entityId>AUDIO</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="6.13333300" />
+            <0x420E8F0C value="4.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="true" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <0x84B954E7>
+              <entityId />
+            </0x84B954E7>
+            <0xC7CF1919 />
+            <SoundName />
+            <0x9055E356 value="0.00000000" />
+            <0x8F23A822 value="true" />
+            <0x4C4A3860 value="false" />
+            <0xDDB12FE3 value="false" />
+            <0xE5F31F59 value="false" />
+            <0x7C864873 />
+            <Name>0xE7FA9F61</Name>
+            <0xA5B1359C value="false" />
+          </Item>
+          <Item type="0xF41A59B9">
+            <entity>
+              <entityId>ARTHUR</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="6.13333300" />
+            <0x420E8F0C value="4.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="true" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <clip>
+              <clipDictionaryName/>
+              <clipName/>
+            </clip>
+            <blendInDuration value="0.00000000" />
+            <blendOutDuration value="0.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+          </Item>
+          <Item type="0xF5E8217E">
+            <entity>
+              <entityId>JOSIAHTRELAWNY</entityId>
+            </entity>
+            <startTime value="1.23333300" />
+            <endTime value="6.13333300" />
+            <0x420E8F0C value="0.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <targetEntity>
+              <entityId>ARTHUR</entityId>
+            </targetEntity>
+            <0x28534F8C>ID_SKEL_HEAD</0x28534F8C>
+            <targetOffset x="0.00000000" y="0.00000000" z="0.00000000" />
+            <0x9869600B>LOOKIK_BLEND_RATE_NORMAL</0x9869600B>
+            <0x202EC9D2>LOOKIK_BLEND_RATE_NORMAL</0x202EC9D2>
+            <0xC9076054>LOOKIK_TURN_RATE_NORMAL</0xC9076054>
+            <0xC31AF87E>LOOKIK_ROT_LIM_WIDEST</0xC31AF87E>
+            <0x76AB286D>LOOKIK_ROT_LIM_WIDEST</0x76AB286D>
+            <0xFAECFADE>LOOKIK_ROT_LIM_WIDEST</0xFAECFADE>
+            <0x9E70D7DE>LOOKIK_ROT_LIM_WIDEST</0x9E70D7DE>
+            <0x4CF9A4B0>LOOKIK_ROT_LIM_WIDEST</0x4CF9A4B0>
+            <0x44A1BA4A>LOOKIK_ROT_LIM_WIDEST</0x44A1BA4A>
+            <0xBC28C697 />
+          </Item>
+        </events>
+      </events>
+      <locationData>
+        <Item key="P_CRD_2_C01X" type="0xAD5DFE3C">
+          <startPos x="0.00000000" y="0.00000000" z="0.00000000" />
+          <startRot x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+          <startTime value="0.00000000" />
+          <endPos x="-0.42177200" y="0.05747400" z="0.03745400" />
+          <endRot x="-0.22101300" y="0.35540400" z="0.77457700" w="-0.47420700" />
+          <endTime value="6.13333300" />
+        </Item>
+        <Item key="JOSIAHTRELAWNY" type="0xAD5DFE3C">
+          <startPos x="-5.74692400" y="-25.46039000" z="-0.04871200" />
+          <startRot x="0.00000000" y="0.00000000" z="-0.33118800" w="0.94356500" />
+          <startTime value="0.00000000" />
+          <endPos x="-5.59311100" y="-25.42997000" z="-0.07802800" />
+          <endRot x="0.00000000" y="0.00000000" z="-0.33969400" w="0.94053600" />
+          <endTime value="6.13333300" />
+        </Item>
+        <Item key="ARTHUR" type="0xAD5DFE3C">
+          <startPos x="1E10" y="1E10" z="1E10" />
+          <startRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <startTime value="0.00000000" />
+          <endPos x="1E10" y="1E10" z="1E10" />
+          <endRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <endTime value="6.13333300" />
+        </Item>
+      </locationData>
+      <0x0696FE9E/>
+    </Item>
+    <Item key="BASE_EXIT" type="0x64E8AC67">
+      <0xC618212A/>
+      <0xBB18B485>
+        <entityId />
+      </0xBB18B485>
+      <0x47B47045 value="false" />
+      <loopCount value="1" />
+      <events>
+        <events>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>JOSIAHTRELAWNY</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="5.60000000" />
+            <0x420E8F0C value="4.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <clip>
+              <clipDictionaryName>SCRIPT_RC@CHRB@LEADIN@RC1</clipDictionaryName>
+              <clipName>0xCBA8DF91</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags>0xCC5C6615, 0xB46C05A7, 0x5A43CD67, 0x3A00B430</animFlags>
+            <flags>0x517B9778, 0x028D8D60, 0x2385058E, 0xFD520F94</flags>
+            <ragdollBlockingFlags />
+            <ikFlags>0x7CA83DA7, 0x9E7C192B</ikFlags>
+            <aiFlags />
+            <physFlags />
+            <filter />
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.50000000" />
+            <blendOutDuration value="1.00000000" />
+            <0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <0x68303946 value="true" />
+            <0x1F1E9763 value="false" />
+            <0x03EFD81F/>
+            <pApproach/>
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>P_CRD_2_C01X</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="6.60000000" />
+            <0x420E8F0C value="4.00000000" />
+            <pChildren type="0xEED7E46F">
+              <events>
+                <Item type="0xB27E6751">
+                  <entity>
+                    <entityId>P_CRD_2_C01X</entityId>
+                  </entity>
+                  <startTime value="0.00000000" />
+                  <endTime value="6.60000000" />
+                  <0x420E8F0C value="0.00000000" />
+                  <pChildren/>
+                  <0xAB28F89C value="true" />
+                  <state>0x9D9DEE9D</state>
+                  <toolData/>
+                  <attachEntity>
+                    <entityId>JOSIAHTRELAWNY</entityId>
+                  </attachEntity>
+                  <attachOffset x="0.00000000" y="0.00000000" z="0.00000000" />
+                  <0xF0B2D799 x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+                  <0x42598F73 value="false" />
+                  <attachBone>ID_PH_R_HAND</attachBone>
+                  <action>0x6376976E</action>
+                </Item>
+              </events>
+            </pChildren>
+            <0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <clip>
+              <clipDictionaryName>SCRIPT_RC@CHRB@LEADIN@RC1</clipDictionaryName>
+              <clipName>0x20A5483B</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags>0xCC5C6615</animFlags>
+            <flags>0x517B9778</flags>
+            <ragdollBlockingFlags />
+            <ikFlags />
+            <aiFlags />
+            <physFlags />
+            <filter />
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.00000000" />
+            <blendOutDuration value="0.00000000" />
+            <0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <0x68303946 value="false" />
+            <0x1F1E9763 value="false" />
+            <0x03EFD81F/>
+            <pApproach/>
+          </Item>
+        </events>
+      </events>
+      <locationData>
+        <Item key="P_CRD_2_C01X" type="0xAD5DFE3C">
+          <startPos x="0.00000000" y="0.00000000" z="0.00000000" />
+          <startRot x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+          <startTime value="0.00000000" />
+          <endPos x="-0.69076300" y="0.01829500" z="0.11175900" />
+          <endRot x="-0.08731600" y="0.42130200" z="0.80892010" w="-0.40066100" />
+          <endTime value="6.60000000" />
+        </Item>
+        <Item key="JOSIAHTRELAWNY" type="0xAD5DFE3C">
+          <startPos x="-5.74692400" y="-25.46039000" z="-0.04871200" />
+          <startRot x="0.00000000" y="0.00000000" z="-0.33115900" w="0.94357500" />
+          <startTime value="0.00000000" />
+          <endPos x="-5.58992700" y="-25.10015000" z="-0.10977400" />
+          <endRot x="0.00000000" y="0.00000000" z="-0.22026200" w="0.97544090" />
+          <endTime value="5.60000000" />
+        </Item>
+        <Item key="ARTHUR" type="0xAD5DFE3C">
+          <startPos x="1E10" y="1E10" z="1E10" />
+          <startRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <startTime value="-1.00000000" />
+          <endPos x="1E10" y="1E10" z="1E10" />
+          <endRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <endTime value="-1.00000000" />
+        </Item>
+      </locationData>
+      <0x0696FE9E/>
+    </Item>
+    <Item key="ENTER" type="0x64E8AC67">
+      <0xC618212A/>
+      <0xBB18B485>
+        <entityId />
+      </0xBB18B485>
+      <0x47B47045 value="false" />
+      <loopCount value="1" />
+      <events>
+        <events>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>JOSIAHTRELAWNY</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="7.06666700" />
+            <0x420E8F0C value="4.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <clip>
+              <clipDictionaryName>SCRIPT_RC@CHRB@LEADIN@RC1</clipDictionaryName>
+              <clipName>ENTER_TRELAWNY</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags>0xCC5C6615, 0xB46C05A7, 0x3A00B430</animFlags>
+            <flags>0x517B9778, 0x028D8D60, 0xFD520F94</flags>
+            <ragdollBlockingFlags />
+            <ikFlags>0x7CA83DA7, 0x9E7C192B</ikFlags>
+            <aiFlags />
+            <physFlags />
+            <filter />
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.70000000" />
+            <blendOutDuration value="0.00000000" />
+            <0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <0x68303946 value="true" />
+            <0x1F1E9763 value="false" />
+            <0x03EFD81F/>
+            <pApproach/>
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>P_CRD_2_C01X</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="7.06666700" />
+            <0x420E8F0C value="4.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <clip>
+              <clipDictionaryName>SCRIPT_RC@CHRB@LEADIN@RC1</clipDictionaryName>
+              <clipName>0x0D52531F</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags>0xCC5C6615</animFlags>
+            <flags>0x517B9778</flags>
+            <ragdollBlockingFlags />
+            <ikFlags />
+            <aiFlags />
+            <physFlags />
+            <filter />
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.00000000" />
+            <blendOutDuration value="0.00000000" />
+            <0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <0x68303946 value="false" />
+            <0x1F1E9763 value="false" />
+            <0x03EFD81F/>
+            <pApproach/>
+          </Item>
+          <Item type="0xB27E6751">
+            <entity>
+              <entityId>P_CRD_2_C01X</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="7.06666700" />
+            <0x420E8F0C value="0.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="true" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <attachEntity>
+              <entityId>JOSIAHTRELAWNY</entityId>
+            </attachEntity>
+            <attachOffset x="0.00000000" y="0.00000000" z="0.00000000" />
+            <0xF0B2D799 x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+            <0x42598F73 value="false" />
+            <attachBone>ID_PH_R_HAND</attachBone>
+            <action>0x6376976E</action>
+          </Item>
+        </events>
+      </events>
+      <locationData>
+        <Item key="P_CRD_2_C01X" type="0xAD5DFE3C">
+          <startPos x="0.00000000" y="0.00000000" z="0.00000000" />
+          <startRot x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+          <startTime value="0.00000000" />
+          <endPos x="1.00385700" y="0.14439100" z="0.48203000" />
+          <endRot x="-0.74022900" y="-0.32577000" z="-0.10462100" w="0.57878300" />
+          <endTime value="7.06666700" />
+        </Item>
+        <Item key="JOSIAHTRELAWNY" type="0xAD5DFE3C">
+          <startPos x="-5.42227800" y="-24.98753000" z="-0.09595700" />
+          <startRot x="0.00000000" y="0.00000000" z="0.93389300" w="0.35755300" />
+          <startTime value="0.00000000" />
+          <endPos x="-5.74697800" y="-25.46030000" z="-0.04869100" />
+          <endRot x="0.00000000" y="0.00000000" z="-0.33120100" w="0.94356000" />
+          <endTime value="7.06666700" />
+        </Item>
+        <Item key="ARTHUR" type="0xAD5DFE3C">
+          <startPos x="1E10" y="1E10" z="1E10" />
+          <startRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <startTime value="-1.00000000" />
+          <endPos x="1E10" y="1E10" z="1E10" />
+          <endRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <endTime value="-1.00000000" />
+        </Item>
+      </locationData>
+      <0x0696FE9E/>
+    </Item>
+    <Item key="0xC7D50E25" type="0x64E8AC67">
+      <0xC618212A/>
+      <0xBB18B485>
+        <entityId />
+      </0xBB18B485>
+      <0x47B47045 value="false" />
+      <loopCount value="1" />
+      <events>
+        <events>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>P_CRD_2_C01X</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="3.16666700" />
+            <0x420E8F0C value="4.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <clip>
+              <clipDictionaryName>SCRIPT_RC@CHRB@LEADIN@RC1</clipDictionaryName>
+              <clipName>0x4A96303A</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags>0xCC5C6615</animFlags>
+            <flags>0x517B9778</flags>
+            <ragdollBlockingFlags />
+            <ikFlags />
+            <aiFlags />
+            <physFlags />
+            <filter />
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.50000000" />
+            <blendOutDuration value="0.00000000" />
+            <0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <0x68303946 value="false" />
+            <0x1F1E9763 value="false" />
+            <0x03EFD81F/>
+            <pApproach/>
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>JOSIAHTRELAWNY</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="2.41666700" />
+            <0x420E8F0C value="4.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <clip>
+              <clipDictionaryName>SCRIPT_RC@CHRB@LEADIN@RC1</clipDictionaryName>
+              <clipName>0x74B9067F</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags>0xCC5C6615, 0xB46C05A7, 0x5A43CD67, 0x3A00B430</animFlags>
+            <flags>0x517B9778, 0x028D8D60, 0x2385058E, 0xFD520F94</flags>
+            <ragdollBlockingFlags />
+            <ikFlags>0x7CA83DA7, 0x9E7C192B</ikFlags>
+            <aiFlags />
+            <physFlags />
+            <filter />
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.50000000" />
+            <blendOutDuration value="0.75000000" />
+            <0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <0x68303946 value="true" />
+            <0x1F1E9763 value="false" />
+            <0x03EFD81F/>
+            <pApproach/>
+          </Item>
+          <Item type="0xB27E6751">
+            <entity>
+              <entityId>P_CRD_2_C01X</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="2.41666700" />
+            <0x420E8F0C value="0.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="true" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <attachEntity>
+              <entityId>JOSIAHTRELAWNY</entityId>
+            </attachEntity>
+            <attachOffset x="0.00000000" y="0.00000000" z="0.00000000" />
+            <0xF0B2D799 x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+            <0x42598F73 value="false" />
+            <attachBone>ID_PH_R_HAND</attachBone>
+            <action>0x6376976E</action>
+          </Item>
+        </events>
+      </events>
+      <locationData>
+        <Item key="P_CRD_2_C01X" type="0xAD5DFE3C">
+          <startPos x="0.00000000" y="0.00000000" z="0.00000000" />
+          <startRot x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+          <startTime value="0.00000000" />
+          <endPos x="-0.91967300" y="0.05030900" z="0.21029200" />
+          <endRot x="-0.13828800" y="0.42223300" z="0.80119900" w="-0.40084400" />
+          <endTime value="3.16666700" />
+        </Item>
+        <Item key="JOSIAHTRELAWNY" type="0xAD5DFE3C">
+          <startPos x="-5.74692400" y="-25.46039000" z="-0.04871200" />
+          <startRot x="0.00000000" y="0.00000000" z="-0.33115900" w="0.94357500" />
+          <startTime value="0.00000000" />
+          <endPos x="-5.54691400" y="-24.76475000" z="-0.11459100" />
+          <endRot x="0.00000000" y="0.00000000" z="-0.24750000" w="0.96888800" />
+          <endTime value="2.41666700" />
+        </Item>
+        <Item key="ARTHUR" type="0xAD5DFE3C">
+          <startPos x="1E10" y="1E10" z="1E10" />
+          <startRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <startTime value="-1.00000000" />
+          <endPos x="1E10" y="1E10" z="1E10" />
+          <endRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <endTime value="-1.00000000" />
+        </Item>
+      </locationData>
+      <0x0696FE9E/>
+    </Item>
+    <Item key="0xCE29990A" type="0x64E8AC67">
+      <0xC618212A/>
+      <0xBB18B485>
+        <entityId>LOOP</entityId>
+      </0xBB18B485>
+      <0x47B47045 value="true" />
+      <loopCount value="0" />
+      <events>
+        <events>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>JOSIAHTRELAWNY</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="4.80000000" />
+            <0x420E8F0C value="4.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <clip>
+              <clipDictionaryName>SCRIPT_RC@CHRB@LEADIN@RC1</clipDictionaryName>
+              <clipName>0x9E443EB3</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags>0xCC5C6615, 0xB46C05A7, 0x3A00B430</animFlags>
+            <flags>0x517B9778, 0x028D8D60, 0xFD520F94</flags>
+            <ragdollBlockingFlags />
+            <ikFlags>0x7CA83DA7, 0x9E7C192B</ikFlags>
+            <aiFlags />
+            <physFlags />
+            <filter />
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.00000000" />
+            <blendOutDuration value="0.00000000" />
+            <0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <0x68303946 value="true" />
+            <0x1F1E9763 value="false" />
+            <0x03EFD81F/>
+            <pApproach/>
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>P_CRD_2_C01X</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="4.80000000" />
+            <0x420E8F0C value="4.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <clip>
+              <clipDictionaryName>SCRIPT_RC@CHRB@LEADIN@RC1</clipDictionaryName>
+              <clipName>0xD19AFCDA</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags>0xCC5C6615</animFlags>
+            <flags>0x517B9778</flags>
+            <ragdollBlockingFlags />
+            <ikFlags />
+            <aiFlags />
+            <physFlags />
+            <filter />
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.00000000" />
+            <blendOutDuration value="0.00000000" />
+            <0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <0x68303946 value="false" />
+            <0x1F1E9763 value="false" />
+            <0x03EFD81F/>
+            <pApproach/>
+          </Item>
+          <Item type="0xF5E8217E">
+            <entity>
+              <entityId>JOSIAHTRELAWNY</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="4.80000000" />
+            <0x420E8F0C value="0.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="true" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <targetEntity>
+              <entityId>ARTHUR</entityId>
+            </targetEntity>
+            <0x28534F8C>ID_SKEL_HEAD</0x28534F8C>
+            <targetOffset x="0.00000000" y="0.00000000" z="0.00000000" />
+            <0x9869600B>LOOKIK_BLEND_RATE_NORMAL</0x9869600B>
+            <0x202EC9D2>LOOKIK_BLEND_RATE_NORMAL</0x202EC9D2>
+            <0xC9076054>LOOKIK_TURN_RATE_NORMAL</0xC9076054>
+            <0xC31AF87E>LOOKIK_ROT_LIM_WIDEST</0xC31AF87E>
+            <0x76AB286D>LOOKIK_ROT_LIM_WIDEST</0x76AB286D>
+            <0xFAECFADE>LOOKIK_ROT_LIM_WIDEST</0xFAECFADE>
+            <0x9E70D7DE>LOOKIK_ROT_LIM_WIDEST</0x9E70D7DE>
+            <0x4CF9A4B0>LOOKIK_ROT_LIM_WIDEST</0x4CF9A4B0>
+            <0x44A1BA4A>LOOKIK_ROT_LIM_WIDEST</0x44A1BA4A>
+            <0xBC28C697 />
+          </Item>
+          <Item type="0xB27E6751">
+            <entity>
+              <entityId>P_CRD_2_C01X</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="4.80000000" />
+            <0x420E8F0C value="0.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="true" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <attachEntity>
+              <entityId>JOSIAHTRELAWNY</entityId>
+            </attachEntity>
+            <attachOffset x="0.00000000" y="0.00000000" z="0.00000000" />
+            <0xF0B2D799 x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+            <0x42598F73 value="false" />
+            <attachBone>ID_PH_R_HAND</attachBone>
+            <action>0x6376976E</action>
+          </Item>
+        </events>
+      </events>
+      <locationData>
+        <Item key="P_CRD_2_C01X" type="0xAD5DFE3C">
+          <startPos x="0.00000000" y="0.00000000" z="0.00000000" />
+          <startRot x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+          <startTime value="0.00000000" />
+          <endPos x="0.00036300" y="0.00001000" z="-0.00003200" />
+          <endRot x="0.00000300" y="0.00018600" z="0.00006000" w="1.00000000" />
+          <endTime value="4.80000000" />
+        </Item>
+        <Item key="JOSIAHTRELAWNY" type="0xAD5DFE3C">
+          <startPos x="-5.59310700" y="-25.42993000" z="-0.07801300" />
+          <startRot x="0.00000000" y="0.00000000" z="-0.33971800" w="0.94052700" />
+          <startTime value="0.00000000" />
+          <endPos x="-5.59310700" y="-25.42993000" z="-0.07801300" />
+          <endRot x="0.00000000" y="0.00000000" z="-0.33971800" w="0.94052700" />
+          <endTime value="4.80000000" />
+        </Item>
+        <Item key="ARTHUR" type="0xAD5DFE3C">
+          <startPos x="1E10" y="1E10" z="1E10" />
+          <startRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <startTime value="-1.00000000" />
+          <endPos x="1E10" y="1E10" z="1E10" />
+          <endRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <endTime value="-1.00000000" />
+        </Item>
+      </locationData>
+      <0x0696FE9E/>
+    </Item>
+    <Item key="STARE_TO_BASE" type="0x64E8AC67">
+      <0xC618212A/>
+      <0xBB18B485>
+        <entityId />
+      </0xBB18B485>
+      <0x47B47045 value="false" />
+      <loopCount value="1" />
+      <events>
+        <events>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>JOSIAHTRELAWNY</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="5.86666700" />
+            <0x420E8F0C value="4.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <clip>
+              <clipDictionaryName>SCRIPT_RC@CHRB@LEADIN@RC1</clipDictionaryName>
+              <clipName>0xBAD2048A</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags>0xCC5C6615, 0xB46C05A7, 0x3A00B430</animFlags>
+            <flags>0x517B9778, 0x028D8D60, 0xFD520F94</flags>
+            <ragdollBlockingFlags />
+            <ikFlags>0x7CA83DA7, 0x9E7C192B</ikFlags>
+            <aiFlags />
+            <physFlags />
+            <filter />
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.50000000" />
+            <blendOutDuration value="0.00000000" />
+            <0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <0x68303946 value="true" />
+            <0x1F1E9763 value="false" />
+            <0x03EFD81F/>
+            <pApproach/>
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>P_CRD_2_C01X</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="5.86666700" />
+            <0x420E8F0C value="4.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <clip>
+              <clipDictionaryName>SCRIPT_RC@CHRB@LEADIN@RC1</clipDictionaryName>
+              <clipName>0x78096C92</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags>0xCC5C6615</animFlags>
+            <flags>0x517B9778</flags>
+            <ragdollBlockingFlags />
+            <ikFlags />
+            <aiFlags />
+            <physFlags />
+            <filter />
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.00000000" />
+            <blendOutDuration value="0.00000000" />
+            <0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <0x68303946 value="false" />
+            <0x1F1E9763 value="false" />
+            <0x03EFD81F/>
+            <pApproach/>
+          </Item>
+          <Item type="0xF5E8217E">
+            <entity>
+              <entityId>JOSIAHTRELAWNY</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="1.76666700" />
+            <0x420E8F0C value="0.00000000" />
+            <pChildren/>
+            <0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData/>
+            <targetEntity>
+              <entityId>ARTHUR</entityId>
+            </targetEntity>
+            <0x28534F8C>ID_SKEL_HEAD</0x28534F8C>
+            <targetOffset x="0.00000000" y="0.00000000" z="0.00000000" />
+            <0x9869600B>LOOKIK_BLEND_RATE_NORMAL</0x9869600B>
+            <0x202EC9D2>LOOKIK_BLEND_RATE_SLOW</0x202EC9D2>
+            <0xC9076054>LOOKIK_TURN_RATE_NORMAL</0xC9076054>
+            <0xC31AF87E>LOOKIK_ROT_LIM_WIDE</0xC31AF87E>
+            <0x76AB286D>LOOKIK_ROT_LIM_WIDE</0x76AB286D>
+            <0xFAECFADE>LOOKIK_ROT_LIM_WIDE</0xFAECFADE>
+            <0x9E70D7DE>LOOKIK_ROT_LIM_NARROWEST</0x9E70D7DE>
+            <0x4CF9A4B0>LOOKIK_ROT_LIM_OFF</0x4CF9A4B0>
+            <0x44A1BA4A>LOOKIK_ROT_LIM_OFF</0x44A1BA4A>
+            <0xBC28C697 />
+          </Item>
+        </events>
+      </events>
+      <locationData>
+        <Item key="P_CRD_2_C01X" type="0xAD5DFE3C">
+          <startPos x="0.00000000" y="0.00000000" z="0.00000000" />
+          <startRot x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+          <startTime value="0.00000000" />
+          <endPos x="-0.13945300" y="0.23214600" z="-0.33004600" />
+          <endRot x="-0.22067000" y="0.35550600" z="0.77466300" w="0.47414900" />
+          <endTime value="5.86666700" />
+        </Item>
+        <Item key="JOSIAHTRELAWNY" type="0xAD5DFE3C">
+          <startPos x="-5.59310700" y="-25.42993000" z="-0.07801300" />
+          <startRot x="0.00000000" y="0.00000000" z="-0.33971800" w="0.94052700" />
+          <startTime value="0.00000000" />
+          <endPos x="-5.74688700" y="-25.46024000" z="-0.04856600" />
+          <endRot x="0.00000000" y="0.00000000" z="-0.33118200" w="0.94356700" />
+          <endTime value="5.86666700" />
+        </Item>
+        <Item key="ARTHUR" type="0xAD5DFE3C">
+          <startPos x="1E10" y="1E10" z="1E10" />
+          <startRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <startTime value="-1.00000000" />
+          <endPos x="1E10" y="1E10" z="1E10" />
+          <endRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <endTime value="-1.00000000" />
+        </Item>
+      </locationData>
+      <0x0696FE9E/>
+    </Item>
+  </sections>
+  <playLists>
+    <Item key="PL_BASE" type="0xA90B7F7E">
+      <sections>
+        <Item>BASE</Item>
+      </sections>
+    </Item>
+    <Item key="PL_ENTER" type="0xA90B7F7E">
+      <sections>
+        <Item>ENTER</Item>
+        <Item>BASE</Item>
+      </sections>
+    </Item>
+    <Item key="PL_STARE_TO_BASE" type="0xA90B7F7E">
+      <sections>
+        <Item>STARE_TO_BASE</Item>
+        <Item>BASE</Item>
+      </sections>
+    </Item>
+    <Item key="0xBC574741" type="0xA90B7F7E">
+      <sections>
+        <Item>0xC7D50E25</Item>
+      </sections>
+    </Item>
+    <Item key="PL_BASE_TO_STARE" type="0xA90B7F7E">
+      <sections>
+        <Item>BASE_TO_STARE</Item>
+        <Item>0xCE29990A</Item>
+      </sections>
+    </Item>
+    <Item key="PL_BASE_EXIT" type="0xA90B7F7E">
+      <sections>
+        <Item>BASE_EXIT</Item>
+      </sections>
+    </Item>
+  </playLists>
+  <flags />
+  <version value="17" />
+  <jenniferInterrelationCollections>0xB418ED04</jenniferInterrelationCollections>
+  <toolData/>
+  <0x29C25EC9 />
+  <stateMachine>
+    <initialTransitions />
+    <states />
+    <editorData/>
+  </stateMachine>
+  <0x8FB2F5A4>0x0FD92FB4</0x8FB2F5A4>
+  <0x0558B627 value="false" />
+</fwAnimSceneData>

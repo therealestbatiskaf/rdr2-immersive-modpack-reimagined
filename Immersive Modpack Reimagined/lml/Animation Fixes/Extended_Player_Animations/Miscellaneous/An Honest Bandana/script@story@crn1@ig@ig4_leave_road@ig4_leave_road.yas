@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<fwAnimSceneData>
+  <sceneOrigin>
+    <matrix content="matrix34">
+      1.00000000	0.00000000	0.00000000 0.00000000
+      0.00000000	1.00000000	0.00000000 0.00000000
+      0.00000000	0.00000000	1.00000000 0.00000000
+    </matrix>
+  </sceneOrigin>
+  <entities>
+    <Item key="AUDIO" type="0x9B9E7F24">
+      <toolData type="NULL" />
+      <conditions type="NULL" />
+      <evaluationType>0xBAFBD7EA</evaluationType>
+      <UNK_MEMBER_0x91B14099>
+        <Item>
+          <UNK_MEMBER_0x84B954E7>
+            <entityId>CS_UNCLE</entityId>
+          </UNK_MEMBER_0x84B954E7>
+          <UNK_MEMBER_0xEE56E9D8>UNCLE</UNK_MEMBER_0xEE56E9D8>
+        </Item>
+      </UNK_MEMBER_0x91B14099>
+      <UNK_MEMBER_0x62ADE224>0xE29A243B</UNK_MEMBER_0x62ADE224>
+      <UNK_MEMBER_0xA5E7A3A7>0x3826FD35</UNK_MEMBER_0xA5E7A3A7>
+      <UNK_MEMBER_0x2BA84559>
+        <Item>
+          <PlayListId>*</PlayListId>
+          <UNK_MEMBER_0x7E7D4D7B>
+            <Item>CRN1_IG4</Item>
+          </UNK_MEMBER_0x7E7D4D7B>
+        </Item>
+        <Item>
+          <PlayListId />
+          <UNK_MEMBER_0x7E7D4D7B>
+            <Item>CRN1_IG4</Item>
+          </UNK_MEMBER_0x7E7D4D7B>
+        </Item>
+        <Item>
+          <PlayListId>PBL_LEAVE_ROAD</PlayListId>
+          <UNK_MEMBER_0x7E7D4D7B>
+            <Item>CRN1_IG4</Item>
+          </UNK_MEMBER_0x7E7D4D7B>
+        </Item>
+      </UNK_MEMBER_0x2BA84559>
+    </Item>
+    <Item key="CS_UNCLE" type="0x64D97283">
+      <toolData type="NULL" />
+      <conditions type="NULL" />
+      <evaluationType>0xBAFBD7EA</evaluationType>
+      <debugModelName>CS_UNCLE</debugModelName>
+      <UNK_MEMBER_0xDC110A02 type="NULL" />
+      <optional value="false" />
+      <transient value="false" />
+      <overrideLifeTime value="false" />
+      <UNK_MEMBER_0x03EFD81F type="NULL" />
+      <UNK_MEMBER_0xE825C15F value="false" />
+      <createEntity value="false" />
+      <physicalFlags />
+      <linkedEntity>
+        <entityId />
+      </linkedEntity>
+      <leadIns />
+      <initialInventory>
+        <inventory />
+      </initialInventory>
+      <pedFlags />
+      <outfit />
+      <subOutfit />
+      <UNK_MEMBER_0xFF8220B9 type="NULL" />
+    </Item>
+  </entities>
+  <sections>
+    <Item key="0x06E8E69E" type="0x64E8AC67">
+      <UNK_MEMBER_0xC618212A type="NULL" />
+      <UNK_MEMBER_0xBB18B485>
+        <entityId />
+      </UNK_MEMBER_0xBB18B485>
+      <UNK_MEMBER_0x47B47045 value="false" />
+      <loopCount value="1" />
+      <events>
+        <events>
+          <Item type="0x865451B7">
+            <entity>
+              <entityId>AUDIO</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="5.23333300" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="true" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <UNK_MEMBER_0x84B954E7>
+              <entityId />
+            </UNK_MEMBER_0x84B954E7>
+            <UNK_MEMBER_0xC7CF1919 />
+            <SoundName />
+            <OffsetTime value="0.00000000" />
+            <UNK_MEMBER_0x8F23A822 value="true" />
+            <UNK_MEMBER_0x4C4A3860 value="false" />
+            <UNK_MEMBER_0xDDB12FE3 value="false" />
+            <UNK_MEMBER_0xE5F31F59 value="false" />
+            <UNK_MEMBER_0x7C864873 />
+            <Name>CRN1_IG4</Name>
+            <UNK_MEMBER_0xA5B1359C value="false" />
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>CS_UNCLE</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="5.23333300" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <clip>
+              <clipDictionaryName>SCRIPT_STORY@CRN1@IG@IG4_LEAVE_ROAD</clipDictionaryName>
+              <clipName>CRN1_IG4_LEAVE_ROAD_UNCLE</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags>AF_NOT_INTERRUPTABLE 0xE2256170 0x083BF689</animFlags>
+            <flags>TAF_NOT_INTERRUPTABLE 0x1E1C96F0</flags>
+            <ragdollBlockingFlags />
+            <ikFlags>AIK_DISABLE_LEG_IK 0x3AB0EBA0 0x4E4CC067</ikFlags>
+            <aiFlags>TAAF_SECONDARY</aiFlags>
+            <physFlags />
+            <filter>upperbodyfeathered_norightarm_filter</filter>
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.50000000" />
+            <blendOutDuration value="0.850000000" />
+            <UNK_MEMBER_0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <useSceneOrigin value="false" />
+            <UNK_MEMBER_0x1F1E9763 value="false" />
+            <UNK_MEMBER_0x03EFD81F type="NULL" />
+            <pApproach type="NULL" />
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>CS_UNCLE</entityId>
+            </entity>
+            <startTime value="15.00000000" />
+            <endTime value="16.50000000" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <clip>
+              <clipDictionaryName>mech_inventory@equip_facemask@fallbacks</clipDictionaryName>
+              <clipName>bandana_exit_l</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags />
+            <flags>TAF_NOT_INTERRUPTABLE 0x1E1C96F0</flags>
+            <ragdollBlockingFlags />
+            <ikFlags>AIK_DISABLE_LEG_IK 0x3AB0EBA0 0x49F60A52 0x32939A0E</ikFlags>
+            <aiFlags>TAAF_SECONDARY</aiFlags>
+            <physFlags />
+            <filter>upperbodyfeathered_norightarm_partialhead_filter</filter>
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.45000000" />
+            <blendOutDuration value="1.50000000" />
+            <UNK_MEMBER_0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <useSceneOrigin value="false" />
+            <UNK_MEMBER_0x1F1E9763 value="false" />
+            <UNK_MEMBER_0x03EFD81F type="NULL" />
+            <pApproach type="NULL" />
+          </Item>
+          <Item type="0x1C5972AF">
+            <entity>
+              <entityId>CS_UNCLE</entityId>
+            </entity>
+            <startTime value="15.60000000" />
+            <endTime value="15.60000000" />
+            <0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <0x59B92C03 value="true" />
+            <outfitName>META_OUTFIT_WARM_WEATHER</outfitName>
+            <subOutfitName />
+          </Item>
+          <Item type="0x1C5972AF">
+            <entity>
+              <entityId>CS_UNCLE</entityId>
+            </entity>
+            <startTime value="15.600000000" />
+            <endTime value="16.50000000" />
+            <0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <0x59B92C03 value="true" />
+            <outfitName>0xEFD287E7</outfitName>
+            <subOutfitName />
+          </Item>
+        </events>
+      </events>
+      <locationData>
+        <Item key="AUDIO" type="0xAD5DFE3C">
+          <startPos x="1E10" y="1E10" z="1E10" />
+          <startRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <startTime value="0.00000000" />
+          <endPos x="1E10" y="1E10" z="1E10" />
+          <endRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <endTime value="5.23333500" />
+        </Item>
+        <Item key="CS_UNCLE" type="0xAD5DFE3C">
+          <startPos x="0.00000000" y="0.00000000" z="0.00000000" />
+          <startRot x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+          <startTime value="0.00000000" />
+          <endPos x="0.00000000" y="0.00000000" z="0.00000000" />
+          <endRot x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+          <endTime value="16.50000000" />
+        </Item>
+        <Item key="P_C_HORSE_01" type="0xAD5DFE3C">
+          <startPos x="-11.41005000" y="-8.19973300" z="1.30596300" />
+          <startRot x="0.00537000" y="0.00649300" z="-0.48784200" w="0.87289100" />
+          <startTime value="0.00000000" />
+          <endPos x="-11.41005000" y="-8.19973300" z="1.30596300" />
+          <endRot x="0.00537000" y="0.00649300" z="-0.48784200" w="0.87289100" />
+          <endTime value="5.23333500" />
+        </Item>
+      </locationData>
+      <UNK_MEMBER_0x0696FE9E type="NULL" />
+    </Item>
+  </sections>
+  <playLists>
+    <Item key="PBL_LEAVE_ROAD" type="0xA90B7F7E">
+      <sections>
+        <Item>0x06E8E69E</Item>
+      </sections>
+    </Item>
+  </playLists>
+  <flags />
+  <version value="17" />
+  <jenniferInterrelationCollections>0xB418ED04</jenniferInterrelationCollections>
+  <toolData type="NULL" />
+  <compositeScenes />
+  <stateMachine>
+    <initialTransitions />
+    <states />
+    <editorData type="NULL" />
+  </stateMachine>
+  <UNK_MEMBER_0x8FB2F5A4>0xF3E3B5ED</UNK_MEMBER_0x8FB2F5A4>
+  <UNK_MEMBER_0x0558B627 value="false" />
+</fwAnimSceneData>

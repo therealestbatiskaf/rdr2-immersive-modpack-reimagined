@@ -1,0 +1,55 @@
+<EasyInstall>
+    <Name>Kiddo's Hardcore Loot Economy Overhaul</Name>
+    <Author>JackKiddArt</Author>
+    <Version>2.4</Version>
+    <Link>https://www.nexusmods.com/reddeadredemption2/mods/4441</Link>
+    <Metadata>
+    </Metadata>
+    <Resources>
+		<Resource>
+			<DataFile>strings.gxt2</DataFile>
+		</Resource>
+        <Resource>
+            <FileReplacement>
+                <GamePath>platform:/data/itemdatabase/catalog_sp.ymt</GamePath>
+                <FilePath>catalog_sp.ymt</FilePath>
+            </FileReplacement>
+			<!-- LOOT TABLES -->
+			<FileReplacement>
+                <GamePath>update:/common/data/ai/looting/lootconfigdata.meta</GamePath>
+                <FilePath>lootconfigdata.meta</FilePath>
+            </FileReplacement>
+			<FileReplacement>
+                <GamePath>common:/data/loot_tables/loot_table_ped.meta</GamePath>
+                <FilePath>loot_table_ped.meta</FilePath>
+            </FileReplacement>
+			<FileReplacement>
+                <GamePath>common:/data/loot_tables/loot_table_itemgroups.meta</GamePath>
+                <FilePath>loot_table_itemgroups.meta</FilePath>
+            </FileReplacement>
+			<FileReplacement>
+                <GamePath>common:/data/loot_tables/loot_table_reward.meta</GamePath>
+                <FilePath>loot_table_reward.meta</FilePath>
+			</FileReplacement>
+			<FileReplacement>
+                <GamePath>update:/common/data/damage/loot_table_container.meta</GamePath>
+                <FilePath>loot_table_container.meta</FilePath>
+            </FileReplacement>
+			<!-- MEAT & FEATHER DROPS -->
+			<FileReplacement>
+                <GamePath>update:/common/data/loot_tables/loot_items_matrix.meta</GamePath>
+                <FilePath>loot_items_matrix.meta</FilePath>
+            </FileReplacement>
+			<!-- PELT DAMAGE WEAPON OPTIONS -->
+			<FileReplacement>
+                <GamePath>update:/common/data/damage/damagecleanlinessdata.meta</GamePath>
+                <FilePath>damagecleanlinessdata.meta</FilePath>
+            </FileReplacement>
+			<!-- NAVY REVOLVER -->
+			<FileReplacement>
+                <GamePath>update:/x64/pack_patch/mp006/data/ai/weapon_revolver_navy.ymt</GamePath>
+                <FilePath>weapon_revolver_navy.ymt</FilePath>
+            </FileReplacement>
+        </Resource>
+    </Resources>
+</EasyInstall>

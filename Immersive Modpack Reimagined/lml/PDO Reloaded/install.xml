@@ -1,0 +1,34 @@
+<EasyInstall>
+  <Name>PDO Reloaded Data Files</Name>
+  <Author>Starkweather43</Author>
+  <Version>1.2</Version>
+  <Link></Link>
+  <Metadata></Metadata>
+    <Resources>
+		<Resource>
+		<StreamingFiles>noreticle</StreamingFiles>
+			</Resource>
+        <Resource>
+		<FileReplacements>
+                <GamePath>audio:/sfx/S_MISC</GamePath>
+                <FilePath>audio/sfx/S_MISC</FilePath>
+            </FileReplacements>
+		<FileReplacements>
+                <GamePath>audio:/sfx/ANIMALS_FAR</GamePath>
+                <FilePath>audio/sfx/ANIMALS_FAR</FilePath>
+            </FileReplacements>
+		<FileReplacements>
+                <GamePath>audio:/sfx/S_RE</GamePath>
+                <FilePath>audio/sfx/S_RE</FilePath>
+            </FileReplacements>
+		<FileReplacement>
+				<GamePath>update:/common/data/ai/peddamageinfo.meta</GamePath>
+				<FilePath>common/data/ai/peddamageinfo.meta</FilePath>
+			</FileReplacement>
+		<FileReplacement>
+				<GamePath>update:/common/data/damage/default_damage_modifiers.meta</GamePath>
+				<FilePath>common/data/damage/default_damage_modifiers.meta</FilePath>
+			</FileReplacement>
+        </Resource>
+    </Resources>
+</EasyInstall>

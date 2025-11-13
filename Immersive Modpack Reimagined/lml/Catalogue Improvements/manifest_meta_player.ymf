@@ -1,0 +1,2354 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CPackFileMetaData>
+<MapDataGroups/>
+<HDTxdBindingArray/>
+<imapDependencies/>
+<imapDependencies_2/>
+<itypDependencies_2/>
+<Interiors/>
+<0xE4E2A5F7/>
+<0x637C584A/>
+<txdRelationships/>
+<imapAliases/>
+<assetOwnerMap>
+
+<Item key="player_zero_holster_belt_002_alt">
+ <owner>player_zero_holster_merge_6</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_020_alt">
+ <owner>player_zero_holster_merge_6</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_zero_gloves_024_full_c0_000_nm">
+ <owner>player_zero_gloves_024_full_c0_000_merge</owner>
+ <ownerHd>player_zero_gloves_024_full_c0_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_gloves_024_full_c0_000_m">
+ <owner>player_zero_gloves_024_full_c0_000_merge</owner>
+ <ownerHd>player_zero_gloves_024_full_c0_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="0"/>
+</Item>
+<Item key="player_zero_gloves_024_full_c0_000_ab">
+ <owner>player_zero_gloves_024_full_c0_000_merge</owner>
+ <ownerHd>player_zero_gloves_024_full_c0_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="cs_warvet_ms1_hat_000_c0_000_ab">
+ <owner>cs_warvet_ms1_hat_000_c0_000_merge</owner>
+ <ownerHd>cs_warvet_ms1_hat_000_c0_000_merge+hi</ownerHd>
+ <index1 value="3" />
+ <index2 value="65535" />
+</Item>
+<Item key="cs_warvet_ms1_hat_000_c0_000_m">
+ <owner>cs_warvet_ms1_hat_000_c0_000_merge</owner>
+ <ownerHd>cs_warvet_ms1_hat_000_c0_000_merge+hi</ownerHd>
+ <index1 value="1" />
+ <index2 value="0" />
+</Item>
+<Item key="cs_warvet_ms1_hat_000_c0_000_nm">
+ <owner>cs_warvet_ms1_hat_000_c0_000_merge</owner>
+ <ownerHd>cs_warvet_ms1_hat_000_c0_000_merge+hi</ownerHd>
+ <index1 value="2" />
+ <index2 value="65535" />
+</Item>
+
+<Item key="player_zero_ust_000_o_u_whole_c1_000_nm">
+ <owner>player_zero_us_merge_3</owner>
+ <ownerHd>player_zero_us_merge_3+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_ust_000_o_u_whole_c1_000_m">
+ <owner>player_zero_us_merge_3</owner>
+ <ownerHd>player_zero_us_merge_3+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="1"/>
+</Item>
+<Item key="player_zero_ust_000_o_u_whole_c1_001_ab">
+ <owner>player_zero_us_merge_3</owner>
+ <ownerHd>player_zero_us_merge_3+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_zero_necktie_001_up_full_c0_000_nm">
+ <owner>player_zero_necktie_001_up_full_c0_000_merge</owner>
+ <ownerHd>player_zero_necktie_001_up_full_c0_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_necktie_001_up_full_c0_000_m">
+ <owner>player_zero_necktie_001_up_full_c0_000_merge</owner>
+ <ownerHd>player_zero_necktie_001_up_full_c0_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="1"/>
+</Item>
+<Item key="player_zero_necktie_001_up_full_c0_000_ab">
+ <owner>player_zero_necktie_001_up_full_c0_000_merge</owner>
+ <ownerHd>player_zero_necktie_001_up_full_c0_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_zero_facecombo_000_c0_000_nm">
+ <owner>player_zero_facecombo_000_c0_000_merge</owner>
+ <ownerHd>player_zero_facecombo_000_c0_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_facecombo_000_c0_000_m">
+ <owner>player_zero_facecombo_000_c0_000_merge</owner>
+ <ownerHd>player_zero_facecombo_000_c0_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="3"/>
+</Item>
+<Item key="player_zero_facecombo_000_c0_000_ab">
+ <owner>player_zero_facecombo_000_c0_000_merge</owner>
+ <ownerHd>player_zero_facecombo_000_c0_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_three_ms1_eyes_000_c0_000_ab">
+ <owner>player_three_ms1_eyes_000_merge</owner>
+ <ownerHd>player_three_ms1_eyes_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_eyes_000_c0_000_m">
+ <owner>player_three_ms1_eyes_000_merge</owner>
+ <ownerHd>player_three_ms1_eyes_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="3"/>
+</Item>
+<Item key="player_three_ms1_eyes_000_c0_000_nm">
+ <owner>player_three_ms1_eyes_000_merge</owner>
+ <ownerHd>player_three_ms1_eyes_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_zero_holster_cup_019_c1_000_nm">
+ <owner>player_zero_holster_cup_019_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_019_c1_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_019_c1_000_m">
+ <owner>player_zero_holster_cup_019_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_019_c1_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="2"/>
+</Item>
+<Item key="player_zero_holster_cup_019_c1_000_ab">
+ <owner>player_zero_holster_cup_019_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_019_c1_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_zero_holster_cup_017_c1_000_nm">
+ <owner>player_zero_holster_cup_017_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_017_c1_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_017_c1_000_m">
+ <owner>player_zero_holster_cup_017_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_017_c1_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="0"/>
+</Item>
+<Item key="player_zero_holster_cup_017_c1_000_ab">
+ <owner>player_zero_holster_cup_017_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_017_c1_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_zero_holster_cup_015_c1_000_nm">
+ <owner>player_zero_holster_cup_015_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_015_c1_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_015_c1_000_m">
+ <owner>player_zero_holster_cup_015_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_015_c1_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="1"/>
+</Item>
+<Item key="player_zero_holster_cup_015_c1_000_ab">
+ <owner>player_zero_holster_cup_015_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_015_c1_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_zero_holster_cup_013_c3_000_nm">
+ <owner>player_zero_holster_cup_013_c3_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_013_c3_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_013_c3_000_m">
+ <owner>player_zero_holster_cup_013_c3_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_013_c3_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="0"/>
+</Item>
+<Item key="player_zero_holster_cup_013_c3_000_ab">
+ <owner>player_zero_holster_cup_013_c3_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_013_c3_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_zero_holster_cup_013_c2_000_nm">
+ <owner>player_zero_holster_cup_013_c2_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_013_c2_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_013_c2_000_m">
+ <owner>player_zero_holster_cup_013_c2_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_013_c2_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="2"/>
+</Item>
+<Item key="player_zero_holster_cup_013_c2_000_ab">
+ <owner>player_zero_holster_cup_013_c2_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_013_c2_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_zero_holster_cup_011_c1_000_nm">
+ <owner>player_zero_holster_cup_011_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_011_c1_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_011_c1_000_m">
+ <owner>player_zero_holster_cup_011_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_011_c1_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="0"/>
+</Item>
+<Item key="player_zero_holster_cup_011_c1_000_ab">
+ <owner>player_zero_holster_cup_011_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_011_c1_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_zero_holster_cup_009_c1_000_nm">
+ <owner>player_zero_holster_cup_009_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_009_c1_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_009_c1_000_m">
+ <owner>player_zero_holster_cup_009_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_009_c1_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="1"/>
+</Item>
+<Item key="player_zero_holster_cup_009_c1_000_ab">
+ <owner>player_zero_holster_cup_009_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_009_c1_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_zero_holster_cup_008_c2_000_nm">
+ <owner>player_zero_holster_cup_008_c2_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_008_c2_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_008_c2_000_m">
+ <owner>player_zero_holster_cup_008_c2_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_008_c2_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="3"/>
+</Item>
+<Item key="player_zero_holster_cup_008_c2_000_ab">
+ <owner>player_zero_holster_cup_008_c2_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_008_c2_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_zero_holster_cup_007_c1_000_nm">
+ <owner>player_zero_holster_cup_007_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_007_c1_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_007_c1_000_m">
+ <owner>player_zero_holster_cup_007_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_007_c1_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="1"/>
+</Item>
+<Item key="player_zero_holster_cup_007_c1_000_ab">
+ <owner>player_zero_holster_cup_007_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_007_c1_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_zero_holster_cup_005_c3_000_nm">
+ <owner>player_zero_holster_cup_005_c3_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_005_c3_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_005_c3_000_m">
+ <owner>player_zero_holster_cup_005_c3_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_005_c3_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="1"/>
+</Item>
+<Item key="player_zero_holster_cup_005_c3_000_ab">
+ <owner>player_zero_holster_cup_005_c3_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_005_c3_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_zero_holster_cup_005_c2_000_nm">
+ <owner>player_zero_holster_cup_005_c2_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_005_c2_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_005_c2_000_m">
+ <owner>player_zero_holster_cup_005_c2_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_005_c2_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="2"/>
+</Item>
+<Item key="player_zero_holster_cup_005_c2_000_ab">
+ <owner>player_zero_holster_cup_005_c2_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_005_c2_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_zero_holster_cup_004_c1_000_nm">
+ <owner>player_zero_holster_cup_004_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_004_c1_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_004_c1_000_m">
+ <owner>player_zero_holster_cup_004_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_004_c1_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="1"/>
+</Item>
+<Item key="player_zero_holster_cup_004_c1_000_ab">
+ <owner>player_zero_holster_cup_004_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_004_c1_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_zero_holster_cup_003_c1_000_nm">
+ <owner>player_zero_holster_cup_003_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_003_c1_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_003_c1_000_m">
+ <owner>player_zero_holster_cup_003_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_003_c1_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="2"/>
+</Item>
+<Item key="player_zero_holster_cup_003_c1_000_ab">
+ <owner>player_zero_holster_cup_003_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_003_c1_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_zero_holster_cup_000_c1_000_nm">
+ <owner>player_zero_holster_cup_000_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_000_c1_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_000_c1_000_m">
+ <owner>player_zero_holster_cup_000_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_000_c1_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="3"/>
+</Item>
+<Item key="player_zero_holster_cup_000_c1_000_ab">
+ <owner>player_zero_holster_cup_000_c1_000_merge</owner>
+ <ownerHd>player_zero_holster_cup_000_c1_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_three_ms1_holster_cup_001_c1_000_nm">
+ <owner>player_three_ms1_holster_cup_001_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_holster_cup_001_c1_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_holster_cup_001_c1_000_m">
+ <owner>player_three_ms1_holster_cup_001_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_holster_cup_001_c1_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="0"/>
+</Item>
+<Item key="player_three_ms1_holster_cup_001_c1_000_ab">
+ <owner>player_three_ms1_holster_cup_001_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_holster_cup_001_c1_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_three_ms1_holster_cup_000_c1_000_nm">
+ <owner>player_three_ms1_holster_cup_000_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_holster_cup_000_c1_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_holster_cup_000_c1_000_m">
+ <owner>player_three_ms1_holster_cup_000_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_holster_cup_000_c1_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="3"/>
+</Item>
+<Item key="player_three_ms1_holster_cup_000_c1_000_ab">
+ <owner>player_three_ms1_holster_cup_000_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_holster_cup_000_c1_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_three_ms1_bandolier_002_c0_000_nm">
+ <owner>player_three_ms1_bandolier_002_c0_000_merge</owner>
+ <ownerHd>player_three_ms1_bandolier_002_c0_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_bandolier_002_c0_000_m">
+ <owner>player_three_ms1_bandolier_002_c0_000_merge</owner>
+ <ownerHd>player_three_ms1_bandolier_002_c0_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="2"/>
+</Item>
+<Item key="player_three_ms1_bandolier_002_c0_000_ab">
+ <owner>player_three_ms1_bandolier_002_c0_000_merge</owner>
+ <ownerHd>player_three_ms1_bandolier_002_c0_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_three_ms1_bandolier_003_c0_000_nm">
+ <owner>player_three_ms1_bandolier_003_c0_000_merge</owner>
+ <ownerHd>player_three_ms1_bandolier_003_c0_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_bandolier_003_c0_000_m">
+ <owner>player_three_ms1_bandolier_003_c0_000_merge</owner>
+ <ownerHd>player_three_ms1_bandolier_003_c0_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="0"/>
+</Item>
+<Item key="player_three_ms1_bandolier_003_c0_000_ab">
+ <owner>player_three_ms1_bandolier_003_c0_000_merge</owner>
+ <ownerHd>player_three_ms1_bandolier_003_c0_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_three_ms1_facecombo_000_c0_000_nm">
+ <owner>player_three_ms1_facecombo_000_merge</owner>
+ <ownerHd>player_three_ms1_facecombo_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_facecombo_000_c0_000_m">
+ <owner>player_three_ms1_facecombo_000_merge</owner>
+ <ownerHd>player_three_ms1_facecombo_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="2"/>
+</Item>
+<Item key="player_three_ms1_facecombo_000_c0_000_ab">
+ <owner>player_three_ms1_facecombo_000_merge</owner>
+ <ownerHd>player_three_ms1_facecombo_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_three_ms1_holster_belt_000_c1_000_nm">
+ <owner>player_three_ms1_holster_belt_000_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_holster_belt_000_c1_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_holster_belt_000_c1_000_m">
+ <owner>player_three_ms1_holster_belt_000_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_holster_belt_000_c1_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="1"/>
+</Item>
+<Item key="player_three_ms1_holster_belt_000_c1_000_ab">
+ <owner>player_three_ms1_holster_belt_000_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_holster_belt_000_c1_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_three_ms1_mask_002_c0_000_nm">
+ <owner>player_three_ms1_mask_002_c0_000_merge</owner>
+ <ownerHd>player_three_ms1_mask_002_c0_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_mask_002_c0_000_m">
+ <owner>player_three_ms1_mask_002_c0_000_merge</owner>
+ <ownerHd>player_three_ms1_mask_002_c0_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="1"/>
+</Item>
+<Item key="player_three_ms1_mask_002_c0_000_ab">
+ <owner>player_three_ms1_mask_002_c0_000_merge</owner>
+ <ownerHd>player_three_ms1_mask_002_c0_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_three_ms1_coat_004_open_c0_000_nm">
+ <owner>player_three_ms1_coat_004_open_c0_000_merge</owner>
+ <ownerHd>player_three_ms1_coat_004_open_c0_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_coat_004_open_c0_000_m">
+ <owner>player_three_ms1_coat_004_open_c0_000_merge</owner>
+ <ownerHd>player_three_ms1_coat_004_open_c0_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="0"/>
+</Item>
+<Item key="player_three_ms1_coat_004_open_c0_000_ab">
+ <owner>player_three_ms1_coat_004_open_c0_000_merge</owner>
+ <ownerHd>player_three_ms1_coat_004_open_c0_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_three_ms1_vest_001_co_custom_chap">
+ <owner>player_three_ms1_vest_001_co_custom_chap</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_three_ms1_undershirt_000_c0_000_nm">
+ <owner>player_three_ms1_undershirt_000_c0_000_merge</owner>
+ <ownerHd>player_three_ms1_undershirt_000_c0_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_undershirt_000_c0_000_m">
+ <owner>player_three_ms1_undershirt_000_c0_000_merge</owner>
+ <ownerHd>player_three_ms1_undershirt_000_c0_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="0"/>
+</Item>
+<Item key="player_three_ms1_undershirt_000_c0_000_ab">
+ <owner>player_three_ms1_undershirt_000_c0_000_merge</owner>
+ <ownerHd>player_three_ms1_undershirt_000_c0_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+
+<!-- <Item key="player_three_ms1_coat_002_open">
+ <owner>player_three_ms1_coat_002_open</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item> -->
+
+<Item key="player_three_ms1_holster_cup_000_001">
+ <owner>player_three_ms1_merge_14</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_holster_belt_000_001">
+ <owner>player_three_ms1_merge_14</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_three_ms1_vest_002_full_custom_chap">
+ <owner>player_three_ms1_vest_002_full_custom_chap</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+
+<!--  START  ////  SHIRTS ////  START  -->
+
+<Item key="player_three_ms1_shirt_002_o_r_full_c0_002_m">
+ <owner>player_three_ms1_shirt_002_o_r_full_c0_002_merge</owner>
+ <ownerHd>player_three_ms1_shirt_002_o_r_full_c0_002_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="0"/>
+</Item>
+
+<Item key="player_three_ms1_shirt_002_o_b_full_c0_002_m">
+ <owner>player_three_ms1_shirt_002_o_b_full_c0_002_merge</owner>
+ <ownerHd>player_three_ms1_shirt_002_o_b_full_c0_002_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="1"/>
+</Item>
+
+<Item key="player_three_ms1_shirt_002_c_r_full_c0_002_m">
+ <owner>player_three_ms1_shirt_002_c_r_full_c0_002_merge</owner>
+ <ownerHd>player_three_ms1_shirt_002_c_r_full_c0_002_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="1"/>
+</Item>
+
+<Item key="player_three_ms1_shirt_002_c_b_full_c0_002_m">
+ <owner>player_three_ms1_shirt_002_c_b_full_c0_002_merge</owner>
+ <ownerHd>player_three_ms1_shirt_002_c_b_full_c0_002_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="1"/>
+</Item>
+
+
+<Item key="player_three_ms1_shirt_002_o_r_full_c0_001_m">
+ <owner>player_three_ms1_shirt_002_o_r_full_c0_001_merge</owner>
+ <ownerHd>player_three_ms1_shirt_002_o_r_full_c0_001_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="0"/>
+</Item>
+
+<Item key="player_three_ms1_shirt_002_o_b_full_c0_001_m">
+ <owner>player_three_ms1_shirt_002_o_b_full_c0_001_merge</owner>
+ <ownerHd>player_three_ms1_shirt_002_o_b_full_c0_001_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="0"/>
+</Item>
+
+<Item key="player_three_ms1_shirt_002_c_r_full_c0_001_m">
+ <owner>player_three_ms1_shirt_002_c_r_full_c0_001_merge</owner>
+ <ownerHd>player_three_ms1_shirt_002_c_r_full_c0_001_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="1"/>
+</Item>
+
+<Item key="player_three_ms1_shirt_002_c_b_full_c0_001_m">
+ <owner>player_three_ms1_shirt_002_c_b_full_c0_001_merge</owner>
+ <ownerHd>player_three_ms1_shirt_002_c_b_full_c0_001_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="0"/>
+</Item>
+
+
+<Item key="player_three_ms1_shirt_002_o_r_full_c1_000_nm">
+ <owner>player_three_ms1_shirt_002_o_r_full_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_shirt_002_o_r_full_c1_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_shirt_002_o_r_full_c1_000_m">
+ <owner>player_three_ms1_shirt_002_o_r_full_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_shirt_002_o_r_full_c1_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="1"/>
+</Item>
+<Item key="player_three_ms1_shirt_002_o_r_full_c1_000_ab">
+ <owner>player_three_ms1_shirt_002_o_r_full_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_shirt_002_o_r_full_c1_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_three_ms1_shirt_002_o_b_full_c1_000_nm">
+ <owner>player_three_ms1_shirt_002_o_b_full_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_shirt_002_o_b_full_c1_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_shirt_002_o_b_full_c1_000_m">
+ <owner>player_three_ms1_shirt_002_o_b_full_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_shirt_002_o_b_full_c1_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="1"/>
+</Item>
+<Item key="player_three_ms1_shirt_002_o_b_full_c1_000_ab">
+ <owner>player_three_ms1_shirt_002_o_b_full_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_shirt_002_o_b_full_c1_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_three_ms1_shirt_002_c_r_full_c1_000_nm">
+ <owner>player_three_ms1_shirt_002_c_r_full_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_shirt_002_c_r_full_c1_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_shirt_002_c_r_full_c1_000_m">
+ <owner>player_three_ms1_shirt_002_c_r_full_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_shirt_002_c_r_full_c1_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="2"/>
+</Item>
+<Item key="player_three_ms1_shirt_002_c_r_full_c1_000_ab">
+ <owner>player_three_ms1_shirt_002_c_r_full_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_shirt_002_c_r_full_c1_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+
+<Item key="player_three_ms1_shirt_002_c_b_full_c1_000_nm">
+ <owner>player_three_ms1_shirt_002_c_b_full_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_shirt_002_c_b_full_c1_000_merge+hi</ownerHd>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_shirt_002_c_b_full_c1_000_m">
+ <owner>player_three_ms1_shirt_002_c_b_full_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_shirt_002_c_b_full_c1_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="1"/>
+</Item>
+<Item key="player_three_ms1_shirt_002_c_b_full_c1_000_ab">
+ <owner>player_three_ms1_shirt_002_c_b_full_c1_000_merge</owner>
+ <ownerHd>player_three_ms1_shirt_002_c_b_full_c1_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+
+<!--  END  ////  SHIRTS ////  END  -->
+
+<Item key="player_zero_shirt_000_o_r_full_custom_c1_000_m">
+ <owner>player_zero_shirt_000_o_r_full_custom_c1_000_merge</owner>
+ <ownerHd>player_zero_shirt_000_o_r_full_custom_c1_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="0"/>
+</Item>
+<Item key="player_zero_shirt_000_o_r_full_custom_c1_000_nm">
+ <owner>player_zero_shirt_000_o_r_full_custom_c1_000_merge</owner>
+ <ownerHd>player_zero_shirt_000_o_r_full_custom_c1_000_merge+hi</ownerHd>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_shirt_000_o_b_full_custom_c1_000_m">
+ <owner>player_zero_shirt_000_o_b_full_custom_c1_000_merge</owner>
+ <ownerHd>player_zero_shirt_000_o_b_full_custom_c1_000_merge+hi</ownerHd>
+ <index1 value="1"/>
+ <index2 value="2"/>
+</Item>
+<Item key="player_zero_shirt_000_o_b_full_custom_c1_000_nm">
+ <owner>player_zero_shirt_000_o_b_full_custom_c1_000_merge</owner>
+ <ownerHd>player_zero_shirt_000_o_b_full_custom_c1_000_merge+hi</ownerHd>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_coat_003_open_full_custom">
+ <owner>player_three_ms1_coat_003_open_full_custom</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_coat_003_open_full">
+ <owner>player_three_ms1_coat_003_open_full</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_head_1000_coat">
+ <owner>player_three_ms1_head_1000_coat</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_pktwatch_005_open_undercoat">
+ <owner>PLAYER_ZERO_MERGE_151</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item> -->
+<!-- <Item key="player_zero_vest_027_co_short_chap">
+ <owner>PLAYER_ZERO_MERGE_148</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_gloves_016">
+ <owner>PLAYER_ZERO_MERGE_170</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_gloves_010">
+ <owner>PLAYER_ZERO_MERGE_168</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="PLAYER_ZERO_COAT_006">
+ <owner>PLAYER_ZERO_MERGE_147</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="PLAYER_ZERO_COAT_035_OPEN">
+ <owner>PLAYER_ZERO_MERGE_159</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_boot_048_full_under">
+ <owner>PLAYER_ZERO_MERGE_170</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_three_ms1_vest_000_co_short_chap">
+ <owner>PLAYER_MERGE_10</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item> -->
+<!-- <Item key="player_zero_cloak_001">
+ <owner>PLAYER_ZERO_MERGE_161</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_vest_008_co_long_chap">
+ <owner>PLAYER_MERGE_8</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_beard_shv_stache_001_03">
+ <owner>PLAYER_ZERO_MERGE_144</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_belt_002">
+ <owner>PLAYER_ZERO_MERGE_153</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_eyebrows_000">
+ <owner>PLAYER_ZERO_MERGE_156</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_boot_022_under">
+ <owner>PLAYER_ZERO_MERGE_158</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_suspenders_005">
+ <owner>PLAYER_ZERO_MERGE_174</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_vest_021_full_chap">
+ <owner>PLAYER_ZERO_MERGE_161</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_boot_044_full">
+ <owner>PLAYER_ZERO_MERGE_169</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_gloves_011">
+ <owner>PLAYER_ZERO_MERGE_148</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_005">
+ <owner>PLAYER_ZERO_MERGE_151</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_beard_shv_stache_003">
+ <owner>PLAYER_ZERO_MERGE_145</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="PLAYER_ZERO_CHAPS_007">
+ <owner>PLAYER_ZERO_MERGE_176</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_mask_011">
+ <owner>PLAYER_ZERO_MERGE_183</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_belt_021">
+ <owner>PLAYER_ZERO_MERGE_172</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_hat_073">
+ <owner>PLAYER_ZERO_MERGE_171</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item> -->
+<!-- <Item key="player_zero_coat_000_open_full">
+ <owner>PLAYER_ZERO_MERGE_167</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_satchel_strap_000_hw">
+ <owner>PLAYER_ZERO_MERGE_154</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_gloves_017_full">
+ <owner>PLAYER_ZERO_MERGE_165</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_three_ms1_vest_001_full_custom_chap">
+ <owner>PLAYER_THREE_MERGE</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_beard_shv_stache_001">
+ <owner>PLAYER_ZERO_MERGE_140</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_belt_001">
+ <owner>PLAYER_ZERO_MERGE_173</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_belt_014">
+ <owner>PLAYER_MERGE_9</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_eyebrows_001">
+ <owner>PLAYER_ZERO_MERGE_143</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_shirt_001">
+ <owner>PLAYER_ZERO_MERGE_142</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_boot_046_full">
+ <owner>PLAYER_ZERO_MERGE_160</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_eyes_cap_000">
+ <owner>PLAYER_ZERO_MERGE_156</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_vest_004_full_chap">
+ <owner>PLAYER_MERGE_11</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_hat_072">
+ <owner>PLAYER_ZERO_MERGE_170</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_suspenders_003">
+ <owner>PLAYER_ZERO_S_MERGE_3</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_hat_band_002">
+ <owner>PLAYER_MERGE_8</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_holster_cup_000_high">
+ <owner>PLAYER_ZERO_MERGE_154</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item> -->
+<!-- <Item key="player_three_ms1_belt_000">
+ <owner>PLAYER_THREE_MS1_MERGE_13</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="PLAYER_ZERO_COAT_002">
+ <owner>PLAYER_ZERO_MERGE_185</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_vest_000">
+ <owner>PLAYER_ZERO_MERGE_142</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_three_ms1_neckerchief_000">
+ <owner>PLAYER_THREE_MS1_MERGE_10</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="PLAYER_ZERO_COAT_032_OPEN">
+ <owner>PLAYER_ZERO_MERGE_163</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_three_satchel_strap_000_heavy_coat_Duster">
+ <owner>PLAYER_MERGE_10</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_ust_000_o_d_co_long">
+ <owner>PLAYER_ZERO_MERGE_152</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_hat_017">
+ <owner>PLAYER_ZERO_MERGE_157</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_shirt_006_o_b_co_long">
+ <owner>PLAYER_ZERO_MERGE_145</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_003">
+ <owner>PLAYER_ZERO_MERGE_152</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_gloves_020">
+ <owner>PLAYER_ZERO_MERGE_158</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_vest_020_full_chap">
+ <owner>PLAYER_ZERO_MERGE_160</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_beard_shv_chin_001_04">
+ <owner>PLAYER_MERGE_12</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_belt_013">
+ <owner>PLAYER_ZERO_MERGE_149</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="0x35252449">
+ <owner>PLAYER_ZERO_MERGE_142</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_holster_belt_000">
+ <owner>PLAYER_THREE_MS1_MERGE_12</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_vest_008_co_long">
+ <owner>PLAYER_ZERO_MERGE_146</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_nude_upper_003">
+ <owner>PLAYER_ZERO_MERGE_142</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_eyes_000">
+ <owner>PLAYER_ZERO_MERGE_156</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_coat_037_open_full">
+ <owner>PLAYER_ZERO_MERGE_172</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_ust_000_o_u_whole">
+ <owner>PLAYER_ZERO_MERGE_183</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="PLAYER_ZERO_COAT_033_OPEN">
+ <owner>PLAYER_ZERO_MERGE_158</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="0x38B33304">
+ <owner>PLAYER_ZERO_MERGE_144</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_necktie_001">
+ <owner>PLAYER_ZERO_MERGE_147</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_pants_001">
+ <owner>PLAYER_ZERO_MERGE_141</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_boot_021_under">
+ <owner>PLAYER_ZERO_MERGE_149</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_mask_001">
+ <owner>PLAYER_ZERO_MERGE_166</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_shirt_013">
+ <owner>PLAYER_ZERO_MERGE_143</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_vest_001">
+ <owner>PLAYER_ZERO_MERGE_147</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_cloak_000">
+ <owner>PLAYER_ZERO_MERGE_160</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_spurs_024_an_over_spat">
+ <owner>PLAYER_ZERO_MERGE_151</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_gloves_019_full">
+ <owner>PLAYER_ZERO_MERGE_161</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_hat_band_006">
+ <owner>PLAYER_ZERO_MERGE_175</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_hat_band_000">
+ <owner>PLAYER_ZERO_MERGE_141</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_pants_000_custom">
+ <owner>PLAYER_ZERO_MERGE_154</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_shirt_006">
+ <owner>PLAYER_ZERO_S_MERGE_3</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_vest_026_full_chap">
+ <owner>PLAYER_ZERO_MERGE_170</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="PLAYER_ZERO_SCARF_008">
+ <owner>PLAYER_ZERO_MERGE_151</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_suspenders_002">
+ <owner>PLAYER_ZERO_MERGE_166</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_badge_001">
+ <owner>PLAYER_ZERO_MERGE_153</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_teeth_000">
+ <owner>PLAYER_THREE_MS1_MERGE_9</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_three_ms1_shirt_002_o_b_co_vest">
+ <owner>PLAYER_MERGE_10</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item> -->
+<!-- <Item key="player_three_ms1_shirt_003_o_r_vest_opened">
+ <owner>PLAYER_THREE_MERGE</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_three_ms1_holster_005">
+ <owner>PLAYER_MERGE_12</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_spats_006_under_spurs">
+ <owner>PLAYER_MERGE_10</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_three_ms1_gloves_000_full">
+ <owner>PLAYER_THREE_MS1_MERGE_13</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_shirt_009_c_b_cc_vest">
+ <owner>PLAYER_MERGE_9</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_hat_048">
+ <owner>PLAYER_ZERO_MERGE_148</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_beard_shv_chops_000_04">
+ <owner>PLAYER_ZERO_MERGE_155</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="PLAYER_ZERO_COAT_026_OPEN">
+ <owner>PLAYER_ZERO_MERGE_168</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_three_ms1_vest_001_full_chap">
+ <owner>PLAYER_THREE_MERGE</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_head_000">
+ <owner>PLAYER_ZERO_MERGE_156</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_shirt_002_o_b_co_short_neck">
+ <owner>PLAYER_THREE_MS1_MERGE_11</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_holster_belt_000_high">
+ <owner>PLAYER_ZERO_MERGE_185</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_nude_upper_007">
+ <owner>PLAYER_ZERO_MERGE_186</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="PLAYER_ZERO_COAT_004">
+ <owner>PLAYER_ZERO_MERGE_142</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_rhdlcl3_shirt_001_vest">
+ <owner>PLAYER_MERGE_12</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_hair_s01_l03_p0">
+ <owner>PLAYER_ZERO_MERGE_175</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_000_wide">
+ <owner>PLAYER_ZERO_MERGE_140</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_008">
+ <owner>PLAYER_ZERO_MERGE_172</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_vest_025_co_short_chap">
+ <owner>PLAYER_ZERO_MERGE_159</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_ust_000_o_u_island">
+ <owner>PLAYER_ZERO_MERGE_184</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_boot_001">
+ <owner>PLAYER_ZERO_MERGE_147</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_ust_000_c_u_whole">
+ <owner>PLAYER_ZERO_MERGE_187</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_gloves_014_full">
+ <owner>PLAYER_ZERO_MERGE_171</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_three_satchel_strap_000_shirt_standardised">
+ <owner>PLAYER_THREE_MERGE_2</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_hat_070">
+ <owner>PLAYER_ZERO_MERGE_172</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_boot_038_under">
+ <owner>PLAYER_ZERO_MERGE_163</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_hat_037">
+ <owner>PLAYER_ZERO_MERGE_153</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_hat_047">
+ <owner>PLAYER_ZERO_MERGE_165</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_three_ms1_necktie_000_up_vest">
+ <owner>PLAYER_MERGE_11</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_hat_035">
+ <owner>PLAYER_ZERO_MERGE_146</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_nude_upper_008">
+ <owner>PLAYER_ZERO_MERGE_184</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_knife_holster_000_001">
+ <owner>PLAYER_THREE_MS1_MERGE_12</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_nude_upper_006">
+ <owner>PLAYER_ZERO_MERGE_187</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_boot_010">
+ <owner>PLAYER_ZERO_MERGE_157</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_vest_017_co_short_chap">
+ <owner>PLAYER_ZERO_MERGE_168</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_Vest_003_Full_Chap">
+ <owner>PLAYER_ZERO_MERGE_165</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_pants_014">
+ <owner>PLAYER_ZERO_MERGE_153</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="PLAYER_ZERO_COAT_005_OPEN">
+ <owner>PLAYER_ZERO_MERGE_149</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_knife_holster_000_guarma">
+ <owner>PLAYER_ZERO_MERGE_173</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item> -->
+<!-- <Item key="PLAYER_ZERO_COAT_004_OPEN">
+ <owner>PLAYER_MERGE_11</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_nude_upper_002">
+ <owner>PLAYER_ZERO_MERGE_141</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_hat_046">
+ <owner>PLAYER_ZERO_MERGE_161</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_spats_010_full">
+ <owner>PLAYER_ZERO_MERGE_177</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="PLAYER_ZERO_COAT_034_OPEN">
+ <owner>PLAYER_ZERO_MERGE_177</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<!--<Item key="player_zero_mask_001_winter">
+ <owner>PLAYER_ZERO_MERGE_154</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_holster_cup_000">
+ <owner>PLAYER_ZERO_HOLSTER_MERGE_5</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_shirt_005_c_b_co_long">
+ <owner>PLAYER_ZERO_MERGE_155</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_hat_071">
+ <owner>PLAYER_ZERO_MERGE_151</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_hat_accs_000">
+ <owner>PLAYER_ZERO_MERGE_143</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_beard_shv_chin_001_07">
+ <owner>PLAYER_ZERO_MERGE_152</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_gloves_015_full">
+ <owner>PLAYER_ZERO_MERGE_160</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_scarf_004">
+ <owner>PLAYER_ZERO_MERGE_152</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_spurs_000_an">
+ <owner>PLAYER_THREE_MS1_MERGE_10</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_holster_cup_000">
+ <owner>PLAYER_THREE_MS1_MERGE_12</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_fauxbeard_000">
+ <owner>PLAYER_ZERO_MERGE_157</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_gloves_009_full">
+ <owner>PLAYER_ZERO_MERGE_164</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_knife_holster_000_high">
+ <owner>PLAYER_ZERO_MERGE_154</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="PLAYER_THREE_MS1_BEARD_SHV_STACHE_000_03">
+ <owner>PLAYER_THREE_MS1_BEARD_SHV_MERGE</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_spats_006_full">
+ <owner>PLAYER_ZERO_MERGE_162</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_boots_000">
+ <owner>PLAYER_MERGE_13</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_hair_s01_l07_p0">
+ <owner>PLAYER_ZERO_MERGE_181</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_teeth_000">
+ <owner>PLAYER_ZERO_MERGE_156</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_bandolier_000">
+ <owner>PLAYER_MERGE_12</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_hat_014">
+ <owner>PLAYER_MERGE_13</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_hat_045">
+ <owner>PLAYER_ZERO_MERGE_159</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item> -->
+<!-- <Item key="player_zero_coat_002_closed">
+ <owner>PLAYER_ZERO_MERGE_154</owner>
+ <ownerHd/>
+ <index1 value="5"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_hat_band_011">
+ <owner>PLAYER_MERGE_9</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_rhdlcl3_spurs_000">
+ <owner>PLAYER_ZERO_MERGE_141</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_spats_008_full">
+ <owner>PLAYER_ZERO_MERGE_164</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_vest_004_co_short_chap">
+ <owner>PLAYER_MERGE_11</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_front_cup_004">
+ <owner>PLAYER_ZERO_MERGE_151</owner>
+ <ownerHd/>
+ <index1 value="5"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_spurs_000">
+ <owner>PLAYER_MERGE_8</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_hat_044">
+ <owner>PLAYER_ZERO_MERGE_162</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_jbib_000">
+ <owner>PLAYER_ZERO_MERGE_182</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_overall_000">
+ <owner>PLAYER_ZERO_MERGE_157</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_eye_patch_000">
+ <owner>PLAYER_ZERO_MERGE_143</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_vest_000_full_custom">
+ <owner>PLAYER_THREE_MERGE</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_hat_band_008">
+ <owner>PLAYER_ZERO_MERGE_150</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_hair_s01_l08_p0">
+ <owner>PLAYER_ZERO_MERGE_152</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_front_cup_013">
+ <owner>PLAYER_MERGE_9</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_gloves_023_cuff_short">
+ <owner>PLAYER_ZERO_MERGE_148</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_spurs_001">
+ <owner>PLAYER_ZERO_MERGE_144</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_vest_019_co_full_chap">
+ <owner>PLAYER_ZERO_MERGE_171</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="PLAYER_THREE_MS1_COAT_000_OPEN">
+ <owner>PLAYER_THREE_MS1_MERGE_10</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item> -->
+<!-- <Item key="player_zero_vest_018_full_chap">
+ <owner>PLAYER_ZERO_MERGE_169</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_beard_shv_chops_000_08">
+ <owner>PLAYER_ZERO_BEARD_SHV_MERGE</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_gloves_018_cuff_short">
+ <owner>PLAYER_ZERO_MERGE_163</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_hat_043">
+ <owner>PLAYER_ZERO_MERGE_148</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_belt_000">
+ <owner>PLAYER_ZERO_HOLSTER_MERGE_5</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_hat_band_009">
+ <owner>PLAYER_ZERO_MERGE_188</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_spurs_021_an">
+ <owner>PLAYER_ZERO_MERGE_149</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_boot_008">
+ <owner>PLAYER_ZERO_MERGE_144</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_hat_054">
+ <owner>PLAYER_ZERO_MERGE_176</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_scarf_007_up_full">
+ <owner>PLAYER_ZERO_MERGE_149</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_satchel_strap_000_dus">
+ <owner>PLAYER_ZERO_MERGE_166</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_hat_052">
+ <owner>PLAYER_ZERO_MERGE_163</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item> -->
+<!-- <Item key="player_three_ms1_pants_003">
+ <owner>PLAYER_MERGE_11</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_gloves_006">
+ <owner>PLAYER_ZERO_MERGE_159</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_beard_shv_stache_000_06">
+ <owner>PLAYER_ZERO_BEARD_SHV_MERGE</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_vest_000_co_long_chap">
+ <owner>PLAYER_ZERO_MERGE_180</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_vest_010_co_short">
+ <owner>PLAYER_MERGE_9</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_013">
+ <owner>PLAYER_ZERO_MERGE_149</owner>
+ <ownerHd/>
+ <index1 value="5"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_boot_045_under">
+ <owner>PLAYER_ZERO_MERGE_171</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_three_ms1_shirt_003_o_r_full">
+ <owner>PLAYER_THREE_MERGE_2</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_tie_000">
+ <owner>PLAYER_ZERO_MERGE_144</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_fauxbeard_001">
+ <owner>PLAYER_ZERO_MERGE_157</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_suspenders_000_under_coat_short">
+ <owner>PLAYER_THREE_MS1_MERGE_11</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_spats_011_full">
+ <owner>PLAYER_ZERO_MERGE_165</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_gloves_013_full">
+ <owner>PLAYER_ZERO_MERGE_169</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_gloves_000">
+ <owner>PLAYER_ZERO_MERGE_155</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+ <Item key="player_three_ms1_eyelashes_000">
+ <owner>PLAYER_THREE_MS1_MERGE_9</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_scarf_000">
+ <owner>PLAYER_ZERO_MERGE_167</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item> -->
+<!-- <Item key="player_zero_coat_001_open_custom">
+ <owner>PLAYER_ZERO_MERGE_166</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item> -->
+<!-- <Item key="player_zero_vest_006_co_short_chap">
+ <owner>PLAYER_ZERO_MERGE_177</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_hat_042">
+ <owner>PLAYER_ZERO_MERGE_168</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_boot_007_under">
+ <owner>PLAYER_ZERO_MERGE_175</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="PLAYER_ZERO_COAT_003">
+ <owner>PLAYER_ZERO_MERGE_182</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_beard_shv_stache_000_07">
+ <owner>PLAYER_MERGE_12</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="PLAYER_ZERO_COAT_030_OPEN">
+ <owner>PLAYER_ZERO_MERGE_162</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_suspenders_000_under_coat_long">
+ <owner>PLAYER_ZERO_MERGE_179</owner>
+ <ownerHd/>
+ <index1 value="0"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_hat_053">
+ <owner>PLAYER_ZERO_MERGE_158</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_three_ms1_pants_002">
+ <owner>PLAYER_MERGE_8</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_hat_band_010">
+ <owner>PLAYER_ZERO_MERGE_146</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_suspenders_007_under_coat_long">
+ <owner>PLAYER_ZERO_MERGE_145</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_scarf_001">
+ <owner>PLAYER_ZERO_MERGE_174</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_holster_belt_007">
+ <owner>PLAYER_ZERO_MERGE_152</owner>
+ <ownerHd/>
+ <index1 value="5"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="PLAYER_THREE_MS1_COAT_000_OPEN_CUSTOM">
+ <owner>PLAYER_THREE_MS1_MERGE_11</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_three_ms1_pktwatch_000">
+ <owner>PLAYER_MERGE_11</owner>
+ <ownerHd/>
+ <index1 value="5"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_eyes_000">
+ <owner>PLAYER_THREE_MS1_MERGE_9</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_hat_041">
+ <owner>PLAYER_ZERO_MERGE_164</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_three_ms1_knifeholster_000">
+ <owner>PLAYER_MERGE_9</owner>
+ <ownerHd/>
+ <index1 value="5"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_hat_050">
+ <owner>PLAYER_ZERO_MERGE_160</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_boot_022_full">
+ <owner>PLAYER_ZERO_MERGE_161</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="PLAYER_THREE_MS1_BEARD_SHV_CHIN_000_03">
+ <owner>PLAYER_THREE_MS1_BEARD_SHV_MERGE</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_spurs_000_over_spat_an">
+ <owner>PLAYER_MERGE_10</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_holster_cup_021">
+ <owner>PLAYER_ZERO_MERGE_173</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item> -->
+<!-- <Item key="player_three_ms1_shirt_003_o_r_vest">
+ <owner>PLAYER_THREE_MERGE</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_pants_003">
+ <owner>PLAYER_ZERO_MERGE_144</owner>
+ <ownerHd/>
+ <index1 value="5"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_gloves_022_full">
+ <owner>PLAYER_ZERO_MERGE_176</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_three_satchel_strap_000_vest">
+ <owner>PLAYER_THREE_MERGE</owner>
+ <ownerHd/>
+ <index1 value="5"/>
+ <index2 value="65535"/>
+</Item> -->
+<!-- <Item key="player_zero_coat_001_open_full_custom">
+ <owner>PLAYER_ZERO_MERGE_179</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="PLAYER_ZERO_COAT_012">
+ <owner>PLAYER_ZERO_MERGE_143</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_three_ms1_gloves_000_cuff_short">
+ <owner>PLAYER_MERGE_10</owner>
+ <ownerHd/>
+ <index1 value="5"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_hat_001">
+ <owner>PLAYER_ZERO_MERGE_141</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_holster_cup_020">
+ <owner>PLAYER_ZERO_MERGE_153</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item> -->
+<!-- <Item key="PLAYER_ZERO_COAT_031_OPEN">
+ <owner>PLAYER_ZERO_MERGE_164</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item> -->
+<!-- <Item key="player_three_ms1_head_1000">
+ <owner>PLAYER_THREE_MS1_MERGE_9</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item> -->
+<!-- <Item key="player_three_ms1_hat_000">
+ <owner>PLAYER_THREE_MS1_MERGE_13</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_pants_004">
+ <owner>PLAYER_ZERO_MERGE_147</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_holster_cup_014">
+ <owner>PLAYER_MERGE_9</owner>
+ <ownerHd/>
+ <index1 value="6"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_eyecap_000">
+ <owner>PLAYER_THREE_MS1_MERGE_9</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_boot_013">
+ <owner>PLAYER_ZERO_MERGE_146</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="PLAYER_THREE_MS1_BEARD_SHV_CHOPS_000_03">
+ <owner>PLAYER_THREE_MS1_BEARD_SHV_MERGE</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_necktie_004_up_vest">
+ <owner>PLAYER_ZERO_MERGE_188</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_chaps_008">
+ <owner>PLAYER_ZERO_MERGE_158</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_suspenders_000">
+ <owner>PLAYER_MERGE_8</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_ust_000_o_d_whole">
+ <owner>PLAYER_ZERO_MERGE_186</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="PLAYER_ZERO_COAT_029_OPEN">
+ <owner>PLAYER_ZERO_MERGE_148</owner>
+ <ownerHd/>
+ <index1 value="5"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_three_ms1_shirt_002_o_r_vest_custom">
+ <owner>PLAYER_THREE_MS1_MERGE_10</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_gloves_012_cuff_long">
+ <owner>PLAYER_ZERO_MERGE_162</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_coat_000_open_full_custom">
+ <owner>PLAYER_ZERO_MERGE_174</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_shirt_003">
+ <owner>PLAYER_ZERO_MERGE_147</owner>
+ <ownerHd/>
+ <index1 value="5"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_spats_014_full">
+ <owner>PLAYER_ZERO_MERGE_163</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_suspenders_006">
+ <owner>PLAYER_ZERO_MERGE_143</owner>
+ <ownerHd/>
+ <index1 value="5"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_beard_shv_chin_000_04">
+ <owner>PLAYER_ZERO_MERGE_155</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="PLAYER_ZERO_COAT_018">
+ <owner>PLAYER_ZERO_MERGE_153</owner>
+ <ownerHd/>
+ <index1 value="5"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="PLAYER_ZERO_CHAPS_005">
+ <owner>PLAYER_ZERO_MERGE_159</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="0xF45FB91B">
+ <owner>PLAYER_ZERO_MERGE_181</owner>
+ <ownerHd/>
+ <index1 value="1"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_vest_008_full">
+ <owner>PLAYER_MERGE_13</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_boot_052">
+ <owner>PLAYER_ZERO_MERGE_173</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_hair_s01_l02_p0">
+ <owner>PLAYER_ZERO_MERGE_145</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_vest_016_co_short_chap">
+ <owner>PLAYER_ZERO_MERGE_164</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_beard_shv_stache_000_04">
+ <owner>PLAYER_ZERO_MERGE_179</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_boot_040_under">
+ <owner>PLAYER_ZERO_MERGE_162</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item>
+<!-- <Item key="player_zero_shirt_000_o_b_full_custom">
+ <owner>PLAYER_ZERO_MERGE_146</owner>
+ <ownerHd/>
+ <index1 value="4"/>
+ <index2 value="65535"/>
+</Item> -->
+<Item key="player_zero_hat_040">
+ <owner>PLAYER_ZERO_MERGE_169</owner>
+ <ownerHd/>
+ <index1 value="3"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="0xFF90D6D1">
+ <owner>PLAYER_ZERO_MERGE_167</owner>
+ <ownerHd/>
+ <index1 value="2"/>
+ <index2 value="65535"/>
+</Item>
+<Item key="player_zero_shirt_002">
+ <owner>PLAYER_ZERO_MERGE_141</owner>
+ <ownerHd/>
+ <index1 value="5"/>
+ <index2 value="65535"/>
+</Item>
+</assetOwnerMap>
+</CPackFileMetaData>

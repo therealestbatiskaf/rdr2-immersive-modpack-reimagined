@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDataFileMgr__ContentsOfDataFileXml>
+	<disabledFiles />
+	<includedXmlFiles />
+	<includedDataFiles />
+	<dataFiles>
+		<Item>
+			<filename>dlc_mp006:/common/data/overlayinfo.xml</filename>
+			<fileType>OVERLAY_INFO_FILE</fileType>
+			<overlay value="false"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+		</Item>
+		<!-- NAVMESH -->
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/navmeshes_swaps.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="false" />
+			<disabled value="true" />
+			<persistent value="false"/>
+		</Item>
+		<!-- WEAPONS -->
+		<Item>
+			<filename>dlc_mp006:/common/data/ai/aimupperbodydata</filename>
+			<overlay value="false"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<fileType>AIM_UPPER_BODY_DATA_FILE</fileType>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/data/ai/quickSelectItems</filename>
+			<overlay value="false"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+			<fileType>WHEEL_INFO_FILE</fileType>
+    	</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/data/ai/quickSelectSlots</filename>
+			<overlay value="false"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+			<fileType>WHEEL_SLOT_FILE</fileType>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/data/ai/weapon_revolver_navy</filename>
+			<overlay value="false"/>
+			<disabled value="true" />
+			<persistent value="false"/>
+			<fileType>WEAPONINFO_FILE</fileType>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/data/ai/weapons_mp006_moonshiner</filename>
+			<overlay value="false"/>
+			<disabled value="true" />
+			<persistent value="false"/>
+			<fileType>WEAPONINFO_FILE</fileType>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/common/data/ai/weapon_revolver_navy_mp</filename>
+			<overlay value="false"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+			<fileType>WEAPONINFO_MP_PATCH_FILE</fileType>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/common/data/ai/weapons_mp006_moonshiner_mp</filename>
+			<overlay value="false"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+			<fileType>WEAPONINFO_MP_PATCH_FILE</fileType>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/common/data/weaponArchetypes</filename>
+			<overlay value="false"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+			<fileType>WEAPON_METADATA_FILE</fileType>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/common/packs/base/data/ai/weaponanimations</filename>
+			<overlay value="false"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<fileType>WEAPON_ANIMATIONS_FILE</fileType>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/common/data/pickups</filename>
+			<overlay value="false"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+			<fileType>DLC_WEAPON_PICKUPS</fileType>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/common/data/ai/weaponcomponents</filename>
+			<overlay value="false"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+			<fileType>WEAPONCOMPONENTSINFO_FILE</fileType>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/packs/base/data/weapontxdchain</filename>
+			<disabled value="true"/>
+			<persistent value="false"/>
+			<fileType>WEAPON_TXD_CHAIN_FILE</fileType>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/packs/base/models/weapons.rpf</filename>
+			<disabled value="true"/>
+			<persistent value="false"/>
+			<overlay value="false"/>
+			<fileType>RPF_FILE</fileType>
+		</Item>
+		
+		<!-- SCRIPTED ANIMSCENES -->
+
+		<!-- INGAME ANIMSCENES -->
+		
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/animscenes/script@ambient.rpf</filename>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+			<fileType>RPF_FILE</fileType>
+		</Item>
+		
+		<!-- INGAME ANIM/CLIPS -->
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_ai_gestures.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_ai_react.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_amb_misc.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_amb_rest_sit.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_amb_rest_drunk.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_amb_rest_lean.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_creatures_mammal.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_veh_horseback.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_climb.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_grapple.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_hogtie.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_inventory.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_inspection.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mp_mech_inspection.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_melee.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_fall.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_jump.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_pickup.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_weapons_dual.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_weapons_shortarms.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_weapons_special.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_carry_ped.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>	
+		<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mini_games.rpf</filename>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="false"/>
+		<fileType>RPF_FILE</fileType>
+		<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mp_lobby.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mp_amb_player.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mp_mech_inventory.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_veh_boat.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_veh_wagon.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<!-- MOTIONS -->
+
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/motions/ai_getup.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<overlay value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/motions/horse.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<overlay value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/motions/mech_strafe.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<overlay value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>	
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/motions/mech_loco_m.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<overlay value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/motions/mech_loco_f.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<overlay value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/motions/mech_weapons.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<overlay value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>		
+
+		<!-- MEGA-DICTIONARIES -->
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_ai_getup.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_amb_rest_lean.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_amb_rest_sit.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+    	<Item>
+      		<filename>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_cover.rpf</filename>
+      		<fileType>RPF_FILE</fileType>
+      		<overlay value="true"/>
+      		<disabled value="true"/>
+      		<persistent value="true"/>
+      		<contents>CONTENTS_ANIMATION</contents>
+    	</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_creatures_mammal.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_climb.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_grapple.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_strafe.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>	
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_loco_m.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_loco_f.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+		<Item>
+			<filename>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_weapons_longarms.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="true"/>
+			<contents>CONTENTS_ANIMATION</contents>
+		</Item>
+    <Item>
+      <filename>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_weapons_dual.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_weapons_shortarms.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_veh_horseback.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_veh_train.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<locked value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_coach.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_cart_large.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_wagon.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_weapons_special.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>			
+	<!-- SCRIPTED INGAME -->
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/animscenes/lightrig_mp.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>
+		<!-- CINEMATIC ANIMSCENES -->
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/animscenes/cuts@moon.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/animscenes/cuts@moon1.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/animscenes/cuts@moon2.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/animscenes/cuts@moon3.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/animscenes/cuts@moon5.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/animscenes/cuts@mpgvo.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/animscenes/cuts@mprev2.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>	
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/animscenes/cuts@TRINT.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>	
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/animscenes/script@mp.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+    </Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/animscenes/script@mpstory.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+    </Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/animscenes/script@beat.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/animscenes/script@common.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/animscenes/cuts@gfh.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>
+		<!-- CINEMATIC ANIM/CLIPS -->
+	<Item>
+      <filename>dlc_mp006:/%PLATFORM%/anim/cutscene/cuts_moon.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+	<Item>
+      <filename>dlc_mp006:/%PLATFORM%/anim/cutscene/cuts_moon1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+	<Item>
+      <filename>dlc_mp006:/%PLATFORM%/anim/cutscene/cuts_moon2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+	<Item>
+      <filename>dlc_mp006:/%PLATFORM%/anim/cutscene/cuts_moon3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+	<Item>
+      <filename>dlc_mp006:/%PLATFORM%/anim/cutscene/cuts_moon5.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+	<Item>
+      <filename>dlc_mp006:/%PLATFORM%/anim/cutscene/cuts_mpgvo.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+	<Item>
+      <filename>dlc_mp006:/%PLATFORM%/anim/cutscene/cuts_mprev2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+	<Item>
+      <filename>dlc_mp006:/%PLATFORM%/anim/cutscene/cuts_TRINT.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_script_mp.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_script_mpstory.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_script_common.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>	
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/anim/ingame/clip_script_re.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+		<contents>CONTENTS_ANIMATION</contents>
+	</Item>
+	<Item>
+      <filename>dlc_mp006:/%PLATFORM%/anim/cutscene/cuts_gfh.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+		<!-- PROPS -->
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/props/generic/mp006_p_storage.rpf</filename>
+		<overlay value="false" />
+		<disabled value="true"/>
+		<persistent value="false"/>
+		<fileType>RPF_FILE</fileType>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/props/generic/mp006_p_storage.ityp</filename>
+		<fileType>DLC_ITYP_REQUEST</fileType>
+		<overlay value="false" />
+		<disabled value="true" />
+		<persistent value="false"/>
+		<contents>CONTENTS_PROPS</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_holiday2019.rpf</filename>
+		<overlay value="false" />
+		<disabled value="true"/>
+		<persistent value="false"/>
+		<fileType>RPF_FILE</fileType>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_holiday2019.ityp</filename>
+		<fileType>DLC_ITYP_REQUEST</fileType>
+		<overlay value="false" />
+		<disabled value="true" />
+		<persistent value="false"/>
+		<contents>CONTENTS_PROPS</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_lev_des.rpf</filename>
+		<overlay value="false" />
+		<disabled value="true"/>
+		<persistent value="false"/>
+		<fileType>RPF_FILE</fileType>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_lev_des.ityp</filename>
+		<fileType>DLC_ITYP_REQUEST</fileType>
+		<overlay value="false" />
+		<disabled value="true" />
+		<persistent value="false"/>
+		<contents>CONTENTS_PROPS</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_lev_des_mp.rpf</filename>
+		<overlay value="false" />
+		<disabled value="true"/>
+		<persistent value="false"/>
+		<fileType>RPF_FILE</fileType>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_lev_des_mp.ityp</filename>
+		<fileType>DLC_ITYP_REQUEST</fileType>
+		<overlay value="false" />
+		<disabled value="true" />
+		<persistent value="false"/>
+		<contents>CONTENTS_PROPS</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_p_instrument.rpf</filename>
+		<overlay value="false" />
+		<disabled value="true"/>
+		<persistent value="false"/>
+		<fileType>RPF_FILE</fileType>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_p_instrument.ityp</filename>
+		<fileType>DLC_ITYP_REQUEST</fileType>
+		<overlay value="false" />
+		<disabled value="true" />
+		<persistent value="false"/>
+		<contents>CONTENTS_PROPS</contents>
+	</Item>
+		<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_p_mpcover_COL.rpf</filename>
+		<overlay value="false" />
+		<disabled value="true"/>
+		<persistent value="false"/>
+		<fileType>RPF_FILE</fileType>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_p_mpcover_COL.ityp</filename>
+		<fileType>DLC_ITYP_REQUEST</fileType>
+		<overlay value="false" />
+		<disabled value="true" />
+		<persistent value="false"/>
+		<contents>CONTENTS_PROPS</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_s_lev_des_rend_targ.rpf</filename>
+		<overlay value="false" />
+		<disabled value="true"/>
+		<persistent value="false"/>
+		<fileType>RPF_FILE</fileType>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_s_lev_des_rend_targ.ityp</filename>
+		<fileType>DLC_ITYP_REQUEST</fileType>
+		<overlay value="false" />
+		<disabled value="true" />
+		<persistent value="false"/>
+		<contents>CONTENTS_PROPS</contents>
+	</Item>	
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/props/vehicle_props/mp006_vehicle_props.rpf</filename>
+		<overlay value="false" />
+		<disabled value="true"/>
+		<persistent value="false"/>
+		<fileType>RPF_FILE</fileType>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/props/vehicle_props/mp006_vehicle_props.ityp</filename>
+		<fileType>DLC_ITYP_REQUEST</fileType>
+		<overlay value="false" />
+		<disabled value="true" />
+		<persistent value="false"/>
+		<contents>CONTENTS_PROPS</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/props/propgroups.rpf</filename>
+		<overlay value="true" />
+		<disabled value="true"/>
+		<persistent value="false"/>
+		<loadCompletely value="true"/>
+		<fileType>RPF_FILE</fileType>
+	</Item>	
+		<!-- MAPS -->
+		
+	<!-- AREA -->
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/area/supplements/mp006_area01_supp.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="false" />
+		<disabled value="true"/>
+		<persistent value="false"/>
+		<contents>CONTENTS_DLC_MAP_DATA</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/area/supplements/mp006_area02_supp.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="false" />
+		<disabled value="true"/>
+		<persistent value="false"/>
+		<contents>CONTENTS_DLC_MAP_DATA</contents>
+	</Item><Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/area/supplements/mp006_area03_supp.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="false" />
+		<disabled value="true"/>
+		<persistent value="false"/>
+		<contents>CONTENTS_DLC_MAP_DATA</contents>
+	</Item><Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/area/supplements/mp006_area04_supp.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="false" />
+		<disabled value="true"/>
+		<persistent value="false"/>
+		<contents>CONTENTS_DLC_MAP_DATA</contents>
+	</Item>
+	<!-- INTERIORS -->
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/interiors/mp006_luc_house_int.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="false" />
+		<disabled value="true" />
+		<persistent value="false"/>
+		<contents>CONTENTS_DLC_MAP_DATA</contents>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/interiors/mp006_moonshine01_int.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="false" />
+		<disabled value="true" />
+		<persistent value="false"/>
+		<contents>CONTENTS_DLC_MAP_DATA</contents>
+	</Item>
+
+		<!-- PACKS -->
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/packs/base/models/metaped_textures_c.rpf</filename>
+		<disabled value="true"/>
+		<persistent value="false"/>
+		<doPostLoad value="false" />
+		<overlay value="true"/>
+		<fileType>RPF_FILE</fileType>
+	</Item>	
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/packs/base/models/metapeds_c.rpf</filename>
+		<disabled value="true"/>
+		<persistent value="false"/>
+		<doPostLoad value="false" />
+		<overlay value="true"/>
+		<fileType>RPF_FILE</fileType>
+	</Item>
+	<Item>		
+		<filename>dlc_mp006:/%PLATFORM%/textures/mp006_palettes.#td</filename>
+		<fileType>RESIDENT_TXD</fileType>
+		<overlay value="true"/>
+		<disabled value="true"/>
+		<persistent value="true"/>
+	</Item>	
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/packs/base/models/metaped_textures_m.rpf</filename>
+		<disabled value="true"/>
+		<persistent value="false"/>
+		<doPostLoad value="false" />
+		<overlay value="true"/>
+		<fileType>RPF_FILE</fileType>
+	</Item>	
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/packs/base/models/metapeds_m.rpf</filename>
+		<disabled value="true"/>
+		<persistent value="false"/>
+		<doPostLoad value="false" />
+		<overlay value="true"/>
+		<fileType>RPF_FILE</fileType>
+	</Item>	
+		<!-- AREA -->
+		
+		<!-- AUDIO -->
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/audio/sfx/DLC_MP006.rpf</filename>
+		<fileType>AUDIO_WAVEPACK</fileType>
+		<overlay value="false" />
+		<disabled value="true" />
+		<persistent value="false"/>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/audio/dlcmp006_curves.dat</filename>
+		<fileType>AUDIO_CURVEDATA</fileType>
+		<overlay value="false" />
+		<disabled value="true" />
+		<persistent value="false"/>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/audio/dlcmp006_dynamix.dat</filename>
+		<fileType>AUDIO_DYNAMIXDATA</fileType>
+		<overlay value="false" />
+		<disabled value="true" />
+		<persistent value="false"/>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/audio/dlcmp006_game.dat</filename>
+		<fileType>AUDIO_GAMEDATA</fileType>
+		<overlay value="false" />
+		<disabled value="true" />
+		<persistent value="false"/>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/audio/dlcmp006_sounds.dat</filename>
+		<fileType>AUDIO_SOUNDDATA</fileType>
+		<overlay value="false" />
+		<disabled value="true" />
+		<persistent value="false"/>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/audio/dlcmp006_speech2.dat</filename>
+		<fileType>AUDIO_SPEECHDATA</fileType>
+		<overlay value="false" />
+		<disabled value="true" />
+		<persistent value="false"/>
+	</Item>
+    <Item>
+      <filename>dlc_mp006:/%PLATFORM%/audio/dlcmp006_optamp.dat</filename>
+      <fileType>AUDIO_SYNTHDATA</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+        <!-- Vehicle -->
+	<Item>	
+		<filename>dlc_mp006:/common/packs/base/data/levels/rdr3/vehicles.meta</filename>
+		<fileType>VEHICLE_METADATA_FILE</fileType>
+		<overlay value="false"/>
+		<disabled value="true"/>
+		<persistent value="false"/>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/common/packs/base/data/ai/vehiclelayouts.meta</filename>
+		<fileType>VEHICLE_LAYOUTS_FILE</fileType>
+		<overlay value="false"/>
+		<disabled value="true"/>
+		<persistent value="false"/>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/packs/base/levels/rdr3/vehicles.rpf</filename>
+		<disabled value="true"/>
+		<persistent value="false"/>
+		<overlay value="true"/>
+		<fileType>RPF_FILE</fileType>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/common/data/handling.meta</filename>
+		<fileType>HANDLING_FILE</fileType>
+		<overlay value="false" />
+		<disabled value="true" />
+		<persistent value="false"/>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/data/carvariations</filename>
+	    <overlay value="false"/>
+	    <disabled value="true"/>
+	    <persistent value="false"/>
+		<fileType>VEHICLE_VARIATION_FILE</fileType>
+	</Item>
+	
+	<!-- Cover -->
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/coverregions1.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true" />
+		<disabled value="true" />
+		<persistent value="false"/>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/coverregions_swaps.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true" />
+		<disabled value="true" />
+		<persistent value="false"/>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/cover_sp/coverregions_swaps.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true" />
+		<disabled value="true" />
+		<persistent value="false"/>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/%PLATFORM%/levels/rdr3/cover_sp/coverregions1.rpf</filename>
+		<fileType>RPF_FILE</fileType>
+		<overlay value="true" />
+		<disabled value="true" />
+		<persistent value="false"/>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/common/non_final/anim/motions</filename>
+		<disabled value="true"/>
+		<devOnly value="true"/>
+		<fileType>MOTIONDBG_FOLDER</fileType>
+	</Item>
+	<Item>
+		<filename>dlc_mp006:/common/non_final/anim/clip_dictionary_metadata</filename>
+		<disabled value="true"/>
+		<devOnly value="true"/>
+		<fileType>MEMGRPS_FOLDER</fileType>
+	</Item>
+	</dataFiles>
+
+	<contentChangeSets>
+	<Item>
+		<changeSetName>MP006_METADATA</changeSetName>
+		<filesToInvalidate/>
+		<filesToDisable/>
+		<filesToEnable>
+			<Item>dlc_mp006:/common/packs/base/data/levels/rdr3/vehicles.meta</Item>
+			<Item>dlc_mp006:/common/packs/base/data/ai/vehiclelayouts.meta</Item>
+			<Item>dlc_mp006:/common/data/handling.meta</Item>
+			<Item>dlc_mp006:/%PLATFORM%/data/carvariations</Item>
+		</filesToEnable>
+		<executionConditions/>
+	</Item>
+	<Item>
+		<changeSetName>MP006_RPFS</changeSetName>
+		<filesToInvalidate/>
+		<filesToDisable/>
+		<filesToEnable>
+			<Item>dlc_mp006:/%PLATFORM%/packs/base/levels/rdr3/vehicles.rpf</Item>
+		</filesToEnable>
+		<executionConditions/>
+	</Item>
+		<Item>
+			<changeSetName>MP006_OVERLAYINFO</changeSetName>
+			<filesToInvalidate/>
+			<filesToDisable/>
+			<filesToEnable>
+				<Item>dlc_mp006:/common/data/overlayinfo.xml</Item>
+			</filesToEnable>
+		</Item>
+		<Item>
+			<changeSetName>MP006_WEAPONS_EARLY</changeSetName>
+			<filesToInvalidate/>
+			<filesToDisable/>
+			<filesToEnable>
+				<Item>dlc_mp006:/%PLATFORM%/data/ai/quickSelectItems</Item>
+				<Item>dlc_mp006:/%PLATFORM%/data/ai/quickSelectSlots</Item>
+			</filesToEnable>
+		<executionConditions/>
+		</Item>
+		<Item>
+			<changeSetName>MP006_WEAPONS_RPF</changeSetName>
+			<filesToInvalidate/>
+			<filesToDisable/>
+			<filesToEnable>
+				<Item>dlc_mp006:/%PLATFORM%/packs/base/models/weapons.rpf</Item>
+			</filesToEnable>
+		<executionConditions/>
+		</Item>
+		<Item>
+			<changeSetName>MP006_WEAPONS_NON_RPF</changeSetName>
+			<filesToInvalidate/>
+			<filesToDisable/>
+			<filesToEnable>
+				<Item>dlc_mp006:/common/data/pickups</Item>
+				<Item>dlc_mp006:/%PLATFORM%/data/ai/weapon_revolver_navy</Item>
+				<Item>dlc_mp006:/%PLATFORM%/data/ai/weapons_mp006_moonshiner</Item>
+				<Item>dlc_mp006:/%PLATFORM%/packs/base/data/weapontxdchain</Item>
+				<Item>dlc_mp006:/common/data/ai/aimupperbodydata</Item>
+				<Item>dlc_mp006:/common/data/ai/weaponcomponents</Item>
+				<Item>dlc_mp006:/common/data/ai/weapon_revolver_navy_mp</Item>
+				<Item>dlc_mp006:/common/data/ai/weapons_mp006_moonshiner_mp</Item>
+				<Item>dlc_mp006:/common/data/weaponarchetypes</Item>
+				<Item>dlc_mp006:/common/packs/base/data/ai/weaponanimations</Item>
+			</filesToEnable>
+		<executionConditions/>
+		</Item>
+		<Item>
+			<changeSetName>MP006_MAP_DATA_SP</changeSetName>
+			<mapChangeSetData>
+				<Item>
+				  <associatedMap>MO_JIM_L11</associatedMap>
+				  <filesToInvalidate/>
+				  <filesToDisable/>
+				  <filesToEnable>
+					 <Item>dlc_mp006:/%PLATFORM%/levels/rdr3/cover_sp/coverregions_swaps.rpf</Item>
+					 <Item>dlc_mp006:/%PLATFORM%/levels/rdr3/cover_sp/coverregions1.rpf</Item>
+				  </filesToEnable>
+				</Item>
+			</mapChangeSetData>
+			<filesToInvalidate/>
+			<filesToDisable/>
+			<filesToEnable/>	       
+			<txdToLoad />
+			<txdToUnload />
+			<residentResources />
+			<unregisterResources />
+		</Item>
+		<Item>
+			<changeSetName>MP006_MAP_DATA</changeSetName>
+			<mapChangeSetData>
+				<Item>
+				  <associatedMap>MO_JIM_L11</associatedMap>
+				  <filesToInvalidate/>
+				  <filesToDisable/>
+				  <filesToEnable>
+					<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/area/supplements/mp006_area01_supp.rpf</Item>
+					<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/area/supplements/mp006_area02_supp.rpf</Item>
+					<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/area/supplements/mp006_area03_supp.rpf</Item>
+					<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/area/supplements/mp006_area04_supp.rpf</Item>
+					<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/navmeshes_swaps.rpf</Item>
+					<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/coverregions1.rpf</Item>
+					<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/coverregions_swaps.rpf</Item>
+					<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/interiors/mp006_luc_house_int.rpf</Item>
+					<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/interiors/mp006_moonshine01_int.rpf</Item>
+				  </filesToEnable>
+				</Item>
+			</mapChangeSetData>
+			<filesToInvalidate/>
+			<filesToDisable/>
+			<filesToEnable/>	       
+			<txdToLoad />
+			<txdToUnload />
+			<residentResources />
+			<unregisterResources />
+		</Item>
+		<Item>
+			<changeSetName>MP006_ANIM</changeSetName>
+			<filesToInvalidate/>
+			<filesToDisable/>
+			<filesToEnable>
+
+				<!-- SCRIPTED ANIMSCENES -->
+				<Item>dlc_mp006:/%PLATFORM%/anim/animscenes/script@mpstory.rpf</Item>
+				<!-- INGAME ANIMSCENES -->
+				
+				<Item>dlc_mp006:/%PLATFORM%/anim/animscenes/script@ambient.rpf</Item>
+				
+				<!-- INGAME ANIM/CLIPS -->
+				
+				<item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_ai_gestures.rpf</item>
+				<item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_ai_react.rpf</item>
+				<item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_amb_misc.rpf</item>
+				<item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_amb_rest_sit.rpf</item>
+				<item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_amb_rest_drunk.rpf</item>
+				<item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_amb_rest_lean.rpf</item>
+				<item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_creatures_mammal.rpf</item>
+			<!--	<item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_climb.rpf</item> -->
+				<item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_grapple.rpf</item>
+				<!-- <item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_hogtie.rpf</item> -->
+				<item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_inventory.rpf</item>
+				<item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_inspection.rpf</item>
+				<item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mp_mech_inspection.rpf</item>
+				<!-- <item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_melee.rpf</item> -->
+				<item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_fall.rpf</item>
+				<item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_jump.rpf</item>
+				<item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_pickup.rpf</item>
+				<item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_weapons_dual.rpf</item>
+				<item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_weapons_shortarms.rpf</item>
+				<item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_weapons_special.rpf</item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mech_carry_ped.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mini_games.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_veh_horseback.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mp_lobby.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mp_amb_player.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_mp_mech_inventory.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_veh_boat.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_veh_wagon.rpf</Item>
+
+				<!-- MOTIONS -->
+
+				<Item>dlc_mp006:/%PLATFORM%/anim/motions/ai_getup.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/motions/horse.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/motions/mech_strafe.rpf</Item>
+			<!--	<Item>dlc_mp006:/%PLATFORM%/anim/motions/mech_loco_m.rpf</Item> -->
+				<Item>dlc_mp006:/%PLATFORM%/anim/motions/mech_loco_f.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/motions/mech_weapons.rpf</Item>
+
+				<!-- MEGA-DICTIONARIES -->
+       			<Item>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_cover.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_ai_getup.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_amb_rest_sit.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_amb_rest_lean.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_creatures_mammal.rpf</Item>
+			<!--	<Item>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_climb.rpf</Item> -->
+				<Item>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_grapple.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_strafe.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_loco_m.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_loco_f.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_weapons_longarms.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_weapons_shortarms.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_veh_horseback.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_veh_train.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_coach.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_cart_large.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_wagon.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_weapons_special.rpf</Item>
+       			<Item>dlc_mp006:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_weapons_dual.rpf</Item>
+
+				<!-- SCRIPTED INGAME -->
+				<Item>dlc_mp006:/%PLATFORM%/anim/animscenes/lightrig_mp.rpf</Item>
+
+				<!-- CINEMATIC ANIMSCENES -->
+				<Item>dlc_mp006:/%PLATFORM%/anim/animscenes/script@mp.rpf</Item>
+			<!--	<Item>dlc_mp006:/%PLATFORM%/anim/animscenes/script@beat.rpf</Item> -->
+				<Item>dlc_mp006:/%PLATFORM%/anim/animscenes/script@common.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/animscenes/cuts@moon.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/animscenes/cuts@moon1.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/animscenes/cuts@moon2.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/animscenes/cuts@moon3.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/animscenes/cuts@moon5.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/animscenes/cuts@mpgvo.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/animscenes/cuts@mprev2.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/animscenes/cuts@trint.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/animscenes/cuts@gfh.rpf</Item>
+				<!-- CINEMATIC ANIM/CLIPS -->
+				<Item>dlc_mp006:/%PLATFORM%/anim/cutscene/cuts_moon.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/cutscene/cuts_moon1.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/cutscene/cuts_moon2.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/cutscene/cuts_moon3.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/cutscene/cuts_moon5.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/cutscene/cuts_mpgvo.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/cutscene/cuts_mprev2.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/cutscene/cuts_TRINT.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_script_mp.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_script_mpstory.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/ingame/clip_script_common.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/anim/cutscene/cuts_gfh.rpf</Item>
+			</filesToEnable>
+		<executionConditions/>
+		</Item>
+	<Item dev_only="true">
+		<changeSetName>MP006_ANIM_DEBUG_DATA</changeSetName>
+		<filesToInvalidate/>
+		<filesToDisable/>
+		<filesToEnable>
+			<Item>dlc_mp006:/common/non_final/anim/motions</Item>
+		</filesToEnable>
+	</Item>
+			<!-- PROPS -->
+	<Item>
+	<changeSetName>MP006_PROPS</changeSetName>
+		<filesToInvalidate/>
+		<filesToDisable/>
+		<filesToEnable>
+		    <Item>dlc_mp006:/%PLATFORM%/levels/rdr3/props/propgroups.rpf</Item>	
+			<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/props/generic/mp006_p_storage.rpf</Item>
+			<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/props/generic/mp006_p_storage.ityp</Item>
+			<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_holiday2019.rpf</Item>
+			<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_holiday2019.ityp</Item>
+			<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_lev_des.rpf</Item>
+			<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_lev_des.ityp</Item>
+			<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_lev_des_mp.rpf</Item>
+			<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_lev_des_mp.ityp</Item>
+			<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_p_instrument.rpf</Item>
+			<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_p_instrument.ityp</Item>	
+			<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_p_mpcover_COL.rpf</Item>
+			<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_p_mpcover_COL.ityp</Item>	
+			<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_s_lev_des_rend_targ.rpf</Item>
+			<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/props/lev_des/mp006_s_lev_des_rend_targ.ityp</Item>				
+			<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/props/vehicle_props/mp006_vehicle_props.rpf</Item>
+			<Item>dlc_mp006:/%PLATFORM%/levels/rdr3/props/vehicle_props/mp006_vehicle_props.ityp</Item>			
+		</filesToEnable>
+		<executionConditions/>
+	</Item>
+	<!-- METAPED RPFS -->
+		<Item>
+			<changeSetName>MP006_METAPED_RPF</changeSetName>
+				<filesToInvalidate/>
+				<filesToDisable/>
+				<filesToEnable>
+				<Item>dlc_mp006:/%PLATFORM%/packs/base/models/metaped_textures_c.rpf</Item>				
+				<Item>dlc_mp006:/%PLATFORM%/packs/base/models/metaped_textures_m.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/packs/base/models/metapeds_c.rpf</Item>				
+				<Item>dlc_mp006:/%PLATFORM%/packs/base/models/metapeds_m.rpf</Item>
+				<Item>dlc_mp006:/%PLATFORM%/textures/mp006_palettes.#td</Item>
+				</filesToEnable>
+		<executionConditions/>
+		</Item>
+		
+		<!-- AUDIO -->
+		<Item>
+			<changeSetName>MP006_AUDIO</changeSetName>
+			<filesToInvalidate/>
+			<filesToDisable/>
+			<filesToEnable>
+				<Item>dlc_mp006:/%PLATFORM%/audio/dlcmp006_curves.dat</Item>
+				<Item>dlc_mp006:/%PLATFORM%/audio/dlcmp006_dynamix.dat</Item>
+				<Item>dlc_mp006:/%PLATFORM%/audio/dlcmp006_game.dat</Item>
+				<Item>dlc_mp006:/%PLATFORM%/audio/dlcmp006_sounds.dat</Item>
+				<Item>dlc_mp006:/%PLATFORM%/audio/dlcmp006_speech2.dat</Item>
+				<Item>dlc_mp006:/%PLATFORM%/audio/dlcmp006_optamp.dat</Item>
+				<Item>dlc_mp006:/%PLATFORM%/audio/sfx/DLC_MP006.rpf</Item>
+			</filesToEnable>
+		<executionConditions/>
+		</Item>
+		<Item dev_only="true">
+			<changeSetName>MP006_MEMGRPS_DATA</changeSetName>
+			<filesToInvalidate/>
+			<filesToDisable/>
+			<filesToEnable>
+				<Item>dlc_mp006:/common/non_final/anim/clip_dictionary_metadata</Item>
+			</filesToEnable>
+		</Item>
+	</contentChangeSets>
+	<patchFiles />
+</CDataFileMgr__ContentsOfDataFileXml>

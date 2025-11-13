@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EasyInstall>
+  <Name>Online Content Unlocker</Name>
+  <Author>Daan</Author>
+  <Version>3.0</Version>
+  <Link></Link>
+  <Metadata></Metadata>
+  <Resources>
+    <Resource>
+      <!--x64-->
+      <FileReplacement>
+        <GamePath>dlc_mp009:/content.xml</GamePath>
+        <FilePath>x64/Mp009/content.xml</FilePath>
+      </FileReplacement>
+      <!--X64 End-->
+      <!--Update 1 Start-->
+	  <FileReplacement>
+        <GamePath>update:/content.xml</GamePath>
+        <FilePath>update_1/content.xml</FilePath>
+      </FileReplacement>
+      <FileReplacement>
+        <GamePath>update:/pack_patch/mp001/content.xml</GamePath>
+        <FilePath>update_1/pack_patch/Mp001/content.xml</FilePath>
+      </FileReplacement>
+      <FileReplacement>
+        <GamePath>update:/pack_patch/mp003/content.xml</GamePath>
+        <FilePath>update_1/pack_patch/Mp003/content.xml</FilePath>
+      </FileReplacement>
+      <FileReplacement>
+        <GamePath>update:/pack_patch/mp004/content.xml</GamePath>
+        <FilePath>update_1/pack_patch/Mp004/content.xml</FilePath>
+      </FileReplacement>
+      <FileReplacement>
+        <GamePath>update:/pack_patch/mp005/content.xml</GamePath>
+        <FilePath>update_1/pack_patch/Mp005/content.xml</FilePath>
+      </FileReplacement>
+      <FileReplacement>
+        <GamePath>update:/pack_patch/mp006/content.xml</GamePath>
+        <FilePath>update_1/pack_patch/Mp006/content.xml</FilePath>
+      </FileReplacement>
+      <FileReplacement>
+        <GamePath>update:/pack_patch/mp007/content.xml</GamePath>
+        <FilePath>update_1/pack_patch/Mp007/content.xml</FilePath>
+      </FileReplacement>
+      <FileReplacement>
+        <GamePath>update:/pack_patch/mp008/content.xml</GamePath>
+        <FilePath>update_1/pack_patch/Mp008/content.xml</FilePath>
+      </FileReplacement>
+      <FileReplacement>
+        <GamePath>update:/pack_patch/patchpack_mp001/content.xml</GamePath>
+        <FilePath>update_1/pack_patch/patchpack_mp001/content.xml</FilePath>
+      </FileReplacement>
+      <FileReplacement>
+        <GamePath>update:/pack_patch/patchpack_mp003/content.xml</GamePath>
+        <FilePath>update_1/pack_patch/patchpack_mp003/content.xml</FilePath>
+      </FileReplacement>
+      <!--Update 1 End-->
+    </Resource>	
+  </Resources>
+</EasyInstall>

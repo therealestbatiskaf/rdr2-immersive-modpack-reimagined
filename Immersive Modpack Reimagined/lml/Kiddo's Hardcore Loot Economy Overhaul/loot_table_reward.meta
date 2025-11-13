@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CLootTableCollection>
+  <LootTables>
+ 
+  <Item key="REWARD_COIN" name="COIN">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="50" />
+          <Max value="50" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+  <Item key="REWARD_COINPURSE" name="COIN">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="100" />
+          <Max value="300" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_COINS" name="COINS">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="50" />
+          <Max value="100" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_COINCUP_SM" name="COINCUP SM">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="100" />
+          <Max value="450" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_COINCUP_LG" name="COINCUP LG">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="350" />
+          <Max value="750" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_BILL" name="BILL">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="100" />
+          <Max value="100" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_FIVE_DOLLARS" name="FIVE DOLLARS">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="500" />
+          <Max value="500" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_TEN_DOLLARS" name="TEN DOLLARS">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="1000" />
+          <Max value="1000" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+		
+	<Item key="REWARD_BILLFOLD" name="BILLFOLD">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="1000" />
+          <Max value="1000" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_BILLFOLD_SML" name="BILLFOLD SML">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="1000" />
+          <Max value="1000" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_BILLSTACK" name="BILLSTACK">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="1500" />
+          <Max value="1500" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_MONEYCLIP" name="MONEYCLIP">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="400" />
+          <Max value="400" />
+          <Rate value=".20"/>
+          <Type>Money</Type>
+        </Item>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="500" />
+          <Max value="500" />
+          <Rate value=".20"/>
+          <Type>Money</Type>
+        </Item>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="600" />
+          <Max value="600" />
+          <Rate value=".20"/>
+          <Type>Money</Type>
+        </Item>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="700" />
+          <Max value="700" />
+          <Rate value=".20"/>
+          <Type>Money</Type>
+        </Item>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="800" />
+          <Max value="800" />
+          <Rate value=".10"/>
+          <Type>Money</Type>
+        </Item>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="900" />
+          <Max value="900" />
+          <Rate value=".10"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_MONEYSTACK" name="MONEYSTACK">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="2500" />
+          <Max value="2500" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_MONEYSTACK_LARGE" name="MONEYSTACK LARGE">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="3500" />
+          <Max value="3500" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+    <Item key="REWARD_SMALL" name="SMALL">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="100" />
+          <Max value="300" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_MEDIUM" name="MEDIUM">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="300" />
+          <Max value="600" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_LARGE" name="LARGE">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="600" />
+          <Max value="1000" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_HUGE" name="HUGE">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="1000" />
+          <Max value="1500" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_GANG" name="GANG">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="1" />
+          <Max value="150" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_PED_SMALL" name="PED_SMALL">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="50" />
+          <Max value="200" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_PED_MEDIUM" name="PED_MEDIUM">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="100" />
+          <Max value="250" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_PED_LARGE" name="PED_LARGE">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="100" />
+          <Max value="350" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_BEAT_SMALL" name="BEAT_SMALL">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="25" />
+          <Max value="450" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_BEAT_MEDIUM" name="BEAT_MEDIUM">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="300" />
+          <Max value="600" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_BEAT_LARGE" name="BEAT_LARGE">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="600" />
+          <Max value="1000" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_BEAT_HUGE" name="BEAT_HUGE">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="1000" />
+          <Max value="1500" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+				
+	<Item key="REWARD_BOUNTYHUNTING_SMALL" name="BOUNTYHUNTING_SMALL">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="500" />
+          <Max value="1000" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_BOUNTYHUNTING_MEDIUM" name="BOUNTYHUNTING_MEDIUM">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="1000" />
+          <Max value="1500" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_BOUNTYHUNTING_LARGE" name="BOUNTYHUNTING_LARGE">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="1500" />
+          <Max value="2000" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_BOUNTYHUNTING_HUGE" name="BOUNTYHUNTING_HUGE">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="2000" />
+          <Max value="2500" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_BANKROB_SAFE_SMALL" name="BANKROB_SAFE_SMALL">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="500" />
+          <Max value="1000" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_BANKROB_SAFE_MEDIUM" name="BANKROB_SAFE_MEDIUM">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="1000" />
+          <Max value="1500" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_BANKROB_SAFE_LARGE" name="BANKROB_SAFE_LARGE">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="1500" />
+          <Max value="2000" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_BANKROB_SAFE_HUGE" name="BANKROB_SAFE_HUGE">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="2000" />
+          <Max value="3000" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_HOMEROB_ROCKY_SEVEN" name="REWARD_HOMEROB_ROCKY_SEVEN">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="1500" />
+          <Max value="1500" />
+          <Rate value="1.0"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+			
+	<Item key="REWARD_SHOPROB_SMALL" name="SHOPROB_SMALL">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="100" />
+          <Max value="500" />
+          <Rate value="1.0"/>
+		  <RewardCondition ref="NOT_IN_RURAL_OR_URBAN_AREA" />
+          <Type>Money</Type>
+        </Item>
+		<Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="100" />
+          <Max value="300" />
+          <Rate value="1.0"/>
+		  <RewardCondition ref="IN_RURAL_AREA" />
+          <Type>Money</Type>
+        </Item>
+		<Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="300" />
+          <Max value="500" />
+          <Rate value="1.0"/>
+		  <RewardCondition ref="IN_URBAN_AREA" />
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_SHOPROB_MEDIUM" name="SHOPROB_MEDIUM">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="300" />
+          <Max value="1000" />
+          <Rate value="1.0"/>
+		  <RewardCondition ref="NOT_IN_RURAL_OR_URBAN_AREA" />
+          <Type>Money</Type>
+        </Item>
+		<Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="300" />
+          <Max value="600" />
+          <Rate value="1.0"/>
+		  <RewardCondition ref="IN_RURAL_AREA" />
+          <Type>Money</Type>
+        </Item>
+		<Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="600" />
+          <Max value="1000" />
+          <Rate value="1.0"/>
+		  <RewardCondition ref="IN_URBAN_AREA" />
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+		
+	<Item key="REWARD_COACHROB_SMALL" name="COACHROB_SMALL">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="150" />
+          <Max value="750" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_COACHROB_MEDIUM" name="COACHROB_MEDIUM">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="500" />
+          <Max value="1500" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_COACHROB_LARGE" name="COACHROB_LARGE">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="1000" />
+          <Max value="2000" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_WAGON_CARGO_DAMAGED" name="WAGON_CARGO_DAMAGED">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="1000" />
+          <Max value="1000" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_WAGON_CARGO_SMALL" name="WAGON_CARGO_SMALL">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="1500" />
+          <Max value="1500" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_WAGON_CARGO_MEDIUM" name="WAGON_CARGO_MEDIUM">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="2000" />
+          <Max value="2000" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_WAGON_CARGO_LARGE" name="WAGON_CARGO_LARGE">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="2500" />
+          <Max value="2500" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_WAGON_CARGO_HUGE" name="WAGON_CARGO_HUGE">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="3000" />
+          <Max value="3000" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_CARD_SET_COMMON" name="CARD_SET_COMMON">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="5000" />
+          <Max value="5000" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_CARD_SET_RARE" name="CARD_SET_RARE">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="10000" />
+          <Max value="10000" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_CARD_SET_ALL" name="CARD_SET_ALL">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="20000" />
+          <Max value="20000" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_RARE_FISH" name="RARE_FISH">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="4500" />
+          <Max value="4500" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_TAXIDERMY_STAGE_1" name="TAXIDERMY_STAGE_1">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="5000" />
+          <Max value="5000" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_TAXIDERMY_STAGE_2" name="TAXIDERMY_STAGE_2">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="7000" />
+          <Max value="7000" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+
+	<Item key="REWARD_TAXIDERMY_STAGE_3" name="TAXIDERMY_STAGE_3">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="10000" />
+          <Max value="10000" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+
+	<Item key="REWARD_TAXIDERMY_STAGE_4" name="TAXIDERMY_STAGE_4">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="12000" />
+          <Max value="12000" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+
+	<Item key="REWARD_TAXIDERMY_STAGE_5" name="TAXIDERMY_STAGE_5">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="15000" />
+          <Max value="15000" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>	
+	
+	<Item key="REWARD_CALLOWAY_LETTER" name="CALLOWAY_LETTER">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="35000" />
+          <Max value="35000" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+      </Entries>
+    </Item>
+			
+	<Item key="REWARD_NET_AMBIENT_CHEST" name="REWARD_NET_AMBIENT_CHEST">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="200" />
+          <Max value="500" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+		<Item>
+		  <Name>JEWELRY_ITEM_CONTAINERS</Name>
+		  <Rate value="1" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>RECIPE_ITEMS</Name>
+		  <Rate value="1"/>
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_NET_HIDEOUT_TIER_1" name="REWARD_NET_HIDEOUT_TIER_1">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="200" />
+          <Max value="500" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+		<Item>
+		  <Name>JEWELRY_ITEM_CONTAINERS</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_NET_HIDEOUT_TIER_2" name="REWARD_NET_HIDEOUT_TIER_2">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="500" />
+          <Max value="750" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+		<Item>
+		  <Name>CHEAP_JEWELRY_ITEMS_PED</Name>
+		  <Rate value="1" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_NET_HIDEOUT_TIER_3" name="REWARD_NET_HIDEOUT_TIER_3">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="750" />
+          <Max value="1000" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+		<Item>
+		  <Name>JEWELRY_ITEM_CONTAINERS</Name>
+		  <Rate value="1" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_DAILY_REWARD_DAILY" name="REWARD_DAILY_REWARD_TIER_1">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="200" />
+          <Max value="300" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+		<Item>
+		  <Name>SMALL_ARMS_AMMO</Name>
+		  <Rate value="0.8" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>LARGE_ARMS_AMMO</Name>
+		  <Rate value="0.5" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>ARROW_AMMO</Name>
+		  <Rate value="0.1" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_DAILY_REWARD_WEEKLY" name="REWARD_DAILY_REWARD_TIER_2">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="500" />
+          <Max value="500" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+		<Item>
+		  <Name>HEALTH_ITEMS</Name>
+		  <Rate value="0.8" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>DEADEYE_ITEMS</Name>
+		  <Rate value="0.5" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HORSE_CONSUMABLES</Name>
+		  <Rate value="0.1" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_DAILY_REWARD_HORSE_UNLOCKS" name="REWARD_DAILY_REWARD_HORSE_UNLOCKS">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>HORSE_CONSUMABLES</Name>
+		  <Rate value="0.1" />
+		  <Type>Table</Type>
+		</Item>
+		<!-- Horses are not currently supported
+		<Item>
+		  <Name>HORSE_BREED_AMERICAN_PAINT_HORSE_BLACK</Name>
+		  <Rate value="0.2" />
+		  <Type>Horse</Type>
+		</Item>
+		<Item>
+		  <Name>HORSE_BREED_TERSK_GREY</Name>
+		  <Rate value="0.15" />
+		  <Type>Horse</Type>
+		</Item>
+		<Item>
+		  <Name>HORSE_BREED_TURKOMAN_BLACK</Name>
+		  <Rate value="0.05" />
+		  <Type>Horse</Type>
+		</Item>
+		-->
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_DAILY_REWARD_MONTHLY" name="REWARD_DAILY_REWARD_TIER_3">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="1000" />
+          <Max value="1500" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+		<Item>
+		  <Name>REWARD_DAILY_REWARD_HORSE_UNLOCKS</Name>
+		  <Rate value="1" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="REWARD_FME_TREASURE_HUNT" name="REWARD_FME_TREASURE_HUNT">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="500" />
+          <Max value="650" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+		<Item>
+		  <Name>JEWELRY_ITEM_CONTAINERS</Name>
+		  <Rate value="1" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+  </LootTables>
+</CLootTableCollection>

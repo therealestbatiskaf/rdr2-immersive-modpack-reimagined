@@ -1,0 +1,39 @@
+<EasyInstall>
+	<Name>Rededrunk's Ultimate Combat Overhaul</Name>
+	<Author>Rededrunk</Author>
+	<Version>AI Behavior Base</Version>
+	<Link />
+	<Metadata />
+	<Resources>
+		<Resource>
+			<FileReplacement>
+				<GamePath>update:/common/data/damage/hit_react_data.meta</GamePath>
+				<FilePath>hit_react_data.meta</FilePath>
+			</FileReplacement>
+			<FileReplacement>
+				<GamePath>update:/common/data/ai/crimeinformation.meta</GamePath>
+				<FilePath>crimeinformation.meta</FilePath>
+			</FileReplacement>
+			<FileReplacement>
+				<GamePath>update:/common/data/ai/peddamageinfo.meta</GamePath>
+				<FilePath>peddamageinfo.meta</FilePath>
+			</FileReplacement>
+			<FileReplacement>
+				<GamePath>update:/common/data/ai/combatbehaviour.meta</GamePath>
+				<FilePath>combatbehaviour.meta</FilePath>
+			</FileReplacement>
+			<FileReplacement>
+				<GamePath>common:/data/ai/program/interior_attack_combatdirector.meta</GamePath>
+				<FilePath>interior_attack_combatdirector.meta</FilePath>
+			</FileReplacement>
+			<FileReplacement>
+				<GamePath>common:/data/ai/program/orders_shoot_door.meta</GamePath>
+				<FilePath>orders_shoot_door.meta</FilePath>
+			</FileReplacement>
+			<FileReplacement>
+				<GamePath>update:/common/data/anim/pose_databases/nm_blend_out_sets.meta</GamePath>
+				<FilePath>nm_blend_out_sets.meta</FilePath>
+			</FileReplacement>
+		</Resource>
+	</Resources>
+</EasyInstall>

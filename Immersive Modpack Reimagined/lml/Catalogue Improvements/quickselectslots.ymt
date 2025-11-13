@@ -1,0 +1,1287 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<uiQuickSelectSlotInfoCollection>
+  <Slots>
+    <Item key="DUAL_WIELD">
+      <SlotItems>
+        <Item>
+          <Id>DUAL_WIELD_ACTION</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_DUAL_WIELD</Type>
+          <PosOffset x="-15.00000000" y="4.00000000"/>
+          <Padding x="-44.00000000" y="-28.00000000"/>
+        </Item>
+      </SlotItems>
+    </Item>
+    <Item key="OFFHAND">
+      <SlotItems>
+        <Item>
+          <Id>WEAPON_REPEATER_CARBINE</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-2.00000000" y="-15.00000000"/>
+          <Rotation value="45"/>
+          <Padding x="35.00000000" y="35.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REPEATER_CARBINE_SADIE</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-2.00000000" y="-15.00000000"/>
+          <Rotation value="45"/>
+          <Padding x="35.00000000" y="35.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REPEATER_WINCHESTER</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-6.00000000" y="-15.00000000"/>
+          <Rotation value="45"/>
+          <Padding x="35.00000000" y="35.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REPEATER_WINCHESTER_JOHN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-6.00000000" y="-15.00000000"/>
+          <Rotation value="45"/>
+          <Padding x="35.00000000" y="35.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REPEATER_HENRY</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-17.00000000" y="-28.00000000"/>
+          <Rotation value="44"/>
+          <Padding x="42.00000000" y="42.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_RIFLE_SPRINGFIELD</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="1.00000000" y="-15.00000000"/>
+          <Rotation value="50"/>
+          <Padding x="35.00000000" y="35.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_RIFLE_BOLTACTION</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="1.00000000" y="-15.00000000"/>
+          <Rotation value="50"/>
+          <Padding x="35.00000000" y="35.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_RIFLE_BOLTACTION_BILL</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="1.00000000" y="-15.00000000"/>
+          <Rotation value="50"/>
+          <Padding x="35.00000000" y="35.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_RIFLE_VARMINT</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-4.00000000" y="-15.00000000"/>
+          <Rotation value="48"/>
+          <Padding x="35.00000000" y="35.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SNIPERRIFLE_CARCANO</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-2.00000000" y="-15.00000000"/>
+          <Rotation value="48"/>
+          <Padding x="35.00000000" y="35.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SNIPERRIFLE_ROLLINGBLOCK</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="1.00000000" y="-15.00000000"/>
+          <Rotation value="45"/>
+          <Padding x="35.00000000" y="35.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SNIPERRIFLE_ROLLINGBLOCK_LENNY</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="1.00000000" y="-15.00000000"/>
+          <Rotation value="45"/>
+          <Padding x="35.00000000" y="35.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SNIPERRIFLE_ROLLINGBLOCK_EXOTIC</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="1.00000000" y="-15.00000000"/>
+          <Rotation value="45"/>
+          <Padding x="35.00000000" y="35.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SHOTGUN_DOUBLEBARREL</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-10.00000000" y="-15.00000000"/>
+          <Rotation value="45"/>
+          <Padding x="30.00000000" y="30.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SHOTGUN_DOUBLEBARREL_UNCLE</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-10.00000000" y="-15.00000000"/>
+          <Rotation value="45"/>
+          <Padding x="30.00000000" y="30.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SHOTGUN_DOUBLEBARREL_EXOTIC</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-10.00000000" y="-15.00000000"/>
+          <Rotation value="45"/>
+          <Padding x="30.00000000" y="30.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SHOTGUN_SEMIAUTO</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="2.00000000" y="-15.00000000"/>
+          <Rotation value="48"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SHOTGUN_SEMIAUTO_HOSEA</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="2.00000000" y="-15.00000000"/>
+          <Rotation value="48"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SHOTGUN_REPEATING</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="0.00000000" y="-15.00000000"/>
+          <Rotation value="46"/>
+          <Padding x="30.00000000" y="30.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SHOTGUN_PUMP</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-2.00000000" y="-15.00000000"/>
+          <Rotation value="47"/>
+          <Padding x="30.00000000" y="30.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_BOW</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="22.00000000" y="0.00000000"/>
+          <Rotation value="60"/>
+          <Padding x="-18.00000000" y="-18.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_BOW_CHARLES</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="22.00000000" y="0.00000000"/>
+          <Rotation value="60"/>
+          <Padding x="-18.00000000" y="-18.00000000"/>
+        </Item>
+        <Item>
+          <Id>NON_SELECTION_ACTION</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_NON_SELECTION</Type>
+          <PosOffset x="10.00000000" y="0.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REPEATER_EVANS</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-2.00000000" y="-15.00000000"/>
+          <Rotation value="50"/>
+          <Padding x="35.00000000" y="35.00000000"/>
+        </Item>
+      </SlotItems>
+    </Item>
+    <Item key="WEAPONS_LONGARMS_AND_BOWS">
+      <SlotItems>
+        <Item>
+          <Id>WEAPON_REPEATER_CARBINE</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-8.00000000" y="-4.00000000"/>
+          <Rotation value="8"/>
+          <Padding x="18.00000000" y="18.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REPEATER_CARBINE_SADIE</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-8.00000000" y="-4.00000000"/>
+          <Rotation value="8"/>
+          <Padding x="18.00000000" y="18.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REPEATER_WINCHESTER</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-8.00000000" y="-2.00000000"/>
+          <Rotation value="8"/>
+          <Padding x="18.00000000" y="18.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REPEATER_WINCHESTER_JOHN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-8.00000000" y="-2.00000000"/>
+          <Rotation value="8"/>
+          <Padding x="18.00000000" y="18.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REPEATER_HENRY</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-24.00000000" y="-5.00000000"/>
+          <Rotation value="7"/>
+          <Padding x="30.00000000" y="30.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_RIFLE_SPRINGFIELD</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-14.00000000" y="-9.00000000"/>
+          <Rotation value="11"/>
+          <Padding x="22.00000000" y="22.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_RIFLE_BOLTACTION</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-8.00000000" y="-7.00000000"/>
+          <Rotation value="12"/>
+          <Padding x="18.00000000" y="18.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_RIFLE_BOLTACTION_BILL</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-8.00000000" y="-7.00000000"/>
+          <Rotation value="12"/>
+          <Padding x="18.00000000" y="18.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_RIFLE_VARMINT</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-8.00000000" y="-4.00000000"/>
+          <Rotation value="10"/>
+          <Padding x="18.00000000" y="18.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SNIPERRIFLE_CARCANO</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-8.00000000" y="-5.00000000"/>
+          <Rotation value="10"/>
+          <Padding x="18.00000000" y="18.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SNIPERRIFLE_ROLLINGBLOCK</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-8.00000000" y="-5.00000000"/>
+          <Rotation value="8"/>
+          <Padding x="18.00000000" y="18.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SNIPERRIFLE_ROLLINGBLOCK_LENNY</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-8.00000000" y="-5.00000000"/>
+          <Rotation value="8"/>
+          <Padding x="18.00000000" y="18.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SNIPERRIFLE_ROLLINGBLOCK_EXOTIC</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-8.00000000" y="-5.00000000"/>
+          <Rotation value="8"/>
+          <Padding x="18.00000000" y="18.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SHOTGUN_DOUBLEBARREL</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-6.00000000" y="3.00000000"/>
+          <Rotation value="8"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SHOTGUN_DOUBLEBARREL_UNCLE</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-6.00000000" y="3.00000000"/>
+          <Rotation value="8"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SHOTGUN_DOUBLEBARREL_EXOTIC</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-6.00000000" y="3.00000000"/>
+          <Rotation value="8"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SHOTGUN_SEMIAUTO</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-8.00000000" y="-7.00000000"/>
+          <Rotation value="10"/>
+          <Padding x="-10.00000000" y="-10.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SHOTGUN_SEMIAUTO_HOSEA</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-8.00000000" y="-7.00000000"/>
+          <Rotation value="10"/>
+          <Padding x="-10.00000000" y="-10.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SHOTGUN_REPEATING</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-8.00000000" y="-7.00000000"/>
+          <Rotation value="8"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SHOTGUN_PUMP</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-8.00000000" y="-5.00000000"/>
+          <Rotation value="10"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_BOW</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="5.00000000" y="-10.00000000"/>
+          <Rotation value="21"/>
+          <Padding x="-2.00000000" y="-2.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_BOW_CHARLES</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="5.00000000" y="-10.00000000"/>
+          <Rotation value="21"/>
+          <Padding x="-2.00000000" y="-2.00000000"/>
+        </Item>
+        <Item>
+          <Id>NON_SELECTION_ACTION</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_NON_SELECTION</Type>
+          <PosOffset x="-2.00000000" y="-8.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REPEATER_EVANS</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-8.00000000" y="-4.00000000"/>
+          <Rotation value="10"/>
+          <Padding x="35.00000000" y="35.00000000"/>
+        </Item>
+      </SlotItems>
+    </Item>
+    <Item key="WEAPONS_SIDEARMS">
+      <SlotItems>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Padding x="-3.00000000" y="-3.00000000"/>
+          <Rotation value="2"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_SEAN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Padding x="-3.00000000" y="-3.00000000"/>
+          <Rotation value="2"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_HOSEA</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Padding x="-3.00000000" y="-3.00000000"/>
+          <Rotation value="2"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_SADIE</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Padding x="-3.00000000" y="-3.00000000"/>
+          <Rotation value="2"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_KIERAN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Padding x="-3.00000000" y="-3.00000000"/>
+          <Rotation value="2"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_LENNY</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Padding x="-3.00000000" y="-3.00000000"/>
+          <Rotation value="2"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_JOHN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Padding x="-3.00000000" y="-3.00000000"/>
+          <Rotation value="2"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_MEXICAN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Padding x="-3.00000000" y="-3.00000000"/>
+          <Rotation value="2"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_PIG</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Padding x="-3.00000000" y="-3.00000000"/>
+          <Rotation value="2"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_DOUBLEACTION</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Padding x="-24.00000000" y="-24.00000000"/>
+          <Rotation value="1"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_DOUBLEACTION_JAVIER</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Padding x="-24.00000000" y="-24.00000000"/>
+          <Rotation value="1"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_DOUBLEACTION_EXOTIC</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Padding x="-24.00000000" y="-24.00000000"/>
+          <Rotation value="1"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_DOUBLEACTION_MICAH</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Padding x="-24.00000000" y="-24.00000000"/>
+          <Rotation value="1"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_DOUBLEACTION_GAMBLER</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Padding x="-24.00000000" y="-24.00000000"/>
+          <Rotation value="1"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_SCHOFIELD</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Rotation value="3"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_SCHOFIELD_DUTCH</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Rotation value="3"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_SCHOFIELD_BILL</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Rotation value="3"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_SCHOFIELD_UNCLE</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Rotation value="3"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_SCHOFIELD_CALLOWAY</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Rotation value="3"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_SCHOFIELD_GOLDEN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Rotation value="3"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_PISTOL_SEMIAUTO</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-5.00000000" y="0.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SHOTGUN_SAWEDOFF</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Rotation value="4"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SHOTGUN_SAWEDOFF_CHARLES</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Rotation value="4"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_PISTOL_M1899</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="0.00000000" y="0.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_LEMAT</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <Padding x="0.00000000" y="0.00000000"/>
+        </Item>
+      </SlotItems>
+    </Item>
+    <Item key="WEAPONS_SIDEARMS_LEFT">
+      <SlotItems>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="19.00000000" y="15.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_SEAN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="19.00000000" y="15.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_HOSEA</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="19.00000000" y="15.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_SADIE</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="19.00000000" y="15.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_KIERAN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="19.00000000" y="15.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_LENNY</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="19.00000000" y="15.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_JOHN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="19.00000000" y="15.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_MEXICAN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="19.00000000" y="15.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_PIG</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="19.00000000" y="15.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_DOUBLEACTION</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="18.00000000" y="18.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="-10.00000000" y="-10.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_DOUBLEACTION_JAVIER</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="18.00000000" y="18.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="-10.00000000" y="-10.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_DOUBLEACTION_EXOTIC</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="18.00000000" y="18.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="-10.00000000" y="-10.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_DOUBLEACTION_MICAH</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="18.00000000" y="18.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="-10.00000000" y="-10.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_DOUBLEACTION_GAMBLER</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="18.00000000" y="18.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="-10.00000000" y="-10.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_SCHOFIELD</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="20.00000000" y="21.00000000"/>
+          <Rotation value="41"/>
+          <Padding x="8.00000000" y="8.00000000"/>
+        </Item>
+		<Item>
+          <Id>WEAPON_REVOLVER_SCHOFIELD_DUTCH</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="20.00000000" y="21.00000000"/>
+          <Rotation value="41"/>
+          <Padding x="8.00000000" y="8.00000000"/>
+        </Item>
+		<Item>
+          <Id>WEAPON_REVOLVER_SCHOFIELD_BILL</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="20.00000000" y="21.00000000"/>
+          <Rotation value="41"/>
+          <Padding x="8.00000000" y="8.00000000"/>
+        </Item>
+		<Item>
+          <Id>WEAPON_REVOLVER_SCHOFIELD_UNCLE</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="20.00000000" y="21.00000000"/>
+          <Rotation value="41"/>
+          <Padding x="8.00000000" y="8.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_SCHOFIELD_CALLOWAY</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="20.00000000" y="21.00000000"/>
+          <Rotation value="41"/>
+          <Padding x="8.00000000" y="8.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_SCHOFIELD_GOLDEN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="20.00000000" y="21.00000000"/>
+          <Rotation value="41"/>
+          <Padding x="8.00000000" y="8.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_PISTOL_VOLCANIC</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="18.00000000" y="20.00000000"/>
+          <Rotation value="41"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_PISTOL_MAUSER</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="4.00000000" y="15.00000000"/>
+          <Rotation value="43"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_PISTOL_MAUSER_DRUNK</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="4.00000000" y="15.00000000"/>
+          <Rotation value="43"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_PISTOL_SEMIAUTO</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="15.00000000" y="15.00000000"/>
+          <Rotation value="41"/>
+          <Padding x="-10.00000000" y="-10.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SHOTGUN_SAWEDOFF</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="21.00000000" y="22.00000000"/>
+          <Rotation value="42"/>
+          <Padding x="-15.00000000" y="-15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SHOTGUN_SAWEDOFF_CHARLES</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="21.00000000" y="22.00000000"/>
+          <Rotation value="42"/>
+          <Padding x="-15.00000000" y="-15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_PISTOL_M1899</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="28.00000000" y="29.00000000"/>
+          <Rotation value="36"/>
+          <Padding x="-10.00000000" y="-10.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_LEMAT</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="19.00000000" y="15.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="8.00000000" y="8.00000000"/>
+        </Item>
+      </SlotItems>
+    </Item>
+    <Item key="WEAPONS_SIDEARMS_RIGHT">
+      <SlotItems>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="38.00000000" y="26.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_SEAN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="38.00000000" y="26.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_HOSEA</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="38.00000000" y="26.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_SADIE</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="38.00000000" y="26.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_KIERAN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="38.00000000" y="26.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_LENNY</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="38.00000000" y="26.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_JOHN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="38.00000000" y="26.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_MEXICAN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="38.00000000" y="26.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_CATTLEMAN_PIG</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="38.00000000" y="26.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_DOUBLEACTION</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="38.00000000" y="26.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="-10.00000000" y="-10.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_DOUBLEACTION_JAVIER</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="38.00000000" y="26.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="-10.00000000" y="-10.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_DOUBLEACTION_EXOTIC</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="38.00000000" y="26.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="-10.00000000" y="-10.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_DOUBLEACTION_MICAH</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="38.00000000" y="26.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="-10.00000000" y="-10.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_DOUBLEACTION_GAMBLER</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="38.00000000" y="26.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="-10.00000000" y="-10.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_SCHOFIELD</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="39.00000000" y="30.00000000"/>
+          <Rotation value="40"/>
+          <Padding x="8.00000000" y="8.00000000"/>
+        </Item>
+		<Item>
+          <Id>WEAPON_REVOLVER_SCHOFIELD_DUTCH</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="39.00000000" y="30.00000000"/>
+          <Rotation value="40"/>
+          <Padding x="8.00000000" y="8.00000000"/>
+        </Item>
+		<Item>
+          <Id>WEAPON_REVOLVER_SCHOFIELD_BILL</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="39.00000000" y="30.00000000"/>
+          <Rotation value="40"/>
+          <Padding x="8.00000000" y="8.00000000"/>
+        </Item>
+		<Item>
+          <Id>WEAPON_REVOLVER_SCHOFIELD_UNCLE</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="39.00000000" y="30.00000000"/>
+          <Rotation value="40"/>
+          <Padding x="8.00000000" y="8.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_SCHOFIELD_CALLOWAY</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="39.00000000" y="30.00000000"/>
+          <Rotation value="40"/>
+          <Padding x="8.00000000" y="8.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_SCHOFIELD_GOLDEN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="39.00000000" y="30.00000000"/>
+          <Rotation value="40"/>
+          <Padding x="8.00000000" y="8.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_PISTOL_VOLCANIC</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="36.00000000" y="28.00000000"/>
+          <Rotation value="41"/>
+          <Padding x="-5.00000000" y="-5.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_PISTOL_MAUSER</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="24.00000000" y="28.00000000"/>
+          <Rotation value="41"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_PISTOL_MAUSER_DRUNK</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="24.00000000" y="28.00000000"/>
+          <Rotation value="41"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_PISTOL_SEMIAUTO</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="34.00000000" y="28.00000000"/>
+          <Rotation value="39"/>
+          <Padding x="-10.00000000" y="-10.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SHOTGUN_SAWEDOFF</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="45.00000000" y="30.00000000"/>
+          <Rotation value="39"/>
+          <Padding x="-18.00000000" y="-18.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_SHOTGUN_SAWEDOFF_CHARLES</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="45.00000000" y="30.00000000"/>
+          <Rotation value="39"/>
+          <Padding x="-18.00000000" y="-18.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_PISTOL_M1899</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="34.00000000" y="28.00000000"/>
+          <Rotation value="35"/>
+          <Padding x="-10.00000000" y="-10.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_REVOLVER_LEMAT</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="38.00000000" y="26.00000000"/>
+          <Rotation value="43"/>
+          <Padding x="8.00000000" y="8.00000000"/>
+        </Item>
+      </SlotItems>
+    </Item>
+    <Item key="WEAPONS_MELEE_NO_UNARMED">
+      <SlotItems>
+        <Item>
+          <Id>WEAPON_MELEE_KNIFE</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="4.00000000" y="-3.00000000"/>
+          <Rotation value="125"/>
+          <Padding x="-35.00000000" y="-35.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_KNIFE_JOHN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="5.00000000" y="-5.00000000"/>
+          <Rotation value="126"/>
+          <Padding x="-40.00000000" y="-40.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_KNIFE_SADIE</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="4.00000000" y="-6.00000000"/>
+          <Rotation value="126"/>
+          <Padding x="-40.00000000" y="-47.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_KNIFE_KIERAN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="3.00000000" y="-2.00000000"/>
+          <Rotation value="127"/>
+          <Padding x="-32.00000000" y="-32.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_KNIFE_BILL</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="6.00000000" y="-4.00000000"/>
+          <Rotation value="124"/>
+          <Padding x="-25.00000000" y="-35.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_KNIFE_CHARLES</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="6.00000000" y="-3.00000000"/>
+          <Rotation value="126"/>
+          <Padding x="-39.00000000" y="-30.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_KNIFE_HOSEA</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="4.00000000" y="-3.00000000"/>
+          <Rotation value="125"/>
+          <Padding x="-35.00000000" y="-35.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_KNIFE_DUTCH</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="2.00000000" y="-6.00000000"/>
+          <Rotation value="126"/>
+          <Padding x="-40.00000000" y="-40.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_KNIFE_UNCLE</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="4.00000000" y="-7.00000000"/>
+          <Rotation value="123"/>
+          <Padding x="-38.00000000" y="-29.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_KNIFE_JAVIER</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="4.00000000" y="-3.00000000"/>
+          <Rotation value="122"/>
+          <Padding x="-37.00000000" y="-35.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_KNIFE_SEAN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="4.00000000" y="-3.00000000"/>
+          <Rotation value="121"/>
+          <Padding x="-35.00000000" y="-37.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_KNIFE_MICAH</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="4.00000000" y="-4.00000000"/>
+          <Rotation value="126"/>
+          <Padding x="-39.00000000" y="-39.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_KNIFE_LENNY</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="4.00000000" y="-3.00000000"/>
+          <Rotation value="122"/>
+          <Padding x="-37.00000000" y="-35.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_KNIFE_BEAR</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="0.00000000" y="-4.00000000"/>
+          <Rotation value="125"/>
+          <Padding x="-65.00000000" y="-65.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_KNIFE_CIVIL_WAR</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-2.00000000" y="-6.00000000"/>
+          <Rotation value="125"/>
+          <Padding x="-70.00000000" y="-70.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_KNIFE_JAWBONE</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="0.00000000" y="-4.00000000"/>
+          <Rotation value="125"/>
+          <Padding x="-64.00000000" y="-64.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_KNIFE_MINER</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="5.00000000" y="-7.00000000"/>
+          <Rotation value="125"/>
+          <Padding x="-60.00000000" y="-60.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_KNIFE_VAMPIRE</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="3.00000000" y="-5.00000000"/>
+          <Rotation value="125"/>
+          <Padding x="-58.00000000" y="-58.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_TORCH</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="4.00000000" y="-6.00000000"/>
+          <Rotation value="126"/>
+          <Padding x="-45.00000000" y="-45.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_LANTERN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="8.00000000" y="-9.00000000"/>
+          <Rotation value="126"/>
+          <Padding x="-33.00000000" y="-33.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_DAVY_LANTERN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="8.00000000" y="-9.00000000"/>
+          <Rotation value="126"/>
+          <Padding x="-65.00000000" y="-65.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_LANTERN_ELECTRIC</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="8.00000000" y="-9.00000000"/>
+          <Rotation value="126"/>
+          <Padding x="-65.00000000" y="-65.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_MACHETE</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="5.00000000" y="-5.00000000"/>
+          <Rotation value="125"/>
+          <Padding x="-48.00000000" y="-48.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_BROKEN_SWORD</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="3.00000000" y="-5.00000000"/>
+          <Rotation value="125"/>
+          <Padding x="-60.00000000" y="-60.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_HATCHET</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-12.00000000" y="-5.00000000"/>
+          <Rotation value="122"/>
+          <Padding x="-52.00000000" y="-52.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_CLEAVER</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-8.00000000" y="-2.00000000"/>
+          <Rotation value="128"/>
+          <Padding x="-55.00000000" y="-55.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MOONSHINEJUG</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="4.00000000" y="-6.00000000" />
+          <Rotation value="128" />
+          <Padding x="-65.00000000" y="-52.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_ANCIENT_HATCHET</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-4.00000000" y="-5.00000000"/>
+          <Rotation value="126"/>
+          <Padding x="-55.00000000" y="-55.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_HATCHET_VIKING</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-10.00000000" y="-5.00000000"/>
+          <Rotation value="125"/>
+          <Padding x="-72.00000000" y="-72.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_HATCHET_HEWING</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-11.00000000" y="-5.00000000"/>
+          <Rotation value="127"/>
+          <Padding x="-70.00000000" y="-70.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_HATCHET_DOUBLE_BIT</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="1.00000000" y="0.00000000"/>
+          <Rotation value="126"/>
+          <Padding x="-50.00000000" y="-50.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_HATCHET_DOUBLE_BIT_RUSTED</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="1.00000000" y="0.00000000"/>
+          <Rotation value="126"/>
+          <Padding x="-50.00000000" y="-50.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_HATCHET_HUNTER</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-10.00000000" y="-5.00000000"/>
+          <Rotation value="128"/>
+          <Padding x="-65.00000000" y="-65.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_HATCHET_HUNTER_RUSTED</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-10.00000000" y="-5.00000000"/>
+          <Rotation value="128"/>
+          <Padding x="-65.00000000" y="-65.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_MELEE_MACHETE_HORROR</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="5.00000000" y="-5.00000000"/>
+          <Rotation value="129"/>
+          <Padding x="-48.00000000" y="-48.00000000"/>
+        </Item>
+      </SlotItems>
+    </Item>
+    <Item key="WEAPONS_UNARMED">
+      <SlotItems>
+        <Item>
+          <Id>WEAPON_UNARMED</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-6.00000000" y="0.00000000"/>
+          <Rotation value="98"/>
+          <Padding x="-30.00000000" y="-30.00000000"/>
+        </Item>
+      </SlotItems>
+    </Item>
+    <Item key="WEAPONS_THROWN">
+      <SlotItems>
+        <Item>
+          <Id>WEAPON_LASSO</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-4.00000000" y="2.00000000"/>
+          <Rotation value="52"/>
+          <Padding x="-70.00000000" y="-35.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_THROWN_DYNAMITE</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-11.00000000" y="0.00000000"/>
+          <Rotation value="58"/>
+          <Padding x="-112.00000000" y="-56.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_THROWN_MOLOTOV</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-4.00000000" y="0.00000000"/>
+          <Rotation value="58"/>
+          <Padding x="-96.00000000" y="-48.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_THROWN_THROWING_KNIVES</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-3.00000000" y="0.00000000"/>
+          <Rotation value="58"/>
+          <Padding x="-98.00000000" y="-49.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_THROWN_THROWING_KNIVES_JAVIER</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-3.00000000" y="0.00000000"/>
+          <Rotation value="58"/>
+          <Padding x="-98.00000000" y="-49.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_THROWN_TOMAHAWK</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-8.00000000" y="5.00000000"/>
+          <Rotation value="58"/>
+          <Padding x="-92.00000000" y="-46.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_THROWN_TOMAHAWK_ANCIENT</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-8.00000000" y="5.00000000"/>
+          <Rotation value="58"/>
+          <Padding x="-98.00000000" y="-49.00000000"/>
+        </Item>
+      </SlotItems>
+    </Item>
+    <Item key="HUNTING">
+      <SlotItems>
+        <Item>
+          <Id>WEAPON_FISHINGROD</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="-5.00000000" y="-5.00000000"/>
+          <Rotation value="66"/>
+          <Padding x="15.00000000" y="15.00000000"/>
+        </Item>
+      </SlotItems>
+    </Item>
+    <Item key="KIT">
+      <SlotItems>
+        <Item>
+          <Id>WEAPON_KIT_BINOCULARS</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="5.00000000" y="0.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_KIT_CAMERA</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+        </Item>
+        <Item>
+          <Id>KIT_LIGHTNING_CONDUCTOR</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_SATCHEL_ITEM</Type>
+          <PosOffset x="5.00000000" y="0.00000000"/>
+        </Item>
+        <Item>
+          <Id>WEAPON_KIT_DETECTOR</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_WEAPON</Type>
+          <PosOffset x="5.00000000" y="0.00000000"/>
+          <Padding x="25.00000000" y="25.00000000"/>
+        </Item>
+        <Item>
+          <Id>CONSUMABLE_LOCK_BREAKER</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_SATCHEL_ITEM</Type>
+          <PosOffset x="5.00000000" y="0.00000000"/>
+        </Item>
+        <Item>
+          <Id>KIT_PLAYER_POCKETWATCH</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_SATCHEL_ITEM</Type>
+        </Item>
+        <Item>
+          <Id>PROVISION_POCKET_WATCH_GLEAMING_BRASS</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_SATCHEL_ITEM</Type>
+        </Item>
+        <Item>
+          <Id>PROVISION_POCKET_WATCH_GOLD</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_SATCHEL_ITEM</Type>
+        </Item>
+        <Item>
+          <Id>PROVISION_RCM_POCKET_WATCH</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_SATCHEL_ITEM</Type>
+        </Item>
+        <Item>
+          <Id>PROVISION_POCKET_WATCH_PLATINUM</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_SATCHEL_ITEM</Type>
+        </Item>
+        <Item>
+          <Id>PROVISION_RC_SLVCATCHER_WATCH</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_SATCHEL_ITEM</Type>
+        </Item>
+        <Item>
+          <Id>PROVISION_POCKET_WATCH_SILVER</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_SATCHEL_ITEM</Type>
+        </Item>
+        <Item>
+          <Id>PROVISION_WATCH</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_SATCHEL_ITEM</Type>
+        </Item>
+      </SlotItems>
+    </Item>
+    <Item key="HORSE_PROVISIONS">
+      <SlotItems>
+        <Item>
+          <Id>CONSUMABLE_CORN</Id>
+          <Type>QUICK_SELECT_ITEM_TYPE_SATCHEL_ITEM</Type>
+          <Rotation value="270"/>
+        </Item>
+      </SlotItems>
+    </Item>
+  </Slots>
+</uiQuickSelectSlotInfoCollection>

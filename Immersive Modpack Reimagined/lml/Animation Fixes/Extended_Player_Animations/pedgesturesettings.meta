@@ -1,0 +1,2129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CPedGestureSettingsManager>
+  <Settings>
+    <Item type="CPedGestureSettings" key="ALLIGATOR">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@ALLIGATOR</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="ARTHUR">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER</ClipSetId>
+          <ConditionalClipSets>
+		    <!--<Item>
+              <pCondition ref="DONOT_PLAY_ON_HORSEBACK" />
+              <ClipSetId>GESTURES_NONE</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>-->
+		    <Item>
+              <pCondition ref="IS_WHISTLING" />
+              <ClipSetId>AI_GESTURES@INSTRUMENTS@WHISTLING@120BPM</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="ON_VEHICLE_ONE_HANDED_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="DRIVER_VEHICLE" />
+              <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_LANTERN_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_ONE_HANDED_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			  <Item>
+              <pCondition ref="ON_HORSEBACK_TWO_HANDED_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="ON_HORSEBACK" />
+              <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="DUAL_WEAPON_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="OFFHAND_WEAPON" />
+              <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="OFFHAND_WEAPON_AND_ONE_HANDED_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			 <Item>
+              <pCondition ref="LANTERN_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="ONE_HANDED_WEAPON_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_IN_USE_SMALL" />
+              <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_PINNED_RIGHT_IN_USE" />
+              <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="RIGHT_HAND_SMALL_OBJECT" />
+              <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="RIGHT_HAND_MEDIUM_OBJECT" />
+              <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="RIGHT_HAND_LARGE_OBJECT" />
+              <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_ARM_PINNED" />
+              <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="LEFT_ARM_IN_USE" />
+              <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_PINNED" />
+              <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="NO_HAT" />
+              <ClipSetId>AI_GESTURES@ARTHUR@STANDING@SPEAKER@NO_HAT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+          </ConditionalClipSets>
+          <ConditionalBodyBlendTemplates>
+            <Item>
+              <pCondition ref="IS_CROUCHING" />
+              <BodyBlendTemplateId>template_GESTURE_Crouching</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="IS_FISHING" />
+              <BodyBlendTemplateId>template_GESTURE_HeadOnly</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BINOCULARS_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_TWO_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndShoulders</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="TWO_HANDED_WEAPON_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndShoulders</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="OFFHAND_WEAPON_AND_LANTERN_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="OFFHAND_WEAPON_AND_ONE_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_IN_USE_SMALL" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadOnly</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_ARMS_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_HAND_LARGE_OBJECT" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_SMALL_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned_RightProp_NoSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_ARM_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_RightPinned_NoSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_PINNED_LEFT_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_RightPinned_LeftProp</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_VEHICLE_ONE_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="DRIVER_VEHICLE" />
+              <BodyBlendTemplateId>template_GESTURE_No_Forearm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="PASSENGER_VEHICLE" />
+              <BodyBlendTemplateId>template_GESTURE_No_Forearm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_LANTERN_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_ONE_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LANTERN_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftArm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ONE_HANDED_WEAPON_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="PASSENGER_HORSEBACK" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK" />
+              <BodyBlendTemplateId>template_GESTURE_No_Forearm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="DUAL_WEAPON_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_PINNED_RIGHT_IN_USE_SMALL" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned_RightProp</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned_NoSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_PINNED_RIGHT_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_HAND_SMALL_OBJECT" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_HAND_MEDIUM_OBJECT" />
+              <BodyBlendTemplateId>template_GESTURE_LeftArm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_ARM_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_RightPinned</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+          </ConditionalBodyBlendTemplates>
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+	  <Aiming1hClipSetId>AI_GESTURES@GEN_MALE@STANDING@AIMING@1H</Aiming1hClipSetId>
+	  <Aiming1hBodyBlendTemplateId>template_GESTURE_Upperbody</Aiming1hBodyBlendTemplateId>
+	  <Aiming2hClipSetId>AI_GESTURES@GEN_MALE@STANDING@AIMING@2H</Aiming2hClipSetId>
+	  <Aiming2hBodyBlendTemplateId>template_GESTURE_Upperbody</Aiming2hBodyBlendTemplateId>
+	  <AimingDualClipSetId>AI_GESTURES@GEN_MALE@STANDING@AIMING@DUAL</AimingDualClipSetId>
+	  <AimingDualBodyBlendTemplateId>template_GESTURE_Upperbody</AimingDualBodyBlendTemplateId>
+	</Item>
+    <Item type="CPedGestureSettings" key="BADGER">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@BADGER</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="BAT">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@BAT</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="BEAR">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@BEAR</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="BOAR">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@BOAR</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="BUFFALO">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@BUFFALO</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="BULL">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@BULL</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="COUGAR">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@COUGAR</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="COYOTE">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@COYOTE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="DEER">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@DEER</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="DISABLE_GESTURES">
+      <Tracks />
+    </Item>
+    <Item type="CPedGestureSettings" key="DOGLAB">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@DOGLAB</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="GEN_FEMALE">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@SPEAKER</ClipSetId>
+          <ConditionalClipSets>
+		    <Item>
+              <pCondition ref="IS_WHISTLING" />
+              <ClipSetId>AI_GESTURES@INSTRUMENTS@WHISTLING@120BPM</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="ON_VEHICLE_ONE_HANDED_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="DRIVER_VEHICLE" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_LANTERN_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@SPEAKER@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_ONE_HANDED_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="DUAL_WEAPON_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="OFFHAND_WEAPON" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="OFFHAND_WEAPON_AND_ONE_HANDED_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			 <Item>
+              <pCondition ref="LANTERN_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@SPEAKER@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="IS_HUMMING" />
+              <ClipSetId>AI_GESTURES@INSTRUMENTS@WHISTLING@120BPM</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="ONE_HANDED_WEAPON_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_IN_USE_SMALL" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_PINNED_RIGHT_IN_USE" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="RIGHT_HAND_SMALL_OBJECT" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="RIGHT_HAND_MEDIUM_OBJECT" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@SPEAKER@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_HAND_LARGE_OBJECT" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@SPEAKER@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_ARM_PINNED" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@SPEAKER@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="LEFT_ARM_IN_USE" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_PINNED" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+          </ConditionalClipSets>
+		  <ConditionalBodyBlendTemplates>
+		  <Item>
+              <pCondition ref="IS_OBESE" />
+              <BodyBlendTemplateId>template_GESTURE_HeadOnly</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="IS_CROUCHING" />
+              <BodyBlendTemplateId>template_GESTURE_Crouching</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="IS_FISHING" />
+              <BodyBlendTemplateId>template_GESTURE_HeadOnly</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BINOCULARS_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_TWO_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndShoulders</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="TWO_HANDED_WEAPON_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndShoulders</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="OFFHAND_WEAPON_AND_LANTERN_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="OFFHAND_WEAPON_AND_ONE_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_IN_USE_SMALL" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadOnly</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_ARMS_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_HAND_LARGE_OBJECT" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_SMALL_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned_RightProp_NoSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_ARM_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_RightPinned_NoSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_PINNED_LEFT_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_RightPinned_LeftProp</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_VEHICLE_ONE_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="DRIVER_VEHICLE" />
+              <BodyBlendTemplateId>template_GESTURE_No_Forearm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="PASSENGER_VEHICLE" />
+              <BodyBlendTemplateId>template_GESTURE_No_Forearm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_LANTERN_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_ONE_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LANTERN_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftArm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ONE_HANDED_WEAPON_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="PASSENGER_HORSEBACK" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK" />
+              <BodyBlendTemplateId>template_GESTURE_No_Forearm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="DUAL_WEAPON_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_PINNED_RIGHT_IN_USE_SMALL" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned_RightProp</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned_NoSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_PINNED_RIGHT_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_HAND_SMALL_OBJECT" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_HAND_MEDIUM_OBJECT" />
+              <BodyBlendTemplateId>template_GESTURE_LeftArm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_ARM_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_RightPinned</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+          </ConditionalBodyBlendTemplates>
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@LISTENER@FACIAL@GEN_MALE</ClipSetId>
+          <ConditionalClipSets>
+			<Item>
+              <pCondition ref="IS_WHISTLING" />
+              <ClipSetId>AI_GESTURES@INSTRUMENTS@WHISTLING@FACIAL</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="HAS_AGGRESSIVE_PERSONALITY" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@LISTENER@FACIAL@GEN_MALE_AGRO</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="HAS_TIMID_PERSONALITY" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@LISTENER@FACIAL@GEN_MALE_TIMID</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+          </ConditionalClipSets>
+        </Item>
+      </Tracks>
+	  <Aiming1hClipSetId>AI_GESTURES@GEN_MALE@STANDING@AIMING@1H</Aiming1hClipSetId>
+	  <Aiming1hBodyBlendTemplateId>template_GESTURE_Upperbody</Aiming1hBodyBlendTemplateId>
+	  <Aiming2hClipSetId>AI_GESTURES@GEN_MALE@STANDING@AIMING@2H</Aiming2hClipSetId>
+	  <Aiming2hBodyBlendTemplateId>template_STURE_Upperbody</Aiming2hBodyBlendTemplateId>
+	  <AimingDualClipSetId>AI_GESTURES@GEN_MALE@STANDING@AIMING@DUAL</AimingDualClipSetId>
+	  <AimingDualBodyBlendTemplateId>template_GESTURE_Upperbody</AimingDualBodyBlendTemplateId>
+    </Item>
+    <Item type="CPedGestureSettings" key="GEN_MALE">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@SPEAKER</ClipSetId>
+          <ConditionalClipSets>
+		    <Item>
+              <pCondition ref="IS_WHISTLING" />
+              <ClipSetId>AI_GESTURES@INSTRUMENTS@WHISTLING@120BPM</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_VEHICLE_ONE_HANDED_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="DRIVER_VEHICLE" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_LANTERN_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@SPEAKER@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_ONE_HANDED_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="ON_HORSEBACK" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="DUAL_WEAPON_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="OFFHAND_WEAPON" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="OFFHAND_WEAPON_AND_ONE_HANDED_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			 <Item>
+              <pCondition ref="LANTERN_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@SPEAKER@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="ONE_HANDED_WEAPON_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_IN_USE_SMALL" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_PINNED_RIGHT_IN_USE" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="RIGHT_HAND_SMALL_OBJECT" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="RIGHT_HAND_MEDIUM_OBJECT" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@SPEAKER@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_ARM_PINNED" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@SPEAKER@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="LEFT_ARM_IN_USE" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_PINNED" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="NO_HAT" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@SPEAKER@NO_HAT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+          </ConditionalClipSets>
+		  <ConditionalBodyBlendTemplates>
+		  <Item>
+              <pCondition ref="IS_OBESE" />
+              <BodyBlendTemplateId>template_GESTURE_HeadOnly</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="IS_CROUCHING" />
+              <BodyBlendTemplateId>template_GESTURE_Crouching</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="IS_FISHING" />
+              <BodyBlendTemplateId>template_GESTURE_HeadOnly</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BINOCULARS_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_TWO_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndShoulders</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="TWO_HANDED_WEAPON_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndShoulders</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="OFFHAND_WEAPON_AND_LANTERN_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="OFFHAND_WEAPON_AND_ONE_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_IN_USE_SMALL" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadOnly</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_ARMS_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_HAND_LARGE_OBJECT" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_SMALL_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned_RightProp_NoSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_ARM_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_RightPinned_NoSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_PINNED_LEFT_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_RightPinned_LeftProp</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_VEHICLE_ONE_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="DRIVER_VEHICLE" />
+              <BodyBlendTemplateId>template_GESTURE_No_Forearm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="PASSENGER_VEHICLE" />
+              <BodyBlendTemplateId>template_GESTURE_No_Forearm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_LANTERN_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_ONE_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LANTERN_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftArm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ONE_HANDED_WEAPON_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="PASSENGER_HORSEBACK" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK" />
+              <BodyBlendTemplateId>template_GESTURE_No_Forearm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="DUAL_WEAPON_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_PINNED_RIGHT_IN_USE_SMALL" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned_RightProp</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned_NoSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_PINNED_RIGHT_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_HAND_SMALL_OBJECT" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_HAND_MEDIUM_OBJECT" />
+              <BodyBlendTemplateId>template_GESTURE_LeftArm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_ARM_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_RightPinned</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+          </ConditionalBodyBlendTemplates>
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@LISTENER@FACIAL@GEN_MALE</ClipSetId>
+          <ConditionalClipSets>
+			<Item>
+              <pCondition ref="IS_WHISTLING" />
+              <ClipSetId>AI_GESTURES@INSTRUMENTS@WHISTLING@FACIAL</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="HAS_AGGRESSIVE_PERSONALITY" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@LISTENER@FACIAL@GEN_MALE_AGRO</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="HAS_TIMID_PERSONALITY" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@LISTENER@FACIAL@GEN_MALE_TIMID</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+          </ConditionalClipSets>
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+	  <Aiming1hClipSetId>AI_GESTURES@GEN_MALE@STANDING@AIMING@1H</Aiming1hClipSetId>
+	  <Aiming1hBodyBlendTemplateId>template_GESTURE_Upperbody</Aiming1hBodyBlendTemplateId>
+	  <Aiming2hClipSetId>AI_GESTURES@GEN_MALE@STANDING@AIMING@2H</Aiming2hClipSetId>
+	  <Aiming2hBodyBlendTemplateId>template_GESTURE_Upperbody</Aiming2hBodyBlendTemplateId>
+	  <AimingDualClipSetId>AI_GESTURES@GEN_MALE@STANDING@AIMING@DUAL</AimingDualClipSetId>
+	  <AimingDualBodyBlendTemplateId>template_GESTURE_Upperbody</AimingDualBodyBlendTemplateId>
+    </Item>
+    <Item type="CPedGestureSettings" key="GOAT">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@GOAT</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="HORSE">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@HORSE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="JOHN">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER</ClipSetId>
+          <ConditionalClipSets>
+		  <!--<Item>
+              <pCondition ref="DONOT_PLAY_ON_HORSEBACK" />
+              <ClipSetId>GESTURES_NONE</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>-->
+		  <Item>
+              <pCondition ref="IS_WHISTLING" />
+              <ClipSetId>AI_GESTURES@INSTRUMENTS@WHISTLING@120BPM</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="ON_VEHICLE_ONE_HANDED_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="DRIVER_VEHICLE" />
+              <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_LANTERN_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_ONE_HANDED_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_TWO_HANDED_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="ON_HORSEBACK" />
+              <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="DUAL_WEAPON_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="OFFHAND_WEAPON" />
+              <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="OFFHAND_WEAPON_AND_ONE_HANDED_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LANTERN_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="ONE_HANDED_WEAPON_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_IN_USE_SMALL" />
+              <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_PINNED_RIGHT_IN_USE" />
+              <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="RIGHT_HAND_SMALL_OBJECT" />
+              <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="RIGHT_HAND_MEDIUM_OBJECT" />
+              <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="RIGHT_HAND_LARGE_OBJECT" />
+              <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_ARM_PINNED" />
+              <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="LEFT_ARM_IN_USE" />
+              <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_PINNED" />
+              <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="NO_HAT" />
+              <ClipSetId>AI_GESTURES@JOHN@STANDING@SPEAKER@NO_HAT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+          </ConditionalClipSets>
+		  <ConditionalBodyBlendTemplates>
+		  <Item>
+              <pCondition ref="IS_CROUCHING" />
+              <BodyBlendTemplateId>template_GESTURE_Crouching</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="IS_FISHING" />
+              <BodyBlendTemplateId>template_GESTURE_HeadOnly</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BINOCULARS_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_TWO_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndShoulders</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="TWO_HANDED_WEAPON_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndShoulders</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="OFFHAND_WEAPON_AND_LANTERN_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="OFFHAND_WEAPON_AND_ONE_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_IN_USE_SMALL" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadOnly</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_ARMS_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_HAND_LARGE_OBJECT" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_SMALL_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned_RightProp_NoSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_ARM_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_RightPinned_NoSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_PINNED_LEFT_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_RightPinned_LeftProp</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_VEHICLE_ONE_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="DRIVER_VEHICLE" />
+              <BodyBlendTemplateId>template_GESTURE_No_Forearm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="PASSENGER_VEHICLE" />
+              <BodyBlendTemplateId>template_GESTURE_No_Forearm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_LANTERN_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_ONE_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LANTERN_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftArm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ONE_HANDED_WEAPON_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="PASSENGER_HORSEBACK" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK" />
+              <BodyBlendTemplateId>template_GESTURE_No_Forearm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="DUAL_WEAPON_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_PINNED_RIGHT_IN_USE_SMALL" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned_RightProp</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned_NoSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_PINNED_RIGHT_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_HAND_SMALL_OBJECT" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_HAND_MEDIUM_OBJECT" />
+              <BodyBlendTemplateId>template_GESTURE_LeftArm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_ARM_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_RightPinned</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+          </ConditionalBodyBlendTemplates>
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+	  <Aiming1hClipSetId>AI_GESTURES@GEN_MALE@STANDING@AIMING@1H</Aiming1hClipSetId>
+	  <Aiming1hBodyBlendTemplateId>template_GESTURE_Upperbody</Aiming1hBodyBlendTemplateId>
+	  <Aiming2hClipSetId>AI_GESTURES@GEN_MALE@STANDING@AIMING@2H</Aiming2hClipSetId>
+	  <Aiming2hBodyBlendTemplateId>template_GESTURE_Upperbody</Aiming2hBodyBlendTemplateId>
+	  <AimingDualClipSetId>AI_GESTURES@GEN_MALE@STANDING@AIMING@DUAL</AimingDualClipSetId>
+	  <AimingDualBodyBlendTemplateId>template_GESTURE_Upperbody</AimingDualBodyBlendTemplateId>
+	</Item>
+    <Item type="CPedGestureSettings" key="NONE">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="PIANO">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_HUMAN@GESTURES@INSTRUMENTS@PIANO</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+	<Item type="CPedGestureSettings" key="GUARMA_FEMALE">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@NO_ENGLISH</ClipSetId>
+          <ConditionalClipSets>
+		    <Item>
+              <pCondition ref="IS_WHISTLING" />
+              <ClipSetId>AI_GESTURES@INSTRUMENTS@WHISTLING@120BPM</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="ON_VEHICLE_ONE_HANDED_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@NO_ENGLISH@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="DRIVER_VEHICLE" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@NO_ENGLISH@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_ONE_HANDED_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@NO_ENGLISH@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@NO_ENGLISH@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="DUAL_WEAPON_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@NO_ENGLISH@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="OFFHAND_WEAPON" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@NO_ENGLISH@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="OFFHAND_WEAPON_AND_ONE_HANDED_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@NO_ENGLISH@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="ONE_HANDED_WEAPON_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@NO_ENGLISH@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_IN_USE_SMALL" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@NO_ENGLISH@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_PINNED_RIGHT_IN_USE" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@NO_ENGLISH@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="RIGHT_HAND_SMALL_OBJECT" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@NO_ENGLISH@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="RIGHT_HAND_MEDIUM_OBJECT" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@NO_ENGLISH@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_HAND_LARGE_OBJECT" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@NO_ENGLISH@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_ARM_PINNED" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@NO_ENGLISH@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="LEFT_ARM_IN_USE" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@NO_ENGLISH@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_PINNED" />
+              <ClipSetId>AI_GESTURES@GEN_FEMALE@STANDING@NO_ENGLISH@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+          </ConditionalClipSets>
+		  <ConditionalBodyBlendTemplates>
+		  <Item>
+              <pCondition ref="IS_OBESE" />
+              <BodyBlendTemplateId>template_GESTURE_HeadOnly</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="IS_CROUCHING" />
+              <BodyBlendTemplateId>template_GESTURE_Crouching</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="IS_FISHING" />
+              <BodyBlendTemplateId>template_GESTURE_HeadOnly</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BINOCULARS_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_TWO_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndShoulders</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="TWO_HANDED_WEAPON_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndShoulders</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="OFFHAND_WEAPON_AND_LANTERN_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="OFFHAND_WEAPON_AND_ONE_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_IN_USE_SMALL" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadOnly</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_ARMS_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_HAND_LARGE_OBJECT" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_SMALL_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned_RightProp_NoSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_ARM_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_RightPinned_NoSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_PINNED_LEFT_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_RightPinned_LeftProp</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_VEHICLE_ONE_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="DRIVER_VEHICLE" />
+              <BodyBlendTemplateId>template_GESTURE_No_Forearm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="PASSENGER_VEHICLE" />
+              <BodyBlendTemplateId>template_GESTURE_No_Forearm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_LANTERN_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_ONE_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LANTERN_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftArm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ONE_HANDED_WEAPON_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="PASSENGER_HORSEBACK" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK" />
+              <BodyBlendTemplateId>template_GESTURE_No_Forearm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="DUAL_WEAPON_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_PINNED_RIGHT_IN_USE_SMALL" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned_RightProp</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned_NoSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_PINNED_RIGHT_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_HAND_SMALL_OBJECT" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_HAND_MEDIUM_OBJECT" />
+              <BodyBlendTemplateId>template_GESTURE_LeftArm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_ARM_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_RightPinned</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			</ConditionalBodyBlendTemplates>
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@LISTENER@FACIAL@GEN_MALE</ClipSetId>
+          <ConditionalClipSets>
+			<Item>
+              <pCondition ref="IS_WHISTLING" />
+              <ClipSetId>AI_GESTURES@INSTRUMENTS@WHISTLING@FACIAL</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="HAS_AGGRESSIVE_PERSONALITY" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@LISTENER@FACIAL@GEN_MALE_AGRO</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="HAS_TIMID_PERSONALITY" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@LISTENER@FACIAL@GEN_MALE_TIMID</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+          </ConditionalClipSets>
+        </Item>
+      </Tracks>
+	  <Aiming1hClipSetId>AI_GESTURES@GEN_MALE@STANDING@AIMING@1H</Aiming1hClipSetId>
+	  <Aiming1hBodyBlendTemplateId>template_GESTURE_Upperbody</Aiming1hBodyBlendTemplateId>
+	  <Aiming2hClipSetId>AI_GESTURES@GEN_MALE@STANDING@AIMING@2H</Aiming2hClipSetId>
+	  <Aiming2hBodyBlendTemplateId>template_STURE_Upperbody</Aiming2hBodyBlendTemplateId>
+	  <AimingDualClipSetId>AI_GESTURES@GEN_MALE@STANDING@AIMING@DUAL</AimingDualClipSetId>
+	  <AimingDualBodyBlendTemplateId>template_GESTURE_Upperbody</AimingDualBodyBlendTemplateId>
+    </Item>
+    <Item type="CPedGestureSettings" key="GUARMA_MALE">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@NO_ENGLISH</ClipSetId>
+          <ConditionalClipSets>
+			<Item>
+              <pCondition ref="IS_WHISTLING" />
+              <ClipSetId>AI_GESTURES@INSTRUMENTS@WHISTLING@120BPM</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_VEHICLE_ONE_HANDED_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@NO_ENGLISH@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="DRIVER_VEHICLE" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@NO_ENGLISH@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_ONE_HANDED_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@NO_ENGLISH@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="ON_HORSEBACK" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@NO_ENGLISH@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="DUAL_WEAPON_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@NO_ENGLISH@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="OFFHAND_WEAPON" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@NO_ENGLISH@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="OFFHAND_WEAPON_AND_ONE_HANDED_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@NO_ENGLISH@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="ONE_HANDED_WEAPON_EQUIPPED" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@NO_ENGLISH@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_IN_USE_SMALL" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@NO_ENGLISH@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_PINNED_RIGHT_IN_USE" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@NO_ENGLISH@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="RIGHT_HAND_SMALL_OBJECT" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@NO_ENGLISH@RT_HAND@PROP_RT</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="RIGHT_HAND_MEDIUM_OBJECT" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@NO_ENGLISH@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_ARM_PINNED" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@NO_ENGLISH@LT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="LEFT_ARM_IN_USE" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@NO_ENGLISH@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_PINNED" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@NO_ENGLISH@RT_HAND</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+          </ConditionalClipSets>
+		  <ConditionalBodyBlendTemplates>
+		  <Item>
+              <pCondition ref="IS_OBESE" />
+              <BodyBlendTemplateId>template_GESTURE_HeadOnly</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="IS_CROUCHING" />
+              <BodyBlendTemplateId>template_GESTURE_Crouching</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="IS_FISHING" />
+              <BodyBlendTemplateId>template_GESTURE_HeadOnly</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BINOCULARS_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_TWO_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndShoulders</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="TWO_HANDED_WEAPON_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndShoulders</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="OFFHAND_WEAPON_AND_LANTERN_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="OFFHAND_WEAPON_AND_ONE_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_IN_USE_SMALL" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadOnly</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_HANDS_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="BOTH_ARMS_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_HAND_LARGE_OBJECT" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_SMALL_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned_RightProp_NoSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_ARM_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_RightPinned_NoSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_PINNED_LEFT_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_RightPinned_LeftProp</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_VEHICLE_ONE_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="DRIVER_VEHICLE" />
+              <BodyBlendTemplateId>template_GESTURE_No_Forearm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="PASSENGER_VEHICLE" />
+              <BodyBlendTemplateId>template_GESTURE_No_Forearm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_LANTERN_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK_ONE_HANDED_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LANTERN_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftArm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ONE_HANDED_WEAPON_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="PASSENGER_HORSEBACK" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="ON_HORSEBACK" />
+              <BodyBlendTemplateId>template_GESTURE_No_Forearm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="DUAL_WEAPON_EQUIPPED" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_PINNED_RIGHT_IN_USE_SMALL" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned_RightProp</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_SPINE_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned_NoSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_PINNED_RIGHT_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_HeadAndSpine</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_HAND_SMALL_OBJECT" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm_With_Prop</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_HAND_MEDIUM_OBJECT" />
+              <BodyBlendTemplateId>template_GESTURE_LeftArm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_IN_USE" />
+              <BodyBlendTemplateId>template_GESTURE_RightArm</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="RIGHT_ARM_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_RightPinned</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+			<Item>
+              <pCondition ref="LEFT_ARM_PINNED" />
+              <BodyBlendTemplateId>template_GESTURE_LeftPinned</BodyBlendTemplateId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+          </ConditionalBodyBlendTemplates>
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@LISTENER@FACIAL@GEN_MALE</ClipSetId>
+          <ConditionalClipSets>
+			<Item>
+              <pCondition ref="IS_WHISTLING" />
+              <ClipSetId>AI_GESTURES@INSTRUMENTS@WHISTLING@FACIAL</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="HAS_AGGRESSIVE_PERSONALITY" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@LISTENER@FACIAL@GEN_MALE_AGRO</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+            <Item>
+              <pCondition ref="HAS_TIMID_PERSONALITY" />
+              <ClipSetId>AI_GESTURES@GEN_MALE@STANDING@LISTENER@FACIAL@GEN_MALE_TIMID</ClipSetId>
+              <Priority>GPR_MEDIUM</Priority>
+            </Item>
+          </ConditionalClipSets>
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+	  <Aiming1hClipSetId>AI_GESTURES@GEN_MALE@STANDING@AIMING@1H</Aiming1hClipSetId>
+	  <Aiming1hBodyBlendTemplateId>template_GESTURE_Upperbody</Aiming1hBodyBlendTemplateId>
+	  <Aiming2hClipSetId>AI_GESTURES@GEN_MALE@STANDING@AIMING@2H</Aiming2hClipSetId>
+	  <Aiming2hBodyBlendTemplateId>template_GESTURE_Upperbody</Aiming2hBodyBlendTemplateId>
+	  <AimingDualClipSetId>AI_GESTURES@GEN_MALE@STANDING@AIMING@DUAL</AimingDualClipSetId>
+	  <AimingDualBodyBlendTemplateId>template_GESTURE_Upperbody</AimingDualBodyBlendTemplateId>
+    </Item>
+    <Item type="CPedGestureSettings" key="SNAKE">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@SNAKE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="RABBIT">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@RABBIT</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="RACCOON">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@RACCOON</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="RAT">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@RAT</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="ROOSTER">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@ROOSTER</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="SQUIRREL">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@SQUIRREL</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="TOAD">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@TOAD</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="WOLF">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@WOLF</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+    <Item type="CPedGestureSettings" key="FOX">
+      <Tracks>
+        <Item key="GT_BODY">
+          <ClipSetId>GESTURES_NONE</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+        <Item key="GT_FACIAL">
+          <ClipSetId>FACE_CREATURES@GESTURES@FOX</ClipSetId>
+          <ConditionalClipSets />
+          <ConditionalBodyBlendTemplates />
+        </Item>
+      </Tracks>
+    </Item>
+  </Settings>
+</CPedGestureSettingsManager>

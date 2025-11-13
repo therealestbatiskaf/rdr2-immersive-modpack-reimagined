@@ -1,0 +1,1543 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fwAnimSceneData>
+  <sceneOrigin>
+    <matrix content="matrix34">
+      1.00000000 0.00000000 0.00000000 -1812.830000
+      0.00000000 1.00000000 0.00000000 -373.2300000
+      0.00000000 0.00000000 1.00000000 165.50000000
+    </matrix>
+  </sceneOrigin>
+  <entities>
+    <Item key="camera" type="0x5287C842">
+      <toolData type="NULL"/>
+      <conditions type="NULL"/>
+      <evaluationType>0xBAFBD7EA</evaluationType>
+      <0x09FCB95D value="-1.00000000"/>
+      <0x3AF21F31 value="-1.00000000"/>
+      <0x209D37A7 value="1.00000000"/>
+      <0xDCDB7C66 value="false"/>
+      <0x43BA9B76 value="false"/>
+      <0x3BF18C4D value="false"/>
+      <0xFEA95D43 value="false"/>
+    </Item>
+    <Item key="john_marston" type="0x64D97283">
+      <toolData type="NULL"/>
+      <conditions type="NULL"/>
+      <evaluationType>0xBAFBD7EA</evaluationType>
+      <debugModelName>player_three</debugModelName>
+      <0xDC110A02 type="NULL"/>
+      <optional value="true"/>
+      <transient value="false"/>
+      <overrideLifeTime value="false"/>
+      <0x03EFD81F type="NULL"/>
+      <0xE825C15F value="false"/>
+      <createEntity value="false"/>
+      <physicalFlags/>
+      <linkedEntity>
+        <entityId/>
+      </linkedEntity>
+      <leadIns/>
+      <initialInventory>
+        <inventory/>
+      </initialInventory>
+      <pedFlags/>
+      <outfit/>
+      <subOutfit/>
+      <0xFF8220B9 type="NULL"/>
+    </Item>
+    <Item key="internal_loop" type="0x34AD1B0E">
+      <toolData type="NULL"/>
+      <conditions type="NULL"/>
+      <evaluationType>0xBAFBD7EA</evaluationType>
+      <value value="false"/>
+      <0xBAC8E518 value="false"/>
+    </Item>
+    <Item key="0x6B7E0C2D" type="0x9B9E7F24">
+      <toolData type="NULL"/>
+      <conditions type="NULL"/>
+      <evaluationType>0xBAFBD7EA</evaluationType>
+      <0x91B14099/>
+      <0x62ADE224>0x4D9F4AA7</0x62ADE224>
+      <0xA5E7A3A7>0xFA54EBA9</0xA5E7A3A7>
+      <0x2BA84559/>
+    </Item>
+    <Item key="female" type="0x64D97283">
+      <toolData type="NULL"/>
+      <conditions type="NULL"/>
+      <evaluationType>0xBAFBD7EA</evaluationType>
+      <debugModelName>cs_genstoryfemale</debugModelName>
+      <0xDC110A02 type="NULL"/>
+      <optional value="false"/>
+      <transient value="false"/>
+      <overrideLifeTime value="false"/>
+      <0x03EFD81F type="NULL"/>
+      <0xE825C15F value="false"/>
+      <createEntity value="false"/>
+      <physicalFlags/>
+      <linkedEntity>
+        <entityId/>
+      </linkedEntity>
+      <leadIns/>
+      <initialInventory>
+        <inventory/>
+      </initialInventory>
+      <pedFlags/>
+      <outfit/>
+      <subOutfit/>
+      <0xFF8220B9 type="NULL"/>
+    </Item>
+    <Item key="0xA6AF644A" type="0x9B9E7F24">
+      <toolData type="NULL"/>
+      <conditions type="NULL"/>
+      <evaluationType>0xBAFBD7EA</evaluationType>
+      <0x91B14099/>
+      <0x62ADE224>0x4D9F4AA7</0x62ADE224>
+      <0xA5E7A3A7>0xFA54EBA9</0xA5E7A3A7>
+      <0x2BA84559/>
+    </Item>
+    <Item key="door" type="0x44DEE094">
+      <toolData type="0x66C95AB8">
+        <0xD4D3E191 value="false"/>
+        <0x645BAE7F value="false"/>
+        <0x9D08E3CC value="true"/>
+        <handle/>
+        <animationName/>
+      </toolData>
+      <conditions type="0x4B852C44">
+        <conditions>
+          <Item type="0x5ECF13CD">
+            <entityName>door</entityName>
+          </Item>
+        </conditions>
+      </conditions>
+      <evaluationType>0x9B838C8B</evaluationType>
+      <debugModelName>p_door13x</debugModelName>
+      <0xDC110A02 type="0x5CBFFDDE">
+        <0x147AD7DC value="true"/>
+        <searchLocation x="-2.78991700" y="1.33789100" z="0.00573700"/>
+        <0x08F3E3FA value="false"/>
+        <searchRadius value="1.00000000"/>
+      </0xDC110A02>
+      <optional value="false"/>
+      <transient value="false"/>
+      <overrideLifeTime value="false"/>
+      <0x03EFD81F type="NULL"/>
+      <0xE825C15F value="false"/>
+      <createEntity value="false"/>
+      <physicalFlags/>
+      <linkedEntity>
+        <entityId/>
+      </linkedEntity>
+      <weaponName/>
+      <objectFlags/>
+    </Item>
+    <Item key="arthur" type="0x64D97283">
+      <toolData type="NULL"/>
+      <conditions type="NULL"/>
+      <evaluationType>0xBAFBD7EA</evaluationType>
+      <debugModelName>player_zero</debugModelName>
+      <0xDC110A02 type="NULL"/>
+      <optional value="true"/>
+      <transient value="false"/>
+      <overrideLifeTime value="false"/>
+      <0x03EFD81F type="NULL"/>
+      <0xE825C15F value="false"/>
+      <createEntity value="false"/>
+      <physicalFlags/>
+      <linkedEntity>
+        <entityId/>
+      </linkedEntity>
+      <leadIns/>
+      <initialInventory>
+        <inventory/>
+      </initialInventory>
+      <pedFlags/>
+      <outfit/>
+      <subOutfit/>
+      <0xFF8220B9 type="NULL"/>
+    </Item>
+  </entities>
+  <sections>
+    <Item key="s_Regular_intro" type="0x64E8AC67">
+      <0xC618212A type="NULL"/>
+      <0xBB18B485>
+        <entityId/>
+      </0xBB18B485>
+      <0x47B47045 value="false"/>
+      <loopCount value="1"/>
+      <events>
+        <events>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>arthur</entityId>
+            </entity>
+            <startTime value="0.00000000"/>
+            <endTime value="8.23333300"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="0xEED7E46F">
+              <events>
+                <Item type="0xB87279B4">
+                  <entity>
+                    <entityId>arthur</entityId>
+                  </entity>
+                  <startTime value="2.80000000"/>
+                  <endTime value="2.80000000"/>
+                  <0x420E8F0C value="0.00000000"/>
+                  <pChildren type="NULL"/>
+                  <0xAB28F89C value="false"/>
+                  <state>0x9D9DEE9D</state>
+                  <toolData type="NULL"/>
+                  <tag type="0x88D891F7">
+                    <Attributes>
+                      <Item type="0xAE6820E5">
+                        <Type value="12"/>
+                        <Name>
+                          <String>Event</String>
+                          <Key value="2915749078"/>
+                        </Name>
+                        <HashString>0x2491D739</HashString>
+                      </Item>
+                    </Attributes>
+                    <Type value="2"/>
+                    <Signature value="0"/>
+                    <Name>
+                      <String>VisibleToScript</String>
+                      <Key value="4076986677"/>
+                    </Name>
+                    <Start value="0.00000000"/>
+                    <End value="0.00000000"/>
+                  </tag>
+                </Item>
+              </events>
+            </pChildren>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <clip>
+              <clipDictionaryName>mini_games@bathing@intro_outro</clipDictionaryName>
+              <clipName>0x215EB58F</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName/>
+              <clipName/>
+            </fpsClip>
+            <animFlags/>
+            <flags>TAF_NOT_INTERRUPTABLE 0x028D8D60 0xFD520F94 0x1E1C96F0</flags>
+            <ragdollBlockingFlags/>
+            <ikFlags>AIK_DISABLE_LEG_IK 0x9E7C192B 0x415FA2ED 0x3AB0EBA0</ikFlags>
+            <aiFlags/>
+            <physFlags/>
+            <filter/>
+            <fpsFilter/>
+            <bodyDampingTemplate/>
+            <blendInDuration value="0.00000000"/>
+            <blendOutDuration value="0.00000000"/>
+            <0xEB3388F4 value="-1.00000000"/>
+            <offsetTime value="0.00000000"/>
+            <rate value="1.00000000"/>
+            <useSceneOrigin value="true"/>
+            <0x1F1E9763 value="false"/>
+            <0x03EFD81F type="NULL"/>
+            <pApproach type="NULL"/>
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>door</entityId>
+            </entity>
+            <startTime value="0.00000000"/>
+            <endTime value="8.23333300"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <clip>
+              <clipDictionaryName>mini_games@bathing@intro_outro</clipDictionaryName>
+              <clipName>0xF6F4EB72</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName/>
+              <clipName/>
+            </fpsClip>
+            <animFlags/>
+            <flags>TAF_NOT_INTERRUPTABLE 0x028D8D60 0xFD520F94 0x1E1C96F0</flags>
+            <ragdollBlockingFlags/>
+            <ikFlags/>
+            <aiFlags/>
+            <physFlags/>
+            <filter/>
+            <fpsFilter/>
+            <bodyDampingTemplate/>
+            <blendInDuration value="0.00000000"/>
+            <blendOutDuration value="0.00000000"/>
+            <0xEB3388F4 value="-1.00000000"/>
+            <offsetTime value="0.00000000"/>
+            <rate value="1.00000000"/>
+            <useSceneOrigin value="true"/>
+            <0x1F1E9763 value="false"/>
+            <0x03EFD81F type="NULL"/>
+            <pApproach type="NULL"/>
+          </Item>
+          <Item type="0x4591B45B">
+            <entity>
+              <entityId>camera</entityId>
+            </entity>
+            <startTime value="0.00000000"/>
+            <endTime value="8.23333300"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <clip>
+              <clipDictionaryName>mini_games@bathing@intro_outro</clipDictionaryName>
+              <clipName>0xFD99102A</clipName>
+            </clip>
+            <0x4FDB02F0 content="float_array">
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+            </0x4FDB02F0>
+            <blendInDuration value="0.00000000"/>
+            <blendOutDuration value="0.00000000"/>
+            <0x64BE00E5 value="-1.00000000"/>
+            <0x895EF81B value="-1.00000000"/>
+            <offsetTime value="0.00000000"/>
+            <cameraSettings>0x8424DFBA 0x059E28F4 0x86DF944B</cameraSettings>
+            <cameraOverrideFlags/>
+            <0x03EFD81F type="NULL"/>
+            <0x54AF1DAB/>
+            <0xB0E887EB/>
+            <0x937BFA7B value="-1.00000000"/>
+            <0x594DB973 value="-1.00000000"/>
+            <uiContext>CUTSCENE</uiContext>
+            <0x67B6947A>0x5C065A43</0x67B6947A>
+            <0x0C6250F8>0x949E9152</0x0C6250F8>
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>john_marston</entityId>
+            </entity>
+            <startTime value="0.00000000"/>
+            <endTime value="8.23333300"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="0xEED7E46F">
+              <events>
+                <Item type="0xB87279B4">
+                  <entity>
+                    <entityId>john_marston</entityId>
+                  </entity>
+                  <startTime value="2.80000000"/>
+                  <endTime value="2.80000000"/>
+                  <0x420E8F0C value="0.00000000"/>
+                  <pChildren type="NULL"/>
+                  <0xAB28F89C value="false"/>
+                  <state>0x9D9DEE9D</state>
+                  <toolData type="NULL"/>
+                  <tag type="0x88D891F7">
+                    <Attributes>
+                      <Item type="0xAE6820E5">
+                        <Type value="12"/>
+                        <Name>
+                          <String>Event</String>
+                          <Key value="2915749078"/>
+                        </Name>
+                        <HashString>0x2491D739</HashString>
+                      </Item>
+                    </Attributes>
+                    <Type value="2"/>
+                    <Signature value="0"/>
+                    <Name>
+                      <String>VisibleToScript</String>
+                      <Key value="4076986677"/>
+                    </Name>
+                    <Start value="0.00000000"/>
+                    <End value="0.00000000"/>
+                  </tag>
+                </Item>
+              </events>
+            </pChildren>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <clip>
+              <clipDictionaryName>mini_games@bathing@intro_outro</clipDictionaryName>
+              <clipName>0x215EB58F</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName/>
+              <clipName/>
+            </fpsClip>
+            <animFlags/>
+            <flags>TAF_NOT_INTERRUPTABLE 0x028D8D60 0xFD520F94 0x1E1C96F0</flags>
+            <ragdollBlockingFlags/>
+            <ikFlags>AIK_DISABLE_LEG_IK 0x9E7C192B 0x415FA2ED 0x3AB0EBA0</ikFlags>
+            <aiFlags/>
+            <physFlags/>
+            <filter/>
+            <fpsFilter/>
+            <bodyDampingTemplate/>
+            <blendInDuration value="0.00000000"/>
+            <blendOutDuration value="0.00000000"/>
+            <0xEB3388F4 value="-1.00000000"/>
+            <offsetTime value="0.00000000"/>
+            <rate value="1.00000000"/>
+            <useSceneOrigin value="true"/>
+            <0x1F1E9763 value="false"/>
+            <0x03EFD81F type="NULL"/>
+            <pApproach type="NULL"/>
+          </Item>
+          <Item type="0x5F78E379">
+            <entity>
+              <entityId>0x6B7E0C2D</entityId>
+            </entity>
+            <startTime value="0.16666700"/>
+            <endTime value="0.16666700"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <0x84B954E7>
+              <entityId/>
+            </0x84B954E7>
+            <0x2A2B1433>
+              <entityId/>
+            </0x2A2B1433>
+            <SoundPosition x="0.00000000" y="0.00000000" z="0.00000000"/>
+            <0xB562C063/>
+            <0x1FE6F044>door_open</0x1FE6F044>
+            <0x80626C51>Frontend</0x80626C51>
+            <SoundType>OneShot</SoundType>
+          </Item>
+        </events>
+      </events>
+      <locationData>
+        <Item key="camera" type="0xAD5DFE3C">
+          <startPos x="-0.60126500" y="0.10421100" z="1.49426800"/>
+          <startRot x="-0.00263700" y="-0.00212100" z="0.62073000" w="0.78401700"/>
+          <startTime value="0.00000000"/>
+          <endPos x="-0.61515500" y="0.95906900" z="0.59641100"/>
+          <endRot x="-0.00924200" y="0.02159100" z="0.91908090" w="-0.39336900"/>
+          <endTime value="8.23333300"/>
+        </Item>
+        <Item key="john_marston" type="0xAD5DFE3C">
+          <startPos x="-3.49732900" y="0.65688200" z="1.00325300"/>
+          <startRot x="0.00000000" y="0.00000000" z="-0.73409400" w="0.67904800"/>
+          <startTime value="0.00000000"/>
+          <endPos x="0.60902800" y="0.00272800" z="1.00316100"/>
+          <endRot x="0.00000000" y="0.00000000" z="0.71451600" w="0.69962000"/>
+          <endTime value="8.23333300"/>
+        </Item>
+        <Item key="female" type="0xAD5DFE3C">
+          <startPos x="1E10" y="1E10" z="1E10"/>
+          <startRot x="1E10" y="1E10" z="1E10" w="1E10"/>
+          <startTime value="-1.00000000"/>
+          <endPos x="1E10" y="1E10" z="1E10"/>
+          <endRot x="1E10" y="1E10" z="1E10" w="1E10"/>
+          <endTime value="-1.00000000"/>
+        </Item>
+        <Item key="door" type="0xAD5DFE3C">
+          <startPos x="-2.80324300" y="1.33429300" z="-0.00094600"/>
+          <startRot x="0.00000000" y="0.00000000" z="-0.70913900" w="0.70506800"/>
+          <startTime value="0.00000000"/>
+          <endPos x="-2.86065800" y="1.33099800" z="-0.00101900"/>
+          <endRot x="0.00000000" y="0.00000000" z="-0.80863900" w="0.58830500"/>
+          <endTime value="8.23333300"/>
+        </Item>
+        <Item key="arthur" type="0xAD5DFE3C">
+          <startPos x="-3.49732900" y="0.65688200" z="1.00325300"/>
+          <startRot x="0.00000000" y="0.00000000" z="-0.73409400" w="0.67904800"/>
+          <startTime value="0.00000000"/>
+          <endPos x="0.60902800" y="0.00272800" z="1.00316100"/>
+          <endRot x="0.00000000" y="0.00000000" z="0.71451600" w="0.69962000"/>
+          <endTime value="8.23333300"/>
+        </Item>
+      </locationData>
+      <0x0696FE9E type="NULL"/>
+    </Item>
+    <Item key="s_Regular_outro" type="0x64E8AC67">
+      <0xC618212A type="NULL"/>
+      <0xBB18B485>
+        <entityId/>
+      </0xBB18B485>
+      <0x47B47045 value="false"/>
+      <loopCount value="1"/>
+      <events>
+        <events>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>arthur</entityId>
+            </entity>
+            <startTime value="0.00000000"/>
+            <endTime value="6.43333300"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="0xEED7E46F">
+              <events>
+                <Item type="0xB87279B4">
+                  <entity>
+                    <entityId>arthur</entityId>
+                  </entity>
+                  <startTime value="2.66666700"/>
+                  <endTime value="2.66666700"/>
+                  <0x420E8F0C value="0.00000000"/>
+                  <pChildren type="NULL"/>
+                  <0xAB28F89C value="false"/>
+                  <state>0x9D9DEE9D</state>
+                  <toolData type="NULL"/>
+                  <tag type="0x88D891F7">
+                    <Attributes>
+                      <Item type="0xAE6820E5">
+                        <Type value="12"/>
+                        <Name>
+                          <String>Event</String>
+                          <Key value="2915749078"/>
+                        </Name>
+                        <HashString>0xAFB663EA</HashString>
+                      </Item>
+                    </Attributes>
+                    <Type value="2"/>
+                    <Signature value="0"/>
+                    <Name>
+                      <String>VisibleToScript</String>
+                      <Key value="4076986677"/>
+                    </Name>
+                    <Start value="0.00000000"/>
+                    <End value="0.00000000"/>
+                  </tag>
+                </Item>
+              </events>
+            </pChildren>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <clip>
+              <clipDictionaryName>mini_games@bathing@intro_outro</clipDictionaryName>
+              <clipName>0x88CC1173</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName/>
+              <clipName/>
+            </fpsClip>
+            <animFlags/>
+            <flags>TAF_NOT_INTERRUPTABLE 0x028D8D60 0xFD520F94 0x1E1C96F0</flags>
+            <ragdollBlockingFlags/>
+            <ikFlags>AIK_DISABLE_LEG_IK 0x9E7C192B 0x415FA2ED 0x3AB0EBA0</ikFlags>
+            <aiFlags/>
+            <physFlags/>
+            <filter/>
+            <fpsFilter/>
+            <bodyDampingTemplate/>
+            <blendInDuration value="0.00000000"/>
+            <blendOutDuration value="1.00000000"/>
+            <0xEB3388F4 value="-1.00000000"/>
+            <offsetTime value="0.00000000"/>
+            <rate value="1.00000000"/>
+            <useSceneOrigin value="true"/>
+            <0x1F1E9763 value="false"/>
+            <0x03EFD81F type="NULL"/>
+            <pApproach type="NULL"/>
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>door</entityId>
+            </entity>
+            <startTime value="0.00000000"/>
+            <endTime value="7.43333300"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <clip>
+              <clipDictionaryName>mini_games@bathing@intro_outro</clipDictionaryName>
+              <clipName>0x37D3357F</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName/>
+              <clipName/>
+            </fpsClip>
+            <animFlags/>
+            <flags>TAF_NOT_INTERRUPTABLE 0x028D8D60 0xFD520F94 0x1E1C96F0</flags>
+            <ragdollBlockingFlags/>
+            <ikFlags/>
+            <aiFlags/>
+            <physFlags/>
+            <filter/>
+            <fpsFilter/>
+            <bodyDampingTemplate/>
+            <blendInDuration value="0.00000000"/>
+            <blendOutDuration value="0.00000000"/>
+            <0xEB3388F4 value="-1.00000000"/>
+            <offsetTime value="0.00000000"/>
+            <rate value="1.00000000"/>
+            <useSceneOrigin value="true"/>
+            <0x1F1E9763 value="false"/>
+            <0x03EFD81F type="NULL"/>
+            <pApproach type="NULL"/>
+          </Item>
+          <Item type="0x4591B45B">
+            <entity>
+              <entityId>camera</entityId>
+            </entity>
+            <startTime value="0.00000000"/>
+            <endTime value="6.43333300"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <clip>
+              <clipDictionaryName>mini_games@bathing@intro_outro</clipDictionaryName>
+              <clipName>0xE6527178</clipName>
+            </clip>
+            <0x4FDB02F0 content="float_array">
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+            </0x4FDB02F0>
+            <blendInDuration value="0.00000000"/>
+            <blendOutDuration value="0.00000000"/>
+            <0x64BE00E5 value="-1.00000000"/>
+            <0x895EF81B value="-1.00000000"/>
+            <offsetTime value="0.00000000"/>
+            <cameraSettings>0x8424DFBA 0x059E28F4 0x2706A48D</cameraSettings>
+            <cameraOverrideFlags/>
+            <0x03EFD81F type="NULL"/>
+            <0x54AF1DAB/>
+            <0xB0E887EB/>
+            <0x937BFA7B value="-1.00000000"/>
+            <0x594DB973 value="-1.00000000"/>
+            <uiContext>CUTSCENE</uiContext>
+            <0x67B6947A>0xD8D7DBB4</0x67B6947A>
+            <0x0C6250F8>0x949E9152</0x0C6250F8>
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>john_marston</entityId>
+            </entity>
+            <startTime value="0.00000000"/>
+            <endTime value="6.43333300"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="0xEED7E46F">
+              <events>
+                <Item type="0xB87279B4">
+                  <entity>
+                    <entityId>john_marston</entityId>
+                  </entity>
+                  <startTime value="2.66666700"/>
+                  <endTime value="2.66666700"/>
+                  <0x420E8F0C value="0.00000000"/>
+                  <pChildren type="NULL"/>
+                  <0xAB28F89C value="false"/>
+                  <state>0x9D9DEE9D</state>
+                  <toolData type="NULL"/>
+                  <tag type="0x88D891F7">
+                    <Attributes>
+                      <Item type="0xAE6820E5">
+                        <Type value="12"/>
+                        <Name>
+                          <String>Event</String>
+                          <Key value="2915749078"/>
+                        </Name>
+                        <HashString>0xAFB663EA</HashString>
+                      </Item>
+                    </Attributes>
+                    <Type value="2"/>
+                    <Signature value="0"/>
+                    <Name>
+                      <String>VisibleToScript</String>
+                      <Key value="4076986677"/>
+                    </Name>
+                    <Start value="0.00000000"/>
+                    <End value="0.00000000"/>
+                  </tag>
+                </Item>
+              </events>
+            </pChildren>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <clip>
+              <clipDictionaryName>mini_games@bathing@intro_outro</clipDictionaryName>
+              <clipName>0x88CC1173</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName/>
+              <clipName/>
+            </fpsClip>
+            <animFlags/>
+            <flags>TAF_NOT_INTERRUPTABLE 0x028D8D60 0xFD520F94 0x1E1C96F0</flags>
+            <ragdollBlockingFlags/>
+            <ikFlags>AIK_DISABLE_LEG_IK 0x9E7C192B 0x415FA2ED 0x3AB0EBA0</ikFlags>
+            <aiFlags/>
+            <physFlags/>
+            <filter/>
+            <fpsFilter/>
+            <bodyDampingTemplate/>
+            <blendInDuration value="0.00000000"/>
+            <blendOutDuration value="1.00000000"/>
+            <0xEB3388F4 value="-1.00000000"/>
+            <offsetTime value="0.00000000"/>
+            <rate value="1.00000000"/>
+            <useSceneOrigin value="true"/>
+            <0x1F1E9763 value="false"/>
+            <0x03EFD81F type="NULL"/>
+            <pApproach type="NULL"/>
+          </Item>
+          <Item type="0x5F78E379">
+            <entity>
+              <entityId>0x6B7E0C2D</entityId>
+            </entity>
+            <startTime value="3.20000000"/>
+            <endTime value="3.20000000"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <0x84B954E7>
+              <entityId/>
+            </0x84B954E7>
+            <0x2A2B1433>
+              <entityId/>
+            </0x2A2B1433>
+            <SoundPosition x="0.00000000" y="0.00000000" z="0.00000000"/>
+            <0xB562C063/>
+            <0x1FE6F044>door_open</0x1FE6F044>
+            <0x80626C51>Frontend</0x80626C51>
+            <SoundType>OneShot</SoundType>
+          </Item>
+          <Item type="0x5F78E379">
+            <entity>
+              <entityId>0x6B7E0C2D</entityId>
+            </entity>
+            <startTime value="5.43333300"/>
+            <endTime value="5.43333300"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <0x84B954E7>
+              <entityId/>
+            </0x84B954E7>
+            <0x2A2B1433>
+              <entityId/>
+            </0x2A2B1433>
+            <SoundPosition x="0.00000000" y="0.00000000" z="0.00000000"/>
+            <0xB562C063/>
+            <0x1FE6F044>door_close</0x1FE6F044>
+            <0x80626C51>Frontend</0x80626C51>
+            <SoundType>OneShot</SoundType>
+          </Item>
+          <Item type="0xCACC79BA">
+            <entity>
+              <entityId>arthur</entityId>
+            </entity>
+            <startTime value="6.43333300"/>
+            <endTime value="6.43333300"/>
+            <0x420E8F0C value="0.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <ped>
+              <entityId/>
+            </ped>
+            <motionState>MotionState_Idle</motionState>
+            <restartState value="false"/>
+          </Item>
+          <Item type="0xCACC79BA">
+            <entity>
+              <entityId>john_marston</entityId>
+            </entity>
+            <startTime value="6.43333300"/>
+            <endTime value="6.43333300"/>
+            <0x420E8F0C value="0.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <ped>
+              <entityId/>
+            </ped>
+            <motionState>MotionState_Idle</motionState>
+            <restartState value="false"/>
+          </Item>
+        </events>
+      </events>
+      <locationData>
+        <Item key="camera" type="0xAD5DFE3C">
+          <startPos x="1.83795800" y="-0.36404500" z="1.28146200"/>
+          <startRot x="0.02007300" y="0.01649300" z="0.63464100" w="0.77236990"/>
+          <startTime value="0.00000000"/>
+          <endPos x="-2.92745700" y="1.08997800" z="1.69654500"/>
+          <endRot x="-0.01220400" y="-0.01271300" z="0.72042400" w="0.69330900"/>
+          <endTime value="6.43333300"/>
+        </Item>
+        <Item key="john_marston" type="0xAD5DFE3C">
+          <startPos x="0.60901200" y="0.00276900" z="1.00317000"/>
+          <startRot x="0.00000000" y="0.00000000" z="0.71451500" w="0.69962000"/>
+          <startTime value="0.00000000"/>
+          <endPos x="-3.92916800" y="0.74089600" z="1.00317000"/>
+          <endRot x="0.00000000" y="0.00000000" z="0.68285400" w="0.73055500"/>
+          <endTime value="6.43333300"/>
+        </Item>
+        <Item key="female" type="0xAD5DFE3C">
+          <startPos x="1E10" y="1E10" z="1E10"/>
+          <startRot x="1E10" y="1E10" z="1E10" w="1E10"/>
+          <startTime value="-1.00000000"/>
+          <endPos x="1E10" y="1E10" z="1E10"/>
+          <endRot x="1E10" y="1E10" z="1E10" w="1E10"/>
+          <endTime value="-1.00000000"/>
+        </Item>
+        <Item key="door" type="0xAD5DFE3C">
+          <startPos x="-2.86157300" y="1.33441100" z="-0.00094600"/>
+          <startRot x="0.00000000" y="0.00000000" z="-0.71901100" w="0.69499900"/>
+          <startTime value="0.00000000"/>
+          <endPos x="-2.86151600" y="1.33444600" z="-0.00094600"/>
+          <endRot x="-0.00000100" y="0.00000000" z="-0.68861200" w="0.72513000"/>
+          <endTime value="7.43333300"/>
+        </Item>
+        <Item key="arthur" type="0xAD5DFE3C">
+          <startPos x="0.60901200" y="0.00276900" z="1.00317000"/>
+          <startRot x="0.00000000" y="0.00000000" z="0.71451500" w="0.69962000"/>
+          <startTime value="0.00000000"/>
+          <endPos x="-3.92916800" y="0.74089600" z="1.00317000"/>
+          <endRot x="0.00000000" y="0.00000000" z="0.68285400" w="0.73055500"/>
+          <endTime value="6.43333300"/>
+        </Item>
+      </locationData>
+      <0x0696FE9E type="NULL"/>
+    </Item>
+    <Item key="s_deluxe_Outro" type="0x64E8AC67">
+      <0xC618212A type="NULL"/>
+      <0xBB18B485>
+        <entityId/>
+      </0xBB18B485>
+      <0x47B47045 value="false"/>
+      <loopCount value="1"/>
+      <events>
+        <events>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>arthur</entityId>
+            </entity>
+            <startTime value="0.00000000"/>
+            <endTime value="8.13333400"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <clip>
+              <clipDictionaryName>mini_games@bathing@intro_outro</clipDictionaryName>
+              <clipName>0x8B62DEAA</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName/>
+              <clipName/>
+            </fpsClip>
+            <animFlags/>
+            <flags>TAF_NOT_INTERRUPTABLE 0x028D8D60 0xFD520F94 0x1E1C96F0</flags>
+            <ragdollBlockingFlags/>
+            <ikFlags>AIK_DISABLE_LEG_IK 0x9E7C192B 0x415FA2ED 0x3AB0EBA0</ikFlags>
+            <aiFlags/>
+            <physFlags/>
+            <filter/>
+            <fpsFilter/>
+            <bodyDampingTemplate/>
+            <blendInDuration value="0.00000000"/>
+            <blendOutDuration value="0.00000000"/>
+            <0xEB3388F4 value="-1.00000000"/>
+            <offsetTime value="0.00000000"/>
+            <rate value="1.00000000"/>
+            <useSceneOrigin value="true"/>
+            <0x1F1E9763 value="false"/>
+            <0x03EFD81F type="NULL"/>
+            <pApproach type="NULL"/>
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>door</entityId>
+            </entity>
+            <startTime value="0.00000000"/>
+            <endTime value="8.13333400"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <clip>
+              <clipDictionaryName>mini_games@bathing@intro_outro</clipDictionaryName>
+              <clipName>0x7B1BF29E</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName/>
+              <clipName/>
+            </fpsClip>
+            <animFlags/>
+            <flags>TAF_NOT_INTERRUPTABLE 0x028D8D60 0xFD520F94 0x1E1C96F0</flags>
+            <ragdollBlockingFlags/>
+            <ikFlags/>
+            <aiFlags/>
+            <physFlags/>
+            <filter/>
+            <fpsFilter/>
+            <bodyDampingTemplate/>
+            <blendInDuration value="0.00000000"/>
+            <blendOutDuration value="0.00000000"/>
+            <0xEB3388F4 value="-1.00000000"/>
+            <offsetTime value="0.00000000"/>
+            <rate value="1.00000000"/>
+            <useSceneOrigin value="true"/>
+            <0x1F1E9763 value="false"/>
+            <0x03EFD81F type="NULL"/>
+            <pApproach type="NULL"/>
+          </Item>
+          <Item type="0x4591B45B">
+            <entity>
+              <entityId>camera</entityId>
+            </entity>
+            <startTime value="0.00000000"/>
+            <endTime value="8.13333400"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <clip>
+              <clipDictionaryName>mini_games@bathing@intro_outro</clipDictionaryName>
+              <clipName>0x3649F9A1</clipName>
+            </clip>
+            <0x4FDB02F0 content="float_array">
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+            </0x4FDB02F0>
+            <blendInDuration value="0.00000000"/>
+            <blendOutDuration value="0.00000000"/>
+            <0x64BE00E5 value="-1.00000000"/>
+            <0x895EF81B value="-1.00000000"/>
+            <offsetTime value="0.00000000"/>
+            <cameraSettings>0x8424DFBA 0x059E28F4</cameraSettings>
+            <cameraOverrideFlags/>
+            <0x03EFD81F type="NULL"/>
+            <0x54AF1DAB/>
+            <0xB0E887EB/>
+            <0x937BFA7B value="-1.00000000"/>
+            <0x594DB973 value="-1.00000000"/>
+            <uiContext>CUTSCENE</uiContext>
+            <0x67B6947A>0x5C065A43</0x67B6947A>
+            <0x0C6250F8>0x949E9152</0x0C6250F8>
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>john_marston</entityId>
+            </entity>
+            <startTime value="0.00000000"/>
+            <endTime value="8.13333400"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <clip>
+              <clipDictionaryName>mini_games@bathing@intro_outro</clipDictionaryName>
+              <clipName>0x8B62DEAA</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName/>
+              <clipName/>
+            </fpsClip>
+            <animFlags/>
+            <flags>TAF_NOT_INTERRUPTABLE 0x028D8D60 0xFD520F94 0x1E1C96F0</flags>
+            <ragdollBlockingFlags/>
+            <ikFlags>AIK_DISABLE_LEG_IK 0x9E7C192B 0x415FA2ED 0x3AB0EBA0</ikFlags>
+            <aiFlags/>
+            <physFlags/>
+            <filter/>
+            <fpsFilter/>
+            <bodyDampingTemplate/>
+            <blendInDuration value="0.00000000"/>
+            <blendOutDuration value="0.00000000"/>
+            <0xEB3388F4 value="-1.00000000"/>
+            <offsetTime value="0.00000000"/>
+            <rate value="1.00000000"/>
+            <useSceneOrigin value="true"/>
+            <0x1F1E9763 value="false"/>
+            <0x03EFD81F type="NULL"/>
+            <pApproach type="NULL"/>
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>female</entityId>
+            </entity>
+            <startTime value="0.00000000"/>
+            <endTime value="8.13333400"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <clip>
+              <clipDictionaryName>mini_games@bathing@intro_outro</clipDictionaryName>
+              <clipName>0x63BA2221</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName/>
+              <clipName/>
+            </fpsClip>
+            <animFlags/>
+            <flags>TAF_NOT_INTERRUPTABLE 0x028D8D60 0xFD520F94 0x1E1C96F0</flags>
+            <ragdollBlockingFlags/>
+            <ikFlags>AIK_DISABLE_LEG_IK 0x9E7C192B 0x415FA2ED 0x3AB0EBA0</ikFlags>
+            <aiFlags/>
+            <physFlags/>
+            <filter/>
+            <fpsFilter/>
+            <bodyDampingTemplate/>
+            <blendInDuration value="0.00000000"/>
+            <blendOutDuration value="0.00000000"/>
+            <0xEB3388F4 value="-1.00000000"/>
+            <offsetTime value="0.00000000"/>
+            <rate value="1.00000000"/>
+            <useSceneOrigin value="true"/>
+            <0x1F1E9763 value="false"/>
+            <0x03EFD81F type="NULL"/>
+            <pApproach type="NULL"/>
+          </Item>
+          <Item type="0x5F78E379">
+            <entity>
+              <entityId>0x6B7E0C2D</entityId>
+            </entity>
+            <startTime value="6.76666700"/>
+            <endTime value="6.76666700"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <0x84B954E7>
+              <entityId/>
+            </0x84B954E7>
+            <0x2A2B1433>
+              <entityId/>
+            </0x2A2B1433>
+            <SoundPosition x="0.00000000" y="0.00000000" z="0.00000000"/>
+            <0xB562C063/>
+            <0x1FE6F044>door_open</0x1FE6F044>
+            <0x80626C51>Frontend</0x80626C51>
+            <SoundType>OneShot</SoundType>
+          </Item>
+        </events>
+      </events>
+      <locationData>
+        <Item key="camera" type="0xAD5DFE3C">
+          <startPos x="-0.87304600" y="-0.67747000" z="0.57592600"/>
+          <startRot x="0.10620900" y="-0.05356300" z="-0.44805400" w="0.88605800"/>
+          <startTime value="0.00000000"/>
+          <endPos x="-1.46451500" y="0.67171300" z="0.70052700"/>
+          <endRot x="0.01210600" y="-0.02076000" z="-0.86357500" w="0.50364700"/>
+          <endTime value="8.13333400"/>
+        </Item>
+        <Item key="john_marston" type="0xAD5DFE3C">
+          <startPos x="0.60901200" y="0.00276900" z="1.00323900"/>
+          <startRot x="0.00000000" y="0.00000000" z="0.71451600" w="0.69962000"/>
+          <startTime value="0.00000000"/>
+          <endPos x="0.60901200" y="0.00276900" z="1.00323900"/>
+          <endRot x="0.00000000" y="0.00000000" z="0.71451600" w="0.69962000"/>
+          <endTime value="8.13333400"/>
+        </Item>
+        <Item key="female" type="0xAD5DFE3C">
+          <startPos x="0.49839000" y="0.72481190" z="0.99872500"/>
+          <startRot x="0.00002700" y="0.00000500" z="0.43690700" w="0.89950700"/>
+          <startTime value="0.00000000"/>
+          <endPos x="-3.87399900" y="0.48099400" z="0.99884700"/>
+          <endRot x="0.00002300" y="0.00000200" z="0.19973900" w="0.97984900"/>
+          <endTime value="8.13333400"/>
+        </Item>
+        <Item key="door" type="0xAD5DFE3C">
+          <startPos x="-2.86157300" y="1.33441100" z="-0.00094600"/>
+          <startRot x="0.00000000" y="0.00000000" z="-0.70657400" w="0.70763890"/>
+          <startTime value="0.00000000"/>
+          <endPos x="-2.86157300" y="1.33441100" z="-0.00094600"/>
+          <endRot x="0.00000000" y="0.00000000" z="0.91004400" w="-0.41451100"/>
+          <endTime value="8.13333400"/>
+        </Item>
+        <Item key="arthur" type="0xAD5DFE3C">
+          <startPos x="0.60901200" y="0.00276900" z="1.00323900"/>
+          <startRot x="0.00000000" y="0.00000000" z="0.71451600" w="0.69962000"/>
+          <startTime value="0.00000000"/>
+          <endPos x="0.60901200" y="0.00276900" z="1.00323900"/>
+          <endRot x="0.00000000" y="0.00000000" z="0.71451600" w="0.69962000"/>
+          <endTime value="8.13333400"/>
+        </Item>
+      </locationData>
+      <0x0696FE9E type="NULL"/>
+    </Item>
+    <Item key="s_deluxe_intro" type="0x64E8AC67">
+      <0xC618212A type="NULL"/>
+      <0xBB18B485>
+        <entityId/>
+      </0xBB18B485>
+      <0x47B47045 value="false"/>
+      <loopCount value="1"/>
+      <events>
+        <events>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>arthur</entityId>
+            </entity>
+            <startTime value="0.00000000"/>
+            <endTime value="11.63333000"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <clip>
+              <clipDictionaryName>mini_games@bathing@intro_outro</clipDictionaryName>
+              <clipName>0xC1411228</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName/>
+              <clipName/>
+            </fpsClip>
+            <animFlags/>
+            <flags>TAF_NOT_INTERRUPTABLE 0x028D8D60 0xFD520F94 0x1E1C96F0</flags>
+            <ragdollBlockingFlags/>
+            <ikFlags>AIK_DISABLE_LEG_IK 0x9E7C192B 0x415FA2ED 0x3AB0EBA0</ikFlags>
+            <aiFlags/>
+            <physFlags/>
+            <filter/>
+            <fpsFilter/>
+            <bodyDampingTemplate/>
+            <blendInDuration value="0.00000000"/>
+            <blendOutDuration value="0.00000000"/>
+            <0xEB3388F4 value="-1.00000000"/>
+            <offsetTime value="0.00000000"/>
+            <rate value="1.00000000"/>
+            <useSceneOrigin value="true"/>
+            <0x1F1E9763 value="false"/>
+            <0x03EFD81F type="NULL"/>
+            <pApproach type="NULL"/>
+          </Item>
+          <Item type="0x4591B45B">
+            <entity>
+              <entityId>camera</entityId>
+            </entity>
+            <startTime value="0.00000000"/>
+            <endTime value="11.63333000"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <clip>
+              <clipDictionaryName>mini_games@bathing@intro_outro</clipDictionaryName>
+              <clipName>0x17A38D53</clipName>
+            </clip>
+            <0x4FDB02F0 content="float_array">
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+              -1.00000000
+            </0x4FDB02F0>
+            <blendInDuration value="0.00000000"/>
+            <blendOutDuration value="0.00000000"/>
+            <0x64BE00E5 value="-1.00000000"/>
+            <0x895EF81B value="-1.00000000"/>
+            <offsetTime value="0.00000000"/>
+            <cameraSettings>0x8424DFBA 0x059E28F4</cameraSettings>
+            <cameraOverrideFlags/>
+            <0x03EFD81F type="NULL"/>
+            <0x54AF1DAB/>
+            <0xB0E887EB/>
+            <0x937BFA7B value="-1.00000000"/>
+            <0x594DB973 value="-1.00000000"/>
+            <uiContext>CUTSCENE</uiContext>
+            <0x67B6947A>0x5C065A43</0x67B6947A>
+            <0x0C6250F8>0x949E9152</0x0C6250F8>
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>door</entityId>
+            </entity>
+            <startTime value="0.00000000"/>
+            <endTime value="11.63333000"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <clip>
+              <clipDictionaryName>mini_games@bathing@intro_outro</clipDictionaryName>
+              <clipName>0xBCA85C15</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName/>
+              <clipName/>
+            </fpsClip>
+            <animFlags/>
+            <flags>TAF_NOT_INTERRUPTABLE 0x028D8D60 0xFD520F94 0x1E1C96F0</flags>
+            <ragdollBlockingFlags/>
+            <ikFlags/>
+            <aiFlags/>
+            <physFlags/>
+            <filter/>
+            <fpsFilter/>
+            <bodyDampingTemplate/>
+            <blendInDuration value="0.00000000"/>
+            <blendOutDuration value="0.00000000"/>
+            <0xEB3388F4 value="-1.00000000"/>
+            <offsetTime value="0.00000000"/>
+            <rate value="1.00000000"/>
+            <useSceneOrigin value="true"/>
+            <0x1F1E9763 value="false"/>
+            <0x03EFD81F type="NULL"/>
+            <pApproach type="NULL"/>
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>john_marston</entityId>
+            </entity>
+            <startTime value="0.00000000"/>
+            <endTime value="11.63333000"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <clip>
+              <clipDictionaryName>mini_games@bathing@intro_outro</clipDictionaryName>
+              <clipName>0xC1411228</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName/>
+              <clipName/>
+            </fpsClip>
+            <animFlags/>
+            <flags>TAF_NOT_INTERRUPTABLE 0x028D8D60 0xFD520F94 0x1E1C96F0</flags>
+            <ragdollBlockingFlags/>
+            <ikFlags>AIK_DISABLE_LEG_IK 0x9E7C192B 0x415FA2ED 0x3AB0EBA0</ikFlags>
+            <aiFlags/>
+            <physFlags/>
+            <filter/>
+            <fpsFilter/>
+            <bodyDampingTemplate/>
+            <blendInDuration value="0.00000000"/>
+            <blendOutDuration value="0.00000000"/>
+            <0xEB3388F4 value="-1.00000000"/>
+            <offsetTime value="0.00000000"/>
+            <rate value="1.00000000"/>
+            <useSceneOrigin value="true"/>
+            <0x1F1E9763 value="false"/>
+            <0x03EFD81F type="NULL"/>
+            <pApproach type="NULL"/>
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>female</entityId>
+            </entity>
+            <startTime value="0.00000000"/>
+            <endTime value="11.63333000"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <clip>
+              <clipDictionaryName>mini_games@bathing@intro_outro</clipDictionaryName>
+              <clipName>0xA028B312</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName/>
+              <clipName/>
+            </fpsClip>
+            <animFlags/>
+            <flags>TAF_NOT_INTERRUPTABLE 0x028D8D60 0xFD520F94 0x1E1C96F0</flags>
+            <ragdollBlockingFlags/>
+            <ikFlags>AIK_DISABLE_LEG_IK 0x9E7C192B 0x415FA2ED 0x3AB0EBA0</ikFlags>
+            <aiFlags/>
+            <physFlags/>
+            <filter/>
+            <fpsFilter/>
+            <bodyDampingTemplate/>
+            <blendInDuration value="0.00000000"/>
+            <blendOutDuration value="0.00000000"/>
+            <0xEB3388F4 value="-1.00000000"/>
+            <offsetTime value="0.00000000"/>
+            <rate value="1.00000000"/>
+            <useSceneOrigin value="true"/>
+            <0x1F1E9763 value="false"/>
+            <0x03EFD81F type="NULL"/>
+            <pApproach type="NULL"/>
+          </Item>
+          <Item type="0x1633A20C">
+            <entity>
+              <entityId>0xA6AF644A</entityId>
+            </entity>
+            <startTime value="0.00000000"/>
+            <endTime value="11.63333000"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="true"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <0x84B954E7>
+              <entityId/>
+            </0x84B954E7>
+            <0xFC5BB191>0x36F13F7C</0xFC5BB191>
+          </Item>
+          <Item type="0x6DD0F8D3">
+            <entity>
+              <entityId>female</entityId>
+            </entity>
+            <startTime value="0.00000000"/>
+            <endTime value="11.63333000"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="true"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <0x84B954E7>
+              <entityId/>
+            </0x84B954E7>
+            <0x7C12444E>0xC1CF8035</0x7C12444E>
+          </Item>
+          <Item type="0x5F78E379">
+            <entity>
+              <entityId>0x6B7E0C2D</entityId>
+            </entity>
+            <startTime value="0.16666700"/>
+            <endTime value="0.16666700"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <0x84B954E7>
+              <entityId/>
+            </0x84B954E7>
+            <0x2A2B1433>
+              <entityId/>
+            </0x2A2B1433>
+            <SoundPosition x="0.00000000" y="0.00000000" z="0.00000000"/>
+            <0xB562C063/>
+            <0x1FE6F044>door_open</0x1FE6F044>
+            <0x80626C51>Frontend</0x80626C51>
+            <SoundType>OneShot</SoundType>
+          </Item>
+          <Item type="0x5F78E379">
+            <entity>
+              <entityId>0x6B7E0C2D</entityId>
+            </entity>
+            <startTime value="0.46666700"/>
+            <endTime value="0.46666700"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <0x84B954E7>
+              <entityId/>
+            </0x84B954E7>
+            <0x2A2B1433>
+              <entityId/>
+            </0x2A2B1433>
+            <SoundPosition x="0.00000000" y="0.00000000" z="0.00000000"/>
+            <0xB562C063/>
+            <0x1FE6F044>0xC7609FAF</0x1FE6F044>
+            <0x80626C51>Frontend</0x80626C51>
+            <SoundType>OneShot</SoundType>
+          </Item>
+          <Item type="0x5F78E379">
+            <entity>
+              <entityId>0x6B7E0C2D</entityId>
+            </entity>
+            <startTime value="3.46666700"/>
+            <endTime value="3.46666700"/>
+            <0x420E8F0C value="4.00000000"/>
+            <pChildren type="NULL"/>
+            <0xAB28F89C value="false"/>
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL"/>
+            <0x84B954E7>
+              <entityId/>
+            </0x84B954E7>
+            <0x2A2B1433>
+              <entityId/>
+            </0x2A2B1433>
+            <SoundPosition x="0.00000000" y="0.00000000" z="0.00000000"/>
+            <0xB562C063/>
+            <0x1FE6F044>door_close</0x1FE6F044>
+            <0x80626C51>Frontend</0x80626C51>
+            <SoundType>OneShot</SoundType>
+          </Item>
+        </events>
+      </events>
+      <locationData>
+        <Item key="camera" type="0xAD5DFE3C">
+          <startPos x="1.72948700" y="-0.35904800" z="0.92937200"/>
+          <startRot x="0.00976700" y="0.00677700" z="0.54108300" w="0.84088500"/>
+          <startTime value="0.00000000"/>
+          <endPos x="-0.56403200" y="-0.58381600" z="0.58959600"/>
+          <endRot x="0.13538800" y="-0.06512400" z="-0.43135300" w="0.88958600"/>
+          <endTime value="11.63333000"/>
+        </Item>
+        <Item key="john_marston" type="0xAD5DFE3C">
+          <startPos x="0.60901200" y="0.00276900" z="1.00322300"/>
+          <startRot x="0.00000000" y="0.00000000" z="0.71451600" w="0.69962000"/>
+          <startTime value="0.00000000"/>
+          <endPos x="0.60901200" y="0.00276900" z="1.00322300"/>
+          <endRot x="0.00000000" y="0.00000000" z="0.71451600" w="0.69962000"/>
+          <endTime value="11.63333000"/>
+        </Item>
+        <Item key="female" type="0xAD5DFE3C">
+          <startPos x="-3.48453300" y="0.49073500" z="0.99872900"/>
+          <startRot x="-0.00015200" y="0.00026500" z="-0.70657500" w="0.70763810"/>
+          <startTime value="0.00000000"/>
+          <endPos x="0.49840000" y="0.72465700" z="0.99877500"/>
+          <endRot x="-0.00003500" y="0.00006700" z="0.43689400" w="0.89951300"/>
+          <endTime value="11.63333000"/>
+        </Item>
+        <Item key="door" type="0xAD5DFE3C">
+          <startPos x="-2.86157300" y="1.33441100" z="-0.00094600"/>
+          <startRot x="0.00000000" y="0.00000000" z="-0.69213800" w="0.72176500"/>
+          <startTime value="0.00000000"/>
+          <endPos x="-2.86157300" y="1.33441100" z="-0.00094600"/>
+          <endRot x="0.00000000" y="0.00000000" z="-0.62084700" w="0.78393200"/>
+          <endTime value="11.63333000"/>
+        </Item>
+        <Item key="arthur" type="0xAD5DFE3C">
+          <startPos x="0.60901200" y="0.00276900" z="1.00322300"/>
+          <startRot x="0.00000000" y="0.00000000" z="0.71451600" w="0.69962000"/>
+          <startTime value="0.00000000"/>
+          <endPos x="0.60901200" y="0.00276900" z="1.00322300"/>
+          <endRot x="0.00000000" y="0.00000000" z="0.71451600" w="0.69962000"/>
+          <endTime value="11.63333000"/>
+        </Item>
+      </locationData>
+      <0x0696FE9E type="NULL"/>
+    </Item>
+  </sections>
+  <playLists>
+    <Item key="0x2F31ACB5" type="0xA90B7F7E">
+      <sections>
+        <Item>s_deluxe_Outro</Item>
+      </sections>
+    </Item>
+    <Item key="0x69D15A28" type="0xA90B7F7E">
+      <sections>
+        <Item>s_deluxe_intro</Item>
+      </sections>
+    </Item>
+    <Item key="0xA2AFF820" type="0xA90B7F7E">
+      <sections>
+        <Item>s_Regular_intro</Item>
+      </sections>
+    </Item>
+    <Item key="0xF9D9E953" type="0xA90B7F7E">
+      <sections>
+        <Item>s_Regular_outro</Item>
+      </sections>
+    </Item>
+  </playLists>
+  <flags/>
+  <version value="17"/>
+  <animationDirectory>0xB418ED04</animationDirectory>
+  <toolData type="NULL"/>
+  <compositeScenes/>
+  <stateMachine>
+    <initialTransitions/>
+    <states/>
+    <editorData type="NULL"/>
+  </stateMachine>
+  <0x8FB2F5A4>0xD5438EF5</0x8FB2F5A4>
+  <0x0558B627 value="false"/>
+</fwAnimSceneData>

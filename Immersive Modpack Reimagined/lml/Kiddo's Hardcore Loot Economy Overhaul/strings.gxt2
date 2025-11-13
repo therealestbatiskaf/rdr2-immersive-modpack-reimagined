@@ -1,0 +1,519 @@
+[AMMO DESCRIPTIONS]
+
+#Revolver
+
+	AMMO_REVOLVER = Revolver Bullets
+	AMMO_REVOLVER_AMMOBOX = Revolver Bullets
+	AMMO_REVOLVER_AMMOBOX_USED = Opened Revolver Bullets
+	0xE14435DC = Designed for reliability and consistency. Contains 20 bullets.
+
+	AMMO_REVOLVER_EXPRESS = Express Revolver Bullets
+	AMMO_REVOLVER_AMMOBOX_EXPRESS = Express Revolver Bullets
+	0xFBD68BCE = Provides incredible stopping power. Contains 20 bullets.
+
+	AMMO_REVOLVER_HIGH_VELOCITY = High Velocity Revolver Bullets
+	AMMO_REVOLVER_AMMOBOX_HIGH_VELOCITY = High Velocity Revolver Bullets
+	0xF6DFD981 = Improved range and target penetration. Contains 20 bullets.
+
+	AMMO_REVOLVER_EXPRESS_EXPLOSIVE = Explosive Revolver Bullets
+	0x7228C5B3 = Crafts one explosive bullet. Explodes on impact with target, increasing damage.
+
+	AMMO_REVOLVER_SPLIT_POINT = Split Point Revolver Bullets
+	0x78881653 = Crafts one split point bullet. Slightly increased damage, and slower Dead Eye drain when chambered.
+
+#Pistol
+
+	AMMO_PISTOL = Pistol Bullets
+	AMMO_PISTOL_AMMOBOX = Pistol Bullets
+	AMMO_PISTOL_AMMOBOX_USED = Opened Pistol Bullets
+	0x35D0EBB0 = Designed for reliability and consistency. Contains 12 bullets.
+
+	AMMO_PISTOL_EXPRESS = Express Pistol Bullets
+	AMMO_PISTOL_AMMOBOX_EXPRESS = Express Pistol Bullets
+	0x1AADB2C9 = Provides incredible stopping power. Contains 12 bullets.
+
+	AMMO_PISTOL_HIGH_VELOCITY = High Velocity Pistol Bullets
+	AMMO_PISTOL_AMMOBOX_HIGH_VELOCITY = High Velocity Pistol Bullets
+	0x44108FCA = Improved range and target penetration. Contains 12 bullets.
+
+	AMMO_PISTOL_SPLIT_POINT = Split Point Pistol Bullets
+	0xC051F568 = Crafts one split point bullet. Slightly increased damage, and slower Dead Eye drain when chambered.
+
+	AMMO_PISTOL_EXPRESS_EXPLOSIVE = Explosive Pistol Bullets
+	0xFABC5E0F = Crafts one explosive bullet. Explodes on impact with target, increasing damage.
+
+#Repeater
+
+	AMMO_REPEATER = Repeater Bullets
+	AMMO_REPEATER_AMMOBOX = Repeater Bullets
+	AMMO_REPEATER_AMMOBOX_USED = Opened Repeater Bullets
+	0x1B977235 = Designed for reliability and consistency. Contains 20 bullets.
+
+	AMMO_REPEATER_EXPRESS = Express Repeater Bullets
+	AMMO_REPEATER_AMMOBOX_EXPRESS = Express Repeater Bullets
+	0xB6F13F6B = Provides incredible stopping power. Contains 20 bullets.
+
+	AMMO_REPEATER_HIGH_VELOCITY = High Velocity Repeater Bullets
+	AMMO_REPEATER_AMMOBOX_HIGH_VELOCITY = High Velocity Repeater Bullets
+	0xBE9B6E42 = Improved range and target penetration. Contains 20 bullets.
+
+	AMMO_REPEATER_SPLIT_POINT = Split Point Repeater Bullets
+	0x9BEE6F22 = Crafts one split point bullet. Slightly increased damage, and slower Dead Eye drain when chambered.
+
+	AMMO_REPEATER_EXPRESS_EXPLOSIVE = Explosive Repeater Bullets
+	0xF7C59362 = Crafts one explosive bullet. Explodes on impact with target, increasing damage.
+
+#Rifle
+
+	AMMO_RIFLE = Rifle Cartridges
+	AMMO_RIFLE_AMMOBOX = Rifle Cartridges
+	AMMO_RIFLE_AMMOBOX_USED = Opened Rifle Cartridges
+	0xF7465D7D = Designed for reliability and consistency. Contains 15 cartridges.
+
+	AMMO_RIFLE_EXPRESS = Express Rifle Cartridges
+	AMMO_RIFLE_AMMOBOX_EXPRESS = Express Rifle Cartridges
+	0x41035D44 = Provides incredible stopping power. Contains 15 cartridges.
+
+	AMMO_RIFLE_HIGH_VELOCITY = High Velocity Rifle Cartridges
+	AMMO_RIFLE_AMMOBOX_HIGH_VELOCITY = High Velocity Rifle Cartridges
+	0xE2D03D88 = Improved range and target penetration. Contains 15 cartridges.
+
+	AMMO_RIFLE_SPLIT_POINT = Split Point Rifle Cartridges
+	0xAB69288A = Crafts one split point cartridge. Slightly increased damage, and slower Dead Eye drain when chambered.
+
+	AMMO_RIFLE_EXPRESS_EXPLOSIVE = Explosive Rifle Cartridges
+	0xA8214918 = Crafts one explosive cartridge. Explodes on impact with target, increasing damage.
+
+#Shotgun
+	
+	AMMO_SHOTGUN = Shotgun Shells
+	AMMO_SHOTGUN_AMMOBOX_USED = Opened Shotgun Shells
+	AMMO_SHOTGUN_AMMOBOX = Shotgun Shells
+	0x21DCEDB2 = Regular buckshot ammunition. Contains 10 shells.
+
+	AMMO_SHOTGUN_SLUG = Shotgun Slugs
+	AMMO_SHOTGUN_SLUG = Shotgun Slugs
+	AMMO_SHOTGUN_AMMOBOX_SLUG = Shotgun Slugs
+	0x5B4E4710 = Slugged ammunition which fires a single powerful projectile. Contains 10 slugs.
+
+	AMMO_SHOTGUN_BUCKSHOT_INCENDIARY = Incendiary Buckshot Shells
+
+	AMMO_SHOTGUN_SLUG_EXPLOSIVE = Explosive Shotgun Slugs
+
+#Varmint
+
+	AMMO_22 = Varmint Cartridges
+	0xD3D81D5A = Designed for hunting small game without damaging pelts. Contains 10 cartridges.
+
+#Bandolier & Gun Belt
+
+	UPGRADE_GUN_BELT_DESC = Permanently increases capacity for revolver and pistol ammo by 20.
+
+	UPGRADE_BANDOLR_DESC = Permanently increases capacity for repeater, rifle and shotgun ammo by 10.
+
+#Thrown Weapons
+
+	AMMO_MOLOTOV_VOLATILE = Volatile Fire Bottle
+	AMMO_DYNAMITE_VOLATILE = Volatile Dynamite
+
+#Arrows
+
+	0xE34A5B14 = A bundle containing 3 arrows.
+
+	AMMO_ARROW_IMPROVED = Improved Arrow
+	AMMO_ARROW_SMALL_GAME = Small Game Arrow
+	AMMO_ARROW_FIRE = Flaming Arrow
+	AMMO_ARROW_POISON = Poisoned Arrow
+	AMMO_ARROW_DYNAMITE = Dynamite Arrow
+
+[BIRD FEATHERS]
+
+	PROVISION_BLUEJAY_FEATHER = Perfect Bluejay Feather
+	PROVISION_CONDOR_FEATHER = Perfect Condor Feather
+	PROVISION_CARDINAL_FEATHER = Perfect Cardinal Feather
+	PROVISION_PARAKEET_FEATHER = Perfect Parakeet Feather
+	PROVISION_CEDARWAXWING_FEATHER = Perfect Cedar Waxwing Feather
+	PROVISION_CHICKEN_FEATHER = Perfect Chicken Feather
+	PROVISION_CORMORANT_FEATHER = Perfect Cormorant Feather
+	PROVISION_WHOOPING_CRANE_FEATHER = Perfect Whooping Crane Feather
+	PROVISION_DUCK_FEATHER = Perfect Duck Feather
+	PROVISION_CROW_FEATHER = Perfect Crow Feather
+	PROVISION_EAGLE_FEATHER = Perfect Eagle Feather
+	PROVISION_GOOSE_FEATHER = Perfect Goose Feather
+	PROVISION_HAWK_FEATHER = Perfect Hawk Feather
+	PROVISION_LOON_FEATHER = Perfect Loon Feather
+	PROVISION_ORIOLE_FEATHER = Perfect Oriole Feather
+	PROVISION_OWL_FEATHER = Perfect Owl Feather
+	PROVISION_PARROT_FEATHER = Perfect Parrot Feather
+	PROVISION_PELICAN_FEATHER = Perfect Pelican Feather
+	PROVISION_PHEASANT_FEATHER = Perfect Pheasant Feather
+	PROVISION_PIGEON_FEATHER = Perfect Pigeon Feather
+	PROVISION_QUAIL_FEATHER = Perfect Quail Feather
+	PROVISION_RAVEN_FEATHER = Perfect Raven Feather
+	PROVISION_BOOBY_FEATHER = Perfect Booby Feather
+	PROVISION_ROBIN_FEATHER = Perfect Robin Feather
+	PROVISION_ROOSTER_FEATHER = Perfect Rooster Feather
+	PROVISION_SEAGULL_FEATHER = Perfect Seagull Feather
+	PROVISION_SONGBIRD_FEATHER = Perfect Songbird Feather
+	PROVISION_SPARROW_FEATHER = Perfect Sparrow Feather
+	PROVISION_TURKEY_FEATHER = Perfect Turkey Feather
+	PROVISION_VULTURE_FEATHER = Perfect Vulture Feather
+	PROVISION_WOODPECKER_FEATHER = Perfect Woodpecker Feather
+
+
+[COOKING DESCRIPTIONS]
+
+	Flakey Fish
+	-----------
+	CONSUMABLE_FLAKEY_FISH_OREGANO_COOKED = Oregano & Berry Flake
+	CONSUMABLE_FLAKEY_FISH_THYME_COOKED = Thyme & Berry Flake
+	CONSUMABLE_FLAKEY_FISH_WILD_MINT_COOKED = Mint & Berry Flake
+
+
+	Succulent Fish
+	-----------
+	CONSUMABLE_SUCCULENT_FISH_OREGANO_COOKED = Oregano & Berry Fillet
+	CONSUMABLE_SUCCULENT_FISH_THYME_COOKED = Thyme & Berry Fillet
+	CONSUMABLE_SUCCULENT_FISH_WILD_MINT_COOKED = Mint & Berry Fillet
+
+
+	Big Game Meat
+	------------
+	CONSUMABLE_BIG_GAME_MEAT_OREGANO_COOKED = Oregano & Berry Ribs
+	CONSUMABLE_BIG_GAME_MEAT_THYME_COOKED = Thyme & Berry Ribs
+	CONSUMABLE_BIG_GAME_MEAT_WILD_MINT_COOKED = Mint & Berry Ribs
+
+
+	Prime Beef
+	----------
+	CONSUMABLE_PRIME_BEEF_OREGANO_COOKED = Oregano & Berry Rump
+	CONSUMABLE_PRIME_BEEF_THYME_COOKED = Thyme & Berry Rump
+	CONSUMABLE_PRIME_BEEF_WILD_MINT_COOKED = Mint & Berry Rump
+
+	
+	Mature Venison
+	-------------
+	CONSUMABLE_MATURE_VENISON_WILD_MINT_COOKED = Mint & Berry Brisket
+	CONSUMABLE_MATURE_VENISON_OREGANO_COOKED = Oregano & Berry Brisket
+	CONSUMABLE_MATURE_VENISON_THYME_COOKED = Thyme & Berry Brisket
+
+	
+	Gristly Mutton
+	-------------
+	CONSUMABLE_GRISTLY_MUTTON_WILD_MINT_COOKED = Mint & Berry Cutlet
+	CONSUMABLE_GRISTLY_MUTTON_OREGANO_COOKED = Oregano & Berry Cutlet
+	CONSUMABLE_GRISTLY_MUTTON_THYME_COOKED = Thyme & Berry Cutlet
+
+
+	Tender Pork
+	-------------
+	CONSUMABLE_TENDER_PORK_WILD_MINT_COOKED = Minty Tenderloin
+	CONSUMABLE_TENDER_PORK_OREGANO_COOKED = Oregano Tenderloin
+	CONSUMABLE_TENDER_PORK_THYME_COOKED = Thyme Tenderloin
+
+	
+	Exotic Bird Meat
+	-------------
+	CONSUMABLE_EXOTIC_BIRD_WILD_MINT_COOKED = Minty Wing
+	CONSUMABLE_EXOTIC_BIRD_OREGANO_COOKED = Oregano Wing
+	CONSUMABLE_EXOTIC_BIRD_THYME_COOKED = Thyme Wing
+
+
+	Plump Bird Meat
+	-------------
+	CONSUMABLE_PLUMP_BIRD_WILD_MINT_COOKED = Minty Breast
+	CONSUMABLE_PLUMP_BIRD_OREGANO_COOKED = Oregano Breast
+	CONSUMABLE_PLUMP_BIRD_THYME_COOKED = Thyme Breast
+
+
+	Game Meat
+	-------------
+	CONSUMABLE_GAME_MEAT_WILD_MINT_COOKED = Minty Thigh
+	CONSUMABLE_GAME_MEAT_OREGANO_COOKED = Oregano Thigh
+	CONSUMABLE_GAME_MEAT_THYME_COOKED = Thyme Thigh
+
+
+[PROVISIONS]
+
+# Coffee 
+
+	0x78B75062 = Once brewed, partially restores Stamina and Deadeye.
+	CONSUMABLE_COFFEE_DESC = Once brewed, partially restores Stamina and Deadeye.
+
+
+# Cigarettes
+
+	CONSUMABLE_CIGARETTE_BOX_CHEAP_USED = Cigarettes
+	CONSUMABLE_CIGARETTE_BOX_USED = Premium Cigarettes
+
+# Gums
+
+	CONSUMABLE_COCAINE_CHEWING_GUM_USED = Cocaine Gum
+	CONSUMABLE_COCAINE_CHEWING_GUM = Cocaine Gum
+
+	CONSUMABLE_COCAINE_CHEWING_GUM_USED_DESC = Partial recovery.
+	0x2A8956F4 = Partial recovery.
+	0x0CC867D0 = Partial recovery.
+
+	CONSUMABLE_CHEWING_TOBACCO = Chewing Tobacco
+	CONSUMABLE_CHEWING_TOBACCO_USED = Chewing Tobacco
+
+	CONSUMABLE_CHEWING_TOBACCO_DESC = Partial recovery.
+
+
+# Moonshine
+
+	CONSUMABLE_MOONSHINE_USED_DESC = Partial recovery.
+	0x867CC298 = Partial recovery.
+
+
+# Horse Food
+
+	Apple
+	CONSUMABLE_APPLE_DESC = Horse food.
+	Beets
+	CONSUMABLE_BEETS_DESC = Horse food.
+	Carrot
+	CONSUMABLE_CARROT_DESC = Horse food.
+	Celery
+	CONSUMABLE_CELERY_DESC = Horse food.
+	Corn
+	CONSUMABLE_CORN_DESC = Horse food.
+	Hay
+	CONSUMABLE_HAYCUBE_DESC = Horse food.
+	Oatcakes
+	0x9D711133 = Horse food.
+	Pear
+	CONSUMABLE_PEAR_DESC = Horse food.
+	Peach
+	CONSUMABLE_PEACH_DESC = Horse food.
+	Sugarcube
+	CONSUMABLE_SUGARCUBE_DESC = Horse food.
+	Peppermint
+	CONSUMABLE_PEPPERMINT_DESC = Horse food.
+	Wild Carrots
+	CONSUMABLE_HERB_WILD_CARROTS_DESC = Horse food.
+
+# Herbs
+
+	Blackberry
+	CONSUMABLE_HERB_BLACK_BERRY_DESC = Cooking ingredient.
+
+	Bay Bolete
+	CONSUMABLE_HERB_BAY_BOLETE_DESC = Crafting ingredient.
+
+	Blackcurrant
+	0xF2066682 = Tonic ingredient.
+
+	Burdock Root
+	0xA8E1D4C6 = Horse Tonic ingredient.
+
+	Common Bullrush
+	CONSUMABLE_HERB_COMMON_BULRUSH_DESC = Horse Tonic ingredient.
+
+	Chanterrelles
+	CONSUMABLE_HERB_CHANTERELLES_DESC = Crafting ingredient.
+
+	Currant
+	CONSUMABLE_HERB_CURRANT_DESC = Tonic ingredient.
+
+	Creeping Thyme
+	CONSUMABLE_HERB_CREEPING_THYME_DESC = Cooking ingredient.
+
+	Desert Sage
+	CONSUMABLE_HERB_DESERT_SAGE_DESC = Tonic ingredient.
+
+	English Mace
+	0x6873A913 = Tonic ingredient.
+
+	Evergreen Huckleberry
+	CONSUMABLE_HERB_EVERGREEN_HUCKLEBERRY_DESC = Cooking ingredient.
+
+	Ginseng
+	0x91F7C593 = Tonic ingredient.
+	0x71D31C4E = Tonic ingredient.
+	CONSUMABLE_HERB_GINSENG_DESC = Tonic ingredient.
+
+	Golden Currant
+	0xFDEA01FC = Tonic ingredient.
+
+	Hummingbird Sage 
+	0xE8F3652C = Tonic ingredient.
+
+	Indian Tobacco
+	0x5FBE0D93 = Tonic ingredient.
+
+	Milkweed
+	0x9A9356FF = Tonic ingredient.
+
+	Oleander Sage
+	0x7DD22FF8 = Poison ingredient.
+
+	Oregano
+	CONSUMABLE_HERB_OREGANO_DESC = Cooking ingredient.
+
+	Parasol Mushroom
+	CONSUMABLE_HERB_PARASOL_MUSHROOM_DESC = Crafting ingredient.
+
+	Prairie Poppy
+	CONSUMABLE_HERB_PRAIRIE_POPPY_DESC = Tonic ingredient.
+
+	Rams Head
+	CONSUMABLE_HERB_RAMS_HEAD_DESC = Crafting ingredient.
+
+	Red Sage
+	CONSUMABLE_HERB_RED_SAGE_DESC = Tonic ingredient.
+
+	Red Raspberry
+	CONSUMABLE_HERB_RED_RASPBERRY_DESC = Cooking ingredient.
+
+	Sage
+	CONSUMABLE_HERB_SAGE_DESC = Tonic ingredient.
+
+	Vanilla Flower
+	CONSUMABLE_HERB_VANILLA_FLOWER_DESC = Crafting ingredient.
+
+	Violet Snowdrop
+	0x8923C69B = Tonic ingredient.
+
+	Wintergreen Berry
+	CONSUMABLE_HERB_WINTERGREEN_BERRY_DESC = Special Tonic ingredient.
+
+	Wild Mint
+	CONSUMABLE_HERB_WILD_MINT_DESC = Cooking ingredient.
+
+	Wild Feverfew
+	CONSUMABLE_HERB_WILD_FEVERFEW_DESC = Tonic ingredient.
+
+	Yarrow
+	0x70E088A2 = Tonic ingredient.
+
+
+
+
+[GOLD TONIC DESCRIPTIONS]
+
+# Opened Tonics
+
+	Opened Medicine
+	CONSUMABLE_MEDICINE_USED_DESC = Partial recovery.
+
+	Opened Stimulant
+	CONSUMABLE_RESTORATIVE_USED_DESC = Partial recovery.
+
+	Opened Snake Oil
+	CONSUMABLE_SNAKE_OIL_USED_DESC = Partial recovery.
+	0x7A61B7D5 = Partial recovery.
+
+	Opened Tonic
+	CONSUMABLE_TONIC_USED_DESC = Partial recovery.
+
+	Opened Horse Stimulant
+	CONSUMABLE_HORSE_STIMULANT_USED_DESC = Partial recovery.
+
+	Opened Horse Medicine
+	0x42BDB3AC = Partial recovery.
+
+# Regular Tonics
+
+	Miracle Tonic
+	CONSUMABLE_TONIC_DESC = Fortifies slightly.
+
+	Stimulant
+	CONSUMABLE_RESTORATIVE_DESC = Fortifies slightly.
+
+	Medicine
+	CONSUMABLE_MEDICINE_DESC = Fortifies slightly.
+
+	Snake Oil
+	CONSUMABLE_SNAKE_OIL_DESC = Fortifies slightly.
+
+	Horse Medicine
+	0x7050F063 = Fortifies slightly.
+
+	Horse Stimulant
+	CONSUMABLE_HORSE_STIMULANT_DESC = Fortifies slightly.
+
+# Potent Tonics
+
+	Potent Miracle Tonic
+	CONSUMABLE_POTENT_TONIC_DESC = Fortifies moderately.
+
+	Potent Stimulant
+	0xF53B62D3 = Fortifies moderately.
+
+	Potent Medicine
+	CONSUMABLE_POTENT_MEDICINE_DESC = Fortifies moderately.
+
+	Potent Snake Oil
+	CONSUMABLE_POTENT_SNAKE_OIL_DESC = Fortifies moderately.
+
+	Potent Horse Medicine
+	0x6A010219 = Fortifies moderately.
+
+	Potent Horse Stimulant
+	CONSUMABLE_POTENT_HORSE_STIMULANT_DESC = Fortifies moderately.
+
+# Special Crafted Tonics
+	
+	Special Miracle Tonic
+	0xEDFF6C96 = Fortifies greatly.
+
+	Special Medicine
+	0x52955C67 = Fortifies greatly and gives a Gold Core for a day.
+
+	Special Snake Oil
+	0x3BADCF7E = Fortifies greatly and gives a Gold Core for a day.
+
+	Special Stimulant
+	0x52F3F7F2 = Fortifies greatly and gives a Gold Core for a day.
+
+	Special Horse Medicine 
+	0x3F252BF3 = Fortifies greatly and gives a Gold Core for a day.
+
+	Special Horse Stimulant 
+	0x0A91E778 = Fortifies greatly and gives a Gold Core for a day.
+
+
+# Horse Revivers
+
+	Horse Reviver
+	CONSUMABLE_HORSE_REVIVER_DESC = Revives horse from severe injury.
+	Special Horse Reviver
+	0x8A928335 = Revives horse from severe injury, and gives a Gold Core for a day.
+
+
+
+[EASTER EGG CATALOG DESCRIPTIONS]
+
+
+0xE3750B47 = KRAMER'S
+
+CONSUMABLE_CIGARETTE_BOX_CATALOGUEDESC = Kramer's Cigarettes are the smoother, healthier smoke. Enjoyed on a balcony or porch in the fresh air for fuller, healthier lungs. Contains 5 cigarettes and a collectible cigarette card.
+
+0x0C3B3E31 = KIDDO'S
+
+CONSUMABLE_CIGARETTE_BOX_CHEAP_CATALOGUEDESC = Kiddo's Cigarettes are perfectly mild and rich, or dry and arid depending on how often you lie to yourself. Contains 10 cigarettes.
+
+0xA15E75E3 = MOORE'S
+
+CONSUMABLE_CIGAR_CATALOGUEDESC = Moore's Premium blend domestic brand cigars. A suberb tobacco for a divine night in the hot tub with the boys.
+
+0x9E810871 = BIG JIM'S
+
+CONSUMABLE_CHEWING_TOBACCO_CATALOGUEDESC = Big Jim's Chewing Tobacco. Taste it! Chew it! Spit it! A gentlemanly pleasure that can even be shared with a prostitute.
+
+0x240FFBBA = BRYANT'S
+
+CONSUMABLE_COCAINE_CHEWING_GUM_CATALOGUEDESC = Corum Bryant's Cocaine Chewing Gum stimulates and invigorates. Cures indigestion, apathy and heartache. Definately don't put it in your bum.
+
+0x4E2361EF = OBRIEN'S
+
+CONSUMABLE_COFFEE_GNDS_REG_CATALOGUEDESC = Kelly O'Brien's iconic rich and full bodied ground coffee. Great for staying up all night on a creative bender, or for fending off night terrors.
+	
+
+
+	
+
+
+

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDamageDataManager>
+  <HitReactData>
+    <Item type="CHitReactData">
+      <RecoveryDirection>TORSO_FRONT</RecoveryDirection>
+      <BlendInDuration value="0.4" />
+      <Anims>
+        <Item>TORSO_FRONT_UPPER_AND_LOWER</Item>
+      </Anims>
+      <LanternClipName>TORSO_FRONT_UPPER_AND_LOWER_LANTERN</LanternClipName>
+    </Item>
+    <Item type="CHitReactData">
+      <RecoveryDirection>TORSO_LEFT</RecoveryDirection>
+      <Anims>
+        <Item>TORSO_FRONT_UPPER_AND_LOWER</Item>
+      </Anims>
+      <LanternClipName>TORSO_FRONT_UPPER_AND_LOWER_LANTERN</LanternClipName>
+    </Item>
+    <Item type="CHitReactData">
+      <RecoveryDirection>TORSO_RIGHT</RecoveryDirection>
+      <Anims>
+        <Item>TORSO_FRONT_UPPER_AND_LOWER</Item>
+      </Anims>
+      <LanternClipName>TORSO_FRONT_UPPER_AND_LOWER_LANTERN</LanternClipName>
+    </Item>
+    <Item type="CHitReactData">
+      <RecoveryDirection>TORSO_BACK</RecoveryDirection>
+      <BlendInDuration value="0.5" />
+      <Anims>
+        <Item>TORSO_BACK_LOWER</Item>
+      </Anims>
+      <LanternClipName>TORSO_BACK_LOWER_LANTERN</LanternClipName>
+    </Item>
+    <Item type="CHitReactData">
+      <RecoveryDirection>ARM_LEFT</RecoveryDirection>
+      <BlendInDuration value="0.3" />
+      <Anims>
+        <Item>ARM_LEFT_FRONT_UPPER_AND_LOWER</Item>
+      </Anims>
+      <LanternClipName>ARM_LEFT_FRONT_UPPER_AND_LOWER_LANTERN</LanternClipName>
+    </Item>
+    <Item type="CHitReactData">
+      <RecoveryDirection>ARM_RIGHT</RecoveryDirection>
+      <BlendInDuration value="0.3" />
+      <Anims>
+        <Item>ARM_RIGHT_FRONT_UPPER_AND_LOWER</Item>
+      </Anims>
+      <LanternClipName>ARM_RIGHT_FRONT_UPPER_AND_LOWER_LANTERN</LanternClipName>
+    </Item>
+    <Item type="CHitReactData">
+      <RecoveryDirection>HEAD</RecoveryDirection>
+    </Item>
+    <Item type="CHitReactData">
+      <RecoveryDirection>LEG_LEFT_FRONT</RecoveryDirection>
+      <BlendInDuration value="0.7" />
+      <Anims>
+        <Item>LEG_LEFT_UPPER_FRONT_AND_SIDE</Item>
+      </Anims>
+      <LanternClipName>LEG_LEFT_UPPER_FRONT_AND_SIDE_LANTERN</LanternClipName>
+    </Item>
+    <Item type="CHitReactData">
+      <RecoveryDirection>LEG_LEFT_BACK</RecoveryDirection>
+      <BlendInDuration value="0.7" />
+      <Anims>
+        <Item>LEG_LEFT_REAR_UPPER</Item>
+      </Anims>
+      <LanternClipName>LEG_LEFT_REAR_UPPER_LANTERN</LanternClipName>
+    </Item>
+    <Item type="CHitReactData">
+      <RecoveryDirection>LEG_RIGHT_FRONT</RecoveryDirection>
+      <BlendInDuration value="0.7" />
+      <Anims>
+        <Item>LEG_RIGHT_FRONT_UPPER_AND_SIDE</Item>
+      </Anims>
+      <LanternClipName>LEG_RIGHT_FRONT_UPPER_AND_SIDE_LANTERN</LanternClipName>
+    </Item>
+    <Item type="CHitReactData">
+      <RecoveryDirection>LEG_RIGHT_BACK</RecoveryDirection>
+      <BlendInDuration value="0.7" />
+      <Anims>
+        <Item>LEG_RIGHT_REAR_UPPER</Item>
+      </Anims>
+      <LanternClipName>LEG_RIGHT_REAR_UPPER_LANTERN</LanternClipName>
+    </Item>
+    <Item type="CHitReactData">
+      <RecoveryDirection>FALLBACK</RecoveryDirection>
+      <BlendInDuration value="0.8" />
+      <Anims>
+        <Item>TORSO_FRONT_UPPER_AND_LOWER</Item>
+      </Anims>
+      <LanternClipName>TORSO_FRONT_UPPER_AND_LOWER_LANTERN</LanternClipName>
+    </Item>
+    <Item type="CHitReactData">
+      <RecoveryDirection>FIRST_PERSON_VIEW</RecoveryDirection>
+      <BlendInDuration value="0.6" />
+      <Anims>
+        <Item>ARM_LEFT_FRONT_UPPER_AND_LOWER</Item>
+      </Anims>
+      <LanternClipName>ARM_LEFT_FRONT_UPPER_AND_LOWER_LANTERN</LanternClipName>
+    </Item>
+  </HitReactData>
+  <HitReactGripData type="CHitReactGripData">
+    <DuringHitReaction>
+      <RightHandDisabled>
+        <WeaponGroups>
+          <Item>GROUP_REPEATER</Item>
+          <Item>GROUP_RIFLE</Item>
+        </WeaponGroups>
+        <WeaponTypes>
+        </WeaponTypes>
+      </RightHandDisabled>
+      <LeftHandDisabled>
+        <WeaponGroups>
+          <Item>GROUP_REPEATER</Item>
+          <Item>GROUP_RIFLE</Item>
+        </WeaponGroups>
+      </LeftHandDisabled>
+    </DuringHitReaction>
+    <DuringProjectileRemoval>
+      <RightHandDisabled>
+        <WeaponGroups>
+          <Item>GROUP_REPEATER</Item>
+          <Item>GROUP_RIFLE</Item>
+        </WeaponGroups>
+        <WeaponTypes>
+          <Item>WEAPON_MELEE_LANTERN</Item>
+          <Item>WEAPON_MELEE_DAVY_LANTERN</Item>
+          <Item>WEAPON_MELEE_LANTERN_ELECTRIC</Item>
+          <Item>WEAPON_KIT_METAL_DETECTOR</Item>
+        </WeaponTypes>
+      </RightHandDisabled>
+      <LeftHandDisabled>
+      </LeftHandDisabled>
+    </DuringProjectileRemoval>
+  </HitReactGripData>
+</CDamageDataManager>

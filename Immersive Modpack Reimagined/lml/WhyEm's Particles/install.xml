@@ -1,0 +1,52 @@
+<EasyInstall>
+  <Name>WhyEm's Particles</Name>
+  <Author>WhyEm</Author>
+  <Version>1.0.3.2</Version>
+  <Link></Link>
+  <Metadata></Metadata>
+  <ResourceGroups>
+	<ResourceGroup name="Environment Particles" scriptName="ambiance">
+	  <Description>Replaces particles with experemental tweaks</Description>
+		<Resources>
+			<Resource>ambiance</Resource>
+		</Resources>
+	</ResourceGroup>
+	<ResourceGroup name="Entity Particles" scriptName="matter">
+	  <Description>Replaces entity attributes with experemental tweaks</Description>
+		<Resources>
+			<Resource>matter</Resource>
+		</Resources>
+	</ResourceGroup>
+  </ResourceGroups>
+  <Resources>
+    <Resource name="Environment Particles" scriptName="ambiance">
+		<FileReplacement>
+			<GamePath>update:/x64/data/effects/ptfx/ptfxqualitysettings.ymt</GamePath>
+			<FilePath>environment/ptfxqualitysettings.ymt</FilePath>
+		</FileReplacement>
+		<FileReplacement>
+			<GamePath>update:/x64/data/effects/vfxinteriorinfo.ymt</GamePath>
+			<FilePath>environment/vfxinteriorinfo.ymt</FilePath>
+		</FileReplacement>
+	</Resource>
+    <Resource name="Entity Particles" scriptName="matter">
+		<FileReplacement>
+			<GamePath>update:/x64/data/effects/vfxentityinfo.ymt</GamePath>
+			<FilePath>entity/vfxentityinfo.ymt</FilePath>
+		</FileReplacement>
+		<FileReplacement>
+			<GamePath>update:/x64/data/effects/vfxexplosioninfo.ymt</GamePath>
+			<FilePath>entity/vfxexplosioninfo.ymt</FilePath>
+		</FileReplacement>
+		<FileReplacement>
+			<GamePath>update:/x64/data/effects/vfxpedinfo.ymt</GamePath>
+			<FilePath>entity/vfxpedinfo.ymt</FilePath>
+		</FileReplacement>
+<!--	Заме́тьте, не я́ это предложи́л!	
+        <FileReplacement>
+			<GamePath>update:/x64/packs/base/data/effects/vfxvehicleinfo.ymt</GamePath>
+			<FilePath>entity/vfxvehicleinfo.ymt</FilePath>
+		</FileReplacement>-->
+	</Resource>
+  </Resources>
+</EasyInstall>

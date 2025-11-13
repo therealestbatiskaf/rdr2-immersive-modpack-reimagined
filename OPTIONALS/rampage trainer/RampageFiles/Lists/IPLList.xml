@@ -1,0 +1,8 @@
+<!---
+This list contains all known IPL names and hashes from RDR2
+Data from: https://github.com/femga/rdr3_discoveries/blob/master/imaps/imaps_with_coords_and_heading.lua
+---->
+<IPLS>
+	<IPL Hash="0xADD57FD4" Name="a_03_"/>
+	<IPL Hash="0x29AEFD55" Name="a_03__strm_0"/>
+</IPLS>

@@ -1,0 +1,1 @@
+This fixes an issue where Arthur would have a blank stare expression in camp while in close proximity of Trelawny before starting the "Friends in Very Low Places" mission.

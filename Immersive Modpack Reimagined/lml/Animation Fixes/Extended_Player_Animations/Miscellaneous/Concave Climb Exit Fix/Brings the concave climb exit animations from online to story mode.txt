@@ -1,0 +1,1 @@
+This fixes an issue with the concave climbing animation not lining up correctly with Arthur's idle pose.

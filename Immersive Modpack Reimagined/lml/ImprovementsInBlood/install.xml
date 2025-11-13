@@ -1,0 +1,30 @@
+<EasyInstall>
+    <Name>ImprovementsInBlood</Name>
+    <Author>Cazanu</Author>
+    <Version>1</Version>
+    <Link></Link>
+    <Metadata>
+    </Metadata>	
+  <Resources>
+    <Resource>
+       <FileReplacement>
+                <GamePath>update:/x64/textures/fxdecal.ytd</GamePath>
+                <FilePath>fxdecal.ytd</FilePath>
+       </FileReplacement>
+	   <FileReplacement>
+			<GamePath>update:/x64/data/effects/decalinfo.ymt</GamePath>
+			<FilePath>decalinfo.ymt</FilePath>
+		</FileReplacement>
+		<FileReplacement>
+			<GamePath>update:/x64/data/effects/projdecal.ymt</GamePath>
+			<FilePath>projdecal.ymt</FilePath>
+		</FileReplacement>
+		<FileReplacement>
+			<GamePath>update:/x64/data/effects/vfxbloodinfo.ymt</GamePath>
+			<FilePath>vfxbloodinfo.ymt</FilePath>
+		</FileReplacement>
+        </Resource>
+    </Resources>
+</EasyInstall>
+
+

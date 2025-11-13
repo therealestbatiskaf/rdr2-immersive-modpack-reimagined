@@ -1,0 +1,15 @@
+<EasyInstall>
+	<Name>SnappyUI</Name>
+	<Author>WickedHorseMan</Author>
+	<Version>1.0</Version>
+	<Link/>
+	<Metadata>SnappyUI</Metadata>
+	<Resources>
+		<Resource>
+			<FileReplacement>
+				<GamePath>update:/common/data/ui/durations.xml</GamePath>
+				<FilePath>durations.xml</FilePath>
+			</FileReplacement>
+		</Resource>
+	</Resources>
+</EasyInstall>

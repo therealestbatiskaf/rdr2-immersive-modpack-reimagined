@@ -1,0 +1,218 @@
+<EasyInstall>
+<Name>Catalogue Improvements</Name>
+<Author>iAbokai and Suika</Author>
+<Version>1.1</Version>
+<Link>https://www.nexusmods.com/reddeadredemption2/mods/5440</Link>
+<Metadata/>
+<Resources>
+ <Resource>
+
+  <StreamingFiles>stream</StreamingFiles>
+
+  <StreamingFiles>stream/beards</StreamingFiles>
+  <StreamingFiles>stream/beards/models</StreamingFiles>
+
+  <StreamingFiles>stream/boots</StreamingFiles>
+  <StreamingFiles>stream/boots/models</StreamingFiles>
+
+  <StreamingFiles>stream/coats</StreamingFiles>
+  <StreamingFiles>stream/coats/models</StreamingFiles>
+
+  <StreamingFiles>stream/equipment</StreamingFiles>
+  <StreamingFiles>stream/equipment/ammo_pistol_models</StreamingFiles>
+  <StreamingFiles>stream/equipment/ammo_rifle_models</StreamingFiles>
+  <StreamingFiles>stream/equipment/ammo_shotgun_models</StreamingFiles>
+  <StreamingFiles>stream/equipment/equipment_lower_models</StreamingFiles>
+  <StreamingFiles>stream/equipment/equipment_upper_models</StreamingFiles>
+  <StreamingFiles>stream/equipment/highrider_models</StreamingFiles>
+
+  <StreamingFiles>stream/gloves</StreamingFiles>
+  <StreamingFiles>stream/gloves/models</StreamingFiles>
+
+  <StreamingFiles>stream/hair</StreamingFiles>
+  <StreamingFiles>stream/hair/models</StreamingFiles>
+  <StreamingFiles>stream/hair/models/style_01</StreamingFiles>
+  <StreamingFiles>stream/hair/models/style_02</StreamingFiles>
+  <StreamingFiles>stream/hair/models/style_03</StreamingFiles>
+  <StreamingFiles>stream/hair/models/style_04</StreamingFiles>
+  <StreamingFiles>stream/hair/models/style_05</StreamingFiles>
+  <StreamingFiles>stream/hair/models/style_06</StreamingFiles>
+  <StreamingFiles>stream/hair/models/style_07</StreamingFiles>
+  <StreamingFiles>stream/hair/models/style_08</StreamingFiles>
+  <StreamingFiles>stream/hair/models/style_09</StreamingFiles>
+
+  <StreamingFiles>stream/hats</StreamingFiles>
+  <StreamingFiles>stream/hats/models</StreamingFiles>
+  <StreamingFiles>stream/hats/models/npc</StreamingFiles>
+
+  <StreamingFiles>stream/heads</StreamingFiles>
+  <StreamingFiles>stream/heads/models</StreamingFiles>
+
+  <StreamingFiles>stream/masks</StreamingFiles>
+  <StreamingFiles>stream/masks/models</StreamingFiles>
+
+  <StreamingFiles>stream/neckwears</StreamingFiles>
+  <StreamingFiles>stream/neckwears/models</StreamingFiles>
+
+  <StreamingFiles>stream/nudes</StreamingFiles>
+  <StreamingFiles>stream/nudes/models</StreamingFiles>
+  <StreamingFiles>stream/nudes/models/player_three</StreamingFiles>
+  <StreamingFiles>stream/nudes/models/player_three/first_person</StreamingFiles>
+  <StreamingFiles>stream/nudes/models/player_zero</StreamingFiles>
+  <StreamingFiles>stream/nudes/models/player_zero/first_person</StreamingFiles>
+
+  <StreamingFiles>stream/pants</StreamingFiles>
+  <StreamingFiles>stream/pants/models</StreamingFiles>
+  <StreamingFiles>stream/pants/no_suspenders</StreamingFiles>
+
+  <StreamingFiles>stream/satchels</StreamingFiles>
+  <StreamingFiles>stream/satchels/straps</StreamingFiles>
+
+  <StreamingFiles>stream/shirts</StreamingFiles>
+  <StreamingFiles>stream/shirts/cowboy_shirt_models</StreamingFiles>
+  <StreamingFiles>stream/shirts/cowboy_shirt_models/coat_variants</StreamingFiles>
+  <StreamingFiles>stream/shirts/opened_shirt_models</StreamingFiles>
+  <StreamingFiles>stream/shirts/opened_shirt_models/coat_variants</StreamingFiles>
+  <StreamingFiles>stream/shirts/shirt_models</StreamingFiles>
+  <StreamingFiles>stream/shirts/shirt_models/coat_variants</StreamingFiles>
+  <StreamingFiles>stream/shirts/undershirt_models</StreamingFiles>
+
+  <StreamingFiles>stream/suspenders</StreamingFiles>
+  <StreamingFiles>stream/suspenders/models</StreamingFiles>
+
+  <StreamingFiles>stream/vests</StreamingFiles>
+  <StreamingFiles>stream/vests/models</StreamingFiles>
+  <StreamingFiles>stream/vests/models/coat_variants</StreamingFiles>
+
+    <StreamingFiles>stream/z_oddities</StreamingFiles>
+
+  <StreamingFiles>stream_cutscenes/fatherhood_for_idiots</StreamingFiles>
+  <StreamingFiles>stream_cutscenes/jim_milton_rides_again</StreamingFiles>
+  <StreamingFiles>stream_cutscenes/motherhood_suit_up_fix</StreamingFiles>
+  <StreamingFiles>stream_cutscenes/simple_pleasures</StreamingFiles>
+
+  <StreamingFiles>stream_horses</StreamingFiles>
+  <StreamingFiles>stream_horses/models</StreamingFiles>
+
+  <StreamingFiles>stream_menus</StreamingFiles>
+
+  <FileReplacement>
+   <GamePath>update:/x64/hd/patch/textures/ui/ui_textures/inventory_items_tu.ytd</GamePath>
+   <FilePath>stream_menus/replacement/inventory_items_tu_hi.ytd</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>update:/x64/patch/textures/ui/ui_textures/inventory_items_tu.ytd</GamePath>
+   <FilePath>stream_menus/replacement/inventory_items_tu_lo.ytd</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>update:/x64/hd/patch/textures/ui/ui_textures/multiwheel_weapons.ytd</GamePath>
+   <FilePath>stream_menus/replacement/multiwheel_weapons_hi.ytd</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>update:/x64/patch/textures/ui/ui_textures/multiwheel_weapons.ytd</GamePath>
+   <FilePath>stream_menus/replacement/multiwheel_weapons_lo.ytd</FilePath>
+  </FileReplacement>
+
+  <FileReplacement>
+   <GamePath>update:/x64/pack_patch/mp006/data/ai/weapon_revolver_navy.ymt</GamePath>
+   <FilePath>stream_weapons/weapon_revolver_navy.ymt</FilePath>
+  </FileReplacement>
+
+  <DataFile>modifyStrings.gxt2</DataFile>
+
+ </Resource>
+ <Resource>
+
+  <FileReplacement>
+   <GamePath>update:/x64/packs/base/data/metapeds/assets_albedo.ymt</GamePath>
+   <FilePath>assets_albedo.ymt</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>update:/x64/packs/base/data/metapeds/assets_drawable.ymt</GamePath>
+   <FilePath>assets_drawable.ymt</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>update:/x64/packs/base/data/metapeds/assets_material.ymt</GamePath>
+   <FilePath>assets_material.ymt</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>update:/x64/packs/base/data/metapeds/assets_normal.ymt</GamePath>
+   <FilePath>assets_normal.ymt</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>platform:/data/itemdatabase/catalog_sp.ymt</GamePath>
+   <FilePath>catalog_sp.ymt</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>update:/common/data/progression/compendium.meta</GamePath>
+   <FilePath>compendium.meta</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>update:/common/packs/base/content.xml</GamePath>
+   <FilePath>content_hd.xml</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>update:/pack_patch/patchpack001/content.xml</GamePath>
+   <FilePath>content_patch_hd.xml</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>update:/pack_patch/mp001/content.xml</GamePath>
+   <FilePath>content_settings.xml</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>update:/pack_patch/mp006/content.xml</GamePath>
+   <FilePath>content_navy.xml</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>update:/common/packs/base/data/anim/expression_sets/expression_sets.xml</GamePath>
+   <FilePath>expression_sets.xml</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>platform:/packs/base/models/metapeds_player/_manifest.ymf</GamePath>
+   <FilePath>manifest_meta_player.ymf</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>update:/x64/packs/base/models/metaped_fragments/meta_base_player.yft</GamePath>
+   <FilePath>meta_base_player.yft</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>dlc_content_extra:/common/data/003_pickups.meta</GamePath>
+   <FilePath>pickups.meta</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>update:/common/data/playerxlast.xml</GamePath>
+   <FilePath>playerxlast.xml</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>update:/x64/packs/base/data/ai/quickselectitems.ymt</GamePath>
+   <FilePath>quickselectitems.ymt</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>update:/x64/packs/base/data/ai/quickselectslots.ymt</GamePath>
+   <FilePath>quickselectslots.ymt</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>update:/x64/data/script/scriptpardata.ymt</GamePath>
+   <FilePath>scriptpardata.ymt</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>dlc_mp001:/x64/packs/base/data/settings.ymt</GamePath>
+   <FilePath>settings_dlc.ymt</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>update:/x64/packs/base/data/settings.ymt</GamePath>
+   <FilePath>settings_main.ymt</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>update:/x64/packs/base/data/shop_items.ymt</GamePath>
+   <FilePath>shop_items.ymt</FilePath>
+  </FileReplacement>
+  <FileReplacement>
+   <GamePath>update:/x64/packs/base/data/ai/weapons.ymt</GamePath>
+   <FilePath>weapons.ymt</FilePath>
+  </FileReplacement>
+
+ </Resource>
+
+</Resources>
+</EasyInstall>

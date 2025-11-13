@@ -1,0 +1,11 @@
+{
+    "Hotkeys": {
+        "Cursor Key": 88,
+        "Cursor Key Info": "X",
+        "Cursor Key Toggle": false,
+        "Teleport Key": 120,
+        "Teleport Key Info": "F9",
+        "Teleport Key Toggle": true,
+        "Creator Key Toggle": true
+    }
+}

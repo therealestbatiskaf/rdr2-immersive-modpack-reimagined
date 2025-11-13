@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDataFileMgr__ContentsOfDataFileXml>
+    <disabledFiles/>
+    <includedXmlFiles/>
+    <includedDataFiles/>
+    <dataFiles>
+        <Item>
+            <filename>common:/data/ExtraTitleUpdateData.meta</filename>
+            <fileType>EXTRA_TITLE_UPDATE_DATA</fileType>
+            <persistent value="true"/>
+            <disabled value="true"/>
+            <overlay value="true"/>
+        </Item>
+        <Item>
+            <filename>common:/data/ExtraFolderMount.xml</filename>
+            <fileType>EXTRA_FOLDER_MOUNT_DATA</fileType>
+            <persistent value="true"/>
+            <disabled value="true"/>
+            <overlay value="true"/>
+        </Item>
+        <Item>
+            <filename>common:/data/overlayinfo.xml</filename>
+            <fileType>OVERLAY_INFO_FILE</fileType>
+            <overlay value="false"/>
+            <disabled value="true"/>
+            <persistent value="false"/>
+        </Item>
+        <Item>
+            <filename>platform:/audio/config/online_curves.dat</filename>
+            <fileType>AUDIO_CURVEDATA</fileType>
+            <overlay value="false" />
+            <disabled value="true" />
+            <persistent value="false"/>
+        </Item>
+        <Item>
+            <filename>platform:/audio/config/online_dynamix.dat</filename>
+            <fileType>AUDIO_DYNAMIXDATA</fileType>
+            <overlay value="false" />
+            <disabled value="true" />
+            <persistent value="false"/>
+        </Item>
+        <Item>
+            <filename>platform:/audio/config/online_game.dat</filename>
+            <fileType>AUDIO_BUFFERED_GAMEDATA</fileType>
+            <overlay value="false" />
+            <disabled value="true" />
+            <persistent value="false"/>
+        </Item>
+        <Item>
+            <filename>platform:/audio/config/online_sounds.dat</filename>
+            <fileType>AUDIO_BUFFERED_SOUNDDATA</fileType>
+            <overlay value="false" />
+            <disabled value="true" />
+            <persistent value="false"/>
+        </Item>
+        <Item>
+            <filename>platform:/audio/config/online_optamp.dat</filename>
+            <fileType>AUDIO_SYNTHDATA</fileType>
+            <overlay value="false" />
+            <disabled value="true" />
+            <persistent value="false"/>
+        </Item>     
+        <Item>
+            <filename>platform:/levels/rdr3/script/script_mp.rpf</filename>
+            <fileType>RPF_FILE</fileType>
+            <disabled value="true"/>
+            <persistent value="true"/>
+            <CRCfromHeader value="true"/>
+        </Item>
+        <Item>
+            <filename>platform:/levels/rdr3/script/parseddata_mp.rpf</filename>
+            <fileType>RPF_FILE</fileType>
+            <disabled value="true"/>
+            <persistent value="true"/>
+            <CRCfromHeader value="true"/>
+        </Item>
+        <Item>
+            <filename>platform:/patch/textures/ui/ui_discovery.rpf</filename>
+            <fileType>RPF_FILE</fileType>
+            <locked value="true"/>
+            <disabled value="true"/>
+            <persistent value="true"/>
+            <overlay value="true"/>
+        </Item>
+        <Item>
+            <filename>platform:/patch/textures/ui/ui_pausemenu.rpf</filename>
+            <fileType>RPF_FILE</fileType>
+            <locked value="true"/>
+            <disabled value="true"/>
+            <persistent value="true"/>
+            <overlay value="true"/>
+        </Item>
+        <Item>
+            <filename>platform:/patch/textures/ui/ui_itemviewer.rpf</filename>
+            <fileType>RPF_FILE</fileType>
+            <locked value="true"/>
+            <disabled value="true"/>
+            <persistent value="true"/>
+            <overlay value="true"/>
+        </Item>
+        <Item>
+            <filename>platform:/patch/textures/ui/ui_journal_textures.rpf</filename>
+            <fileType>RPF_FILE</fileType>
+            <locked value="true"/>
+            <disabled value="true"/>
+            <persistent value="true"/>
+            <overlay value="true"/>
+        </Item>
+        <Item>
+            <filename>platform:/patch/textures/ui/minimap_tiles.rpf</filename>
+            <fileType>RPF_FILE</fileType>
+            <locked value="true"/>
+            <disabled value="true"/>
+            <persistent value="true"/>
+            <overlay value="true"/>
+        </Item>
+        <Item>
+            <filename>platform:/patch/textures/ui/ui_startup_textures.rpf</filename>
+            <fileType>RPF_FILE</fileType>
+            <locked value="true"/>
+            <disabled value="true"/>
+            <persistent value="true"/>
+            <overlay value="true"/>
+        </Item>
+        <Item>
+            <filename>platform:/patch/textures/ui/item_textures.rpf</filename>
+            <fileType>RPF_FILE</fileType>
+            <locked value="true"/>
+            <disabled value="true"/>
+            <persistent value="true"/>
+            <overlay value="true"/>
+        </Item>
+        <Item>
+            <filename>platform:/patch/textures/ui/ui_textures.rpf</filename>
+            <fileType>RPF_FILE</fileType>
+            <locked value="true"/>
+            <disabled value="true"/>
+            <persistent value="true"/>
+            <overlay value="true"/>
+        </Item>
+        <Item>
+            <filename>platform:/patch/data/cdimages/scaleform_frontend.rpf</filename>
+            <fileType>RPF_FILE</fileType>
+            <locked value="true"/>
+            <disabled value="true"/>
+            <persistent value="true"/>
+            <overlay value="true"/>
+        </Item>
+        <Item>
+            <filename>platform:/patch/audio/sfx/DLC_SOCIALCLUB.rpf</filename>
+            <fileType>AUDIO_WAVEPACK</fileType>
+            <disabled value="true"/>
+        </Item>
+        <Item>
+            <filename>platform:/patch/audio/sfx/STREAMS_STARTUP.rpf</filename>
+            <fileType>AUDIO_WAVEPACK</fileType>
+            <disabled value="true"/>
+        </Item>
+        <Item>
+            <filename>platform:/patch/textures/ui/ui_hud.rpf</filename>
+            <fileType>RPF_FILE</fileType>
+            <locked value="true"/>
+            <disabled value="true"/>
+            <persistent value="true"/>
+            <overlay value="true"/>
+        </Item>
+        <Item>
+            <filename>platform:/patch/data/cdimages/scaleform_generic.rpf</filename>
+            <fileType>RPF_FILE</fileType>
+            <locked value="true"/>
+            <disabled value="true"/>
+            <persistent value="true"/>
+            <overlay value="true"/>
+        </Item>
+        <Item>
+            <filename>platform:/patch/textures/amvgrid.rpf</filename>
+            <fileType>RPF_FILE</fileType>
+            <locked value="true"/>
+            <disabled value="true"/>
+            <persistent value="true"/>
+            <overlay value="true"/>
+        </Item>
+        <Item>
+            <filename>platform:/patch/data/cdimages/scaleform_minimap.rpf</filename>
+            <fileType>RPF_FILE</fileType>
+            <locked value="true"/>
+            <disabled value="true"/>
+            <persistent value="true"/>
+            <overlay value="true"/>
+        </Item>
+        <Item>
+            <filename>platform:/patch/navmeshes.rpf</filename>
+            <fileType>RPF_FILE</fileType>
+            <disabled value="true"/>
+            <persistent value="true"/>
+            <overlay value="true"/>
+        </Item>
+        <Item>
+            <filename>platform:/patch/navmeshes_swaps.rpf</filename>
+            <fileType>RPF_FILE</fileType>
+            <disabled value="true"/>
+            <persistent value="true"/>
+            <overlay value="true"/>
+        </Item>
+        <Item>
+            <filename>platform:/patch/textures/ui/ui_mapcards.rpf</filename>
+            <fileType>RPF_FILE</fileType>
+            <locked value="true"/>
+            <disabled value="true"/>
+            <persistent value="true"/>
+            <overlay value="true"/>
+        </Item>
+    </dataFiles>
+    <contentChangeSets>
+        <Item>
+            <changeSetName>CCS_TU_STREAMING_NON_HD</changeSetName>
+            <filesToInvalidate/>
+            <filesToEnable>
+                <Item>platform:/patch/textures/ui/ui_textures.rpf</Item>
+                <Item>platform:/patch/textures/ui/ui_hud.rpf</Item>
+            </filesToEnable>
+        </Item>
+        <Item>
+            <changeSetName>CCS_TU_UPDATE_STREAMING</changeSetName>
+            <filesToInvalidate/>
+            <filesToEnable>
+                <Item>platform:/patch/textures/amvgrid.rpf</Item>
+                <Item>platform:/patch/textures/ui/ui_discovery.rpf</Item>
+                <Item>platform:/patch/textures/ui/ui_pausemenu.rpf</Item>
+                <Item>platform:/patch/textures/ui/ui_itemviewer.rpf</Item>
+                <Item>platform:/patch/textures/ui/ui_journal_textures.rpf</Item>
+                <Item>platform:/patch/textures/ui/minimap_tiles.rpf</Item>
+                <Item>platform:/patch/data/cdimages/scaleform_minimap.rpf</Item>
+                <Item>platform:/patch/data/cdimages/scaleform_generic.rpf</Item>
+                <Item>platform:/patch/textures/ui/item_textures.rpf</Item>
+                <Item>platform:/patch/navmeshes.rpf</Item>
+                <Item>platform:/patch/navmeshes_swaps.rpf</Item>
+                <Item>platform:/patch/textures/ui/ui_mapcards.rpf</Item>
+            </filesToEnable>
+        </Item>
+        <Item>
+            <changeSetName>UPDATE_SCRIPT_DATA_MP</changeSetName>
+            <filesToInvalidate/>
+            <filesToDisable/>
+            <filesToEnable>
+                <Item>platform:/levels/rdr3/script/script_mp.rpf</Item>
+                <Item>platform:/levels/rdr3/script/parseddata_mp.rpf</Item>
+            </filesToEnable>
+            <executionConditions>
+                <genericConditions>$level=MO_JIM_L11&amp;$mp=true</genericConditions>
+            </executionConditions>
+        </Item>
+        <Item>
+            <changeSetName>UPDATE_OVERLAYINFO</changeSetName>
+            <filesToInvalidate/>
+            <filesToDisable/>
+            <filesToEnable>
+                <Item>common:/data/overlayinfo.xml</Item>
+            </filesToEnable>
+        </Item>
+        <Item>
+            <changeSetName>CCS_TITLE_UPDATE_DLC_PATCH</changeSetName>
+            <filesToInvalidate/>
+            <filesToDisable/>
+            <filesToEnable/>
+        </Item>
+        <Item>
+            <changeSetName>CCS_TITLE_UPDATE_STARTUP</changeSetName>
+            <filesToInvalidate/>
+            <filesToEnable>
+                <Item>platform:/patch/audio/sfx/DLC_SOCIALCLUB.rpf</Item>
+                <Item>platform:/patch/audio/sfx/STREAMS_STARTUP.rpf</Item>
+                <Item>platform:/patch/data/cdimages/scaleform_frontend.rpf</Item>
+                <Item>platform:/patch/textures/ui/ui_startup_textures.rpf</Item>
+                <Item>common:/data/ExtraFolderMount.xml</Item>
+                <Item>common:/data/ExtraTitleUpdateData.meta</Item>
+            </filesToEnable>
+        </Item>
+        <Item>
+            <changeSetName>CCS_TITLE_UPDATE_TEXT</changeSetName>
+            <filesToInvalidate/>
+            <filesToDisable/>
+            <filesToEnable/>
+        </Item>
+        <Item>
+            <changeSetName>CCS_TITLE_UPDATE_DLC_METADATA</changeSetName>
+            <filesToInvalidate/>
+            <filesToDisable/>
+            <filesToEnable/>
+        </Item>
+        <Item>
+            <changeSetName>CCS_TITLE_UPDATE_WEAPON_PATCH</changeSetName>
+            <filesToInvalidate/>
+            <filesToDisable/>
+            <filesToEnable/>
+        </Item>
+        <Item>
+            <changeSetName>ONLINE_AUDIO</changeSetName>
+            <filesToInvalidate/>
+            <filesToDisable/>
+            <filesToEnable>
+                <Item>platform:/audio/config/online_curves.dat</Item>
+                <Item>platform:/audio/config/online_dynamix.dat</Item>
+                <Item>platform:/audio/config/online_game.dat</Item>
+                <Item>platform:/audio/config/online_sounds.dat</Item>
+                <Item>platform:/audio/config/online_optamp.dat</Item>
+            </filesToEnable>
+            <executionConditions>
+                <genericConditions>$mp=true|$mpOvr=true</genericConditions>
+            </executionConditions>
+        </Item>
+    </contentChangeSets>
+    <patchFiles/>
+    <allowedFolders>
+        <Item>common:/</Item>
+        <Item>platform:/</Item>
+    </allowedFolders>
+</CDataFileMgr__ContentsOfDataFileXml>

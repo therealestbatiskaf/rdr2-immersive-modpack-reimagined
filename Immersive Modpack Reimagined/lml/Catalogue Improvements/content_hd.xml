@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDataFileMgr__ContentsOfDataFileXml>
+  <disabledFiles/>
+  <includedXmlFiles/>
+  <includedDataFiles/>
+  <dataFiles>
+    <Item>
+      <filename>platform:/packs/base/data/metapeds/metapeds_nonfinal.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+      <devOnly value="true"/>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/data/metapeds/assets_nonfinal</filename>
+      <fileType>METAPED_ASSETS</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <devOnly value="true"/>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/data/metapeds_nonfinal</filename>
+      <fileType>PED_METADATA_FILE</fileType>
+      <persistent value="true"/>
+      <devOnly value="true"/>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_nonfinal.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+      <devOnly value="true"/>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_nonfinal.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+      <devOnly value="true"/>
+    </Item>
+    <Item>
+      <filename>base_pack:/data/overlayinfo.xml</filename>
+      <fileType>OVERLAY_INFO_FILE</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="false"/>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/data/metapeds/metapeds.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/data/metapeds/metapeds_asb.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+      <loadCompletely value="true"/>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/data/metapeds/metapeds_rhd.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+      <loadCompletely value="true"/>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/data/metapeds/metapeds_sd.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+      <loadCompletely value="true"/>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/data/metapeds/metapeds_val.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+      <loadCompletely value="true"/>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_player.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_player.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platform:/packs/base/models/metapeds_cutscene_m_r.rpf</filename>
+        <disabled value="true" />
+        <persistent value="true" />
+        <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platform:/packs/base/models/metapeds_cutscene_s_z.rpf</filename>
+        <disabled value="true" />
+        <persistent value="true" />
+        <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platform:/packs/base/models/metaped_textures_cutscene_a_f.rpf</filename>
+        <disabled value="true" />
+        <persistent value="true" />
+        <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platform:/packs/base/models/metaped_textures_cutscene_g_l.rpf</filename>
+        <disabled value="true" />
+        <persistent value="true" />
+        <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platform:/packs/base/models/metaped_textures_cutscene_m_r.rpf</filename>
+        <disabled value="true" />
+        <persistent value="true" />
+        <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platform:/packs/base/models/metaped_textures_cutscene_s_z.rpf</filename>
+        <disabled value="true" />
+        <persistent value="true" />
+        <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platform:/packs/base/models/metapeds_cutscene_a_f.rpf</filename>
+        <disabled value="true" />
+        <persistent value="true" />
+        <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platform:/packs/base/models/metapeds_cutscene_g_l.rpf</filename>
+        <disabled value="true" />
+        <persistent value="true" />
+        <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_a.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_animals.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_b.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_c.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_d.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_e.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_f.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_g.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_h.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_k.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_l.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_m.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_n.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_o.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_p.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_r.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_s.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_t.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_v.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metapeds_u.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_a.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_b.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_c.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_d.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_e.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_f.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_g.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_h.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_k.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_l.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_m.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_n.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_o.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_p.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_r.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_s.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_t.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_v.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_u.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_z.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_fragments.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/models/metaped_textures_animals.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platformcrc:/packs/base/data/metapeds</filename>
+      <fileType>PED_METADATA_FILE</fileType>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>platformcrc:/packs/base/data/settings</filename>
+      <fileType>METAPED_SETTINGS</fileType>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/data/shop_items</filename>
+      <fileType>METAPED_SHOP_ITEMS</fileType>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/data/metapeds/assets_albedo</filename>
+      <fileType>METAPED_ASSETS</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/data/metapeds/assets_drawable</filename>
+      <fileType>METAPED_ASSETS</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/data/metapeds/assets_material</filename>
+      <fileType>METAPED_ASSETS</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/data/metapeds/assets_normal</filename>
+      <fileType>METAPED_ASSETS</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>platform:/packs/base/data/metapeds/assets_tints</filename>
+      <fileType>METAPED_ASSETS</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>commoncrc:/packs/base/data/anim/expression_sets/expression_sets.xml</filename>
+      <fileType>EXPRESSION_SETS_FILE</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>platform:/data/anim/clip_sets/clip_sets</filename>
+      <fileType>CLIP_SETS_FILE</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>platform:/data/anim/motion_sets/motion_sets</filename>
+      <fileType>MOTION_SETS_FILE</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>commoncrc:/data/anim/dictionary_meta/clip_dictionary_budget_flags.meta</filename>
+      <fileType>CLIP_DICTIONARY_BUDGET_FLAGS_FILE</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>commoncrc:/data/anim/dictionary_meta/motion_dictionary_budget_flags.meta</filename>
+      <fileType>MOTION_DICTIONARY_BUDGET_FLAGS_FILE</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+        <filename>commoncrc:/packs/base/data/levels/rdr3/vehicles.meta</filename>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <fileType>VEHICLE_METADATA_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platform:/packs/base/data/effects/vfxvehicleinfo</filename>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <fileType>VFXVEHICLEINFO_FILE</fileType>
+    </Item>    
+    <Item>
+        <filename>platformcrc:/packs/base/data/carcols</filename>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <fileType>CARCOLS_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platformcrc:/packs/base/data/carmodcols</filename>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <fileType>CARMODCOLS_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platformcrc:/packs/base/data/carvariations</filename>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <fileType>VEHICLE_VARIATION_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platform:/packs/base/levels/rdr3/vehicles.rpf</filename>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>commoncrc:/packs/base/data/ai/vehiclelayouts.meta</filename>
+        <disabled value="true" />
+        <persistent value="true" />
+        <fileType>VEHICLE_LAYOUTS_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>commoncrc:/packs/base/data/ai/transportanimations.meta</filename>
+        <disabled value="true" />
+        <persistent value="true" />
+        <fileType>TRANSPORT_ANIMATIONS_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>common:/packs/base/data/ai/vehicleamvs.meta</filename>
+        <disabled value="true" />
+        <persistent value="true" />
+        <fileType>VEHICLE_AMV_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>common:/packs/base/data/ai/vehiclefogvolumes.meta</filename>
+        <disabled value="true" />
+        <persistent value="true" />
+        <fileType>VEHICLE_FOG_VOLUME_FILE</fileType>
+    </Item>
+    <Item>
+          <filename>platform:/packs/base/data/weapontxdchain</filename>
+          <disabled value="true"/>
+          <persistent value="true"/>
+          <fileType>WEAPON_TXD_CHAIN_FILE</fileType>
+    </Item>
+    <Item>
+          <filename>commoncrc:/packs/base/data/weaponArchetypes</filename>
+          <disabled value="true"/>
+          <persistent value="true"/>
+          <fileType>WEAPON_METADATA_FILE</fileType>
+    </Item>
+    <Item>
+          <filename>platform:/packs/base/data/effects/vfxweaponinfo</filename>
+          <disabled value="true"/>
+          <persistent value="true"/>
+          <fileType>VFXWEAPONINFO_FILE</fileType>
+    </Item>
+    <Item>
+          <filename>commoncrc:/packs/base/data/pedbrawlingref</filename>
+          <disabled value="true"/>
+          <persistent value="true"/>
+          <fileType>PED_BRAWLING_REFERENCE_FILE</fileType>
+    </Item>
+    <Item>
+          <filename>commoncrc:/packs/base/data/pedbrawlingstyle</filename>
+          <disabled value="true"/>
+          <persistent value="true"/>
+          <fileType>PED_BRAWLING_STYLE_FILE</fileType>
+    </Item>
+    <Item>
+          <filename>commoncrc:/packs/base/data/pickups</filename>
+          <disabled value="true"/>
+          <persistent value="true"/>
+          <fileType>DLC_WEAPON_PICKUPS</fileType>
+    </Item>
+    <Item>
+          <filename>commoncrc:/packs/base/data/ai/aiknowledgedictionary</filename>
+          <disabled value="true"/>
+          <persistent value="true"/>
+          <fileType>AI_KNOWLEDGE_FILE</fileType>
+    </Item>
+    <Item>
+        <!-- weapons_mp, weapons_sp and weapons_path are loaded by code links in CWeaponModelInfo::SetFileName() -->
+          <filename>platformcrc:/packs/base/data/ai/weapons</filename>
+          <disabled value="true"/>
+          <persistent value="true"/>
+          <fileType>WEAPONINFO_FILE</fileType>
+    </Item>
+    <Item>
+          <filename>commoncrc:/packs/base/data/ai/weapons_mp</filename>
+          <disabled value="true"/>
+          <persistent value="true"/>
+          <fileType>WEAPONINFO_MP_PATCH_FILE</fileType>
+    </Item>
+    <Item>
+          <filename>commoncrc:/packs/base/data/ai/weaponanimations</filename>
+          <disabled value="true"/>
+          <persistent value="true"/>
+          <fileType>WEAPON_ANIMATIONS_FILE</fileType>
+    </Item>
+    <Item>
+          <filename>commoncrc:/packs/base/data/ai/weaponholdinganimations</filename>
+          <disabled value="true"/>
+          <persistent value="true"/>
+          <fileType>WEAPON_HOLDING_ANIMATIONS_FILE</fileType>
+    </Item>
+    <Item>
+          <filename>commoncrc:/packs/base/data/ai/weaponcomponents</filename>
+          <disabled value="true"/>
+          <persistent value="true"/>
+          <fileType>WEAPONCOMPONENTSINFO_FILE</fileType>
+    </Item>
+    <Item>
+          <filename>platform:/packs/base/models/weapons.rpf</filename>
+          <disabled value="true"/>
+          <persistent value="true"/>
+          <contents>CONTENTS_PROPS</contents>
+          <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platform:/packs/base/models/weapon_slods.rpf</filename>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <overlay value="true"/>
+        <contents>CONTENTS_PROPS</contents>
+        <fileType>RPF_FILE</fileType>
+    </Item>                    
+    <Item>
+          <filename>platform:/packs/base/data/ai/quickSelectItems</filename>
+          <disabled value="true"/>
+          <persistent value="true"/>
+          <fileType>WHEEL_INFO_FILE</fileType>
+    </Item>
+    <Item>
+          <filename>platform:/packs/base/data/ai/quickSelectSlots</filename>
+          <disabled value="true"/>
+          <persistent value="true"/>
+          <fileType>WHEEL_SLOT_FILE</fileType>
+    </Item>
+    <Item>
+          <filename>platformcrc:/packs/base/data/ai/satchelitems</filename>
+          <disabled value="true"/>
+          <persistent value="true"/>
+          <fileType>SATCHEL_ITEMS_FILE</fileType>
+    </Item>
+    <Item>
+          <filename>platformcrc:/packs/base/data/ai/satchelitems_mp</filename>
+          <disabled value="true"/>
+          <persistent value="true"/>
+          <fileType>SATCHEL_ITEMS_FILE</fileType>
+    </Item>
+    <Item>
+          <filename>platformcrc:/packs/base/data/ai/weaponcover</filename>
+          <disabled value="true"/>
+          <persistent value="true"/>
+          <fileType>COVER_WEAPON_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/data/ui/locationbasedloadingscreendata</filename>
+      <disabled value="true"/>
+      <persistent value="false"/>
+      <fileType>LOADING_SCREEN_DATA_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/data/ui/locationbasedloadingscreendata_patch</filename>
+      <disabled value="true"/>
+      <persistent value="false"/>
+      <fileType>LOADING_SCREEN_DATA_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>platform:/data/ui/locationbasedloadingscreendata_multiplayer</filename>
+      <disabled value="true"/>
+      <persistent value="false"/>
+      <fileType>LOADING_SCREEN_DATA_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platform:/levels/rdr3/script/script.rpf</filename>
+        <fileType>RPF_FILE</fileType>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <CRCfromHeader value="true"/>
+    </Item>
+    <Item>
+      <filename>platform:/levels/rdr3/script/parseddata.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <CRCfromHeader value="true"/>
+    </Item>
+    <Item>
+        <filename>common:/non_final/anim/motions</filename>
+        <fileType>MOTIONDBG_FOLDER</fileType>
+        <disabled value="true"/>
+        <devOnly value="true"/>
+    </Item>
+    
+    <!-- =========================================== -->
+    <!-- ===================HD FILES================ -->
+    <!-- =========================================== -->
+    
+    <Item>
+        <filename>platform:/hd/packs/base/models/metaped_textures_cutscene_a_f.rpf</filename>
+        <overlay value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platform:/hd/packs/base/models/metaped_textures_cutscene_g_l.rpf</filename>
+        <overlay value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platform:/hd/packs/base/models/metaped_textures_cutscene_m_r.rpf</filename>
+        <overlay value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platform:/hd/packs/base/models/metaped_textures_player.rpf</filename>
+        <overlay value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platform:/hd/data/ui/loading_screen_images.rpf</filename>
+        <overlay value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platform:/hd/textures/ui_textures.rpf</filename>
+        <overlay value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platform:/hd/textures/ui/ui_hud.rpf</filename>
+        <overlay value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+        <filename>platform:/hd/textures/ui/ui_pausemenu.rpf</filename>
+        <overlay value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <fileType>RPF_FILE</fileType>
+    </Item>
+  <!-- NEW UI DATA-->
+    <Item>
+        <filename>update:/%PLATFORM%/textures/ui/ui_textures_mp.rpf</filename>
+        <fileType>RPF_FILE</fileType>
+        <locked value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <overlay value="false"/>
+    </Item>
+    <Item>
+        <filename>update:/%PLATFORM%/hd/textures/ui/ui_textures_mp.rpf</filename>
+        <fileType>RPF_FILE</fileType>
+        <locked value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <overlay value="true"/>
+    </Item>
+    <Item>
+        <filename>update:/%PLATFORM%/textures/ui/ui_roles.rpf</filename>
+        <fileType>RPF_FILE</fileType>
+        <locked value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <overlay value="false"/>
+    </Item>
+    <Item>
+        <filename>update:/%PLATFORM%/hd/textures/ui/ui_roles.rpf</filename>
+        <fileType>RPF_FILE</fileType>
+        <locked value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <overlay value="true"/>
+    </Item>
+    <Item>
+        <filename>update:/%PLATFORM%/textures/ui/ui_season1.rpf</filename>
+        <fileType>RPF_FILE</fileType>
+        <locked value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <overlay value="false"/>
+    </Item>
+    <Item>
+        <filename>update:/%PLATFORM%/textures/ui/ui_season2.rpf</filename>
+        <fileType>RPF_FILE</fileType>
+        <locked value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <overlay value="false"/>
+    </Item>
+    <Item>
+        <filename>update:/%PLATFORM%/textures/ui/ui_naturalist.rpf</filename>
+        <fileType>RPF_FILE</fileType>
+        <locked value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <overlay value="false"/>
+    </Item>
+    <Item>
+        <filename>update:/%PLATFORM%/textures/ui/ui_season_generic.rpf</filename>
+        <fileType>RPF_FILE</fileType>
+        <locked value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <overlay value="false"/>
+    </Item>
+    <Item>
+        <filename>update:/%PLATFORM%/textures/ui/ui_season3.rpf</filename>
+        <fileType>RPF_FILE</fileType>
+        <locked value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <overlay value="false"/>
+    </Item>
+    <Item>
+        <filename>update:/%PLATFORM%/textures/ui/ui_season4.rpf</filename>
+        <fileType>RPF_FILE</fileType>
+        <locked value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <overlay value="false"/>
+    </Item>
+    <Item>
+        <filename>update:/%PLATFORM%/textures/ui/ui_season5.rpf</filename>
+        <fileType>RPF_FILE</fileType>
+        <locked value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <overlay value="false"/>
+    </Item>
+    <Item>
+        <filename>update:/%PLATFORM%/textures/ui/ui_season6.rpf</filename>
+        <fileType>RPF_FILE</fileType>
+        <locked value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <overlay value="false"/>
+    </Item>
+    <Item>
+        <filename>update:/%PLATFORM%/textures/ui/hub_coupons.rpf</filename>
+        <fileType>RPF_FILE</fileType>
+        <locked value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <overlay value="false"/>
+    </Item>
+    <Item>
+        <filename>update:/%PLATFORM%/textures/ui/ui_season7.rpf</filename>
+        <fileType>RPF_FILE</fileType>
+        <locked value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <overlay value="false"/>
+    </Item>
+    <!-- UI PATCH DATA -->
+    <Item>
+        <filename>update:/%PLATFORM%/hd/patch/textures/ui/ui_textures.rpf</filename>
+        <fileType>RPF_FILE</fileType>
+        <locked value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <overlay value="true"/>
+    </Item>
+    <Item>
+        <filename>update:/%PLATFORM%/hd/patch/textures/ui/ui_hud.rpf</filename>
+        <fileType>RPF_FILE</fileType>
+        <locked value="true"/>
+        <disabled value="true"/>
+        <persistent value="true"/>
+        <overlay value="true"/>
+    </Item>
+
+    <!-- =========================================== -->
+    <!-- ==============END OF HD FILES============== -->
+    <!-- =========================================== -->
+
+  </dataFiles>
+  <contentChangeSets>
+    <Item>
+      <changeSetName>BASE_PACK_OVERLAYINFO</changeSetName>
+      <filesToInvalidate/>
+      <filesToDisable/>
+      <filesToEnable>
+        <Item>base_pack:/data/overlayinfo.xml</Item>
+      </filesToEnable>
+    </Item>
+    <Item>
+      <changeSetName>BASE_PACK_ANIM_EXPRESSION_SETS</changeSetName>
+      <filesToInvalidate/>
+      <filesToDisable/>
+      <filesToEnable>
+        <Item>commoncrc:/packs/base/data/anim/expression_sets/expression_sets.xml</Item>
+      </filesToEnable>
+    </Item>
+    <Item>
+      <changeSetName>BASE_PACK_ANIM_CLIP_SETS</changeSetName>
+      <filesToInvalidate/>
+      <filesToDisable/>
+      <filesToEnable>
+        <Item>platform:/data/anim/clip_sets/clip_sets</Item>
+      </filesToEnable>
+    </Item>
+    <Item>
+      <changeSetName>BASE_PACK_ANIM_MOTION_SETS</changeSetName>
+      <filesToInvalidate/>
+      <filesToDisable/>
+      <filesToEnable>
+        <Item>platform:/data/anim/motion_sets/motion_sets</Item>
+      </filesToEnable>
+    </Item>
+    <Item>
+      <changeSetName>BASE_PACK_ANIM_CLIP_DICTIONARY_BUDGET_FLAGS</changeSetName>
+      <filesToInvalidate/>
+      <filesToDisable/>
+      <filesToEnable>
+        <Item>commoncrc:/data/anim/dictionary_meta/clip_dictionary_budget_flags.meta</Item>
+      </filesToEnable>
+    </Item>
+    <Item>
+      <changeSetName>BASE_PACK_ANIM_MOTION_DICTIONARY_BUDGET_FLAGS</changeSetName>
+      <filesToInvalidate/>
+      <filesToDisable/>
+      <filesToEnable>
+        <Item>commoncrc:/data/anim/dictionary_meta/motion_dictionary_budget_flags.meta</Item>
+      </filesToEnable>
+    </Item>
+    <Item>
+      <changeSetName>METAPED_BASE_EARLY</changeSetName>
+      <filesToInvalidate/>
+      <filesToDisable/>
+      <filesToEnable>
+        <Item>platform:/packs/base/data/metapeds/metapeds.rpf</Item>
+        <Item>platform:/packs/base/data/metapeds/metapeds_nonfinal.rpf</Item>
+        <Item>platform:/packs/base/data/metapeds/metapeds_asb.rpf</Item>
+        <Item>platform:/packs/base/data/metapeds/metapeds_rhd.rpf</Item>
+        <Item>platform:/packs/base/data/metapeds/metapeds_sd.rpf</Item>
+        <Item>platform:/packs/base/data/metapeds/metapeds_val.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_nonfinal.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_nonfinal.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_a.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_animals.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_b.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_c.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_cutscene_m_r.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_cutscene_s_z.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_cutscene_a_f.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_cutscene_g_l.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_d.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_e.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_f.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_g.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_h.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_k.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_l.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_m.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_n.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_o.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_p.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_player.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_r.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_s.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_t.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_v.rpf</Item>
+        <Item>platform:/packs/base/models/metapeds_u.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_a.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_animals.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_b.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_c.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_cutscene_a_f.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_cutscene_g_l.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_cutscene_m_r.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_cutscene_s_z.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_d.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_e.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_f.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_g.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_h.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_k.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_l.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_m.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_n.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_o.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_p.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_player.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_r.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_s.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_t.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_v.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_u.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_textures_z.rpf</Item>
+        <Item>platform:/packs/base/models/metaped_fragments.rpf</Item>
+        <Item>update:/%PLATFORM%/textures/ui/ui_textures_mp.rpf</Item>
+        <Item>update:/%PLATFORM%/textures/ui/ui_roles.rpf</Item>
+        <Item>update:/%PLATFORM%/textures/ui/ui_season1.rpf</Item>
+        <Item>update:/%PLATFORM%/textures/ui/ui_season2.rpf</Item>
+        <Item>update:/%PLATFORM%/textures/ui/ui_naturalist.rpf</Item>
+        <Item>update:/%PLATFORM%/textures/ui/ui_season_generic.rpf</Item>
+        <Item>update:/%PLATFORM%/textures/ui/ui_season3.rpf</Item>
+        <Item>update:/%PLATFORM%/textures/ui/ui_season4.rpf</Item>
+        <Item>update:/%PLATFORM%/textures/ui/ui_season5.rpf</Item>
+        <Item>update:/%PLATFORM%/textures/ui/ui_season6.rpf</Item>
+        <Item>update:/%PLATFORM%/textures/ui/hub_coupons.rpf</Item>
+        <Item>update:/%PLATFORM%/textures/ui/ui_season7.rpf</Item>
+      </filesToEnable>
+    </Item>
+    <Item>
+      <changeSetName>METAPED_BASE_EARLY_NON_RPF</changeSetName>
+      <filesToInvalidate/>
+      <filesToDisable/>
+      <filesToEnable>
+        <Item>platformcrc:/packs/base/data/metapeds</Item>
+        <Item>platformcrc:/packs/base/data/settings</Item>
+        <Item>platform:/packs/base/data/metapeds_nonfinal</Item>
+        <Item>platform:/packs/base/data/metapeds/assets_drawable</Item>
+        <Item>platform:/packs/base/data/metapeds/assets_albedo</Item>
+        <Item>platform:/packs/base/data/metapeds/assets_normal</Item>
+        <Item>platform:/packs/base/data/metapeds/assets_material</Item>
+        <Item>platform:/packs/base/data/metapeds/assets_tints</Item>
+        <Item>platform:/packs/base/data/metapeds/assets_nonfinal</Item>
+        <Item>platform:/packs/base/data/shop_items</Item>
+      </filesToEnable>
+    </Item>
+    <Item>
+        <changeSetName>VEHICLE_BASE_EARLY</changeSetName>
+        <filesToInvalidate/>
+        <filesToDisable/>
+        <filesToEnable>
+            <Item>platform:/packs/base/levels/rdr3/vehicles.rpf</Item>
+        </filesToEnable>
+    </Item>
+    <Item>
+        <changeSetName>VEHICLE_BASE_EARLY_NON_RPF</changeSetName>
+        <filesToInvalidate/>
+        <filesToDisable/>
+        <filesToEnable>        
+            <Item>platform:/packs/base/data/effects/vfxvehicleinfo</Item>
+            <Item>common:/packs/base/data/ai/vehicleamvs.meta</Item>
+            <Item>common:/packs/base/data/ai/vehiclefogvolumes.meta</Item>
+            <Item>commoncrc:/packs/base/data/ai/vehiclelayouts.meta</Item>
+            <Item>commoncrc:/packs/base/data/ai/transportanimations.meta</Item>
+            <Item>commoncrc:/packs/base/data/levels/rdr3/vehicles.meta</Item>
+            <Item>platformcrc:/packs/base/data/carcols</Item>        
+            <Item>platformcrc:/packs/base/data/carvariations</Item>
+            <Item>platformcrc:/packs/base/data/carmodcols</Item>
+        </filesToEnable>
+    </Item>
+    <Item>
+      <changeSetName>WEAPON_BASE_EARLY</changeSetName>
+      <filesToInvalidate/>
+      <filesToDisable/>
+      <filesToEnable>
+        <Item>platform:/packs/base/models/weapons.rpf</Item>        
+      </filesToEnable>
+    </Item>
+    <Item>
+      <changeSetName>WEAPON_BASE_EARLY_PATCHES</changeSetName>
+      <filesToInvalidate/>
+      <filesToDisable/>
+      <filesToEnable> 
+        <Item>platform:/packs/base/models/weapon_slods.rpf</Item>
+      </filesToEnable>
+    </Item>
+    <Item>
+        <changeSetName>SCRIPT_DATA_SP_BASE</changeSetName>
+        <filesToInvalidate/>
+        <filesToDisable/>
+        <filesToEnable>
+            <Item>platform:/levels/rdr3/script/script.rpf</Item>
+            <Item>platform:/levels/rdr3/script/parseddata.rpf</Item>
+        </filesToEnable>
+        <executionConditions>
+            <genericConditions>$level=MO_JIM_L11&amp;$mp=false</genericConditions>
+        </executionConditions>
+    </Item>
+  <Item>
+    <changeSetName>SCRIPT_DATA_TESTBED_BASE</changeSetName>
+    <filesToInvalidate/>
+    <filesToDisable/>
+    <filesToEnable>
+      <Item>platform:/levels/rdr3/script/parseddata.rpf</Item>
+    </filesToEnable>
+    <executionConditions>
+      <genericConditions>$level=Testbed</genericConditions>
+    </executionConditions>
+  </Item>    
+    <Item>
+      <changeSetName>WEAPON_BASE_EARLY_NON_RPF</changeSetName>
+      <filesToInvalidate/>
+      <filesToDisable/>
+      <filesToEnable>
+        <Item>platform:/packs/base/data/weapontxdchain</Item>
+        <Item>commoncrc:/packs/base/data/pickups</Item>
+        <Item>commoncrc:/packs/base/data/weaponArchetypes</Item>
+        <Item>commoncrc:/packs/base/data/pedbrawlingref</Item>
+        <Item>commoncrc:/packs/base/data/pedbrawlingstyle</Item>
+        <Item>commoncrc:/packs/base/data/ai/aiknowledgedictionary</Item>
+        <Item>commoncrc:/packs/base/data/ai/weaponcomponents</Item>
+        <Item>commoncrc:/packs/base/data/ai/weaponanimations</Item>
+        <Item>commoncrc:/packs/base/data/ai/weaponholdinganimations</Item>
+        <Item>platformcrc:/packs/base/data/ai/weapons</Item>
+        <Item>commoncrc:/packs/base/data/ai/weapons_mp</Item>
+        <Item>platform:/packs/base/data/effects/vfxweaponinfo</Item>
+        <Item>platformcrc:/packs/base/data/ai/satchelitems</Item>
+        <Item>platformcrc:/packs/base/data/ai/satchelitems_mp</Item>
+        <Item>platformcrc:/packs/base/data/ai/weaponcover</Item>
+      </filesToEnable>
+    </Item>
+    <Item>
+      <changeSetName>WEAPON_BASE_TITLE</changeSetName>
+      <filesToInvalidate/>
+      <filesToDisable/>
+      <filesToEnable>
+        <Item>platform:/packs/base/data/ai/quickSelectItems</Item>
+        <Item>platform:/packs/base/data/ai/quickSelectSlots</Item>
+      </filesToEnable>
+    </Item>
+    <Item>
+        <changeSetName>LOADING_SCREEN_EARLY_ON</changeSetName>
+        <filesToInvalidate/>
+        <filesToDisable/>
+        <filesToEnable>
+          <Item>platform:/data/ui/locationbasedloadingscreendata</Item>
+          <Item>platform:/data/ui/locationbasedloadingscreendata_patch</Item>
+          <Item>platform:/data/ui/locationbasedloadingscreendata_multiplayer</Item>
+        </filesToEnable>
+    </Item>
+    <Item dev_only="true">
+        <changeSetName>ANIM_DEBUG_DATA</changeSetName>
+        <filesToInvalidate/>
+        <filesToDisable/>
+        <filesToEnable>
+            <Item>common:/non_final/anim/motions</Item>
+        </filesToEnable>
+    </Item>
+    <!-- =========================================== -->
+    <!-- ===================HD CONTENT============== -->
+    <!-- =========================================== -->
+    <Item>
+        <changeSetName>METAPED_BASE_EARLY_HD</changeSetName>
+        <filesToInvalidate/>
+        <filesToDisable/>
+        <filesToEnable>
+            <Item>platform:/hd/packs/base/models/metaped_textures_cutscene_a_f.rpf</Item>
+            <Item>platform:/hd/packs/base/models/metaped_textures_cutscene_g_l.rpf</Item>
+            <Item>platform:/hd/packs/base/models/metaped_textures_cutscene_m_r.rpf</Item>
+            <Item>platform:/hd/packs/base/models/metaped_textures_player.rpf</Item>
+        </filesToEnable>
+        <executionConditions/>
+    </Item>
+    <Item>
+        <changeSetName>BASE_HD_STREAMING</changeSetName>
+        <filesToInvalidate/>
+        <filesToDisable/>
+        <filesToEnable>
+            <Item>platform:/hd/textures/ui_textures.rpf</Item>
+            <Item>platform:/hd/textures/ui/ui_hud.rpf</Item>
+            <Item>platform:/hd/textures/ui/ui_pausemenu.rpf</Item>
+            <Item>update:/%PLATFORM%/hd/patch/textures/ui/ui_textures.rpf</Item>
+            <Item>update:/%PLATFORM%/hd/patch/textures/ui/ui_hud.rpf</Item>
+            <Item>update:/%PLATFORM%/hd/textures/ui/ui_textures_mp.rpf</Item>
+            <Item>update:/%PLATFORM%/hd/textures/ui/ui_roles.rpf</Item>
+        </filesToEnable>
+        <executionConditions>
+            <genericConditions>$hd=true</genericConditions>
+        </executionConditions>
+    </Item>
+    <!-- =========================================== -->
+    <!-- =============END OF HD CONTENT============= -->
+    <!-- =========================================== -->
+  </contentChangeSets>
+  <patchFiles/>
+</CDataFileMgr__ContentsOfDataFileXml>

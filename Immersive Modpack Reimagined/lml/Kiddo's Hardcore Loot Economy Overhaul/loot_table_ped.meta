@@ -1,0 +1,3001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CLootTableCollection>
+  <LootTables>
+  
+ 	<!-- |||||||||||||||||||||||||||| -->
+	<!-- |||| PARENT LOOT TABLES |||| -->
+	<!-- |||||||||||||||||||||||||||| -->
+		
+	<Item key="ANNESBURG_TOWNSFOLK_POOR" name="Annesburg Townsfolk - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value="0.25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>CHEAP_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>	
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_TOWNSFOLK</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+ 		<Item>
+		  <Name>DOCUMENT_NEWSCLIP_BENNETT</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+		</Entries>
+    </Item>
+	
+	<Item key="ARMADILLO_SHOP_OWNER" name="Armadillo Shop Owner">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_LOCALE_SLUM</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>DOCUMENT_LETTER_ARM_GENSTORE</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="ARMADILLO_SICK" name="Armadillo Sick">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PED_LOOT_LOCALE_SLUM</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>ALCOHOL_ITEMS_CHEAP</Name>
+		  <Rate value=".15" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+								
+	<Item key="BIGCITY_STOREOWNER_AVERAGE" name="Big City Storeowner - Average">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_LARGE</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_STOREOWNER</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_LOCALE_BIGCITY</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+		
+	<Item key="BIGCITY_TOWNSFOLK_AVERAGE" name="Big City Townsfolk - Average">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_LOCALE_BIGCITY</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="BIGCITY_TOWNSFOLK_RICH" name="Big City Townsfolk - Rich">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_LARGE</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_WEALTHY</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_LOCALE_BIGCITY</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="BIGVALLEY_LABORER_POOR" name="Laborer - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_LABORER</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>DOCUMENT_LETTER_BIV_WORKER</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="BLACKWATER_TOWNSFOLK_AVERAGE" name="Blackwater Townsfolk - Average">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_LOCALE_BIGCITY</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+ 		<Item>
+		  <Name>DOCUMENT_LETTER_BLWTOWNFOLK</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="BLACKWATER_TOWNSFOLK_RICH" name="Blackwater Townsfolk - Rich">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_LARGE</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_WEALTHY</Name>
+		  <Rate value=".40" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_LOCALE_BIGCITY</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+ 		<Item>
+		  <Name>DOCUMENT_LETTER_BLWUPPEROLD1</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+ 		<Item>
+		  <Name>DOCUMENT_LETTER_BLWUPPERF1</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="BLACKWATER_BIGAMIST_RICH" name="Blackwater Bigamist - Rich">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_LARGE</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_WEALTHY</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_LOCALE_BIGCITY</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+ 		<Item>
+		  <Name>DOCUMENT_LETTER_BLWUPPERM1</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+ 		<Item>
+		  <Name>DOCUMENT_LETTER_BLWUPPERM2</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+				
+	<Item key="BOUNTY_CRIMINAL_GUNHOLDER_POOR" name="BOUNTY - Criminal Gunholder - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PED_LOOT_TYPE_GUNHOLDER</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_GUNHOLDER</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_HIREDGUN</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEMS_MALE</Name>
+		  <Rate value=".20" />
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEMS_MALE</Name>
+		  <Rate value=".15" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>EXPENSIVE_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".20" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>DOCUMENT_BOUNTY_POSTER_CHAIN_GANG</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		  <RewardCondition ref="ON_BLACK_WHITE_CHAIN_GANG" />
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="CORPSE_POOR" name="Corpse - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value=".75" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_LOCALE_SLUM</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+	    <Item>
+		  <Name>DOCUMENT_LETTER_ARM_CORPSE</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="ON_RE_DEAD_BODIES" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+		
+	<Item key="CRIMINAL_POOR" name="Criminal - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_CRIMINAL</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+			
+	<Item key="CRIMINAL_GUNHOLDER_POOR_EXCONFEDS" name="EXCONFEDS - Criminal Gunholder - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>HONOR_NEUTRAL_ITEMS</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_GUNHOLDER</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_CRIMINAL</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>DOCUMENT_GANG_RECRUITMENT_LETTER</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+		
+	<Item key="CRIMINAL_GUNHOLDER_POOR_DUSTERS" name="DUSTERS - Criminal Gunholder - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>HONOR_NEUTRAL_ITEMS</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_GUNHOLDER</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_CRIMINAL</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="CRIMINAL_FATDUSTER" name="DUSTERS - Colm - ODriscoll">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>HONOR_NEUTRAL_ITEMS</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_GUNHOLDER</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_CRIMINAL</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>DOCUMENT_ODRISCOLLS_6_LETTER</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="LABORER_FOREMAN" name="Laborer - Foreman">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value="0.25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>CHEAP_JEWELRY_ITEMS_PED</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>	
+	  	<Item>
+		  <Name>TOBACCO_ITEMS_PED</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>POTENT_MEDS</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>DOCUMENT_LETTER_FOREMAN</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+						
+	<Item key="LABORER_POOR" name="Laborer - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value=".75" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_LABORER</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>DOCUMENT_NORWEGIAN_NEWSCLIP</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="AT_TALL_TREES" />
+		  <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>DOCUMENT_NEWSCLIP_BENNETT</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="AT_ROANOKE_RIDGE" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+						
+	<Item key="HILLBILLY_POOR" name="Hillbilly - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_HILLBILLY</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+																
+	<Item key="FOREST_TRAVELER_POOR" name="Forest Traveler - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value=".20" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_TRAVELER</Name>
+		  <Rate value=".20" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_LOCALE_FOREST</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+		
+	<Item key="GUNHOLDER_POOR" name="Gunholder - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_CRIMINAL</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>DOCUMENT_NORWEGIAN_NEWSCLIP</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="AT_TALL_TREES" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="GUNHOLDER_AVERAGE" name="Gunholder - Average">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_GUNHOLDER</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="GUNHOLDER_RICH" name="Gunholder - Rich">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_HIREDGUN</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="SHOP_OWNER_GUNSMITH" name="Shop Owner Gunsmith">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value=".75" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_TYPE_STOREOWNER</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>KIT_GUN_OIL</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>DOCUMENT_RHODES_SON_DRAWING</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="AT_SCARLETT_MEADOWS" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="OUTLAW_LOOTER" name="Gunholder - Average">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_CRIMINAL</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="HILLBILLY_CRIMINAL_POOR" name="Hillbilly Criminal - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_HILLBILLY</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="HUNTER" name="Hunter">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_HUNTER</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>ANIMAL_PELTS_SMALL</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>ANIMAL_PELTS_SMALL_PERFECT</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>KIT_GUN_OIL</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+					
+	<Item key="MOUNTAINMAN_POOR" name="Mountain Man - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>PED_LOOT_LOCALE_MOUNTAINS</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+			
+	<Item key="MOUNTAIN_NATIVEAMERICAN_POOR" name="Mountain Native American - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_NATIVEAMERICAN</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HERBS</Name>
+		  <Rate value=".65" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+			
+	<Item key="MOUNTAIN_TRAVELER_POOR" name="Mountain Traveler - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_LOCALE_MOUNTAINS</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_TRAVELER</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="MOUNTAIN_TRAVELER_RICH" name="Mountain Traveler - Rich">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_TRAVELER</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_LOCALE_MOUNTAINS</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="NAKED" name="NAKED">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="NEWSPAPER_BOY" name="Newspaper Boy">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value=".60" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>DOCUMENT_LETTER_NEWSPAPERBOY</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+		
+	<Item key="OBESE" name="OBESE">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CHEAP_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_TYPE_OBESE</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+								
+	<Item key="PLAINS_TRAVELER_POOR" name="Plains Traveler - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_LOCALE_PLAINS</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_TRAVELER</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+
+	<Item key="PLAINS_TRAVELER_RICH" name="Plains Traveler - Rich">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_LOCALE_PLAINS</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_TRAVELER</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+					
+	<Item key="PRISONER_POOR" name="Prisoner Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_PRISONER</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="RALLY_MALES" name="Rally Males">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value=".75" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_LOCALE_SLUM</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>DOCUMENT_NOTE_RALLY</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="ON_RALLY" />
+		  <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>DOCUMENT_LETTER_RECRUIT</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="NEED_NOTE_RALLY" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="RANCHER" name="Rancher">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PED_LOOT_TYPE_RANCHHAND</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_SNACK</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+									
+	<Item key="SHERIFF_IMPROVEDGUNHOLDER_AVERAGE" name="Sheriff Gunholder Improved - Average">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>REWARD_PED_LARGE</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_LAW</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="DEPUTY_IMPROVEDGUNHOLDER_AVERAGE" name="Deputy Gunholder Improved - Average">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value="0.5" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value="0.5" />
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>REWARD_PED_LARGE</Name>
+		  <Rate value="0.5" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_LAW</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="BOUNTY_HUNTER" name="BOUNTY_HUNTER">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_GUNHOLDER</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_TYPE_GUNHOLDER</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_TYPE_HIREDGUN</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEMS_MALE</Name>
+		  <Rate value=".20" />
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEMS_MALE</Name>
+		  <Rate value=".15" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>EXPENSIVE_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".20" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="PINKERTON_LAW" name="PINKERTON_LAW">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value=".20" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Rate value=".30" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>REWARD_PED_LARGE</Name>
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Rate value=".30" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_TYPE_HIREDGUN</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEMS_MALE</Name>
+		  <Rate value=".30" />
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEMS_MALE</Name>
+		  <Rate value=".25" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>EXPENSIVE_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".30" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="RHODES_TOWNSFOLK_RICH" name="Rhodes Townsfolk - Rich">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_LARGE</Name>
+		  <Rate value=".65" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_WEALTHY</Name>
+		  <Rate value=".35" />
+		  <Type>Table</Type>
+		</Item>
+ 		<Item>
+		  <Name>DOCUMENT_LETTER_RHDUPPERM1</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+ 		<Item>
+		  <Name>DOCUMENT_LETTER_UPPERF1</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+		  <Type>Item</Type>
+		</Item>
+ 		<Item>
+		  <Name>DOCUMENT_LETTER_UPPERF2</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="NEED_RHODES_UPPER_LETTER_AND_LOOTED_PED_IS_FEMALE" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+		
+	<Item key="SAINT_DENIS_TOWNSFOLK_AVERAGE" name="Saint Denis Townsfolk - Average">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value=".85" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_LOCALE_BIGCITY</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+ 		<Item>
+		  <Name>DOCUMENT_LETTER_SDMIDDLETOWNFOLK</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="SAINT_DENIS_TOWNSFOLK_RICH" name="Saint Denis Townsfolk - Rich">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_LARGE</Name>
+		  <Rate value=".75" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_WEALTHY</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_LOCALE_BIGCITY</Name>
+		  <Rate value=".15" />
+		  <Type>Table</Type>
+		</Item>
+ 		<Item>
+		  <Name>DOCUMENT_LETTER_SDUPPERF1</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="SHACK_TWINS" name="Shack Twins">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_USED</Name>
+		  <Min value="1" />
+          <Max value="1" />
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>CONSUMABLE_SNAKE_OIL_USED</Name>
+		  <Rate value=".25" />
+		  <Type>Item</Type>
+		</Item>	
+      </Entries>
+    </Item>
+		
+	<Item key="SLUM_TOWNSFOLK_POOR" name="Slum Townsfolk - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value="0.50" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_LOCALE_SLUM</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>DOCUMENT_LETTER_ARMTOWNFOLK</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="AT_CHOLLA_SPRINGS_AND_LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="SOLDIER_POOR" name="Soldier - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value=".15" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_TRAVELER</Name>
+		  <Rate value="1.00" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>DOCUMENT_LETTER_ARMY_SOLDIER</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="STRAWBERRY_FANCY_TOURIST" name="Strawberry Fancy Tourist">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_LARGE</Name>
+		  <Rate value=".85" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_LOCALE_BIGCITY</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+ 		<Item>
+		  <Name>DOCUMENT_LETTER_STAWB_TOURIST</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="SURVIVALIST" name="Survivalist">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PED_LOOT_TYPE_SURVIVALIST</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>AMMO_TOMAHAWK</Name>
+		  <Rate value=".20" />
+		  <Type>Ammo</Type>
+		</Item>
+		<Item>
+		  <Name>PREDATOR_BAIT</Name>
+		  <Rate value="0.20" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+				  	
+	<Item key="SWAMP_TOWNSFOLK_POOR" name="Swamp Townsfolk - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PED_LOOT_LOCALE_SWAMP</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="SWAMP_TRAVELER_POOR" name="Swamp Traveler - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_LOCALE_SWAMP</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_TRAVELER</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="SWAMP_TRAVELER_RICH" name="Swamp Traveler - Rich">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_TRAVELER</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_LOCALE_SWAMP</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="TOWN_BANKER_RICH" name="Town Banker - Rich">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_LARGE</Name>
+		  <Rate value=".75" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_BANKER</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>DOCUMENT_LETTER_BANKCLERK</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+		
+	<Item key="TOWN_BARBER_AVERAGE" name="Town Barber - Average">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value=".75" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_BARBER</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="TOWN_DOCTOR_RICH" name="Town Doctor - Rich">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_LARGE</Name>
+		  <Rate value=".75" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_DOCTOR</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>DOCUMENT_LETTER_VAL_DOCTOR</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="AT_HEARTLAND" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+					
+	<Item key="TOWN_MUSICIAN_POOR" name="Town Musician Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value=".85" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_MUSICIAN</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="TOWN_PROSTITUTE_POOR" name="Town Prostitute - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value=".75" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_PROSTITUTE</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+				
+	<Item key="TOWN_RELIGIOUS_POOR" name="Town Religious - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value=".75" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_RELIGIOUS</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="TOWN_STOREOWNER_POOR" name="Town Storeowner - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value=".75" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_STOREOWNER</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="TOWN_TOWNSFOLK_RICH" name="Town Townsfolk - Rich">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_LARGE</Name>
+		  <Rate value=".75" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_WEALTHY</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="TOWN_TOWNSFOLK_AVERAGE" name="Town Townsfolk - Average">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value=".75" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>NORMAL_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".20" />
+		  <Type>Table</Type>
+		</Item>	
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_TOWNSFOLK</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="TOWN_TOWNSFOLK_POOR" name="Town Townsfolk - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>CHEAP_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_TOWNSFOLK</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>	
+	  	<Item>
+		  <Name>DOCUMENT_NORWEGIAN_NEWSCLIP</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="AT_TALL_TREES" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+			
+	<Item key="TRAVELER_RICH" name="Traveler - Rich">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_TRAVELER_RICH</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="TRAVELER_POOR" name="Traveler - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value=".75" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_TRAVELER</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+				
+	<Item key="TROPICAL_TOWNSFOLK_POOR" name="Tropical Townsfolk - Poor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PED_LOOT_TYPE_TROPICAL</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="TUMBLEWEED_SHOP_OWNER" name="Tumbleweed Shop Owner">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value=".75" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_LOCALE_SLUM</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>DOCUMENT_LETTER_TUM_GENSTORE</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+			
+	<Item key="SLAVECATCHER_LOOT_TABLE_CUSTOM" name="Slavecatcher RC Custom">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PROVISION_RCM_POCKET_WATCH</Name>
+		  <Rate value="1.0" />
+		  <Type>Collectible</Type>
+		</Item>
+	  	<Item>
+		  <Name>PROVISION_RCM_OLD_GUN</Name>
+		  <Rate value="1.0" />
+		  <Type>Collectible</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="VALENTINE_COWPOKE" name="Valentine Cowpoke">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value=".75" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_TYPE_LABORER</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HORSE_CONSUMABLES</Name>
+		  <Rate value=".20" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>DOCUMENT_LETTER_VALCOWPOKE</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="VALENTINE_SHERIFF" name="Valentine Sheriff">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_LAW</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>DOCUMENT_LETTER_VAL_SHERIFF</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="VALENTINE_SHERIFF_CS_VARIATION" name="Valentine Sheriff - CS_VARIATION">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_LAW</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>DOCUMENT_LETTER_VAL_SHERIFF</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+			
+	<Item key="VAN_HORN_THUG" name="Van Horn Thug">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>SLUM_TOWNSFOLK_POOR</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>DOCUMENT_LETTER_VHTTHUG</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="WAPITI_OFFICIAL" name="Wapiti Official">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value=".75" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>NORMAL_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".35" />
+		  <Type>Table</Type>
+		</Item>	
+	  	<Item>
+		  <Name>PED_LOOT_TYPE_TOWNSFOLK</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>DOCUMENT_LETTER_WAPITI_AGENT</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+		
+	
+	<!-- |||||||||||||||||||||||||||| -->
+	<!--        PEDESTRIAN TYPE       -->
+	<!-- |||||||||||||||||||||||||||| -->
+		
+	<Item key="PED_LOOT_TYPE_BANKER" name="Banker">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CHEAP_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>NORMAL_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".30" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>EXPENSIVE_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_BRANDY</Name>
+		  <Rate value=".15" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CIGAR</Name>
+		  <Rate value=".15" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="PED_LOOT_TYPE_BARBER" name="Barber">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+          <Name>CONSUMABLE_HAIR_GREASE</Name>
+		  <Rate value=".50" />
+          <Type>Item</Type>
+        </Item>
+		<Item>
+          <Name>CONSUMABLE_HAIR_TONIC</Name>
+		  <Rate value=".50" />
+          <Type>Item</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="PED_LOOT_TYPE_CRIMINAL" name="Criminal">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries> 
+		<Item>
+		  <Name>DEADEYE_ITEMS</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>TOBACCO_ITEMS_PED</Name>
+		  <Rate value=".15" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CHEAP_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".20" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>THROWABLE_AMMO</Name>
+		  <Rate value=".05" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>ALCOHOL_ITEMS_CHEAP</Name>
+		  <Rate value=".07" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_MOONSHINE</Name>
+		  <Rate value=".08" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>KIT_GUN_OIL</Name>
+		  <Rate value=".07" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_SNACK</Name>
+		  <Rate value=".03" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>REWARD_GANG</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="PED_LOOT_TYPE_DOCTOR" name="Doctor">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>HEALTH_ITEMS</Name>
+		  <Rate value="1.00" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>NORMAL_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>EXPENSIVE_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+			
+	<Item key="PED_LOOT_TYPE_HILLBILLY" name="Hillbilly">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>HERBS</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_FRUIT</Name>
+		  <Rate value=".05" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>DEADEYE_ITEMS</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>ALCOHOL_ITEMS_CHEAP</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>TOBACCO_ITEMS_PED</Name>
+		  <Rate value=".13" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>AMMO_THROWING_KNIVES</Name>
+		  <Rate value=".10" />
+		  <Type>Ammo</Type>
+		</Item>
+		<Item>
+          <Name>CONSUMABLE_MOONSHINE</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+        </Item>
+		<Item>
+		  <Name>CONSUMABLE_PREDATOR_BAIT</Name>
+		  <Rate value=".05" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_COVER_SCENT_USED</Name>
+		  <Rate value=".05" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>REWARD_GANG</Name>
+		  <Rate value=".15" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_NECKLACE_SILVER</Name>
+		  <Rate value=".01" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_NECKLACE_GOLD</Name>
+		  <Rate value=".01" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_NECKLACE_PLATINUM</Name>
+		  <Rate value=".01" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_NECKLACE</Name>
+		  <Rate value=".01" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_NECKLACE_PEARL</Name>
+		  <Rate value=".01" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BRACELET_GOLD</Name>
+		  <Rate value=".01" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BRACELET_SILVER</Name>
+		  <Rate value=".01" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+			
+	<Item key="PED_LOOT_TYPE_GUNHOLDER" name="Gunholder">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+          <Name>HEALTH_AND_DEADEYE_BASIC</Name>
+		  <Rate value=".15" />
+          <Type>Table</Type>
+        </Item>
+		<Item>
+		  <Name>TOBACCO_ITEMS</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEMS_MALE</Name>
+		  <Rate value=".30" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HORSE_CONSUMABLES_BASIC</Name>
+		  <Rate value=".03" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>KIT_GUN_OIL</Name>
+		  <Rate value=".05" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>ALCOHOL_ITEMS</Name>
+		  <Rate value=".07" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_SNACK</Name>
+		  <Rate value=".05" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+		
+	<Item key="PED_LOOT_TYPE_HIREDGUN" name="Hired Gun">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+          <Name>POTENT_MEDS</Name>
+		  <Rate value=".10" />
+          <Type>Table</Type>
+        </Item>
+		<Item>
+		  <Name>TOBACCO_ITEMS</Name>
+		  <Rate value=".15" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>ALCOHOL_ITEMS</Name>
+		  <Rate value=".05" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEMS_MALE</Name>
+		  <Rate value=".35" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>KIT_GUN_OIL</Name>
+		  <Rate value=".05" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_SNACK</Name>
+		  <Rate value=".05" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="PED_LOOT_TYPE_LAW" name="Law">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PED_LOOT_TYPE_GUNHOLDER</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_TYPE_GUNHOLDER</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_TYPE_HIREDGUN</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEMS_MALE</Name>
+		  <Rate value=".30" />
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEMS_MALE</Name>
+		  <Rate value=".25" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>EXPENSIVE_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".30" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="PED_LOOT_TYPE_OBESE" name="Obese">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_CANDY_BAG</Name>
+		  <Rate value=".30" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CHOCOLATE_BAR</Name>
+		  <Rate value=".30" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_BISCUIT_BOX</Name>
+		  <Rate value=".30" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CRACKERS</Name>
+		  <Rate value=".30" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_JERKY</Name>
+		  <Rate value=".30" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+
+		
+	<Item key="PED_LOOT_TYPE_HUNTER" name="HUNTER">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>HUNTING_ITEMS</Name>
+		  <Rate value=".20" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>DEADEYE_ITEMS</Name>
+		  <Rate value=".20" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HERBS</Name>
+		  <Rate value=".20" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_SNACK</Name>
+		  <Rate value=".20" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>AMMO_THROWING_KNIVES</Name>
+		  <Min value="1" />
+          <Max value="1" />
+		  <Rate value=".20" />
+          <Type>Ammo</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="PED_LOOT_TYPE_LABORER" name="Laborer">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+          <Name>HEALTH_AND_DEADEYE_BASIC</Name>
+		  <Rate value=".25" />
+          <Type>Table</Type>
+        </Item>
+		<Item>
+          <Name>CONSUMABLE_MOONSHINE</Name>
+		  <Rate value=".25" />
+          <Type>Item</Type>
+        </Item>
+		<Item>
+		  <Name>CONSUMABLE_COCAINE_CHEWING_GUM_USED</Name>
+		  <Rate value=".25" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_CHEAP_USED</Name>
+		  <Min value="1" />
+          <Max value="2" />
+		  <Rate value=".25" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="PED_LOOT_TYPE_MUSICIAN" name="Musician">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>TOBACCO_AND_ALCOHOL</Name>
+		  <Rate value=".30" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CHEAP_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".20" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>NORMAL_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".20" />
+		  <Type>Table</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_COCAINE_CHEWING_GUM_USED</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_COCAINE_CHEWING_GUM_USED</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="PED_LOOT_TYPE_SURVIVALIST" name="Survivalist">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>HERBS</Name>
+		  <Rate value=".40" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_COVER_SCENT</Name>
+		  <Rate value=".15" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_COVER_SCENT_USED</Name>
+		  <Rate value=".00" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>KIT_GUN_OIL</Name>
+		  <Rate value=".15" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>AMMO_THROWING_KNIVES</Name>
+		  <Rate value=".15" />
+		  <Type>Ammo</Type>
+		</Item>
+		<Item>
+          <Name>CONSUMABLE_MOONSHINE</Name>
+		  <Rate value=".15" />
+          <Type>Item</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="PED_LOOT_TYPE_NATIVEAMERICAN" name="Native American">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>DEADEYE_ITEMS</Name>
+		  <Rate value=".40" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_NECKLACE_GOLD</Name>
+		  <Rate value=".05" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_NECKLACE_SILVER</Name>
+		  <Rate value=".10" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_EARRING_SILVER</Name>
+		  <Min value="2" />
+          <Max value="2" />
+		  <Rate value=".05" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_EARRING_GOLD</Name>
+		  <Min value="2" />
+          <Max value="2" />
+		  <Rate value=".05" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BRACELET_SILVER</Name>
+		  <Rate value=".05" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BRACELET_GOLD</Name>
+		  <Rate value=".05" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>AMMO_THROWING_KNIVES</Name>
+		  <Min value="1" />
+          <Max value="1" />
+		  <Rate value=".40" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />	
+          <Type>Ammo</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_HERBIVORE_BAIT</Name>
+		  <Rate value=".20" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="PED_LOOT_TYPE_PRISONER" name="Prisoner">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>CONSUMABLE_COCAINE_CHEWING_GUM</Name>
+		  <Rate value=".00" />
+		  <Type>Item</Type>
+	    </Item>
+	    <Item>
+		  <Name>CONSUMABLE_COCAINE_CHEWING_GUM_USED</Name>
+		  <Rate value=".50" />
+		  <Type>Item</Type>
+	    </Item>
+	    <Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_USED</Name>
+		  <Min value="1" />
+          <Max value="1" />
+		  <Rate value=".00" />
+		  <Type>Item</Type>
+	    </Item>
+	    <Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_CHEAP</Name>
+		  <Rate value=".00" />
+		  <Type>Item</Type>
+	    </Item>
+	    <Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_CHEAP_USED</Name>
+		  <Min value="1" />
+          <Max value="2" />
+		  <Rate value=".50" />
+		  <Type>Item</Type>
+	    </Item>
+      </Entries>
+    </Item>
+	
+	<Item key="PED_LOOT_TYPE_PROSTITUTE" name="Prostitute">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CHEAP_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".40" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>TOBACCO_ITEMS_PED</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>ALCOHOL_ITEMS</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_COCAINE_CHEWING_GUM_USED</Name>
+		  <Rate value=".30" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_MEDICINE_USED</Name>
+		  <Rate value=".15" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+		
+	<Item key="PED_LOOT_TYPE_RANCHHAND" name="Ranchhand">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>HORSE_CONSUMABLES</Name>
+		  <Rate value=".30" />
+		  <Type>Table</Type>
+		</Item>
+	    <Item>
+		  <Name>FOOD_ITEMS_HORSE</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_CHEAP_USED</Name>
+		  <Min value="1" />
+          <Max value="2" />
+		  <Rate value=".20" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_USED</Name>
+		  <Min value="1" />
+          <Max value="2" />
+		  <Rate value=".00" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CHEWING_TOBACCO_USED</Name>
+		  <Rate value=".00" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="PED_LOOT_TYPE_RELIGIOUS" name="Religious">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CHEAP_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".40" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>NORMAL_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".40" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>EXPENSIVE_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".20" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="PED_LOOT_TYPE_TROPICAL" name="Tropical">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>HEALTH_AND_DEADEYE_BASIC</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>TOBACCO_ITEMS_PED</Name>
+		  <Rate value=".50" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />		  
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_RING_SILVER</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_NECKLACE_SILVER</Name>
+		  <Rate value=".05" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_EARRING_SILVER</Name>
+		  <Min value="1" />
+          <Max value="2" />
+		  <Rate value=".10" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_RUM</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="PED_LOOT_TYPE_WEALTHY" name="Wealthy">
+      <Type>ContinuousLinearDrop</Type>
+      	<Entries>
+		<Item>
+		  <Name>POTENT_MEDS</Name>
+		  <Rate value=".00" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>EXPENSIVE_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>NORMAL_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CHEAP_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+		 <Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_USED</Name>
+		  <Min value="1" />
+          <Max value="1" />
+		  <Rate value=".10" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		 </Item>
+		 <Item>
+		  <Name>CONSUMABLE_CIGAR</Name>
+		  <Rate value=".30" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		 </Item>
+		 <Item>
+		  <Name>CONSUMABLE_BRANDY</Name>
+		  <Rate value=".10" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		 </Item>
+       </Entries>
+    </Item>
+		
+	<Item key="PED_LOOT_TYPE_STOREOWNER" name="Storeowner">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>HEALTH_AND_DEADEYE_BASIC</Name>
+		  <Rate value=".40" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEMS_MALE</Name>
+		  <Rate value=".30" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>TOBACCO_AND_ALCOHOL</Name>
+		  <Rate value=".30" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HEALTH_AND_DEADEYE_BASIC</Name>
+		  <Rate value=".40" />
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEMS_MALE</Name>
+		  <Rate value=".10" />
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>TOBACCO_AND_ALCOHOL</Name>
+		  <Rate value=".30" />
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEMS_MALE</Name>
+		  <Rate value=".30" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>TOBACCO_AND_ALCOHOL</Name>
+		  <Rate value=".60" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HEALTH_AND_DEADEYE_BASIC</Name>
+		  <Rate value=".20" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="PED_LOOT_TYPE_TOWNSFOLK" name="Townsfolk">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>HEALTH_AND_DEADEYE_BASIC</Name>
+		  <Rate value=".25" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_SNACK</Name>
+		  <Rate value=".50" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CHEAP_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".25" />
+		  <RewardCondition ref="PLAYER_HAS_NEUTRAL_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HEALTH_AND_DEADEYE_BASIC</Name>
+		  <Rate value=".15" />
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_SNACK</Name>
+		  <Rate value=".50" />
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CHEAP_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".35" />
+		  <RewardCondition ref="PLAYER_HAS_HIGH_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HEALTH_AND_DEADEYE_BASIC</Name>
+		  <Rate value=".40" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>TOBACCO_AND_ALCOHOL</Name>
+		  <Rate value=".20" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR_AND_LOOTED_PED_IS_MALE" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_SNACK</Name>
+		  <Rate value=".30" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CHEAP_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".30" />
+		  <RewardCondition ref="PLAYER_HAS_LOW_HONOR" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="PED_LOOT_TYPE_TRAVELER" name="Traveler">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>CHEAP_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".05" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>NORMAL_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>HEALTH_AND_DEADEYE_BASIC</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>HORSE_CONSUMABLES_BASIC</Name>
+		  <Rate value=".05" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>TOBACCO_AND_ALCOHOL</Name>
+		  <Rate value=".20" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_CAN</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_SNACK</Name>
+		  <Rate value=".05" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>KIT_GUN_OIL</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>REWARD_GANG</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="PED_LOOT_TYPE_TRAVELER_RICH" name="Traveler Rich">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>CHEAP_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>NORMAL_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>EXPENSIVE_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>POTENT_MEDS</Name>
+		  <Rate value=".00" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>TOBACCO_AND_ALCOHOL</Name>
+		  <Rate value=".20" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>MALE_GROOMING_ITEMS</Name>
+		  <Rate value=".10" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	
+	<!-- |||||||||||||||||||||||||||| -->
+	<!--          LOCALE TYPE         -->
+	<!-- |||||||||||||||||||||||||||| -->
+	
+	<Item key="PED_LOOT_LOCALE_BIGCITY" name="Big City">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CHEAP_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>NORMAL_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>EXPENSIVE_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>HEALTH_ITEMS</Name>
+		  <Rate value=".00" />
+		  <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>CONSUMABLE_CHOCOLATE_BAR</Name>
+		  <Rate value=".20" />
+		  <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>CONSUMABLE_CANDY_BAG</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>CONSUMABLE_HAIR_TONIC</Name>
+		  <Rate value=".10" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>CONSUMABLE_HAIR_GREASE</Name>
+		  <Rate value=".10" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+       </Entries>
+    </Item>
+	      
+	<Item key="PED_LOOT_LOCALE_MOUNTAINS" name="Mountains">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>HUNTING_ITEMS</Name>
+		  <Rate value=".15" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>DEADEYE_ITEMS</Name>
+		  <Rate value=".05" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HERBS</Name>
+		  <Rate value=".35" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_SNACK</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_COFFEE_GNDS_REG</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_MOONSHINE</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+      
+	<Item key="PED_LOOT_LOCALE_FOREST" name="Forest">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>HEALTH_ITEMS</Name>
+		  <Rate value=".00" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HERBS</Name>
+		  <Rate value=".30" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HUNTING_ITEMS</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+	    <Item>
+		  <Name>FOOD_ITEMS_HORSE</Name>
+		  <Rate value=".30" />
+		  <Type>Table</Type>
+		</Item>
+	    <Item>
+		  <Name>FOOD_ITEMS_SNACK</Name>
+		  <Rate value=".30" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+      
+	<Item key="PED_LOOT_LOCALE_PLAINS" name="Plains">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	  <Item>
+		  <Name>HERBS</Name>
+		  <Rate value=".40" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>RESTORATIVES</Name>
+		  <Rate value=".00" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_HORSE</Name>
+		  <Rate value=".60" />
+		  <Type>Table</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_HERBIVORE_BAIT</Name>
+		  <Rate value=".00" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+                      
+	<Item key="PED_LOOT_LOCALE_SLUM" name="Slum">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_COCAINE_CHEWING_GUM_USED</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_CHEAP_USED</Name>
+		  <Min value="1" />
+          <Max value="2" />
+		  <Rate value=".50" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+          <Name>CONSUMABLE_MOONSHINE</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+        </Item>
+		<Item>
+		  <Name>FOOD_ITEMS_SNACK</Name>
+		  <Rate value=".20" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CHEWING_TOBACCO_USED</Name>
+		  <Rate value=".10" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+      
+	<Item key="PED_LOOT_LOCALE_SWAMP" name="Swamp">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>HERBS</Name>
+		  <Rate value=".20" />
+		  <Type>Table</Type>
+		</Item>  
+		<Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_CHEAP_USED</Name>
+		  <Min value="1" />
+          <Max value="1" />
+		  <Rate value=".30" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_COVER_SCENT_USED</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_HERBIVORE_BAIT</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_PREDATOR_BAIT</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+          <Name>CONSUMABLE_MOONSHINE</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+ 	<!-- |||||||||||||||||||||||||||| -->
+	<!-- |||| SPECIAL PEDS |||| -->
+	<!-- |||||||||||||||||||||||||||| -->
+	
+	<Item key="ABERDEEN_PIG_FARMER" name="Aberdeen Pig Farmer">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+ 		<Item>
+		  <Name>CONSUMABLE_CHOCOLATE_BAR</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+ 		<Item>
+		  <Name>CONSUMABLE_CANDY_BAG</Name>
+		  <Rate value=".50" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+          <Name>FOOD_ITEMS_SNACK</Name>
+		  <Rate value=".20" />
+          <Type>Table</Type>
+        </Item>
+		</Entries>
+    </Item>
+	
+	<Item key="ABERDEEN_SISTER" name="Aberdeen Sister">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_MEDIUM</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+ 		<Item>
+		  <Name>PROVISION_RING_SILVER</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+          <Name>PROVISION_NECKLACE_SILVER</Name>
+		  <Rate value="1.0" />
+          <Type>Item</Type>
+        </Item>
+ 		<Item>
+		  <Name>PROVISION_BRACELET_SILVER</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_USED</Name>
+		  <Min value="1" />
+          <Max value="1" />
+		  <Rate value=".25" />
+		  <Type>Item</Type>
+		</Item>
+		</Entries>
+    </Item>
+	
+	<Item key="SPCL_PED_DEVOUT" name="Special Ped Devout">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>HEALTH_ITEMS</Name>
+		  <Rate value=".00" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HERBS</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="SPCL_PED_CASSIDY" name="Special Ped Cassidy">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_SMALL</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HERBS</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_MOONSHINE</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_POTENT_SNAKE_OIL</Name>
+		  <Rate value=".00" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_COCAINE_CHEWING_GUM_USED</Name>
+		  <Rate value=".00" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="SPCL_PED_CHELONIAN_MASTER" name="Special Ped Chelonian Master">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PROVISION_BUCKLE_PLATINUM</Name>
+		  <Rate value="1.00" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_MEDICINE_USED</Name>
+		  <Rate value="1.00" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="SPCL_PED_STR_MAYOR" name="Special Ped Str Mayor">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_LARGE</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>DOCUMENT_TS_STR_MAYOR_LETTER</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PED_LOOT_TYPE_WEALTHY</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="SPCL_PED_VAMPIRE" name="Special Ped Vampire">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PROVISION_STRINGY_MEAT</Name>
+		  <Rate value="1.0" />
+		  <Type>Collectible</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BAT_WING</Name>
+          <Min value="1" />
+          <Max value="2" />
+		  <Rate value="1.0" />
+		  <Type>Collectible</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="WASHED_ASHORE" name="WASHED_ASHORE">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>REWARD_PED_LARGE</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+			
+  </LootTables>
+</CLootTableCollection>

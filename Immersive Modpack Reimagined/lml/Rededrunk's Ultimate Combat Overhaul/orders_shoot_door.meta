@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAIProgram>
+	
+	<!-- First scan for doors -->
+	<Node type="CAIParallelNode">
+		<Nodes>
+		
+			<Item type="CAIActionNode">
+				<Action type="CAIActionSetPedResetFlags">
+					<ResetFlags>CPED_RESET_FLAG_SearchForClosestDoor</ResetFlags>
+				</Action>
+			</Item>		
+
+
+			<Item type="CAISequenceNode">
+				<Name>Orders</Name>
+				<Nodes>
+				
+					<!-- Step 1 move to tactical point -->
+					<Item type="CAIActionNode">
+						<Name>Move to shoot door point</Name>
+						<Action type="CAIActionSetCombatOrderDynamicTask">
+							<Duration value="28000"/>
+							<Task type="CContextualTaskMoveToTacticalPoint">
+								<SearchProfile>ShootDoorSearch</SearchProfile>
+								<UsageProfile>HoldPositionWithFastUpdate</UsageProfile>
+							</Task>																			
+						</Action>								
+					</Item>									
+				
+					<!-- Step 2 wait so orders can activate -->
+					<Item type="CAITimerNode">
+						<Duration value="2000"/>
+					</Item>					
+				
+					<!-- Step 2 wait to be at tactical point -->
+					<Item type="CAIParallelNode">
+						<Nodes>
+							
+							<Item type="CAIConditionNode">
+								<Name>Not obstructed by door</Name>
+								<Condition type="CAIConditionNot">
+									<Condition type="CAIConditionRouteToTargetObstructedByLockedDoor" />
+								</Condition>					  
+							</Item>								
+							
+							<Item type="CAIConditionNode">
+								<Name>Not moving to tactical point</Name>
+								<Condition type="CAIConditionNot">
+									<Condition type="CAIConditionIsMovingToTacticalPoint" />
+								</Condition>					  
+							</Item>									
+
+							<Item type="CAIConditionNode">
+								<Name>In shoot door point</Name>
+								<Condition type="CAIConditionIsMovingToTacticalPoint">
+								  <AtPoint value="True" />
+								  <DistributionFlags>BreacherShootDoorPoints</DistributionFlags>
+							   </Condition>											
+							</Item>		
+
+						    <Item type="CAIConstantNode">
+								<Result>Processing</Result>
+						    </Item>
+							
+						</Nodes>
+					</Item>	
+
+					<!-- Step 3 clear tasks -->
+					<Item type="CAIActionNode">
+						<Name>Clear Tactical point task</Name>
+						<Action type="CAIActionClearCombatOrderDynamicTask">
+							<ForceAbort value="true" />
+						</Action>
+					</Item>	
+																	
+				
+					<!-- branch on having door -->
+					<Item type="CAISelectorNode">
+						<Nodes>
+					
+							<Item type="CAISequenceNode">
+								<Name>There is a door</Name>
+								<Nodes>
+								
+									<!-- validate we are in good spot -->
+									<Item type="CAIConditionNode">
+										<Condition type="CAIConditionAnd">
+											<Conditions>
+												<Item type="CAIConditionRouteToTargetObstructedByLockedDoor" />									
+											</Conditions>
+										</Condition>					  
+									</Item>											
+									
+									
+									<!-- Set the door target -->
+									<Item type="CAIActionNode">
+										<Name>Set the target</Name>
+										<Action type="CAIActionSetCombatOrderOverrideTarget">
+											<OverrideTarget>Door</OverrideTarget>
+										</Action>
+									</Item>		
+									
+									<Item type="CAIActionNode">
+										<Name>Aim!</Name>
+										<Action type="CAIActionSetCombatOrderDynamicTask">
+											<Task type="CContextualTaskShootAtOverrideTarget">
+												<FiringPattern>FIRING_PATTERN_BURST_SINGLE_SHOT</FiringPattern>
+												<AimOnly value="true"/>
+												<Duration value="3000"/>
+											</Task>																			
+										</Action>								
+									</Item>		
+																																	
+									<!-- spin -->
+									<Item type="CAITimerNode">
+										<Name>Wait!</Name>
+										<Duration value="1200"/>
+									</Item>								
+									
+									<!-- Force us to fire our weapon -->
+									<Item type="CAIActionNode">
+										<Name>Fire!</Name>
+										<Action type="CAIActionSetCombatOrderDynamicTask">
+											<Task type="CContextualTaskShootAtOverrideTarget">
+												<FiringPattern>FIRING_PATTERN_BURST_SINGLE_SHOT</FiringPattern>
+												<Duration value="800"/>
+											</Task>											
+										</Action>								
+									</Item>		
+						
+									<Item type="CAIActionNode">
+										<Name>Unlock door</Name>
+										<Action type="CAIActionUnlockClosestDoor"/>
+									</Item>	
+
+									<!-- spin -->
+									<Item type="CAITimerNode">
+										<Name>Wait .5s</Name>
+										<Duration value="800"/>
+									</Item>		
+									
+									
+									<!-- finish the order -->
+									<Item type="CAIActionNode">
+										<Name>Clear Target</Name>
+										<Action type="CAIActionClearCombatOrderOverrideTarget"/>
+									</Item>	
+									
+									<Item type="CAIActionNode">
+										<Name>Clear Task</Name>
+										<Action type="CAIActionClearCombatOrderDynamicTask">
+											<ForceAbort value="true" />
+										</Action>
+									</Item>												
+									
+									<Item type="CAIActionNode">
+										<Name>Finish Cleanup </Name>
+										<Action type="CAIActionClearCombatOrderFlags">
+											<GeneralFlags>GF_RunningDynamicProgram</GeneralFlags>
+										</Action>
+									</Item>																
+																		
+								</Nodes>
+							</Item>	
+
+
+							<Item type="CAISequenceNode">
+								<Name>There is not a door</Name>
+								<Nodes>
+									<!-- finish the order -->
+									<Item type="CAIActionNode">
+										<Action type="CAIActionClearCombatOrderFlags">
+											<GeneralFlags>GF_RunningDynamicProgram</GeneralFlags>
+										</Action>
+									</Item>		
+									
+									<Item type="CAIActionNode">
+										<Action type="CAIActionClearCombatOrderOverrideTarget"/>
+									</Item>							
+									
+									<Item type="CAIWaitNode"/>	
+								</Nodes>
+							</Item>
+			
+						</Nodes>		
+					</Item>
+			
+				
+					<!-- finish the order -->
+					<Item type="CAIActionNode">
+						<Action type="CAIActionClearCombatOrderFlags">
+							<GeneralFlags>GF_RunningDynamicProgram</GeneralFlags>
+						</Action>
+					</Item>				
+				
+						
+				</Nodes>	
+			</Item>
+
+		</Nodes>
+	</Node>
+</CAIProgram>

@@ -1,0 +1,1228 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<fwAnimSceneData>
+  <sceneOrigin>
+    <matrix content="matrix34">
+	   0.88958400 -0.45677200 0.00000000 262.43950000
+	   0.45677200 0.88958400 0.00000000 -23.92399000
+	   0.00000000 0.00000000 1.00000000 9.64972900
+    </matrix>
+  </sceneOrigin>
+  <entities>
+    <Item key="PELT" type="0x44DEE094">
+      <toolData type="NULL" />
+      <conditions type="NULL" />
+      <evaluationType>0xBAFBD7EA</evaluationType>
+      <debugModelName>P_CS_PELT_LARGE</debugModelName>
+      <UNK_MEMBER_0xDC110A02 type="NULL" />
+      <optional value="false" />
+      <transient value="false" />
+      <overrideLifeTime value="false" />
+      <UNK_MEMBER_0x03EFD81F type="NULL" />
+      <UNK_MEMBER_0xE825C15F value="false" />
+      <createEntity value="false" />
+      <physicalFlags>0x326BE3B3</physicalFlags>
+      <linkedEntity>
+        <entityId />
+      </linkedEntity>
+      <weaponName />
+      <objectFlags />
+    </Item>
+    <Item key="PLAYER" type="0x64D97283">
+      <toolData type="NULL" />
+      <conditions type="NULL" />
+      <evaluationType>0xBAFBD7EA</evaluationType>
+      <debugModelName>PLAYER_ZERO</debugModelName>
+      <UNK_MEMBER_0xDC110A02 type="NULL" />
+      <optional value="false" />
+      <transient value="false" />
+      <overrideLifeTime value="false" />
+      <UNK_MEMBER_0x03EFD81F type="NULL" />
+      <UNK_MEMBER_0xE825C15F value="false" />
+      <createEntity value="false" />
+      <physicalFlags />
+      <linkedEntity>
+        <entityId />
+      </linkedEntity>
+      <leadIns />
+      <initialInventory>
+        <inventory />
+      </initialInventory>
+      <pedFlags />
+      <outfit />
+      <subOutfit />
+      <UNK_MEMBER_0xFF8220B9 type="NULL" />
+    </Item>
+    <Item key="0x71079D70" type="0x9B9E7F24">
+      <toolData type="NULL" />
+      <conditions type="NULL" />
+      <evaluationType>0xBAFBD7EA</evaluationType>
+      <UNK_MEMBER_0x91B14099 />
+      <UNK_MEMBER_0x62ADE224>0x8AFD932C</UNK_MEMBER_0x62ADE224>
+      <UNK_MEMBER_0xA5E7A3A7>0x06483117</UNK_MEMBER_0xA5E7A3A7>
+      <UNK_MEMBER_0x2BA84559 />
+    </Item>
+    <Item key="TARGET" type="0x64D97283">
+      <toolData type="NULL" />
+      <conditions type="NULL" />
+      <evaluationType>0xBAFBD7EA</evaluationType>
+      <debugModelName>A_C_JAVELINA_01</debugModelName>
+      <UNK_MEMBER_0xDC110A02 type="NULL" />
+      <optional value="false" />
+      <transient value="false" />
+      <overrideLifeTime value="false" />
+      <UNK_MEMBER_0x03EFD81F type="NULL" />
+      <UNK_MEMBER_0xE825C15F value="false" />
+      <createEntity value="false" />
+      <physicalFlags />
+      <linkedEntity>
+        <entityId />
+      </linkedEntity>
+      <leadIns />
+      <initialInventory>
+        <inventory />
+      </initialInventory>
+      <pedFlags />
+      <outfit />
+      <subOutfit />
+      <UNK_MEMBER_0xFF8220B9 type="NULL" />
+    </Item>
+  </entities>
+  <sections>
+    <Item key="MAIN" type="0x64E8AC67">
+      <UNK_MEMBER_0xC618212A type="NULL" />
+      <UNK_MEMBER_0xBB18B485>
+        <entityId />
+      </UNK_MEMBER_0xBB18B485>
+      <UNK_MEMBER_0x47B47045 value="false" />
+      <loopCount value="1" />
+      <events>
+        <events />
+      </events>
+      <locationData>
+        <Item key="PELT" type="0xAD5DFE3C">
+          <startPos x="1E10" y="1E10" z="1E10" />
+          <startRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <startTime value="-1.00000000" />
+          <endPos x="1E10" y="1E10" z="1E10" />
+          <endRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <endTime value="-1.00000000" />
+        </Item>
+        <Item key="PLAYER" type="0xAD5DFE3C">
+          <startPos x="1E10" y="1E10" z="1E10" />
+          <startRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <startTime value="-1.00000000" />
+          <endPos x="1E10" y="1E10" z="1E10" />
+          <endRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <endTime value="-1.00000000" />
+        </Item>
+        <Item key="JAVELINA" type="0xAD5DFE3C">
+          <startPos x="1E10" y="1E10" z="1E10" />
+          <startRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <startTime value="-1.00000000" />
+          <endPos x="1E10" y="1E10" z="1E10" />
+          <endRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <endTime value="-1.00000000" />
+        </Item>
+        <Item key="TARGET" type="0xAD5DFE3C">
+          <startPos x="1E10" y="1E10" z="1E10" />
+          <startRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <startTime value="-1.00000000" />
+          <endPos x="1E10" y="1E10" z="1E10" />
+          <endRot x="1E10" y="1E10" z="1E10" w="1E10" />
+          <endTime value="-1.00000000" />
+        </Item>
+      </locationData>
+      <UNK_MEMBER_0x0696FE9E type="NULL" />
+    </Item>
+    <Item key="BASE" type="0x64E8AC67">
+      <UNK_MEMBER_0xC618212A type="NULL" />
+      <UNK_MEMBER_0xBB18B485>
+        <entityId />
+      </UNK_MEMBER_0xBB18B485>
+      <UNK_MEMBER_0x47B47045 value="false" />
+      <loopCount value="1" />
+      <events>
+        <events>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>TARGET</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="11.83333000" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="0xEED7E46F">
+              <events>
+                <Item type="0x1C5972AF">
+                  <entity>
+                    <entityId>TARGET</entityId>
+                  </entity>
+                  <startTime value="0.36666700" />
+                  <endTime value="0.36666700" />
+                  <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+                  <pChildren type="NULL" />
+                  <UNK_MEMBER_0xAB28F89C value="false" />
+                  <state>0x9D9DEE9D</state>
+                  <toolData type="NULL" />
+                  <UNK_MEMBER_0x59B92C03 value="true" />
+                  <outfitName />
+                  <subOutfitName>META_OUTFIT_FIELD_DRESSING_000</subOutfitName>
+                </Item>
+                <Item type="0x1C5972AF">
+                  <entity>
+                    <entityId>TARGET</entityId>
+                  </entity>
+                  <startTime value="10.03333000" />
+                  <endTime value="10.03333000" />
+                  <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+                  <pChildren type="NULL" />
+                  <UNK_MEMBER_0xAB28F89C value="false" />
+                  <state>0x9D9DEE9D</state>
+                  <toolData type="NULL" />
+                  <UNK_MEMBER_0x59B92C03 value="true" />
+                  <outfitName />
+                  <subOutfitName>META_OUTFIT_FIELD_DRESSING_001</subOutfitName>
+                </Item>
+                <Item type="0xED891A5E">
+                  <entity>
+                    <entityId>TARGET</entityId>
+                  </entity>
+                  <startTime value="0.00000000" />
+                  <endTime value="11.83333000" />
+                  <UNK_MEMBER_0x420E8F0C value="0.00000000" />
+                  <pChildren type="NULL" />
+                  <UNK_MEMBER_0xAB28F89C value="true" />
+                  <state>0x9D9DEE9D</state>
+                  <toolData type="NULL" />
+                  <UNK_MEMBER_0xB1006E9A>
+                    <entityId />
+                  </UNK_MEMBER_0xB1006E9A>
+                  <UNK_MEMBER_0x1D11698E value="false" />
+                  <UNK_MEMBER_0x2E1C5DC0 value="false" />
+                  <UNK_MEMBER_0xB538F4DF value="false" />
+                  <UNK_MEMBER_0xD349C6D2 value="false" />
+                  <UNK_MEMBER_0xFC669303 value="true" />
+                  <UNK_MEMBER_0x27883DC1 value="true" />
+                  <UNK_MEMBER_0x5834548A value="true" />
+                  <UNK_MEMBER_0xB3A26975 value="-1.00000000" />
+                  <UNK_MEMBER_0x04D7F57E value="0.00000000" />
+                  <UNK_MEMBER_0x8B59A355 value="1.00000000" />
+                  <UNK_MEMBER_0x19169969 value="-1.00000000" />
+                  <UNK_MEMBER_0x0F410EA3 value="-1.00000000" />
+                  <UNK_MEMBER_0xF08E02CF />
+                </Item>
+              </events>
+            </pChildren>
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <clip>
+              <clipDictionaryName>MECH_SKIN@JAVELINA@FIELD_DRESS</clipDictionaryName>
+              <clipName>0x5251FD2B</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags>AF_NOT_INTERRUPTABLE 0xB46C05A7 0x3A00B430</animFlags>
+            <flags>TAF_NOT_INTERRUPTABLE 0x028D8D60 0xFD520F94 0xAB7AA713</flags>
+            <ragdollBlockingFlags />
+            <ikFlags>AIK_DISABLE_LEG_IK 0x9E7C192B</ikFlags>
+            <aiFlags />
+            <physFlags>0xA016F69B</physFlags>
+            <filter />
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.00000000" />
+            <blendOutDuration value="0.00000000" />
+            <UNK_MEMBER_0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <useSceneOrigin value="true" />
+            <UNK_MEMBER_0x1F1E9763 value="false" />
+            <UNK_MEMBER_0x03EFD81F type="NULL" />
+            <pApproach type="NULL" />
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>PELT</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="10.16667000" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="0xEED7E46F">
+              <events />
+            </pChildren>
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <clip>
+              <clipDictionaryName>MECH_SKIN@JAVELINA@FIELD_DRESS</clipDictionaryName>
+              <clipName>BASE_PELT</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags>AF_NOT_INTERRUPTABLE 0xB46C05A7 0x3A00B430</animFlags>
+            <flags>TAF_NOT_INTERRUPTABLE 0x028D8D60 0xFD520F94</flags>
+            <ragdollBlockingFlags />
+            <ikFlags />
+            <aiFlags />
+            <physFlags>0xA016F69B 0x08C48DCA</physFlags>
+            <filter />
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.00000000" />
+            <blendOutDuration value="0.00000000" />
+            <UNK_MEMBER_0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <useSceneOrigin value="true" />
+            <UNK_MEMBER_0x1F1E9763 value="false" />
+            <UNK_MEMBER_0x03EFD81F type="NULL" />
+            <pApproach type="NULL" />
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>PLAYER</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="11.48333000" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="0xEED7E46F">
+              <events>
+                <Item type="0xED891A5E">
+                  <entity>
+                    <entityId>PLAYER</entityId>
+                  </entity>
+                  <startTime value="0.00000000" />
+                  <endTime value="7.16666700" />
+                  <UNK_MEMBER_0x420E8F0C value="0.00000000" />
+                  <pChildren type="NULL" />
+                  <UNK_MEMBER_0xAB28F89C value="false" />
+                  <state>0x9D9DEE9D</state>
+                  <toolData type="NULL" />
+                  <UNK_MEMBER_0xB1006E9A>
+                    <entityId />
+                  </UNK_MEMBER_0xB1006E9A>
+                  <UNK_MEMBER_0x1D11698E value="false" />
+                  <UNK_MEMBER_0x2E1C5DC0 value="false" />
+                  <UNK_MEMBER_0xB538F4DF value="true" />
+                  <UNK_MEMBER_0xD349C6D2 value="false" />
+                  <UNK_MEMBER_0xFC669303 value="false" />
+                  <UNK_MEMBER_0x27883DC1 value="false" />
+                  <UNK_MEMBER_0x5834548A value="false" />
+                  <UNK_MEMBER_0xB3A26975 value="0.50000000" />
+                  <UNK_MEMBER_0x04D7F57E value="-1.00000000" />
+                  <UNK_MEMBER_0x8B59A355 value="-1.00000000" />
+                  <UNK_MEMBER_0x19169969 value="-1.00000000" />
+                  <UNK_MEMBER_0x0F410EA3 value="-1.00000000" />
+                  <UNK_MEMBER_0xF08E02CF />
+                </Item>
+                <Item type="0xED891A5E">
+                  <entity>
+                    <entityId>PLAYER</entityId>
+                  </entity>
+                  <startTime value="7.20000000" />
+                  <endTime value="11.48333000" />
+                  <UNK_MEMBER_0x420E8F0C value="0.00000000" />
+                  <pChildren type="NULL" />
+                  <UNK_MEMBER_0xAB28F89C value="false" />
+                  <state>0x9D9DEE9D</state>
+                  <toolData type="NULL" />
+                  <UNK_MEMBER_0xB1006E9A>
+                    <entityId />
+                  </UNK_MEMBER_0xB1006E9A>
+                  <UNK_MEMBER_0x1D11698E value="false" />
+                  <UNK_MEMBER_0x2E1C5DC0 value="false" />
+                  <UNK_MEMBER_0xB538F4DF value="false" />
+                  <UNK_MEMBER_0xD349C6D2 value="true" />
+                  <UNK_MEMBER_0xFC669303 value="false" />
+                  <UNK_MEMBER_0x27883DC1 value="false" />
+                  <UNK_MEMBER_0x5834548A value="false" />
+                  <UNK_MEMBER_0xB3A26975 value="-1.00000000" />
+                  <UNK_MEMBER_0x04D7F57E value="-1.00000000" />
+                  <UNK_MEMBER_0x8B59A355 value="-1.00000000" />
+                  <UNK_MEMBER_0x19169969 value="-1.00000000" />
+                  <UNK_MEMBER_0x0F410EA3 value="-1.00000000" />
+                  <UNK_MEMBER_0xF08E02CF />
+                </Item>
+                <Item type="0xB87279B4">
+                  <entity>
+                    <entityId>PLAYER</entityId>
+                  </entity>
+                  <startTime value="0.00000000" />
+                  <endTime value="7.50000000" />
+                  <UNK_MEMBER_0x420E8F0C value="0.00000000" />
+                  <pChildren type="NULL" />
+                  <UNK_MEMBER_0xAB28F89C value="false" />
+                  <state>0x9D9DEE9D</state>
+                  <toolData type="NULL" />
+                  <tag type="0x88D891F7">
+                    <Attributes>
+                      <Item type="AttributeFloat">
+                        <Type value="1" />
+                        <Name>
+                          <String>BlendInDuration</String>
+                          <Key value="285625760" />
+                        </Name>
+                        <Float value="0.50000000" />
+                      </Item>
+                      <Item type="AttributeString">
+                        <Type value="4" />
+                        <Name>
+                          <String>TargetBoundBone</String>
+                          <Key value="1576448797" />
+                        </Name>
+                        <String />
+                      </Item>
+                      <Item type="AttributeFloat">
+                        <Type value="1" />
+                        <Name>
+                          <String>blendOutDuration</String>
+                          <Key value="2416918072" />
+                        </Name>
+                        <Float value="0.40000000" />
+                      </Item>
+                      <Item type="AttributeHashString">
+                        <Type value="12" />
+                        <Name>
+                          <String>SpatialRelationshipPart</String>
+                          <Key value="3002954106" />
+                        </Name>
+                        <HashString>0x591B03AE</HashString>
+                      </Item>
+                    </Attributes>
+                    <Type value="2" />
+                    <Signature value="216788270" />
+                    <Name>
+                      <String>SpatialRelationshipPart</String>
+                      <Key value="3002954106" />
+                    </Name>
+                    <Start value="0.00000000" />
+                    <End value="0.00000000" />
+                  </tag>
+                </Item>
+                <Item type="0xB87279B4">
+                  <entity>
+                    <entityId>PLAYER</entityId>
+                  </entity>
+                  <startTime value="0.00000000" />
+                  <endTime value="7.90000000" />
+                  <UNK_MEMBER_0x420E8F0C value="0.00000000" />
+                  <pChildren type="NULL" />
+                  <UNK_MEMBER_0xAB28F89C value="false" />
+                  <state>0x9D9DEE9D</state>
+                  <toolData type="NULL" />
+                  <tag type="0x88D891F7">
+                    <Attributes>
+                      <Item type="AttributeHashString">
+                        <Type value="12" />
+                        <Name>
+                          <String>TargetId</String>
+                          <Key value="1267834014" />
+                        </Name>
+                        <HashString>TARGET</HashString>
+                      </Item>
+                      <Item type="AttributeFloat">
+                        <Type value="1" />
+                        <Name>
+                          <String>SelfAuthoredScale</String>
+                          <Key value="2998472100" />
+                        </Name>
+                        <Float value="1.00000000" />
+                      </Item>
+                      <Item type="AttributeFloat">
+                        <Type value="1" />
+                        <Name>
+                          <String>TargetAuthoredScale</String>
+                          <Key value="3464589926" />
+                        </Name>
+                        <Float value="1.00000000" />
+                      </Item>
+                    </Attributes>
+                    <Type value="2" />
+                    <Signature value="806944914" />
+                    <Name>
+                      <String>SpatialRelationshipTarget</String>
+                      <Key value="3719647322" />
+                    </Name>
+                    <Start value="0.00000000" />
+                    <End value="0.00000000" />
+                  </tag>
+                </Item>
+                <Item type="0xB87279B4">
+                  <entity>
+                    <entityId>PLAYER</entityId>
+                  </entity>
+                  <startTime value="0.00000000" />
+                  <endTime value="6.66666700" />
+                  <UNK_MEMBER_0x420E8F0C value="0.00000000" />
+                  <pChildren type="NULL" />
+                  <UNK_MEMBER_0xAB28F89C value="false" />
+                  <state>0x9D9DEE9D</state>
+                  <toolData type="NULL" />
+                  <tag type="0x88D891F7">
+                    <Attributes>
+                      <Item type="AttributeFloat">
+                        <Type value="1" />
+                        <Name>
+                          <String>BlendInDuration</String>
+                          <Key value="285625760" />
+                        </Name>
+                        <Float value="0.50000000" />
+                      </Item>
+                      <Item type="AttributeString">
+                        <Type value="4" />
+                        <Name>
+                          <String>TargetBoundBone</String>
+                          <Key value="1576448797" />
+                        </Name>
+                        <String />
+                      </Item>
+                      <Item type="AttributeFloat">
+                        <Type value="1" />
+                        <Name>
+                          <String>blendOutDuration</String>
+                          <Key value="2416918072" />
+                        </Name>
+                        <Float value="0.30000000" />
+                      </Item>
+                      <Item type="AttributeHashString">
+                        <Type value="12" />
+                        <Name>
+                          <String>SpatialRelationshipPart</String>
+                          <Key value="3002954106" />
+                        </Name>
+                        <HashString>0x93215E00</HashString>
+                      </Item>
+                    </Attributes>
+                    <Type value="2" />
+                    <Signature value="3982023017" />
+                    <Name>
+                      <String>SpatialRelationshipPart</String>
+                      <Key value="3002954106" />
+                    </Name>
+                    <Start value="0.00000000" />
+                    <End value="0.00000000" />
+                  </tag>
+                </Item>
+                <Item type="0xB87279B4">
+                  <entity>
+                    <entityId>PLAYER</entityId>
+                  </entity>
+                  <startTime value="8.00000000" />
+                  <endTime value="11.48333000" />
+                  <UNK_MEMBER_0x420E8F0C value="0.00000000" />
+                  <pChildren type="NULL" />
+                  <UNK_MEMBER_0xAB28F89C value="false" />
+                  <state>0x9D9DEE9D</state>
+                  <toolData type="NULL" />
+                  <tag type="0x88D891F7">
+                    <Attributes>
+                      <Item type="AttributeHashString">
+                        <Type value="12" />
+                        <Name>
+                          <String>TargetId</String>
+                          <Key value="1267834014" />
+                        </Name>
+                        <HashString>PELT</HashString>
+                      </Item>
+                      <Item type="AttributeFloat">
+                        <Type value="1" />
+                        <Name>
+                          <String>SelfAuthoredScale</String>
+                          <Key value="2998472100" />
+                        </Name>
+                        <Float value="1.00000000" />
+                      </Item>
+                      <Item type="AttributeFloat">
+                        <Type value="1" />
+                        <Name>
+                          <String>TargetAuthoredScale</String>
+                          <Key value="3464589926" />
+                        </Name>
+                        <Float value="1.00000000" />
+                      </Item>
+                    </Attributes>
+                    <Type value="2" />
+                    <Signature value="4016778963" />
+                    <Name>
+                      <String>SpatialRelationshipTarget</String>
+                      <Key value="3719647322" />
+                    </Name>
+                    <Start value="0.00000000" />
+                    <End value="0.00000000" />
+                  </tag>
+                </Item>
+                <Item type="0xB87279B4">
+                  <entity>
+                    <entityId>PLAYER</entityId>
+                  </entity>
+                  <startTime value="8.23333300" />
+                  <endTime value="10.00000000" />
+                  <UNK_MEMBER_0x420E8F0C value="0.00000000" />
+                  <pChildren type="NULL" />
+                  <UNK_MEMBER_0xAB28F89C value="false" />
+                  <state>0x9D9DEE9D</state>
+                  <toolData type="NULL" />
+                  <tag type="0x88D891F7">
+                    <Attributes>
+                      <Item type="AttributeFloat">
+                        <Type value="1" />
+                        <Name>
+                          <String>BlendInDuration</String>
+                          <Key value="285625760" />
+                        </Name>
+                        <Float value="0.30000000" />
+                      </Item>
+                      <Item type="AttributeString">
+                        <Type value="4" />
+                        <Name>
+                          <String>TargetBoundBone</String>
+                          <Key value="1576448797" />
+                        </Name>
+                        <String>Invalid</String>
+                      </Item>
+                      <Item type="AttributeFloat">
+                        <Type value="1" />
+                        <Name>
+                          <String>BlendOutDuration</String>
+                          <Key value="2416918072" />
+                        </Name>
+                        <Float value="0.30000000" />
+                      </Item>
+                      <Item type="AttributeHashString">
+                        <Type value="12" />
+                        <Name>
+                          <String>SpatialRelationshipPart</String>
+                          <Key value="3002954106" />
+                        </Name>
+                        <HashString>0x591B03AE</HashString>
+                      </Item>
+                    </Attributes>
+                    <Type value="2" />
+                    <Signature value="230673108" />
+                    <Name>
+                      <String>SpatialRelationshipPart</String>
+                      <Key value="3002954106" />
+                    </Name>
+                    <Start value="0.00000000" />
+                    <End value="0.00000000" />
+                  </tag>
+                </Item>
+                <Item type="0xB87279B4">
+                  <entity>
+                    <entityId>PLAYER</entityId>
+                  </entity>
+                  <startTime value="8.23333300" />
+                  <endTime value="10.00000000" />
+                  <UNK_MEMBER_0x420E8F0C value="0.00000000" />
+                  <pChildren type="NULL" />
+                  <UNK_MEMBER_0xAB28F89C value="false" />
+                  <state>0x9D9DEE9D</state>
+                  <toolData type="NULL" />
+                  <tag type="0x88D891F7">
+                    <Attributes>
+                      <Item type="AttributeFloat">
+                        <Type value="1" />
+                        <Name>
+                          <String>BlendInDuration</String>
+                          <Key value="285625760" />
+                        </Name>
+                        <Float value="0.30000000" />
+                      </Item>
+                      <Item type="AttributeString">
+                        <Type value="4" />
+                        <Name>
+                          <String>TargetBoundBone</String>
+                          <Key value="1576448797" />
+                        </Name>
+                        <String>Invalid</String>
+                      </Item>
+                      <Item type="AttributeFloat">
+                        <Type value="1" />
+                        <Name>
+                          <String>BlendOutDuration</String>
+                          <Key value="2416918072" />
+                        </Name>
+                        <Float value="0.35000000" />
+                      </Item>
+                      <Item type="AttributeHashString">
+                        <Type value="12" />
+                        <Name>
+                          <String>SpatialRelationshipPart</String>
+                          <Key value="3002954106" />
+                        </Name>
+                        <HashString>0x93215E00</HashString>
+                      </Item>
+                    </Attributes>
+                    <Type value="2" />
+                    <Signature value="230673108" />
+                    <Name>
+                      <String>SpatialRelationshipPart</String>
+                      <Key value="3002954106" />
+                    </Name>
+                    <Start value="0.00000000" />
+                    <End value="0.00000000" />
+                  </tag>
+                </Item>
+              </events>
+            </pChildren>
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <clip>
+              <clipDictionaryName>MECH_SKIN@JAVELINA@FIELD_DRESS</clipDictionaryName>
+              <clipName>BASE</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags>AF_NOT_INTERRUPTABLE 0xB46C05A7 0x3A00B430</animFlags>
+            <flags>TAF_NOT_INTERRUPTABLE 0x028D8D60 0xFD520F94 0x8240573D</flags>
+            <ragdollBlockingFlags />
+            <ikFlags>0x32939A0E 0x3CC5DD38 0xB819088C</ikFlags>
+            <aiFlags />
+            <physFlags>0xA016F69B</physFlags>
+            <filter />
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.00000000" />
+            <blendOutDuration value="0.35000000" />
+            <UNK_MEMBER_0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <useSceneOrigin value="true" />
+            <UNK_MEMBER_0x1F1E9763 value="true" />
+            <UNK_MEMBER_0x03EFD81F type="NULL" />
+            <pApproach type="NULL" />
+          </Item>
+          <Item type="0xA55010A3">
+            <entity>
+              <entityId>PELT</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="7.60000000" />
+            <UNK_MEMBER_0x420E8F0C value="0.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+          </Item>
+          <Item type="0x0B799110">
+            <entity>
+              <entityId>PLAYER</entityId>
+            </entity>
+            <startTime value="0.40000000" />
+            <endTime value="0.40000000" />
+            <UNK_MEMBER_0x420E8F0C value="0.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <action>Blood</action>
+            <UNK_MEMBER_0xEB6161EE value="0.20000000" />
+          </Item>
+          <Item type="0x0B799110">
+            <entity>
+              <entityId>PLAYER</entityId>
+            </entity>
+            <startTime value="1.36666700" />
+            <endTime value="1.36666700" />
+            <UNK_MEMBER_0x420E8F0C value="0.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <action>Blood</action>
+            <UNK_MEMBER_0xEB6161EE value="0.40000000" />
+          </Item>
+          <Item type="0x0B799110">
+            <entity>
+              <entityId>PLAYER</entityId>
+            </entity>
+            <startTime value="5.70000000" />
+            <endTime value="5.70000000" />
+            <UNK_MEMBER_0x420E8F0C value="0.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <action>Blood</action>
+            <UNK_MEMBER_0xEB6161EE value="0.60000000" />
+          </Item>
+          <Item type="0x870B8BFC">
+            <entity>
+              <entityId>PLAYER</entityId>
+            </entity>
+            <startTime value="7.20000000" />
+            <endTime value="7.80000000" />
+            <UNK_MEMBER_0x420E8F0C value="0.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <targetEntity>
+              <entityId>PLAYER</entityId>
+            </targetEntity>
+            <UNK_MEMBER_0xB700CB13>ID_SKEL_R_HAND</UNK_MEMBER_0xB700CB13>
+            <UNK_MEMBER_0x28534F8C>ID_PH_BELT_MELEE</UNK_MEMBER_0x28534F8C>
+            <UNK_MEMBER_0xF0563B39>ID_IK_R_HAND</UNK_MEMBER_0xF0563B39>
+            <positionOffset x="0.00000000" y="0.00000000" z="0.00000000" />
+            <blendInDuration value="0.25000000" />
+            <blendOutDuration value="0.25000000" />
+            <UNK_MEMBER_0xEE26A20D>0x789CE088 0x435E7E97</UNK_MEMBER_0xEE26A20D>
+          </Item>
+          <Item type="0x77128A18">
+            <entity>
+              <entityId>PLAYER</entityId>
+            </entity>
+            <startTime value="7.66666700" />
+            <endTime value="7.66666700" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <ped>
+              <entityId />
+            </ped>
+            <weaponEntity>
+              <entityId />
+            </weaponEntity>
+            <inventorySet>
+              <inventory>
+                <Item>
+                  <weaponName>WEAPON_UNARMED</weaponName>
+                  <attachPoint>0xADE3BB93</attachPoint>
+                  <holsterPoint>0xC309EBB3</holsterPoint>
+                  <flags />
+                  <UNK_MEMBER_0xD95C2AF1 value="false" />
+                </Item>
+              </inventory>
+            </inventorySet>
+            <weaponHash />
+            <attachPoint>0xADE3BB93</attachPoint>
+            <action>MULTI_CODE</action>
+            <UNK_MEMBER_0x5A52924D value="true" />
+            <createPickup value="false" />
+            <UNK_MEMBER_0x7BBD1736 value="false" />
+          </Item>
+          <Item type="0xB27E6751">
+            <entity>
+              <entityId>PELT</entityId>
+            </entity>
+            <startTime value="10.16667000" />
+            <endTime value="10.16667000" />
+            <UNK_MEMBER_0x420E8F0C value="0.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <attachEntity>
+              <entityId>PLAYER</entityId>
+            </attachEntity>
+            <attachOffset x="0.00000000" y="0.00000000" z="0.00000000" />
+            <UNK_MEMBER_0xF0B2D799 x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+            <UNK_MEMBER_0x42598F73 value="false" />
+            <attachBone>ID_PH_L_HAND</attachBone>
+            <action>0x6376976E</action>
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>PELT</entityId>
+            </entity>
+            <startTime value="10.16667000" />
+            <endTime value="11.43333000" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <clip>
+              <clipDictionaryName>MECH_SKIN@JAVELINA@FIELD_DRESS</clipDictionaryName>
+              <clipName>BASE_PELT</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags />
+            <flags>TAF_NOT_INTERRUPTABLE</flags>
+            <ragdollBlockingFlags />
+            <ikFlags />
+            <aiFlags />
+            <physFlags />
+            <filter />
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.00000000" />
+            <blendOutDuration value="0.40000000" />
+            <UNK_MEMBER_0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="10.16700000" />
+            <rate value="1.00000000" />
+            <useSceneOrigin value="false" />
+            <UNK_MEMBER_0x1F1E9763 value="false" />
+            <UNK_MEMBER_0x03EFD81F type="NULL" />
+            <pApproach type="NULL" />
+          </Item>
+          <Item type="0x5F78E379">
+            <entity>
+              <entityId>0x71079D70</entityId>
+            </entity>
+            <startTime value="2.06666700" />
+            <endTime value="2.06666700" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <UNK_MEMBER_0x84B954E7>
+              <entityId />
+            </UNK_MEMBER_0x84B954E7>
+            <UNK_MEMBER_0x2A2B1433>
+              <entityId>TARGET</entityId>
+            </UNK_MEMBER_0x2A2B1433>
+            <SoundPosition x="0.00000000" y="0.00000000" z="0.00000000" />
+            <UNK_MEMBER_0xB562C063>0x98C0F0E9</UNK_MEMBER_0xB562C063>
+            <UNK_MEMBER_0x1FE6F044>0x169B47B1</UNK_MEMBER_0x1FE6F044>
+            <UNK_MEMBER_0x80626C51>FromEntity</UNK_MEMBER_0x80626C51>
+            <SoundType>OneShot</SoundType>
+          </Item>
+          <Item type="0x5F78E379">
+            <entity>
+              <entityId>0x71079D70</entityId>
+            </entity>
+            <startTime value="2.33333300" />
+            <endTime value="2.33333300" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <UNK_MEMBER_0x84B954E7>
+              <entityId />
+            </UNK_MEMBER_0x84B954E7>
+            <UNK_MEMBER_0x2A2B1433>
+              <entityId>TARGET</entityId>
+            </UNK_MEMBER_0x2A2B1433>
+            <SoundPosition x="0.00000000" y="0.00000000" z="0.00000000" />
+            <UNK_MEMBER_0xB562C063>0x98C0F0E9</UNK_MEMBER_0xB562C063>
+            <UNK_MEMBER_0x1FE6F044>0x169B47B1</UNK_MEMBER_0x1FE6F044>
+            <UNK_MEMBER_0x80626C51>FromEntity</UNK_MEMBER_0x80626C51>
+            <SoundType>OneShot</SoundType>
+          </Item>
+          <Item type="0x5F78E379"> <!--HALF_OPEN-->
+            <entity>
+              <entityId>0x71079D70</entityId>
+            </entity>
+            <startTime value="3.03333300" />
+            <endTime value="3.03333300" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <UNK_MEMBER_0x84B954E7>
+              <entityId />
+            </UNK_MEMBER_0x84B954E7>
+            <UNK_MEMBER_0x2A2B1433>
+              <entityId>TARGET</entityId>
+            </UNK_MEMBER_0x2A2B1433>
+            <SoundPosition x="0.00000000" y="0.00000000" z="0.00000000" />
+            <UNK_MEMBER_0xB562C063>0x98C0F0E9</UNK_MEMBER_0xB562C063>
+            <UNK_MEMBER_0x1FE6F044>0x86DDCB72</UNK_MEMBER_0x1FE6F044>
+            <UNK_MEMBER_0x80626C51>FromEntity</UNK_MEMBER_0x80626C51>
+            <SoundType>OneShot</SoundType>
+          </Item>
+          <Item type="0x5F78E379">
+            <entity>
+              <entityId>0x71079D70</entityId>
+            </entity>
+            <startTime value="3.50000000" />
+            <endTime value="3.50000000" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <UNK_MEMBER_0x84B954E7>
+              <entityId />
+            </UNK_MEMBER_0x84B954E7>
+            <UNK_MEMBER_0x2A2B1433>
+              <entityId>TARGET</entityId>
+            </UNK_MEMBER_0x2A2B1433>
+            <SoundPosition x="0.00000000" y="0.00000000" z="0.00000000" />
+            <UNK_MEMBER_0xB562C063>0x98C0F0E9</UNK_MEMBER_0xB562C063>
+            <UNK_MEMBER_0x1FE6F044>0x254CDF0F</UNK_MEMBER_0x1FE6F044>
+            <UNK_MEMBER_0x80626C51>FromEntity</UNK_MEMBER_0x80626C51>
+            <SoundType>OneShot</SoundType>
+          </Item>
+          <Item type="0x5F78E379">
+            <entity>
+              <entityId>0x71079D70</entityId>
+            </entity>
+            <startTime value="4.10000000" />
+            <endTime value="4.10000000" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <UNK_MEMBER_0x84B954E7>
+              <entityId />
+            </UNK_MEMBER_0x84B954E7>
+            <UNK_MEMBER_0x2A2B1433>
+              <entityId>TARGET</entityId>
+            </UNK_MEMBER_0x2A2B1433>
+            <SoundPosition x="0.00000000" y="0.00000000" z="0.00000000" />
+            <UNK_MEMBER_0xB562C063>0x98C0F0E9</UNK_MEMBER_0xB562C063>
+            <UNK_MEMBER_0x1FE6F044>0x254CDF0F</UNK_MEMBER_0x1FE6F044>
+            <UNK_MEMBER_0x80626C51>FromEntity</UNK_MEMBER_0x80626C51>
+            <SoundType>OneShot</SoundType>
+          </Item>
+          <Item type="0x5F78E379">
+            <entity>
+              <entityId>0x71079D70</entityId>
+            </entity>
+            <startTime value="4.60000000" />
+            <endTime value="4.60000000" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <UNK_MEMBER_0x84B954E7>
+              <entityId />
+            </UNK_MEMBER_0x84B954E7>
+            <UNK_MEMBER_0x2A2B1433>
+              <entityId>TARGET</entityId>
+            </UNK_MEMBER_0x2A2B1433>
+            <SoundPosition x="0.00000000" y="0.00000000" z="0.00000000" />
+            <UNK_MEMBER_0xB562C063>0x98C0F0E9</UNK_MEMBER_0xB562C063>
+            <UNK_MEMBER_0x1FE6F044>0x8438E6E9</UNK_MEMBER_0x1FE6F044>
+            <UNK_MEMBER_0x80626C51>FromEntity</UNK_MEMBER_0x80626C51>
+            <SoundType>OneShot</SoundType>
+          </Item>
+          <Item type="0x5F78E379">
+            <entity>
+              <entityId>0x71079D70</entityId>
+            </entity>
+            <startTime value="4.73333300" />
+            <endTime value="4.73333300" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <UNK_MEMBER_0x84B954E7>
+              <entityId />
+            </UNK_MEMBER_0x84B954E7>
+            <UNK_MEMBER_0x2A2B1433>
+              <entityId>TARGET</entityId>
+            </UNK_MEMBER_0x2A2B1433>
+            <SoundPosition x="0.00000000" y="0.00000000" z="0.00000000" />
+            <UNK_MEMBER_0xB562C063>0x98C0F0E9</UNK_MEMBER_0xB562C063>
+            <UNK_MEMBER_0x1FE6F044>0x254CDF0F</UNK_MEMBER_0x1FE6F044>
+            <UNK_MEMBER_0x80626C51>FromEntity</UNK_MEMBER_0x80626C51>
+            <SoundType>OneShot</SoundType>
+          </Item>
+          <Item type="0x5F78E379">
+            <entity>
+              <entityId>0x71079D70</entityId>
+            </entity>
+            <startTime value="5.16666700" />
+            <endTime value="5.16666700" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <UNK_MEMBER_0x84B954E7>
+              <entityId />
+            </UNK_MEMBER_0x84B954E7>
+            <UNK_MEMBER_0x2A2B1433>
+              <entityId>TARGET</entityId>
+            </UNK_MEMBER_0x2A2B1433>
+            <SoundPosition x="0.00000000" y="0.00000000" z="0.00000000" />
+            <UNK_MEMBER_0xB562C063>0x98C0F0E9</UNK_MEMBER_0xB562C063>
+            <UNK_MEMBER_0x1FE6F044>0x254CDF0F</UNK_MEMBER_0x1FE6F044>
+            <UNK_MEMBER_0x80626C51>FromEntity</UNK_MEMBER_0x80626C51>
+            <SoundType>OneShot</SoundType>
+          </Item>
+		  <Item type="0x5F78E379">
+            <entity>
+              <entityId>0x71079D70</entityId>
+            </entity>
+            <startTime value="5.70000000" />
+            <endTime value="5.70000000" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <UNK_MEMBER_0x84B954E7>
+              <entityId />
+            </UNK_MEMBER_0x84B954E7>
+            <UNK_MEMBER_0x2A2B1433>
+              <entityId>TARGET</entityId>
+            </UNK_MEMBER_0x2A2B1433>
+            <SoundPosition x="0.00000000" y="0.00000000" z="0.00000000" />
+            <UNK_MEMBER_0xB562C063>0x98C0F0E9</UNK_MEMBER_0xB562C063>
+            <UNK_MEMBER_0x1FE6F044>0x254CDF0F</UNK_MEMBER_0x1FE6F044>
+            <UNK_MEMBER_0x80626C51>FromEntity</UNK_MEMBER_0x80626C51>
+            <SoundType>OneShot</SoundType>
+          </Item>
+          <Item type="0x5F78E379">
+            <entity>
+              <entityId>0x71079D70</entityId>
+            </entity>
+            <startTime value="6.40000000" />
+            <endTime value="6.40000000" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <UNK_MEMBER_0x84B954E7>
+              <entityId />
+            </UNK_MEMBER_0x84B954E7>
+            <UNK_MEMBER_0x2A2B1433>
+              <entityId>TARGET</entityId>
+            </UNK_MEMBER_0x2A2B1433>
+            <SoundPosition x="0.00000000" y="0.00000000" z="0.00000000" />
+            <UNK_MEMBER_0xB562C063>0x98C0F0E9</UNK_MEMBER_0xB562C063>
+            <UNK_MEMBER_0x1FE6F044>0x254CDF0F</UNK_MEMBER_0x1FE6F044>
+            <UNK_MEMBER_0x80626C51>FromEntity</UNK_MEMBER_0x80626C51>
+            <SoundType>OneShot</SoundType>
+          </Item>
+          <Item type="0x5F78E379">
+            <entity>
+              <entityId>0x71079D70</entityId>
+            </entity>
+            <startTime value="7.20000000" />
+            <endTime value="7.20000000" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <UNK_MEMBER_0x84B954E7>
+              <entityId />
+            </UNK_MEMBER_0x84B954E7>
+            <UNK_MEMBER_0x2A2B1433>
+              <entityId>TARGET</entityId>
+            </UNK_MEMBER_0x2A2B1433>
+            <SoundPosition x="0.00000000" y="0.00000000" z="0.00000000" />
+            <UNK_MEMBER_0xB562C063>0x98C0F0E9</UNK_MEMBER_0xB562C063>
+            <UNK_MEMBER_0x1FE6F044>0x254CDF0F</UNK_MEMBER_0x1FE6F044>
+            <UNK_MEMBER_0x80626C51>FromEntity</UNK_MEMBER_0x80626C51>
+            <SoundType>OneShot</SoundType>
+          </Item>
+          <Item type="0x5F78E379">
+            <entity>
+              <entityId>0x71079D70</entityId>
+            </entity>
+            <startTime value="8.80000000" />
+            <endTime value="8.80000000" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <UNK_MEMBER_0x84B954E7>
+              <entityId />
+            </UNK_MEMBER_0x84B954E7>
+            <UNK_MEMBER_0x2A2B1433>
+              <entityId>PELT</entityId>
+            </UNK_MEMBER_0x2A2B1433>
+            <SoundPosition x="0.00000000" y="0.00000000" z="0.00000000" />
+            <UNK_MEMBER_0xB562C063>0x98C0F0E9</UNK_MEMBER_0xB562C063>
+            <UNK_MEMBER_0x1FE6F044>0x8438E6E9</UNK_MEMBER_0x1FE6F044>
+            <UNK_MEMBER_0x80626C51>FromEntity</UNK_MEMBER_0x80626C51>
+            <SoundType>OneShot</SoundType>
+          </Item>
+          <Item type="0x5F78E379">
+            <entity>
+              <entityId>0x71079D70</entityId>
+            </entity>
+            <startTime value="9.43333300" />
+            <endTime value="9.43333300" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <UNK_MEMBER_0x84B954E7>
+              <entityId />
+            </UNK_MEMBER_0x84B954E7>
+            <UNK_MEMBER_0x2A2B1433>
+              <entityId>PELT</entityId>
+            </UNK_MEMBER_0x2A2B1433>
+            <SoundPosition x="0.00000000" y="0.00000000" z="0.00000000" />
+            <UNK_MEMBER_0xB562C063>0x98C0F0E9</UNK_MEMBER_0xB562C063>
+            <UNK_MEMBER_0x1FE6F044>0x8438E6E9</UNK_MEMBER_0x1FE6F044>
+            <UNK_MEMBER_0x80626C51>FromEntity</UNK_MEMBER_0x80626C51>
+            <SoundType>OneShot</SoundType>
+          </Item>
+        </events>
+      </events>
+      <locationData>
+        <Item key="PELT" type="0xAD5DFE3C">
+          <startPos x="0.08666800" y="-0.74746000" z="-0.02601300" />
+          <startRot x="0.61583610" y="0.61583610" z="0.34748400" w="-0.34748500" />
+          <startTime value="0.00000000" />
+          <endPos x="0.74701000" y="-0.27445500" z="-1.00706600" />
+          <endRot x="-0.53563100" y="-0.09011100" z="0.48366800" w="0.68632700" />
+          <endTime value="11.43333000" />
+        </Item>
+        <Item key="PLAYER" type="0xAD5DFE3C">
+          <startPos x="0.81558100" y="-0.18854900" z="1.00005000" />
+          <startRot x="0.00000000" y="0.00000000" z="0.70710700" w="0.70710700" />
+          <startTime value="0.00000000" />
+          <endPos x="0.04890600" y="-1.31215000" z="1.00005000" />
+          <endRot x="0.00000000" y="0.00000000" z="0.00001900" w="1.00000000" />
+          <endTime value="11.48333000" />
+        </Item>
+        <Item key="JAVELINA" type="0xAD5DFE3C">
+          <startPos x="0.00000000" y="0.00000000" z="0.39122300" />
+          <startRot x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+          <startTime value="0.00000000" />
+          <endPos x="0.00000000" y="0.00000000" z="0.39122300" />
+          <endRot x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+          <endTime value="11.83333000" />
+        </Item>
+        <Item key="TARGET" type="0xAD5DFE3C">
+          <startPos x="0.00000000" y="0.00000000" z="0.39122300" />
+          <startRot x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+          <startTime value="0.00000000" />
+          <endPos x="0.00000000" y="0.00000000" z="0.39122300" />
+          <endRot x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+          <endTime value="11.83333000" />
+        </Item>
+      </locationData>
+      <UNK_MEMBER_0x0696FE9E type="NULL" />
+    </Item>
+  </sections>
+  <playLists>
+    <Item key="PBL_BASE" type="0xA90B7F7E">
+      <sections>
+        <Item>BASE</Item>
+      </sections>
+    </Item>
+  </playLists>
+  <flags />
+  <version value="17" />
+  <jenniferInterrelationCollections>0xB418ED04</jenniferInterrelationCollections>
+  <toolData type="NULL" />
+  <compositeScenes />
+  <stateMachine>
+    <initialTransitions />
+    <states />
+    <editorData type="NULL" />
+  </stateMachine>
+  <UNK_MEMBER_0x8FB2F5A4>0xBFF20577</UNK_MEMBER_0x8FB2F5A4>
+  <UNK_MEMBER_0x0558B627 value="false" />
+</fwAnimSceneData>

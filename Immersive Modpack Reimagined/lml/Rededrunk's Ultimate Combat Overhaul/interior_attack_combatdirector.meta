@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAIProgram>
+  <Node type="CAIParallelNode">
+    <Name>Interior Attack</Name>
+    <Nodes>
+
+      <!-- FSM Branch -->
+      <Node type="CAITextNode">
+        <Text>StateMachine</Text>
+        <Node type="CAIFSMNode">
+          <Nodes>
+
+            <!-- State Surround Interior -->
+            <State type="CAISequenceNode">
+              <Name>Situation Surround</Name>
+              <Nodes>
+
+                <!-- Set combat situation -->
+                <Item type="CAIActionNode">
+                  <Action type="CAIActionSetCombatSituation">
+                    <CombatSituation>CCombatSituationSurroundInterior</CombatSituation>
+                  </Action>
+                </Item>
+
+                <!-- Evaluate speech contexts while checking for readiness to transition to Breach State -->
+                <Item type="CAIWaitNode">
+                  <Node type="CAIParallelNode">
+                    <Name>Speech Contexts and Transition to Breach</Name>
+                    <AllPass value="true"/>
+                    <Nodes>
+
+                      <!-- Check to see that the given entity is surrounded before triggering SURROUNDED_IN_INTERIOR context -->
+                      <Node type="CAISequenceNode">
+                        <Name>SURROUNDED_IN_INTERIOR Context Trigger</Name>
+                        <!-- <ResetOnFailure value="true"> -->
+                        <Nodes>
+                          <Item type="CAIWaitNode">
+                            <Name>Wait for Surrounded</Name>
+                            <Node type="CAIConditionNode">
+                              <Name>Closest Threat SubContext</Name>
+                              <Condition type="CAIConditionSubContextClosestThreat">
+                                <Ped>PrimaryEntity</Ped>
+                                <DestinationSlot>SecondaryEntity</DestinationSlot>
+
+                                <Condition type="CAIConditionAnd">
+                                  <Name>SURROUNDED_IN_INTERIOR And Condition</Name>
+                                  <Conditions>
+
+                                    <Condition type="CAIConditionDistanceBetweenEntities">
+                                      <EntityA>PrimaryEntity</EntityA>
+                                      <EntityB>SecondaryEntity</EntityB>
+                                      <LowerBound value="0.0"/>
+                                      <UpperBound value="15.0"/>
+                                    </Condition>
+
+                                    <Condition type="CAIConditionIsTargetSurrounded">
+                                      <AttackingPed>PrimaryEntity</AttackingPed>
+                                      <TargetPed>SecondaryEntity</TargetPed>
+                                    </Condition>
+
+                                    <Condition type="CAIConditionIsInInterior">
+                                      <Ped>SecondaryEntity</Ped>
+                                    </Condition>
+
+                                  </Conditions>
+                                </Condition>
+
+                              </Condition>
+                            </Node>
+                          </Item>
+
+                          <Item type="CAISelectContextNode">
+                            <Name>Your Surrounded Context Triggered</Name>
+                            <ContextName>[Src:CombatDirector:Breacher, Tgt:CombatDirector:BreachTarget]</ContextName>
+                            <Node type="CAIActionNode">
+                              <Action type="CAIActionSayDialog">
+                                <DebugDisplay>SURROUNDED_IN_INTERIOR</DebugDisplay>
+                                <Context>SURROUNDED_IN_INTERIOR</Context>
+                              </Action>
+                            </Node>
+                          </Item>
+						  
+						  <Item type="CAIWaitNode">
+							<Name>Said Dialog Spin</Name>
+						  </Item>
+
+                        </Nodes>
+                      </Node>
+
+                      <!-- Check to see that the given entity is surrounded before triggering INTERIOR_CHASE_NEUTRAL context -->
+                      <Node type="CAISequenceNode">
+                        <Name>INTERIOR_CHASE_NEUTRAL Context Trigger</Name>
+                        <Nodes>
+                          
+						  <Item type="CAIWaitNode">
+                            <Name>INTERIOR_CHASE_NEUTRAL Distance Check</Name>
+                            <Node type="CAIConditionNode">
+                              <Name>Closest Threat SubContext</Name>
+                              <Condition type="CAIConditionAnd">
+                                <Conditions>
+
+                                  <!-- make sure all allies are outside -->
+                                  <Item type="CAIConditionNumPedsInCombatDirectorIsInRange">
+                                    <Filter type="CAIConditionAnd">
+                                      <Conditions>
+                                        <Item type="CAIConditionIsInInterior" />
+                                        <Item type="CAIConditionIsInAttackRange" />
+                                      </Conditions>
+                                    </Filter>
+                                    <UpperBound value="3" />
+                                  </Item>
+
+                                  <!-- make sure we actually have allies to talk to -->
+                                  <Item type="CAIConditionNumPedsInCombatDirectorIsInRange">
+                                    <LowerBound value="2" />
+                                  </Item>
+
+                                  <!-- make sure there is a ped in 15m -->
+                                  <Item type="CAIConditionSubContextClosestThreat">
+                                    <Ped>PrimaryEntity</Ped>
+                                    <DestinationSlot>SecondaryEntity</DestinationSlot>
+                                    <Condition type="CAIConditionDistanceBetweenEntities">
+                                      <EntityA>PrimaryEntity</EntityA>
+                                      <EntityB>SecondaryEntity</EntityB>
+                                      <LowerBound value="0.0"/>
+                                      <UpperBound value="15.0"/>
+                                    </Condition>
+                                  </Item>
+
+                                  <!-- make sure we are not in the interior already -->
+                                  <Item type="CAIConditionNot">
+                                    <Condition type="CAIConditionIsInInterior">
+                                      <Ped>PrimaryEntity</Ped>
+                                    </Condition>
+                                  </Item>
+
+                                </Conditions>
+                              </Condition>
+                            </Node>
+                          </Item>
+
+                          <!-- Have the police say they're attacking an interior -->
+                          <Item type="CAISelectContextNode">
+                            <Name>INTERIOR_CHASE_NEUTRAL Triggered</Name>
+                            <ContextName>[Src:CombatDirector:Breacher, Tgt:CombatDirector:BreachTarget]</ContextName>
+                            <Node type="CAIActionNode">
+                              <Action type="CAIActionSayDialog">
+                                <DebugDisplay>INTERIOR_CHASE_NEUTRAL</DebugDisplay>
+                                <Context>INTERIOR_CHASE_NEUTRAL</Context>
+                              </Action>
+                            </Node>
+                          </Item>
+						  
+						<!-- Wait forever - will abort when the allstop timer finishes. -->
+						<Item type="CAIWaitNode">
+							<Name>Said Dialog Spin</Name>
+						</Item>						   
+						  
+                        </Nodes>
+                      </Node>
+
+                      <!-- transition to Breach -->
+                      <Transition type="CAISequenceNode">
+                        <Name>Transition to breach</Name>
+                        <Nodes>
+
+                          <Item type="CAIParallelNode">
+                            <Nodes>
+
+                              <!-- peds inside then we skip -->
+                              <Item type="CAIConditionNode">
+                                <Name>Peds already inside</Name>
+                                <Condition type="CAIConditionNot">
+                                  <Condition type="CAIConditionPercentCombatDirectorPedsNeedingToBreachInterior">
+                                    <LowerBound value="100" />
+                                  </Condition>
+                                </Condition>
+                              </Item>
+
+
+                              <Item type="CAIParallelNode">
+                                <AllPass value="True" />
+                                <Nodes>
+
+                                  <!-- one ped with route to target -->
+                                  <Item type="CAINotNode">
+                                    <Node type="CAIConditionNode">
+                                      <Name>No peds have a route</Name>
+                                      <Condition type="CAIConditionPercentCombatDirectorPedsWithNoRouteToTarget">
+                                        <TimeWithoutRoute value="500" />
+                                        <LowerBound value="100" />
+                                      </Condition>
+                                    </Node>
+                                  </Item>
+
+                                  <!-- one ped in tactical point -->
+                                  <Item type="CAIConditionNode">
+                                    <Name>Attack range and tactical point</Name>
+                                    <Condition type="CAIConditionNumPedsInCombatDirectorIsInRange">
+                                      <Filter type="CAIConditionAnd">
+                                        <Conditions>
+                                          <Item type="CAIConditionIsMovingToTacticalPoint">
+                                            <AtPoint value="True" />
+                                            <DistributionFlags>SurroundInterior CloseToTarget</DistributionFlags>
+                                          </Item>
+                                        </Conditions>
+                                      </Filter>
+                                      <LowerBound value="3" />
+                                    </Condition>
+                                  </Item>                                  
+                                  
+
+                                  <!-- one of these conditions must be true -->
+                                  <Item type="CAIParallelNode">
+                                    <Nodes>
+
+                                      <!-- skip if we don't know where target is -->
+                                      <Item type="CAIConditionNode">
+                                        <Name>Dont know where target is</Name>
+                                        <Condition type="CAIConditionNot">
+                                          <Condition type="CAIConditionSharedTargettingTargetsKnown">
+                                            <LowerBound value="100" />
+                                          </Condition>
+                                        </Condition>
+                                      </Item>                                  
+
+                                      <!-- wait for 3 peds to setup -->
+                                      <Item type="CAIWaitNode">
+                                        <Name>Wait for 3 peds to setup</Name>
+                                        <ResetOnFailure value="true"/>
+                                        <Node type="CAIParallelNode">
+                                          <AllPass value="True"/>
+                                          <Nodes>
+                                            <Item type="CAIConditionNode">
+                                              <Name>Attack range and tactical point</Name>
+                                              <Condition type="CAIConditionNumPedsInCombatDirectorIsInRange">
+                                                <Filter type="CAIConditionAnd">
+                                                  <Conditions>
+                                                    <Item type="CAIConditionIsMovingToTacticalPoint">
+                                                      <AtPoint value="True" />
+                                                      <DistributionFlags>SurroundInterior CloseToTarget</DistributionFlags>
+                                                    </Item>
+                                                  </Conditions>
+                                                </Filter>
+                                                <LowerBound value="4" />
+                                              </Condition>
+                                            </Item>
+                                          </Nodes>
+                                        </Node>
+                                      </Item>
+
+                                      <!-- wait for 1 ped and no LOS -->
+                                      <Item type="CAIWaitNode">
+                                        <Name>Wait for 1 ped and no LOS for 5 seconds</Name>
+                                        <ResetOnFailure value="true"/>
+                                        <Node type="CAIParallelNode">
+                                          <AllPass value="True"/>
+                                          <Nodes>
+
+                                            <Item type="CAIConditionNode">
+                                              <Name>No one can see target</Name>
+                                              <Condition type="CAIConditionSharedTargetingTargetsVisible">
+                                                <UpperBound value="2" />
+                                              </Condition>
+                                            </Item>
+
+                                            <Item type="CAITimerNode">
+                                              <Duration value="6000"/>
+                                            </Item>
+
+                                          </Nodes>
+                                        </Node>
+                                      </Item>
+
+                                      <!-- wait for 2 peds to setup -->
+                                      <Item type="CAIWaitNode">
+                                        <Name>Wait for 2 peds to setup and 10 seconds</Name>
+                                        <ResetOnFailure value="true"/>
+                                        <Node type="CAIParallelNode">
+                                          <AllPass value="True"/>
+                                          <Nodes>
+                                            <Item type="CAIConditionNode">
+                                              <Name>Attack range and tactical point</Name>
+                                              <Condition type="CAIConditionNumPedsInCombatDirectorIsInRange">
+                                                <Filter type="CAIConditionAnd">
+                                                  <Conditions>
+                                                    <Item type="CAIConditionIsMovingToTacticalPoint">
+                                                      <AtPoint value="True" />
+                                                      <DistributionFlags>SurroundInterior CloseToTarget</DistributionFlags>
+                                                    </Item>
+                                                  </Conditions>
+                                                </Filter>
+                                                <LowerBound value="3" />
+                                              </Condition>
+                                            </Item>
+
+                                            <Item type="CAITimerNode">
+                                              <Duration value="8000"/>
+                                            </Item>																					
+											
+                                          </Nodes>
+                                        </Node>
+                                      </Item>
+
+
+
+                                      <!-- wait for 1 ped and a long time setup -->
+                                      <Item type="CAIWaitNode">
+                                        <Name>Wait for 1 ped to setup and 30s</Name>
+                                        <ResetOnFailure value="true"/>
+                                        <Node type="CAIParallelNode">
+                                          <AllPass value="True"/>
+                                          <Nodes>
+
+                                            <Item type="CAITimerNode">
+                                              <Duration value="25000"/>
+                                            </Item>
+                                          </Nodes>
+                                        </Node>
+                                      </Item>
+
+                                    </Nodes>
+                                  </Item>
+                                </Nodes>
+                              </Item>
+                            </Nodes>
+                          </Item>
+
+                          <!-- finally transition back to breach -->
+                          <Item type="CAIWaitNode">
+                            <Name>finally transition back to breach</Name>
+                            <Node type="CAISequenceNode">
+                              <Nodes>
+
+                                <Item type="CAITimerNode">
+                                  <Name>prevent flicker</Name>
+                                  <Duration value="500"/>
+                                </Item>
+
+                                <Item type="CAIFSMTransitionNode">
+                                  <State>Situation Breach</State>
+                                </Item>
+
+                              </Nodes>
+                            </Node>
+                          </Item>
+
+                        </Nodes>
+                      </Transition>
+
+                    </Nodes>
+                  </Node>
+                </Item>
+
+              </Nodes>
+            </State>
+
+            <!-- State Breach Interior -->
+            <State type="CAISequenceNode">
+              <Name>Situation Breach</Name>
+              <Nodes>
+
+                <Item type="CAIActionNode">
+                  <Action type="CAIActionSetCombatSituation">
+                    <CombatSituation>CCombatSituationBreachInterior</CombatSituation>
+                  </Action>
+                </Item>
+
+                <!-- just spin here forever -->
+                <Item type="CAIWaitNode">
+                  <Node type="CAIParallelNode">
+                    <Nodes>
+
+                      <!-- check for unknown threats in interior -->
+                      <Item type="CAISequenceNode">
+                        <Name>Wait to finish breach</Name>
+                        <Nodes>
+                          <Item type="CAIParallelNode">
+                            <Name>Check for loss of targets in interior</Name>
+                            <AllPass value="true"/>
+
+                            <!-- wait for this condition -->
+                            <Nodes>
+                              <Item type="CAIWaitNode">
+                                <Node type = "CAIConditionNode">
+                                  <Condition type="CAIConditionPercentThreatsInInteriorIsInRange">
+                                    <UpperBound value="0" />
+                                    <MustBeKnown value="true"/>
+                                  </Condition>
+                                </Node>
+                              </Item>
+
+                              <!-- wait for breach to play out -->
+                              <Item type="CAITimerNode">
+                                <Duration value="10000"/>
+                              </Item>
+                            </Nodes>
+                          </Item>
+
+                          <Item type="CAIActionNode">
+                            <Action type="CAIActionClearUnknownThreatInteriors"/>
+                          </Item>
+                        </Nodes>
+                      </Item>
+
+
+                      <!-- go back to surround interior if we can't reach target -->
+                      <Item type="CAISequenceNode">
+                        <Name>Transition to surround</Name>
+                        <Nodes>
+
+                          <Item type="CAIParallelNode">
+                            <AllPass value="True" />
+                            <Nodes>
+
+                              <Item type="CAIConditionNode">
+                                <Condition type="CAIConditionPercentCombatDirectorPedsWithNoRouteToTarget">
+                                  <TimeWithoutRoute value="3000" />
+                                  <LowerBound value="100" />
+                                </Condition>
+                              </Item>
+                             
+                              <!-- peds inside then we skip -->
+                              <Item type="CAIConditionNode">
+                                <Condition type="CAIConditionPercentCombatDirectorPedsNeedingToBreachInterior">
+                                  <LowerBound value="100" />
+                                </Condition>
+                              </Item>
+
+                              <!-- skip if we don't know where target is
+                              <Item type="CAIConditionNode">
+                                <Condition type="CAIConditionSharedTargettingTargetsKnown">
+                                  <TimeSinceKnown value="5000" />
+                                  <LowerBound value="100" />
+                                </Condition>
+                              </Item>  -->
+                              
+                            </Nodes>
+                          </Item>
+
+                          <!-- finally transition back to surround -->
+                          <Item type="CAIWaitNode">
+                            <Name>finally transition back to surround</Name>
+                            <Node type="CAISequenceNode">
+                              <Nodes>
+
+                                <Item type="CAIFSMTransitionNode">
+                                  <State>Situation Surround</State>
+                                </Item>
+
+                              </Nodes>
+                            </Node>
+                          </Item>
+
+
+                        </Nodes>
+                      </Item>
+
+                    </Nodes>
+                  </Node>
+                </Item>
+
+              </Nodes>
+            </State>
+
+          </Nodes>
+        </Node>
+      </Node>
+    </Nodes>
+  </Node>
+
+</CAIProgram>

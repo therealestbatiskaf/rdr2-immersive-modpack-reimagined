@@ -1,0 +1,25 @@
+<EasyInstall>
+    <Name>AnymYo’s Reworked Euphoria Physics (A.R.E.P)</Name>
+    <Author>AnymYo aka leckeres_bratgut</Author>
+    <Version>1.1</Version>
+    <Link></Link>
+    <Metadata>
+    </Metadata>
+
+    <ResourceGroups>
+        <ResourceGroup name="A.R.E.P for RDR2">
+			<Description>A reworked euphoria tuning for RDR2! I hope you enjoy :)</Description>
+			<Resources>
+				<Resource>peds_shots</Resource>
+			</Resources>
+		</ResourceGroup>
+	</ResourceGroups>
+    <Resources>
+        <Resource name="A.R.E.P for RDR2" scriptName="peds_shots">
+            <FileReplacement>
+                <GamePath>update:/x64/data/tune/physicstasks.ymt</GamePath>
+                <FilePath>arep/physicstasks.ymt</FilePath>
+            </FileReplacement>
+        </Resource>
+    </Resources>
+</EasyInstall>

@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CPickupDataManager>
+  <pickupData>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_MELEE_LANTERN</Name>
+      <Model>s_interact_lantern01x</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_MELEE_LANTERN</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_MELEE_KNIFE_BILL</Name>
+      <Model>W_MELEE_KNIFE11</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>NotLootable CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_MELEE_KNIFE_BILL</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_MELEE_KNIFE_CHARLES</Name>
+      <Model>W_MELEE_KNIFE21</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>NotLootable CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_MELEE_KNIFE_CHARLES</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_MELEE_KNIFE_DUTCH</Name>
+      <Model>W_MELEE_KNIFE04</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>NotLootable CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_MELEE_KNIFE_DUTCH</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_MELEE_KNIFE_HOSEA</Name>
+      <Model>W_MELEE_KNIFE20</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>NotLootable CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_MELEE_KNIFE_HOSEA</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_MELEE_KNIFE_JAVIER</Name>
+      <Model>W_MELEE_KNIFE06</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>NotLootable CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_MELEE_KNIFE_JAVIER</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_MELEE_KNIFE_KIERAN</Name>
+      <Model>W_MELEE_KNIFE07</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>NotLootable CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_MELEE_KNIFE_KIERAN</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_MELEE_KNIFE_LENNY</Name>
+      <Model>W_MELEE_KNIFE08</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>NotLootable CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_MELEE_KNIFE_LENNY</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_MELEE_KNIFE_MICAH</Name>
+      <Model>W_MELEE_KNIFE09</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>NotLootable CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_MELEE_KNIFE_MICAH</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_MELEE_KNIFE_SADIE</Name>
+      <Model>W_MELEE_KNIFE13</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>NotLootable CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_MELEE_KNIFE_SADIE</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_MELEE_KNIFE_SEAN</Name>
+      <Model>W_MELEE_KNIFE10</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>NotLootable CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_MELEE_KNIFE_SEAN</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_MELEE_KNIFE_UNCLE</Name>
+      <Model>W_MELEE_KNIFE12</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>NotLootable CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_MELEE_KNIFE_UNCLE</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_REVOLVER_CATTLEMAN_HOSEA</Name>
+      <Model>w_revolver_cattleman01</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_REVOLVER_CATTLEMAN_HOSEA</Item>
+        <Item>REWARD_AMMO_REVOLVER</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+      <BreakApartModel>w_dis_rev_cattleman01_2</BreakApartModel>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_REVOLVER_CATTLEMAN_KIERAN</Name>
+      <Model>w_revolver_cattleman01</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_REVOLVER_CATTLEMAN_KIERAN</Item>
+        <Item>REWARD_AMMO_REVOLVER</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+      <BreakApartModel>w_dis_rev_cattleman01_2</BreakApartModel>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_REVOLVER_CATTLEMAN_LENNY</Name>
+      <Model>w_revolver_cattleman01</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_REVOLVER_CATTLEMAN_LENNY</Item>
+        <Item>REWARD_AMMO_REVOLVER</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+      <BreakApartModel>w_dis_rev_cattleman01_2</BreakApartModel>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_REVOLVER_CATTLEMAN_SADIE</Name>
+      <Model>w_revolver_cattleman01</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_REVOLVER_CATTLEMAN_SADIE</Item>
+        <Item>REWARD_AMMO_REVOLVER</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+      <BreakApartModel>w_dis_rev_cattleman01_2</BreakApartModel>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_REVOLVER_CATTLEMAN_SEAN</Name>
+      <Model>w_revolver_cattleman01</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_REVOLVER_CATTLEMAN_SEAN</Item>
+        <Item>REWARD_AMMO_REVOLVER</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+      <BreakApartModel>w_dis_rev_cattleman01_2</BreakApartModel>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_REVOLVER_DOUBLEACTION_JAVIER</Name>
+      <Model>W_REVOLVER_DOUBLEACTION03</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_REVOLVER_DOUBLEACTION_JAVIER</Item>
+        <Item>REWARD_AMMO_REVOLVER</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_REVOLVER_SCHOFIELD_BILL</Name>
+      <Model>w_revolver_schofield01</Model>
+	  <BreakApartModel>w_dis_rev_schofield01</BreakApartModel>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_REVOLVER_SCHOFIELD_BILL</Item>
+        <Item>REWARD_AMMO_REVOLVER</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_REVOLVER_SCHOFIELD_DUTCH</Name>
+      <Model>W_REVOLVER_SCHOFIELD02</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_REVOLVER_SCHOFIELD_DUTCH</Item>
+        <Item>REWARD_AMMO_REVOLVER</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_REVOLVER_SCHOFIELD_UNCLE</Name>
+      <Model>w_revolver_schofield01</Model>
+	  <BreakApartModel>w_dis_rev_schofield01</BreakApartModel>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_AK47</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_REVOLVER_SCHOFIELD_UNCLE</Item>
+        <Item>REWARD_AMMO_REVOLVER</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_SHOTGUN_DOUBLEBARREL_UNCLE</Name>
+      <Model>w_shotgun_doublebarrel01</Model>
+	  <BreakApartModel>w_dis_sho_doubleBarrel01</BreakApartModel>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="1.500000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_SHOTGUN</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_SHOTGUN_DOUBLEBARREL_UNCLE</Item>
+        <Item>REWARD_AMMO_SHOTGUN</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_SHOTGUN_SAWEDOFF_CHARLES</Name>
+      <Model>w_shotgun_sawed01</Model>
+	  <BreakApartModel>w_dis_sho_sawed01</BreakApartModel>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="1.500000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_SHOTGUN</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_SHOTGUN_SAWEDOFF_CHARLES</Item>
+        <Item>REWARD_AMMO_SHOTGUN</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_SHOTGUN_SEMIAUTO_HOSEA</Name>
+      <Model>w_shotgun_semiauto01</Model>
+	  <BreakApartModel>w_dis_sho_semiAuto01</BreakApartModel>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="1.500000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_SHOTGUN</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_SHOTGUN_SEMIAUTO_HOSEA</Item>
+        <Item>REWARD_AMMO_SHOTGUN</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_REPEATER_CARBINE_SADIE</Name>
+      <Model>W_REPEATER_CARBINE01</Model>
+	  <BreakApartModel>w_dis_rep_carbine01_1</BreakApartModel>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="1.500000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_REPEATER_CARBINE_SADIE</Item>
+        <Item>REWARD_AMMO_REPEATER</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_REPEATER_WINCHESTER_JOHN</Name>
+      <Model>w_repeater_winchester01</Model>
+	  <BreakApartModel>w_dis_rep_winchester01</BreakApartModel>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="1.500000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_REPEATER_WINCHESTER_JOHN</Item>
+        <Item>REWARD_AMMO_REPEATER</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_REPEATER_EVANS</Name>
+      <Model>W_REPEATER_EVANS01</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="1.500000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_REPEATER_EVANS</Item>
+        <Item>REWARD_AMMO_REPEATER</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_RIFLE_BOLTACTION_BILL</Name>
+      <Model>w_rifle_boltaction01</Model>
+	  <BreakApartModel>w_dis_rif_boltaction01</BreakApartModel>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="1.500000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_RIFLE_BOLTACTION_BILL</Item>
+        <Item>REWARD_AMMO_RIFLE</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_SNIPERRIFLE_ROLLINGBLOCK_LENNY</Name>
+      <Model>w_rifle_rollingblock01</Model>
+	  <BreakApartModel>w_dis_rif_rollingBlock01</BreakApartModel>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_SNIPER_RIFLE</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_SNIPERRIFLE_ROLLINGBLOCK_LENNY</Item>
+        <Item>REWARD_AMMO_RIFLE</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_BOW_CHARLES</Name>
+      <Model>W_SP_BOWARROW_CHARLES</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.350000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnlyByLastOwner CollectableOnFoot ManualPickUp RequiresButtonPressToPickup RequiresPickingUpAnim</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_SNIPER_RIFLE</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_BOW_CHARLES</Item>
+        <Item>REWARD_AMMO_ARROW</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_THROWN_THROWING_KNIVES_JAVIER</Name>
+      <Model>W_MELEE_KNIFE19</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="0.850000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="1.000000" />
+      <GlowRange value="0.000000" />
+      <AttachmentBone>ID_SKEL_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>NotLootable CollectableOnFoot KeepWeaponThatUsesThisAmmoEquipped AutoCollect IgnoreFragInstCollisionIfAttached</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_GRENADE</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_THROWN_THROWING_KNIVES_JAVIER</Item>
+        <Item>REWARD_AMMO_THROWING_KNIVES_JAVIER</Item>
+        <Item>REWARD_SPECIAL_ABILITY_MEDIUM</Item>
+      </Rewards>
+    </Item>
+  </pickupData>
+  <rewardData>
+    <Item type="CPickupRewardAmmo">
+      <Name>REWARD_AMMO_THROWING_KNIVES_JAVIER</Name>
+      <AmmoRef>AMMO_THROWING_KNIVES_JAVIER</AmmoRef>
+      <AmountMin value="1" />
+      <AmountMax value="1" />
+      <SatchelItem>AMMO_THROWING_KNIVES_JAVIER</SatchelItem>
+    </Item>
+
+	<Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_MELEE_LANTERN</Name>
+      <SatchelItem>WEAPON_MELEE_LANTERN</SatchelItem>
+      <WeaponRef>WEAPON_MELEE_LANTERN</WeaponRef>
+      <Equip value="false" />
+    </Item>
+	<Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_MELEE_KNIFE_BILL</Name>
+      <SatchelItem>WEAPON_MELEE_KNIFE_BILL</SatchelItem>
+      <WeaponRef>WEAPON_MELEE_KNIFE_BILL</WeaponRef>
+      <Equip value="false" />
+    </Item>
+	<Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_MELEE_KNIFE_CHARLES</Name>
+      <SatchelItem>WEAPON_MELEE_KNIFE_CHARLES</SatchelItem>
+      <WeaponRef>WEAPON_MELEE_KNIFE_CHARLES</WeaponRef>
+      <Equip value="false" />
+    </Item>
+	<Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_MELEE_KNIFE_DUTCH</Name>
+      <SatchelItem>WEAPON_MELEE_KNIFE_DUTCH</SatchelItem>
+      <WeaponRef>WEAPON_MELEE_KNIFE_DUTCH</WeaponRef>
+      <Equip value="false" />
+    </Item>
+	<Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_MELEE_KNIFE_HOSEA</Name>
+      <SatchelItem>WEAPON_MELEE_KNIFE_HOSEA</SatchelItem>
+      <WeaponRef>WEAPON_MELEE_KNIFE_HOSEA</WeaponRef>
+      <Equip value="false" />
+    </Item>
+	<Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_MELEE_KNIFE_JAVIER</Name>
+      <SatchelItem>WEAPON_MELEE_KNIFE_JAVIER</SatchelItem>
+      <WeaponRef>WEAPON_MELEE_KNIFE_JAVIER</WeaponRef>
+      <Equip value="false" />
+    </Item>
+	<Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_MELEE_KNIFE_KIERAN</Name>
+      <SatchelItem>WEAPON_MELEE_KNIFE_KIERAN</SatchelItem>
+      <WeaponRef>WEAPON_MELEE_KNIFE_KIERAN</WeaponRef>
+      <Equip value="false" />
+    </Item>
+	<Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_MELEE_KNIFE_LENNY</Name>
+      <SatchelItem>WEAPON_MELEE_KNIFE_LENNY</SatchelItem>
+      <WeaponRef>WEAPON_MELEE_KNIFE_LENNY</WeaponRef>
+      <Equip value="false" />
+    </Item>
+	<Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_MELEE_KNIFE_MICAH</Name>
+      <SatchelItem>WEAPON_MELEE_KNIFE_MICAH</SatchelItem>
+      <WeaponRef>WEAPON_MELEE_KNIFE_MICAH</WeaponRef>
+      <Equip value="false" />
+    </Item>
+	<Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_MELEE_KNIFE_SADIE</Name>
+      <SatchelItem>WEAPON_MELEE_KNIFE_SADIE</SatchelItem>
+      <WeaponRef>WEAPON_MELEE_KNIFE_SADIE</WeaponRef>
+      <Equip value="false" />
+    </Item>
+	<Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_MELEE_KNIFE_SEAN</Name>
+      <SatchelItem>WEAPON_MELEE_KNIFE_SEAN</SatchelItem>
+      <WeaponRef>WEAPON_MELEE_KNIFE_SEAN</WeaponRef>
+      <Equip value="false" />
+    </Item>
+	<Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_MELEE_KNIFE_UNCLE</Name>
+      <SatchelItem>WEAPON_MELEE_KNIFE_UNCLE</SatchelItem>
+      <WeaponRef>WEAPON_MELEE_KNIFE_UNCLE</WeaponRef>
+      <Equip value="false" />
+    </Item>
+    <Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_REVOLVER_CATTLEMAN_HOSEA</Name>
+      <SatchelItem>WEAPON_REVOLVER_CATTLEMAN_HOSEA</SatchelItem>
+      <WeaponRef>WEAPON_REVOLVER_CATTLEMAN_HOSEA</WeaponRef>
+      <Equip value="false" />
+    </Item>
+    <Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_REVOLVER_CATTLEMAN_KIERAN</Name>
+      <SatchelItem>WEAPON_REVOLVER_CATTLEMAN_KIERAN</SatchelItem>
+      <WeaponRef>WEAPON_REVOLVER_CATTLEMAN_KIERAN</WeaponRef>
+      <Equip value="false" />
+    </Item>
+    <Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_REVOLVER_CATTLEMAN_LENNY</Name>
+      <SatchelItem>WEAPON_REVOLVER_CATTLEMAN_LENNY</SatchelItem>
+      <WeaponRef>WEAPON_REVOLVER_CATTLEMAN_LENNY</WeaponRef>
+      <Equip value="false" />
+    </Item>
+    <Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_REVOLVER_CATTLEMAN_SADIE</Name>
+      <SatchelItem>WEAPON_REVOLVER_CATTLEMAN_SADIE</SatchelItem>
+      <WeaponRef>WEAPON_REVOLVER_CATTLEMAN_SADIE</WeaponRef>
+      <Equip value="false" />
+    </Item>
+    <Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_REVOLVER_CATTLEMAN_SEAN</Name>
+      <SatchelItem>WEAPON_REVOLVER_CATTLEMAN_SEAN</SatchelItem>
+      <WeaponRef>WEAPON_REVOLVER_CATTLEMAN_SEAN</WeaponRef>
+      <Equip value="false" />
+    </Item>
+    <Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_REVOLVER_DOUBLEACTION_JAVIER</Name>
+      <SatchelItem>WEAPON_REVOLVER_DOUBLEACTION_JAVIER</SatchelItem>
+      <WeaponRef>WEAPON_REVOLVER_DOUBLEACTION_JAVIER</WeaponRef>
+      <Equip value="false" />
+    </Item>
+    <Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_REVOLVER_SCHOFIELD_BILL</Name>
+      <SatchelItem>WEAPON_REVOLVER_SCHOFIELD_BILL</SatchelItem>
+      <WeaponRef>WEAPON_REVOLVER_SCHOFIELD_BILL</WeaponRef>
+      <Equip value="false" />
+    </Item>
+    <Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_REVOLVER_SCHOFIELD_DUTCH</Name>
+      <SatchelItem>WEAPON_REVOLVER_SCHOFIELD_DUTCH</SatchelItem>
+      <WeaponRef>WEAPON_REVOLVER_SCHOFIELD_DUTCH</WeaponRef>
+      <Equip value="false" />
+    </Item>
+    <Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_REVOLVER_SCHOFIELD_UNCLE</Name>
+      <SatchelItem>WEAPON_REVOLVER_SCHOFIELD_UNCLE</SatchelItem>
+      <WeaponRef>WEAPON_REVOLVER_SCHOFIELD_UNCLE</WeaponRef>
+      <Equip value="false" />
+    </Item>
+    <Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_SHOTGUN_DOUBLEBARREL_UNCLE</Name>
+      <SatchelItem>WEAPON_SHOTGUN_DOUBLEBARREL_UNCLE</SatchelItem>
+      <WeaponRef>WEAPON_SHOTGUN_DOUBLEBARREL_UNCLE</WeaponRef>
+      <Equip value="false" />
+    </Item>
+    <Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_SHOTGUN_SAWEDOFF_CHARLES</Name>
+      <SatchelItem>WEAPON_SHOTGUN_SAWEDOFF_CHARLES</SatchelItem>
+      <WeaponRef>WEAPON_SHOTGUN_SAWEDOFF_CHARLES</WeaponRef>
+      <Equip value="false" />
+    </Item>
+    <Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_SHOTGUN_SEMIAUTO_HOSEA</Name>
+      <SatchelItem>WEAPON_SHOTGUN_SEMIAUTO_HOSEA</SatchelItem>
+      <WeaponRef>WEAPON_SHOTGUN_SEMIAUTO_HOSEA</WeaponRef>
+      <Equip value="false" />
+    </Item>
+    <Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_REPEATER_CARBINE_SADIE</Name>
+      <SatchelItem>WEAPON_REPEATER_CARBINE_SADIE</SatchelItem>
+      <WeaponRef>WEAPON_REPEATER_CARBINE_SADIE</WeaponRef>
+      <Equip value="false" />
+    </Item>
+    <Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_REPEATER_WINCHESTER_JOHN</Name>
+      <SatchelItem>WEAPON_REPEATER_WINCHESTER_JOHN</SatchelItem>
+      <WeaponRef>WEAPON_REPEATER_WINCHESTER_JOHN</WeaponRef>
+      <Equip value="false"/>
+    </Item>
+    <Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_REPEATER_EVANS</Name>
+      <SatchelItem>WEAPON_REPEATER_EVANS</SatchelItem>
+      <WeaponRef>WEAPON_REPEATER_EVANS</WeaponRef>
+      <Equip value="false" />
+    </Item>
+    <Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_RIFLE_BOLTACTION_BILL</Name>
+      <SatchelItem>WEAPON_RIFLE_BOLTACTION_BILL</SatchelItem>
+      <WeaponRef>WEAPON_RIFLE_BOLTACTION_BILL</WeaponRef>
+      <Equip value="false" />
+    </Item>
+    <Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_SNIPERRIFLE_ROLLINGBLOCK_LENNY</Name>
+      <SatchelItem>WEAPON_SNIPERRIFLE_ROLLINGBLOCK_LENNY</SatchelItem>
+      <WeaponRef>WEAPON_SNIPERRIFLE_ROLLINGBLOCK_LENNY</WeaponRef>
+      <Equip value="false" />
+    </Item>
+    <Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_BOW_CHARLES</Name>
+      <SatchelItem>WEAPON_BOW_CHARLES</SatchelItem>
+      <WeaponRef>WEAPON_BOW_CHARLES</WeaponRef>
+      <Equip value="false" />
+    </Item>
+    <Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_THROWN_THROWING_KNIVES_JAVIER</Name>
+      <SatchelItem>WEAPON_THROWN_THROWING_KNIVES_JAVIER</SatchelItem>
+      <WeaponRef>WEAPON_THROWN_THROWING_KNIVES_JAVIER</WeaponRef>
+      <Equip value="false" />
+    </Item>
+  </rewardData>
+</CPickupDataManager>

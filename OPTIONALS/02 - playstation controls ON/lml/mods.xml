@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModsManager>
+  <Mods>
+    <Mod folder="PS Buttons Dualsense">
+      <Name>PS Buttons Dualsense</Name>
+      <Enabled>true</Enabled>
+      <Overwrite>false</Overwrite>
+      <DisabledGroups />
+    </Mod>
+    <Mod folder="RWS">
+      <Name>RWS</Name>
+      <Enabled>true</Enabled>
+      <Overwrite>false</Overwrite>
+      <DisabledGroups />
+    </Mod>
+    <Mod folder="Rededrunk's Ultimate Combat Overhaul">
+      <Name>Rededrunk's Ultimate Combat Overhaul</Name>
+      <Enabled>true</Enabled>
+      <Overwrite>false</Overwrite>
+      <DisabledGroups />
+    </Mod>
+    <Mod folder="Visual_Redemption">
+      <Name>Visual Redemption</Name>
+      <Enabled>true</Enabled>
+      <Overwrite>false</Overwrite>
+      <DisabledGroups />
+    </Mod>
+    <Mod folder="WhyEm's BloodLust">
+      <Name>WhyEm's BloodLust</Name>
+      <Enabled>true</Enabled>
+      <Overwrite>false</Overwrite>
+      <DisabledGroups />
+    </Mod>
+    <Mod folder="PDO Reloaded">
+      <Name>PDO Reloaded Data Files</Name>
+      <Enabled>true</Enabled>
+      <Overwrite>false</Overwrite>
+      <DisabledGroups />
+    </Mod>
+    <Mod folder="ImprovementsInBlood">
+      <Name>ImprovementsInBlood</Name>
+      <Enabled>true</Enabled>
+      <Overwrite>false</Overwrite>
+      <DisabledGroups />
+    </Mod>
+    <Mod folder="WhyEm's Particles">
+      <Name>WhyEm's Particles</Name>
+      <Enabled>true</Enabled>
+      <Overwrite>false</Overwrite>
+      <DisabledGroups />
+    </Mod>
+    <Mod folder="Gun_Metal_Rework">
+      <Name>Gun_Metal_Rework</Name>
+      <Enabled>true</Enabled>
+      <Overwrite>false</Overwrite>
+      <DisabledGroups />
+    </Mod>
+    <Mod folder="Animation Fixes/Maize_Sack_Fix">
+      <Name>Maize Sack Fix</Name>
+      <Enabled>true</Enabled>
+      <Overwrite>false</Overwrite>
+      <DisabledGroups />
+    </Mod>
+    <Mod folder="Catalogue Improvements">
+      <Name>Catalogue Improvements</Name>
+      <Enabled>true</Enabled>
+      <Overwrite>false</Overwrite>
+      <DisabledGroups />
+    </Mod>
+    <Mod folder="Kiddo's Hardcore Loot Economy Overhaul">
+      <Name>Kiddo's Hardcore Loot Economy Overhaul</Name>
+      <Enabled>true</Enabled>
+      <Overwrite>false</Overwrite>
+      <DisabledGroups />
+    </Mod>
+    <Mod folder="Center_Mass">
+      <Name>CenterMass</Name>
+      <Enabled>true</Enabled>
+      <Overwrite>false</Overwrite>
+      <DisabledGroups />
+    </Mod>
+    <Mod folder="Animation Fixes/Extended_Player_Animations">
+      <Name>Extended Player Animations</Name>
+      <Enabled>true</Enabled>
+      <Overwrite>false</Overwrite>
+      <DisabledGroups />
+    </Mod>
+    <Mod folder="A.R.E.P Main">
+      <Name>AnymYo’s Reworked Euphoria Physics (A.R.E.P)</Name>
+      <Enabled>true</Enabled>
+      <Overwrite>false</Overwrite>
+      <DisabledGroups />
+    </Mod>
+    <Mod folder="WickedHorseMan/UI/Durations">
+      <Name>SnappyUI</Name>
+      <Enabled>true</Enabled>
+      <Overwrite>false</Overwrite>
+      <DisabledGroups />
+    </Mod>
+    <Mod folder="WickedHorseMan/Gameplay/Penetration">
+      <Name>Penetration</Name>
+      <Enabled>true</Enabled>
+      <Overwrite>false</Overwrite>
+      <DisabledGroups />
+    </Mod>
+    <Mod folder="Online Content Unlocker">
+      <Name>Online Content Unlocker</Name>
+      <Enabled>true</Enabled>
+      <Overwrite>false</Overwrite>
+      <DisabledGroups />
+    </Mod>
+  </Mods>
+  <LoadOrder>
+    <Mod>PS Buttons Dualsense</Mod>
+    <Mod>RWS</Mod>
+    <Mod>Rededrunk's Ultimate Combat Overhaul</Mod>
+    <Mod>Visual_Redemption</Mod>
+    <Mod>WhyEm's BloodLust</Mod>
+    <Mod>PDO Reloaded</Mod>
+    <Mod>ImprovementsInBlood</Mod>
+    <Mod>WhyEm's Particles</Mod>
+    <Mod>Gun_Metal_Rework</Mod>
+    <Mod>Animation Fixes/Maize_Sack_Fix</Mod>
+    <Mod>Catalogue Improvements</Mod>
+    <Mod>Kiddo's Hardcore Loot Economy Overhaul</Mod>
+    <Mod>Center_Mass</Mod>
+    <Mod>Animation Fixes/Extended_Player_Animations</Mod>
+    <Mod>A.R.E.P Main</Mod>
+    <Mod>WickedHorseMan/UI/Durations</Mod>
+    <Mod>WickedHorseMan/Gameplay/Penetration</Mod>
+    <Mod>Online Content Unlocker</Mod>
+  </LoadOrder>
+</ModsManager>

@@ -1,0 +1,1534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CLootTableCollection>
+  <LootTables>
+  
+	<!-- #################################################### -->
+	<!--    			VEHICLE CONTAINERS				      -->
+	<!-- #################################################### -->
+	
+  	<Item key="CONTAINER_LOOT_CRAFTSMAN">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>MONEY_COINPURSE</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>RESTORATIVES</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>KIT_GUN_OIL</Name>
+		  <Rate value=".50" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>DEADEYE_ITEMS</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+		
+ 	<Item key="CONTAINER_LOOT_HUNTBOX">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>HUNTING_ITEMS</Name>
+		  <Rate value="1.00" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HUNTING_ITEMS</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONTAINER_LOOT_AMMO</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONTAINER_LOOT_AMMO</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+  	<Item key="CONTAINER_LOOT_JEWELLERYBOX">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>JEWELRY_ITEM_CONTAINERS</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+ 	<Item key="CONTAINER_LOOT_LEATHERCHEST">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>MONEY_MONEYCLIP</Name>
+		  <Rate value=".25" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONTAINER_LOOT_AMMO</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONTAINER_LOOT_AMMO</Name>
+		  <Rate value="0.75" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_GOLD_NUGGET</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+ 	<Item key="CONTAINER_LOOT_MEATBOX_LARGE">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>CONSUMABLE_JERKY</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_JERKY_VENISON</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CHEESE_WEDGE</Name>
+		  <Rate value="0.75" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_JERKY</Name>
+		  <Rate value="0.50" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_JERKY_VENISON</Name>
+		  <Rate value="0.50" />
+		  <Type>Item</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+ 	<Item key="CONTAINER_LOOT_MEATBOX_SMALL">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>CONSUMABLE_JERKY</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_OFFAL</Name>
+		  <Rate value="0.75" />
+		  <Type>Item</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_CORNEDBEEF_CAN</Name>
+		  <Rate value=".75" />
+          <Type>Item</Type>
+		</Item>
+	  </Entries>
+	</Item>
+					
+ 	<Item key="CONTAINER_LOOT_MED_TRUNK">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>MONEY_MONEYCLIP</Name>
+		  <Rate value=".25" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>DEADEYE_ITEMS</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HORSE_CONSUMABLES</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>KIT_GUN_OIL</Name>
+		  <Rate value="0.25" />
+		  <Type>Item</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+    <Item key="CONTAINER_LOOT_MEDICINE" name="Medicine">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>HEALTH_ITEMS</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HEALTH_PLUS_DEADEYE_ITEMS</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HEALTH_ITEMS</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HEALTH_PLUS_DEADEYE_ITEMS</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+
+	
+ 	<Item key="CONTAINER_LOOT_PRODUCE">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>FOOD_ITEMS_FRUIT</Name>
+		  <Rate value="1.0" />
+          <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_VEG</Name>
+		  <Rate value=".75" />
+          <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_FRUIT</Name>
+		  <Rate value=".50" />
+          <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_VEG</Name>
+		  <Rate value=".50" />
+          <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+  	<Item key="CONTAINER_LOOT_MED_TRAVELBIN">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>FOOD_ITEMS_CAN</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_CAN</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>ALCOHOL_ITEMS_CHEAP</Name>
+		  <Rate value="0.50" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HORSE_CONSUMABLES</Name>
+		  <Rate value="0.50" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_SNACK</Name>
+		  <Rate value="0.50" />
+		  <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+  	<Item key="CONTAINER_LOOT_SML_CRAFTEDBOX">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>MONEY_MONEYCLIP</Name>
+		  <Rate value=".50" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>HEALTH_AND_OR_DEADEYE_ITEMS</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEM_CONTAINERS</Name>
+		  <Rate value="0.75" />
+		  <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+		
+ 	<Item key="CONTAINER_LOOT_STEAMERTRUNK">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>HEALTH_AND_OR_DEADEYE_ITEMS</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>TOBACCO_ITEMS</Name>
+		  <Rate value="1.0" />
+          <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>ALCOHOL_ITEMS</Name>
+		  <Rate value="1.00" />
+          <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>RESTORATIVES</Name>
+		  <Rate value="0.25" />
+          <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+ 	<Item key="CONTAINER_LOOT_STORAGEBOX_OUTDOORS">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>HORSE_CONSUMABLES</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HORSE_CONSUMABLES</Name>
+		  <Rate value="0.75" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_HAYCUBE</Name>
+		  <Rate value="0.75" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_OAT_CAKES</Name>
+		  <Rate value="0.75" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>KIT_GUN_OIL</Name>
+		  <Rate value="0.50" />
+		  <Type>Item</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+  	<Item key="CONTAINER_LOOT_TACKLEBOX">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+	    <Item>
+		  <Name>FOOD_ITEMS_SNACK</Name>
+		  <Rate value="1.0" />
+          <Type>Table</Type>
+		</Item>
+	    <Item>
+		  <Name>FOOD_ITEMS_SNACK</Name>
+		  <Rate value=".50" />
+          <Type>Table</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_CHEESE_WEDGE</Name>
+		  <Rate value=".50" />
+          <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_OAT_CAKES</Name>
+		  <Rate value="0.50" />
+		  <Type>Item</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+
+  	<Item key="CONTAINER_LOOT_TOOLBOX">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>TOBACCO_ITEMS</Name>
+		  <Rate value="1.0" />
+          <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>KIT_GUN_OIL</Name>
+		  <Rate value=".75" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_MOONSHINE</Name>
+		  <Rate value=".75" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>MONEY_COINPURSE</Name>
+		  <Rate value=".25" />
+		  <Type>Item</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+  	<Item key="CONTAINER_LOOT_SML_TOOLBOX">
+	  <Type>ContinuousLinearDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>TOBACCO_ITEMS</Name>
+		  <Rate value="0.25" />
+          <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>KIT_GUN_OIL</Name>
+		  <Rate value="0.25" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_MOONSHINE</Name>
+		  <Rate value="0.25" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_COCAINE_CHEWING_GUM</Name>
+		  <Rate value=".25" />
+		  <Type>Item</Type>
+		</Item>
+	  </Entries>
+	</Item>
+		
+  	<Item key="CONTAINER_LOOT_TRAVELTIN">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>MONEY_COINPURSE</Name>
+		  <Rate value="0.75" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEM_CONTAINERS</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>MONEY_MONEYCLIP</Name>
+		  <Rate value="0.25" />
+		  <Type>Item</Type>
+		</Item>
+	  </Entries>
+	</Item>
+  
+ 	<Item key="CONTAINER_LOOT_WORK_STOOL">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>MONEY_MONEYCLIP</Name>
+		  <Rate value=".25" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>TOBACCO_ITEMS</Name>
+		  <Rate value="1.0" />
+          <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_COCAINE_CHEWING_GUM</Name>
+		  <Rate value=".25" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_MOONSHINE</Name>
+		  <Rate value=".50" />
+          <Type>Item</Type>
+		</Item>
+	  </Entries>
+	</Item>	
+
+  	<Item key="CONTAINER_LOOT_COACH">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>COACH_ITEMS</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+		
+	<Item key="CONTAINER_LOOT_WAGON">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>WAGON_ITEMS</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+		
+	<Item key="CONTAINER_LOOT_COACH_FALLBACK">
+	  <Type>ContinuousLinearDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>MONEY_COINPURSE</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+	  </Entries>
+	</Item>
+
+	<Item key="CONTAINER_LOOT_COACH_CONVOY">
+	  <Type>ContinuousLinearDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>MONEY_MONEYBAG</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+	 <Item key="CONTAINER_LOOT_COACH_COACHROB">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	  	<Item>
+          <Name>MONEY_MONEYSTACK_LARGE</Name>
+          <Rate value="1.0"/>
+          <Type>Item</Type>
+        </Item>
+      </Entries>
+    </Item>
+	<!-- ############## END VEHICLE CONTAINERS ############## -->
+	
+	<Item key="CONTAINER_LOOT_BEDCHEST_FIRST_MISSION">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>MONEY_COINPURSE</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_MOONSHINE</Name>
+		  <Rate value=".50" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_TONIC</Name>
+		  <Rate value=".25" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_SNAKE_OIL</Name>
+		  <Rate value="0.50" />
+		  <Type>Item</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+	<Item key="CONTAINER_LOOT_CHEST_FIRST_MISSION">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>MONEY_MONEYCLIP</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_POTENT_SNAKE_OIL</Name>
+		  <Rate value="1.00" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_POTENT_TONIC</Name>
+		  <Rate value="0.20" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>MONEY_COINPURSE</Name>
+		  <Rate value=".50" />
+		  <Type>Item</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+	<Item key="CONTAINER_LOOT_TRUNK_FIRST_MISSION">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>PROVISION_POCKET_WATCH_GOLD</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_RING_SILVER</Name>
+		  <Rate value="0.75" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_NECKLACE_SILVER</Name>
+		  <Rate value="0.50" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_GOLDRING</Name>
+		  <Rate value="0.25" />
+		  <Type>Item</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+	<Item key="CONTAINER_LOOT_TRUNK">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>MONEY_COINPURSE</Name>
+		  <Rate value=".50" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_GOLD_NUGGET</Name>
+		  <Rate value=".05" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>HEALTH_AND_OR_DEADEYE_ITEMS</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>ALCOHOL_ITEMS</Name>
+		  <Rate value=".60" />
+		  <Type>Table</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_HAIR_TONIC</Name>
+		  <Rate value="0.10" />
+          <Type>Item</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_HAIR_GREASE</Name>
+		  <Rate value="0.10" />
+          <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="CONTAINER_LOOT_CHEST" name="Chest">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>CONTAINER_LOOT_CHEST_MP_HOMEINVASION</Name>
+		  <Rate value="1.0" />
+          <RewardCondition ref="IN_MP_HOMEINVASION" />
+		  <Type>Table</Type>
+		</Item>
+	    <Item>
+		  <Name>CONTAINER_LOOT_CHEST_SP</Name>
+		  <Rate value="1.0" />
+          <RewardCondition ref="NOT_IN_MP_HOMEINVASION" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="CONTAINER_LOOT_CHEST_SP">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>HEALTH_AND_OR_DEADEYE_ITEMS</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>MONEY_COINPURSE</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>ALCOHOL_ITEMS</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_CAN</Name>
+		  <Rate value=".50" />
+          <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEM_CONTAINERS</Name>
+		  <Rate value=".50" />
+          <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="CONTAINER_LOOT_CHEST_MP_HOMEINVASION">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>CONTAINER_LOOT_CHEST_MP_HOMEINVASION_SHORT</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="CONTAINER_LOOT_CHEST_MP_HOMEINVASION_SHORT">
+	  <Type>ContinuousLinearDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>CONTAINER_LOOT_AMMO</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>ALCOHOL_ITEMS</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>DEADEYE_ITEMS</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HEALTH_ITEMS</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+	<Item key="CONTAINER_LOOT_CHEST_MP_HOMEINVASION_LONG">
+	  <Type>ContinuousLinearDrop</Type>
+	  <Entries>
+	    <Item>
+		  <Name>CONTAINER_LOOT_DYNAMITE</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>DEADEYE_ITEMS</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HEALTH_ITEMS</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONTAINER_LOOT_AMMO</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+			
+	<Item key="CONTAINER_LOOT_POORCASE">
+	  <Type>ContinuousLinearDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>MONEY_COINPURSE</Name>
+		  <Rate value="1.00" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_SNAKE_OIL</Name>
+		  <Rate value=".25" />
+		  <Type>Item</Type>
+		</Item>
+	  </Entries>
+	</Item>
+		
+	<Item key="CONTAINER_LOOT_DESK" name="Desk">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>MONEY_COINPURSE</Name>
+		  <Rate value=".50" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>HEALTH_AND_OR_DEADEYE_ITEMS</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_CHEAP</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CIGAR</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>ALCOHOL_ITEMS</Name>
+		  <Rate value=".20" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="CONTAINER_LOOT_NIGHTSTAND" name="Nightstand">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>MONEY_COINPURSE</Name>
+		  <Rate value=".30" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HEALTH_AND_OR_DEADEYE_ITEMS</Name>
+		  <Rate value=".30" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_CHEAP</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_MOONSHINE</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CIGAR</Name>
+		  <Rate value=".20" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="CONTAINER_LOOT_NIGHTSTAND_FIRST_MISSION" name="Nightstand First Mission">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_CHEAP</Name>
+		  <Rate value=".40" />
+		  <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>MONEY_COINPURSE</Name>
+		  <Rate value=".30" />
+		  <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>CONSUMABLE_CHEWING_TOBACCO</Name>
+		  <Rate value=".30" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+    <Item key="CONTAINER_LOOT_AMMO" name="Ammo Box">
+	  <Type>ContinuousLinearDrop</Type>
+	  <Entries>
+        <Item>
+		  <Name>AMMO_22_AMMOBOX</Name>
+		  <Rate value=".10" />
+          <Type>Ammo</Type>
+		</Item>
+		<Item>
+		  <Name>AMMO_PISTOL_AMMOBOX_USED</Name>
+		  <Rate value=".20" />
+          <Type>Ammo</Type>
+		</Item>
+	    <Item>
+		  <Name>AMMO_REPEATER_AMMOBOX_USED</Name>
+		  <Rate value=".20" />
+          <Type>Ammo</Type>
+		</Item>
+		<Item>
+		  <Name>AMMO_REVOLVER_AMMOBOX_USED</Name>
+		  <Rate value=".10" />
+          <Type>Ammo</Type>
+		</Item>
+		<Item>
+		  <Name>AMMO_RIFLE_AMMOBOX_USED</Name>
+		  <Rate value=".20" />
+          <Type>Ammo</Type>
+		</Item>
+		<Item>
+		  <Name>AMMO_SHOTGUN_AMMOBOX_USED</Name>
+		  <Rate value=".20" />
+          <Type>Ammo</Type>
+		</Item>
+	  </Entries>
+	</Item>
+		
+    <Item key="CONTAINER_LOOT_RIFLE" name="Rifle">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>AMMO_RIFLE</Name>
+		  <Min value="3" />
+		  <Max value="7" />
+		  <Rate value=".75" />
+		  <Type>Ammo</Type>
+		</Item>
+	  	<Item>
+          <Name>WEAPON_RIFLE_BOLTACTION</Name>
+          <Rate value="1.0"/>
+          <Type>Weapon</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+    <Item key="CONTAINER_LOOT_MONEY_BOX" name="Money Box">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	  	<Item>
+          <Name>MONEY_BILLSTACK</Name>
+          <Rate value="1.0"/>
+          <Type>Item</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+    <Item key="CONTAINER_LOOT_LOCKBOX_SML" name="Lock Box Small">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	  	<Item>
+          <Name>MONEY_MONEYCLIP</Name>
+          <Rate value="1.0"/>
+          <Type>Item</Type>
+        </Item>
+      </Entries>
+    </Item>
+	
+    <Item key="CONTAINER_LOOT_LOCKBOX_MED" name="Lock Box Medium">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	  	<Item>
+          <Name>MONEY_MONEYCLIP</Name>
+          <Rate value="1.0"/>
+          <Type>Item</Type>
+        </Item>
+		<Item>
+		  <Name>JEWELRY_ITEM_CONTAINERS</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+    <Item key="CONTAINER_LOOT_LOCKBOX_LRG" name="Lock Box Large">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	  	<Item>
+          <Name>MONEY_BILLSTACK</Name>
+          <Rate value="1.0"/>
+          <Type>Item</Type>
+        </Item>
+		<Item>
+		  <Name>PROVISION_GOLD_NUGGET</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_TONIC</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_SNAKE_OIL</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="CONTAINER_LOOT_WEAPONCRATE" name="Weapon Crate">
+	  <Type>AggregateDrop</Type>
+	  <Entries> 
+     	<Item>
+          <Name>AMMO_PISTOL</Name>
+          <Min value="3" />
+          <Max value="12" />
+          <Rate value="0.25"/>
+          <Type>Ammo</Type>
+        </Item>
+		<Item>
+		  <Name>AMMO_RIFLE</Name>
+		  <Min value="3" />
+		  <Max value="7" />
+		  <Rate value=".50" />
+		  <Type>Ammo</Type>
+		</Item>			
+      	<Item>
+          <Name>WEAPON_RIFLE_BOLTACTION</Name>
+          <Rate value=".25"/>
+          <Type>Weapon</Type>
+        </Item>
+	  </Entries>
+	</Item>
+	
+	<Item key="CONTAINER_LOOT_DYNAMITE" name="Dynamite">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+	    <Item>
+		  <Name>AMMO_DYNAMITE</Name>
+          <Rate value="1"/>
+		  <Type>Ammo</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+	<Item key="CONTAINER_LOOT_MOLOTOV" name="Molotov">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+	    <Item>
+		  <Name>AMMO_MOLOTOV</Name>
+          <Rate value="1"/>
+		  <Type>Ammo</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+    <Item key="CONTAINER_LOOT_BIG_CHEST" name="Big Chest">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONTAINER_LOOT_AMMO</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+	    <Item>
+		  <Name>CONTAINER_LOOT_CHEST</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+    <Item key="CONTAINER_LOOT_ARMOIRE">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>CONTAINER_LOOT_ARMOIRE_SP</Name>
+		  <Rate value="1.0" />
+      	  <RewardCondition ref="NOT_IN_MP_HOMEINVASION" />
+		  <Type>Table</Type>
+		</Item>
+	    <Item>
+		  <Name>CONTAINER_LOOT_ARMOIRE_MP_HOMEINVASION</Name>
+		  <Rate value="1.0" />
+      	  <RewardCondition ref="IN_MP_HOMEINVASION" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="CONTAINER_LOOT_ARMOIRE_FIRST_MISSION">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	  <Item>
+		  <Name>MONEY_MONEYCLIP</Name>
+		  <Rate value="1.0" />
+          <Type>Item</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_HAIR_TONIC</Name>
+		  <Rate value="0.50" />
+          <Type>Item</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_HAIR_GREASE</Name>
+		  <Rate value="0.50" />
+          <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="CONTAINER_LOOT_ARMOIRE_SP">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>MONEY_COINPURSE</Name>
+		  <Rate value=".50" />
+		  <Type>Item</Type>
+		</Item>
+	    <Item>
+		  <Name>HEALTH_AND_OR_DEADEYE_ITEMS</Name>
+		  <Rate value=".40" />
+          <Type>Table</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_HAIR_GREASE</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_HAIR_TONIC</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>MONEY_MONEYCLIP</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="CONTAINER_LOOT_ARMOIRE_MP_HOMEINVASION">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>CONTAINER_LOOT_ARMOIRE_MP_HOMEINVASION_SHORT</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+      </Entries>
+    </Item>
+			
+	<Item key="CONTAINER_LOOT_ARMOIRE_MP_HOMEINVASION_SHORT">
+	  <Type>ContinuousLinearDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>ALCOHOL_ITEMS</Name>
+		  <Rate value=".20" />
+		  <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+	<Item key="CONTAINER_LOOT_ARMOIRE_MP_HOMEINVASION_LONG">
+	  <Type>ContinuousLinearDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>ALCOHOL_ITEMS</Name>
+		  <Rate value=".1" />
+		  <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+	<Item key="CONTAINER_LOOT_CABINET">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>HEALTH_AND_OR_DEADEYE_ITEMS</Name>
+		  <Rate value="0.25" />
+          <Type>Table</Type>
+		</Item>
+	    <Item>
+		  <Name>ALCOHOL_ITEMS</Name>
+		  <Rate value="0.25" />
+          <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>MONEY_COINPURSE</Name>
+		  <Rate value="0.50" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_CHEAP</Name>
+		  <Rate value="0.20" />
+          <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="CONTAINER_LOOT_CUPBOARD">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>HEALTH_AND_OR_DEADEYE_ITEMS</Name>
+		  <Rate value="0.25" />
+          <Type>Table</Type>
+		</Item>
+	    <Item>
+		  <Name>ALCOHOL_ITEMS</Name>
+		  <Rate value="0.50" />
+          <Type>Table</Type>
+		</Item>
+	    <Item>
+		  <Name>FOOD_ITEMS_CAN</Name>
+		  <Rate value="0.50" />
+          <Type>Table</Type>
+		</Item>
+	    <Item>
+		  <Name>FOOD_ITEMS_SNACK</Name>
+		  <Rate value="0.50" />
+          <Type>Table</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_COFFEE_GNDS_REG</Name>
+		  <Rate value="0.15" />
+          <Type>Item</Type>
+		</Item>
+      </Entries>
+    </Item>
+	
+	<Item key="CONTAINER_LOOT_GANG_POORCASE">
+	  <Type>ContinuousLinearDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>CONTAINER_LOOT_GANG_LOWVALUE</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONTAINER_LOOT_GANG_MIDVALUE</Name>
+		  <Rate value=".30" />
+          <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONTAINER_LOOT_GANG_HIGHVALUE</Name>
+		  <Rate value=".20" />
+          <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+	<Item key="CONTAINER_LOOT_GANG_LOWVALUE">
+	  <Type>ContinuousLinearDrop</Type>
+	  <Entries>
+	    <Item>
+		  <Name>CONSUMABLE_MEDICINE</Name>
+		  <Rate value=".15" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_CHEAP</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>MONEY_COINPURSE</Name>
+		  <Rate value=".25" />
+		  <Type>Item</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+	<Item key="CONTAINER_LOOT_GANG_MIDVALUE">
+	  <Type>ContinuousLinearDrop</Type>
+	  <Entries>
+	  	<Item>
+		  <Name>CONSUMABLE_TONIC</Name>
+		  <Rate value=".15" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_POTENT_SNAKE_OIL</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEM_CONTAINERS</Name>
+		  <Rate value=".75" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>MONEY_BILLSTACK</Name>
+		  <Rate value=".25" />
+		  <Type>Item</Type>
+		</Item>
+	  </Entries>
+	</Item>
+		
+	<Item key="CONTAINER_LOOT_GANG_HIGHVALUE">
+	  <Type>ContinuousLinearDrop</Type>
+	  <Entries>
+	    <Item>
+		  <Name>CONSUMABLE_POTENT_MEDICINE</Name>
+		  <Rate value=".25" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_POTENT_TONIC</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>MONEY_BILLSTACK</Name>
+		  <Rate value=".50" />
+		  <Type>Item</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+	<Item key="CONTAINER_LOOT_HORSE_SADDLEBAG">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>MONEY_COINPURSE</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_GOLD_NUGGET</Name>
+		  <Rate value=".05" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>TOBACCO_ITEMS</Name>
+		  <Rate value=".10" />
+          <Type>Table</Type>
+		</Item>
+	    <Item>
+		  <Name>FOOD_ITEMS_SNACK</Name>
+		  <Rate value=".30" />
+          <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HORSE_CONSUMABLES</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+	<Item key="MONEY_HUMAN_ROBBERY_AFFLUENCE_POOR">
+	  <Type>ContinuousLinearDrop</Type>
+	  <Entries>
+		<Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="1" />
+          <Max value="100" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+	  </Entries>
+	</Item>
+	
+	<Item key="MONEY_HUMAN_ROBBERY_AFFLUENCE_AVERAGE">
+	  <Type>ContinuousLinearDrop</Type>
+	  <Entries>
+		<Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="50" />
+          <Max value="175" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+	  </Entries>
+	</Item>
+	
+	<Item key="MONEY_HUMAN_ROBBERY_AFFLUENCE_RICH">
+	  <Type>ContinuousLinearDrop</Type>
+	  <Entries>
+		<Item>
+          <Name>CURRENCY_CASH</Name>
+		  <Min value="100" />
+          <Max value="300" />
+          <Rate value="1"/>
+          <Type>Money</Type>
+        </Item>
+	  </Entries>
+	</Item>
+	
+	<Item key="SPECIAL_ITEM_HUMAN_ROBBERY_AFFLUENCE_POOR">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_COCAINE_CHEWING_GUM</Name>
+		  <Rate value=".00" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_COCAINE_CHEWING_GUM_USED</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CHEWING_TOBACCO</Name>
+		  <Rate value=".00" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CHEWING_TOBACCO_USED</Name>
+		  <Rate value=".20" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_SNAKE_OIL</Name>
+		  <Rate value=".00" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_SNAKE_OIL_USED</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_WHISKEY</Name>
+		  <Rate value=".15" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_GIN</Name>
+		  <Rate value=".15" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_CHEAP</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CHEAP_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".20" />
+		  <Type>Table</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="SPECIAL_ITEM_HUMAN_ROBBERY_AFFLUENCE_AVERAGE">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>NORMAL_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".30" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CHEAP_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".30" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HEALTH_AND_DEADEYE_BASIC</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_WHISKEY</Name>
+		  <Rate value=".10" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_GIN</Name>
+		  <Rate value=".10" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_RUM</Name>
+		  <Rate value=".05" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_GOLD_NUGGET</Name>
+		  <Rate value=".05" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="SPECIAL_ITEM_HUMAN_ROBBERY_AFFLUENCE_RICH">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>EXPENSIVE_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>NORMAL_JEWELRY_ITEMS_PED</Name>
+		  <Rate value=".40" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_BRANDY_USED</Name>
+		  <Rate value=".15" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_USED</Name>
+		  <Rate value=".10" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CIGAR</Name>
+		  <Rate value=".10" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="CONTAINER_LOOT_HUMAN_ROBBERY_AFFLUENCE_POOR">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>MONEY_HUMAN_ROBBERY_AFFLUENCE_POOR</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>SPECIAL_ITEM_HUMAN_ROBBERY_AFFLUENCE_POOR</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+	<Item key="CONTAINER_LOOT_HUMAN_ROBBERY_AFFLUENCE_AVERAGE">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>MONEY_HUMAN_ROBBERY_AFFLUENCE_AVERAGE</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>SPECIAL_ITEM_HUMAN_ROBBERY_AFFLUENCE_AVERAGE</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+	
+	<Item key="CONTAINER_LOOT_HUMAN_ROBBERY_AFFLUENCE_RICH">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>MONEY_HUMAN_ROBBERY_AFFLUENCE_RICH</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>SPECIAL_ITEM_HUMAN_ROBBERY_AFFLUENCE_RICH</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+			
+  </LootTables>
+</CLootTableCollection>

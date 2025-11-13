@@ -1,0 +1,14 @@
+<EasyInstall>
+	<Name>Penetration</Name>
+	<Author>WickedHorseMan</Author>
+	<Version>1.0</Version>
+	<Link>https://www.nexusmods.com/reddeadredemption2/mods/2605</Link>
+	<Resources>
+		<Resource>
+			<FileReplacement>
+				<GamePath>update:/common/data/materials/materials.meta</GamePath>
+				<FilePath>materials.meta</FilePath>
+			</FileReplacement>
+		</Resource>
+	</Resources>
+</EasyInstall>

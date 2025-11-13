@@ -1,0 +1,3 @@
+This issue happens when animals are spawned a bit too far from the ground and start falling, the falling is what causes animals to freak out because the game tries to load a falling animation that only exists in Red Dead Online, soft locking the animal in a forever "falling" state.
+
+This fix essentially brings those Online falling animations over to Story Mode, no longer soft locking the animals.

@@ -1,0 +1,2605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CLootTableCollection>
+  <LootTables> 
+  
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	<!-- |||||||||| ITEM GROUP TABLES |||||||||| -->
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	
+	<Item key="EMPTY" name="EMPTY">
+	  <Type>AggregateDrop</Type>
+      <Entries>
+	  </Entries>
+	</Item>
+				
+	<Item key="SMALL_ARMS_AMMO" name="SMALL ARMS AMMO">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_REVOLVER</Name>
+		  <Min value="2" />
+          <Max value="5" />
+		  <Rate value=".50" />
+          <Type>Ammo</Type>
+		</Item>
+		<Item>
+		  <Name>AMMO_PISTOL</Name>
+          <Min value="2" />
+          <Max value="5" />
+		  <Rate value=".50" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="REVOLVER_AMMO_ADDED" name="REVOLVER_AMMO_ADDED">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_REVOLVER</Name>
+		  <Min value="2" />
+          <Max value="5" />
+		  <Rate value="1.0" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="LARGE_ARMS_AMMO" name="LARGE ARMS AMMO">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_RIFLE</Name>
+		  <Min value="2" />
+          <Max value="5" />
+		  <Rate value=".30" />
+          <Type>Ammo</Type>
+		</Item>
+		<Item>
+		  <Name>AMMO_SHOTGUN</Name>
+          <Min value="2" />
+          <Max value="5" />
+		  <Rate value=".35" />
+          <Type>Ammo</Type>
+		</Item>
+		<Item>
+		  <Name>AMMO_REPEATER</Name>
+          <Min value="2" />
+          <Max value="5" />
+		  <Rate value=".35" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="ARROW_AMMO" name="ARROW AMMO">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_ARROW</Name>
+		  <Min value="1" />
+          <Max value="4" />
+		  <Rate value=".4" />
+          <Type>Ammo</Type>
+		</Item>
+		<Item>
+		  <Name>AMMO_ARROW_FIRE</Name>
+          <Min value="1" />
+          <Max value="3" />
+		  <Rate value=".3" />
+          <Type>Ammo</Type>
+		</Item>
+		<Item>
+		  <Name>AMMO_ARROW_DYNAMITE</Name>
+          <Min value="1" />
+          <Max value="3" />
+		  <Rate value=".3" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="THROWABLE_AMMO" name="THROWABLE AMMO">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>AMMO_THROWING_KNIVES</Name>
+		  <Min value="1" />
+          <Max value="1" />
+		  <Rate value=".40" />
+          <Type>Ammo</Type>
+		</Item>
+		<Item>
+		  <Name>AMMO_DYNAMITE</Name>
+		  <Min value="1" />
+          <Max value="1" />
+		  <Rate value=".30" />
+          <Type>Ammo</Type>
+		</Item>
+		<Item>
+		  <Name>AMMO_MOLOTOV</Name>
+		  <Min value="1" />
+          <Max value="1" />
+		  <Rate value=".30" />
+          <Type>Ammo</Type>
+		</Item>			
+	 </Entries>
+    </Item>
+	
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	<!-- ||||||||||    	 HONOR 	      |||||||||| -->
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	
+	<Item key="HONOR_NEUTRAL_ITEMS" name="Honor Neutral Items">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>HEALTH_AND_DEADEYE_BASIC</Name>
+		  <Rate value=".13" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEMS_MALE</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>TOBACCO_ITEMS_PED</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>THROWABLE_AMMO</Name>
+		  <Rate value=".05" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HORSE_CONSUMABLES_BASIC</Name>
+		  <Rate value=".05" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>ALCOHOL_ITEMS_CHEAP</Name>
+		  <Rate value=".07" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>KIT_GUN_OIL</Name>
+		  <Rate value=".05" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_SNACK</Name>
+		  <Rate value=".05" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>REWARD_GANG</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+	 </Entries>
+    </Item>
+
+	<!--  JEWELRY BOXES  -->
+	<!--  FANCY  -->
+	<Item key="JBOX_SML_FANCY" name="SMALL FANCY JEWELRY BOX">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PROVISION_RING_PLATINUM</Name>
+		  <Rate value=".50" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_EARRING_PLATINUM</Name>
+		  <Min value="2" />
+          <Max value="2" />
+		  <Rate value=".50" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="JBOX_LRG_FANCY" name="LARGE FANCY JEWELRY BOX">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PROVISION_NECKLACE_PLATINUM</Name>
+		  <Rate value=".40" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BRACELET_PLATINUM</Name>
+		  <Rate value=".30" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_POCKET_WATCH_PLATINUM</Name>
+		  <Rate value=".30" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item> 
+	
+	<!--  PLAIN  -->
+	<Item key="JBOX_SML_PLAIN" name="SMALL PLAIN JEWELRY BOX">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PROVISION_GOLDRING</Name>
+		  <Rate value=".50" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_EARRING_GOLD</Name>
+		  <Min value="2" />
+          <Max value="2" />
+		  <Rate value=".50" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="JBOX_LRG_PLAIN" name="LARGE PLAIN JEWELRY BOX">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PROVISION_NECKLACE_GOLD</Name>
+		  <Rate value=".40" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BRACELET_GOLD</Name>
+		  <Rate value=".30" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_POCKET_WATCH_GOLD</Name>
+		  <Rate value=".30" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item> 
+	
+	<!--  POOR  -->
+	<Item key="JBOX_SML_POOR" name="SMALL POOR JEWELRY BOX">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PROVISION_RING_SILVER</Name>
+		  <Rate value=".50" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_EARRING_SILVER</Name>
+		  <Min value="2" />
+          <Max value="2" />
+		  <Rate value=".50" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="JBOX_LRG_POOR" name="LARGE POOR JEWELRY BOX">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PROVISION_NECKLACE_SILVER</Name>
+		  <Rate value=".40" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BRACELET_SILVER</Name>
+		  <Rate value=".30" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_POCKET_WATCH_SILVER</Name>
+		  <Rate value=".30" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item> 
+
+
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	<!-- |||||||||| VALUABLES |||||||||| -->
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	
+	<Item key="EXPENSIVE_JEWELRY_ITEMS_PED" name="EXPENSIVE JEWELRY ITEMS PED">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PROVISION_GOLDRING</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_POCKET_WATCH_GOLD</Name>
+		  <Rate value=".15" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_GOLDTOOTH</Name>
+		  <Rate value=".10" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BUCKLE_GOLD</Name>
+		  <Rate value=".25" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_RING_PLATINUM</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_POCKET_WATCH_PLATINUM</Name>
+		  <Rate value=".10" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BUCKLE_PLATINUM</Name>
+		  <Rate value=".10" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_NECKLACE_GOLD</Name>
+		  <Rate value=".15" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_EARRING_GOLD</Name>
+		  <Min value="1" />
+          <Max value="2" />
+		  <Rate value=".20" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BRACELET_GOLD</Name>
+		  <Rate value=".15" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_NECKLACE_PLATINUM</Name>
+		  <Rate value=".05" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_EARRING_PLATINUM</Name>
+		  <Min value="1" />
+          <Max value="2" />
+		  <Rate value=".05" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BRACELET_PLATINUM</Name>
+		  <Rate value=".05" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="EXPENSIVE_SLOT_HAND_JEWELRY_ITEMS_PED" name="EXPENSIVE SLOT HAND JEWELRY ITEMS PED">       	
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PROVISION_RING_SILVER</Name>
+		  <Rate value=".75" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BRACELET_SILVER</Name>
+		  <Rate value=".25" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_POCKET_WATCH_SILVER</Name>
+		  <Rate value=".25" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="EXPENSIVE_SLOT_NECK_JEWELRY_ITEMS_PED" name="EXPENSIVE SLOT NECK JEWELRY ITEMS PED">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PROVISION_NECKLACE_PLATINUM</Name>
+		  <Rate value=".15" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_NECKLACE_GOLD</Name>
+		  <Rate value=".25" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_NECKLACE_SILVER</Name>
+		  <Rate value=".65" />
+		  <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="EXPENSIVE_SLOT_EARRINGS_JEWELRY_ITEMS_PED" name="EXPENSIVE SLOT EARRINGS JEWELRY ITEMS PED">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PROVISION_EARRING_PLATINUM</Name>
+		  <Min value="2" />
+          <Max value="2" />
+		  <Rate value=".15" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_EARRING_GOLD</Name>
+		  <Min value="2" />
+          <Max value="2" />
+		  <Rate value=".25" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_EARRING_SILVER</Name>
+		  <Min value="2" />
+          <Max value="2" />
+		  <Rate value=".65" />
+		  <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="EXPENSIVE_JEWELRY_ITEMS_CAMP" name="EXPENSIVE JEWELRY ITEMS CAMP">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>MONEY_MONEYCLIP</Name>
+		  <Rate value="1.0" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_RING_PLATINUM</Name>
+		  <Rate value=".45" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_EARRING_PLATINUM</Name>
+		  <Min value="2" />
+          <Max value="2" />
+		  <Rate value=".25" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_NECKLACE_PLATINUM</Name>
+		  <Rate value=".15" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_POCKET_WATCH_PLATINUM</Name>
+		  <Rate value=".05" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BRACELET_PLATINUM</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+		
+	<Item key="NORMAL_JEWELRY_ITEMS_PED" name="NORMAL JEWELRY ITEMS PED">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>PROVISION_GOLDRING</Name>
+		  <Rate value=".15" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_RING_SILVER</Name>
+		  <Rate value=".20" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_POCKET_WATCH_SILVER</Name>
+		  <Rate value=".05" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BUCKLE_GOLD</Name>
+		  <Rate value=".15" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BUCKLE_SILVER</Name>
+		  <Rate value=".35" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_EARRING_GOLD</Name>
+		  <Min value="1" />
+          <Max value="1" />
+		  <Rate value=".10" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_EARRING_SILVER</Name>
+		  <Min value="1" />
+          <Max value="1" />
+		  <Rate value=".20" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BRACELET_GOLD</Name>
+		  <Rate value=".10" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BRACELET_SILVER</Name>
+		  <Rate value=".20" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+		  <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>PROVISION_NECKLACE_SILVER</Name>
+		  <Rate value=".15" />
+		  <Type>Item</Type>
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+		</Item>
+		<Item>
+		  <Name>PROVISION_NECKLACE_GOLD</Name>
+		  <Rate value=".10" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="NORMAL_JEWELRY_ITEMS_CAMP" name="NORMAL JEWELRY ITEMS CAMP">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>MONEY_COINPURSE</Name>
+		  <Rate value="1.0" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_NECKLACE_GOLD</Name>
+		  <Rate value=".15" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_GOLDRING</Name>
+		  <Rate value=".25" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_POCKET_WATCH_GOLD</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_EARRING_GOLD</Name>
+		  <Min value="1" />
+          <Max value="2" />
+		  <Rate value=".25" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BRACELET_GOLD</Name>
+		  <Rate value=".25" />
+		  <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+		
+	<Item key="CHEAP_JEWELRY_ITEMS_PED" name="CHEAP JEWELRY ITEMS PED">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PROVISION_RING_SILVER</Name>
+		  <Rate value=".30" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_POCKET_WATCH_SILVER</Name>
+		  <Rate value=".15" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_SILVERTOOTH</Name>
+		  <Rate value=".15" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BUCKLE_SILVER</Name>
+		  <Rate value=".30" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_GOLDRING</Name>
+		  <Rate value=".05" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BUCKLE_GOLD</Name>
+		  <Rate value=".03" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_POCKET_WATCH_GOLD</Name>
+		  <Rate value=".02" />
+		  <RewardCondition ref="LOOTED_PED_IS_MALE" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_EARRING_SILVER</Name>
+		  <Min value="1" />
+          <Max value="2" />
+		  <Rate value=".40" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BRACELET_SILVER</Name>
+		  <Rate value=".30" />
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+		  <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>PROVISION_NECKLACE_SILVER</Name>
+		  <Rate value=".30" />
+		  <Type>Item</Type>
+		  <RewardCondition ref="LOOTED_PED_IS_FEMALE" />
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="CHEAP_JEWELRY_ITEMS_CAMP" name="CHEAP JEWELRY ITEMS CAMP">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>MONEY_COINS</Name>
+		  <Rate value=".50" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_POCKET_WATCH_SILVER</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>PROVISION_NECKLACE_SILVER</Name>
+		  <Rate value=".25" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_EARRING_SILVER</Name>
+		  <Min value="1" />
+          <Max value="1" />
+		  <Rate value=".15" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_GOLDRING</Name>
+		  <Rate value=".25" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BRACELET_SILVER</Name>
+		  <Rate value=".25" />
+		  <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="JEWELRY_ITEMS_MALE" name="JEWELRY ITEMS MALE">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PROVISION_POCKET_WATCH_SILVER</Name>
+		  <Rate value=".13" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_SILVERTOOTH</Name>
+		  <Rate value=".03" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_POCKET_WATCH_GOLD</Name>
+		  <Rate value=".07" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_POCKET_WATCH_PLATINUM</Name>
+		  <Rate value=".02" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_RING_SILVER</Name>
+		  <Rate value=".25" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_GOLDRING</Name>
+		  <Rate value=".15" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_RING_PLATINUM</Name>
+		  <Rate value=".07" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BUCKLE_SILVER</Name>
+		  <Rate value=".17" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BUCKLE_GOLD</Name>
+		  <Rate value=".08" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_BUCKLE_PLATINUM</Name>
+		  <Rate value=".03" />
+		  <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+											
+	
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	<!-- |||||||||| CONSUMABLES -MEDS |||||||||| -->
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+		
+	
+	<Item key="HEALTH_AND_OR_DEADEYE_ITEMS" name="HEALTH AND / OR DEADEYE ITEMS">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>HEALTH_ITEMS</Name>
+		  <Rate value=".50" />
+          <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>DEADEYE_ITEMS</Name>
+		  <Rate value=".40" />
+          <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>HEALTH_PLUS_DEADEYE_ITEMS</Name>
+		  <Rate value=".10" />
+          <Type>Table</Type>
+		</Item>
+	 </Entries>
+    </Item>
+			
+	<Item key="HEALTH_PLUS_DEADEYE_ITEMS" name="HEALTH PLUS DEADEYE ITEMS">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>CONSUMABLE_TONIC</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_TONIC_USED</Name>
+		  <Rate value=".90" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_POTENT_TONIC</Name>
+		  <Rate value=".00" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="HEALTH_AND_DEADEYE_BASIC" name="HEALTH AND DEADEYE BASIC">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_MEDICINE_USED</Name>
+		  <Rate value=".30" />
+          <Type>Item</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_TONIC_USED</Name>
+		  <Rate value=".15" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_SNAKE_OIL_USED</Name>
+		  <Rate value=".25" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_RESTORATIVE_USED</Name>
+		  <Rate value=".15" />
+          <Type>Item</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_COCAINE_CHEWING_GUM</Name>
+		  <Rate value=".05" />
+          <Type>Item</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_CHEWING_TOBACCO_USED</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+		
+	<Item key="HEALTH_ITEMS" name="HEALTH ITEMS">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>CONSUMABLE_MEDICINE</Name>
+		  <Rate value=".00" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_MEDICINE_USED</Name>
+		  <Rate value="1.0" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_POTENT_MEDICINE</Name>
+		  <Rate value=".00" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+			
+	<Item key="HEALTH_ITEMS_CAMP" name="HEALTH ITEMS CAMP">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>CONSUMABLE_MEDICINE</Name>
+		  <Rate value=".50" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_TONIC</Name>
+		  <Rate value=".50" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+			
+	<Item key="DEADEYE_ITEMS" name="DEADEYE ITEMS">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_CHEWING_TOBACCO_USED</Name>
+		  <Rate value=".40" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_COCAINE_CHEWING_GUM_USED</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_SNAKE_OIL</Name>
+		  <Rate value=".00" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_SNAKE_OIL_USED</Name>
+		  <Rate value=".40" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_MEDICINE_USED</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_POTENT_SNAKE_OIL</Name>
+		  <Rate value=".00" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="POTENT_MEDS" name="POTENT MEDS">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_MEDICINE</Name>
+		  <Rate value=".05" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_POTENT_MEDICINE</Name>
+		  <Rate value=".00" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_MEDICINE_USED</Name>
+		  <Rate value=".30" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_RESTORATIVE_USED</Name>
+		  <Rate value=".03" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_RESTORATIVE</Name>
+		  <Rate value=".12" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_TONIC</Name>
+		  <Rate value=".03" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_TONIC_USED</Name>
+		  <Rate value=".17" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_SNAKE_OIL</Name>
+		  <Rate value=".05" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_POTENT_SNAKE_OIL</Name>
+		  <Rate value=".00" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_SNAKE_OIL_USED</Name>
+		  <Rate value=".25" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="RESTORATIVES" name="RESTORATIVES">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_RESTORATIVE</Name>
+		  <Rate value=".00" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_RESTORATIVE_USED</Name>
+		  <Rate value="1.0" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_POTENT_RESTORATIVE</Name>
+		  <Rate value=".00" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+			
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	<!-- |||||||||| CONSUMABLES -FOOD/BEV |||||||||| -->
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+		
+	<Item key="ALCOHOL_ITEMS" name="ALCOHOL ITEMS">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>CONSUMABLE_WHISKEY_USED</Name>
+		  <Rate value=".30" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_GIN_USED</Name>
+		  <Rate value=".25" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_RUM_USED</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_BRANDY_USED</Name>
+		  <Rate value=".25" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="ALCOHOL_ITEMS_CHEAP" name="ALCOHOL ITEMS CHEAP">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>CONSUMABLE_WHISKEY_USED</Name>
+		  <Rate value=".30" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_GIN_USED</Name>
+		  <Rate value=".35" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_RUM_USED</Name>
+		  <Rate value=".25" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_BRANDY_USED</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="TOBACCO_ITEMS" name="TOBACCO ITEMS">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_CHEAP_USED</Name>
+		  <Min value="1" />
+          <Max value="1" />
+		  <Rate value=".50" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CHEWING_TOBACCO_USED</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_COCAINE_CHEWING_GUM_USED</Name>
+		  <Rate value=".05" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CIGAR</Name>
+		  <Rate value=".35" />
+		  <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="TOBACCO_ITEMS_PED" name="TOBACCO ITEMS PED">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_CHEAP_USED</Name>
+		  <Min value="1" />
+          <Max value="1" />
+		  <Rate value=".70" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CHEWING_TOBACCO_USED</Name>
+		  <Rate value=".15" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CIGAR</Name>
+		  <Rate value=".15" />
+		  <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="TOBACCO_AND_ALCOHOL" name="TOBACCO AND ALCOHOL">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_CIGARETTE_BOX_CHEAP_USED</Name>
+		  <Min value="1" />
+          <Max value="1" />
+		  <Rate value=".30" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CIGAR</Name>
+		  <Rate value=".15" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CHEWING_TOBACCO_USED</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_COCAINE_CHEWING_GUM_USED</Name>
+		  <Rate value=".05" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_GIN_USED</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_RUM_USED</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_BRANDY_USED</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_WHISKEY_USED</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+		
+	<Item key="FOOD_ITEMS_CAN" name="FOOD ITEMS CAN">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>CONSUMABLE_BAKED_BEANS_CAN</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_CORNEDBEEF_CAN</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_SWEET_CORN_CAN</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_PEACHES_CAN</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_PEAS_CAN</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_PINEAPPLES_CAN</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_SALMON_CAN</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_APRICOTS_CAN</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_KIDNEYBEANS_CAN</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_STRAWBERRIES_CAN</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="FOOD_ITEMS_SNACK" name="FOOD ITEMS SNACK">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_JERKY</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CRACKERS</Name>
+		  <Rate value=".15" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_BISCUIT_BOX</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_APPLE</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CHOCOLATE_BAR</Name>
+		  <Rate value=".15" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CANDY_BAG</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_HAIR_GREASE</Name>
+		  <Rate value=".20" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_HAIR_TONIC</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="FOOD_ITEMS_FRUIT" name="FOOD ITEMS FRUIT">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_APPLE</Name>
+		  <Rate value=".35" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_PEACH</Name>
+		  <Rate value=".35" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_PEAR</Name>
+		  <Rate value=".30" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="FOOD_ITEMS_VEG" name="FOOD ITEMS VEG">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_BEETS</Name>
+		  <Rate value=".40" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CARROT</Name>
+		  <Rate value=".40" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CELERY</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="FOOD_ITEMS_CAMP" name="FOOD ITEMS CAMP">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_JERKY</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CRACKERS</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_BISCUIT_BOX</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CANDY_BAG</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CHOCOLATE_BAR</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="MALE_GROOMING_ITEMS" name="MALE GROOMING ITEMS">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_HAIR_GREASE</Name>
+		  <Rate value=".80" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_HAIR_TONIC</Name>
+		  <Rate value=".20" />
+		  <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+			
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	<!-- |||||||||| CONSUMABLES -HORSE |||||||||| -->
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	
+	<Item key="FOOD_ITEMS_HORSE" name="FOOD ITEMS HORSE">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_APPLE</Name>
+		  <Min value="1"/>
+          <Max value="1"/>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_BEETS</Name>
+		  <Min value="1"/>
+          <Max value="1"/>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CARROT</Name>
+		  <Min value="1"/>
+          <Max value="1"/>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CELERY</Name>
+		  <Min value="1"/>
+          <Max value="1"/>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_HAYCUBE</Name>
+		  <Min value="1"/>
+          <Max value="1"/>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_OAT_CAKES</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_PEACH</Name>
+		  <Min value="1"/>
+          <Max value="1"/>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_PEAR</Name>
+		  <Min value="1"/>
+          <Max value="1"/>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_PEPPERMINT</Name>
+		  <Min value="1"/>
+          <Max value="1"/>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_SUGARCUBE</Name>
+		  <Min value="1"/>
+          <Max value="1"/>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="HORSE_CONSUMABLES" name="HORSE CONSUMABLES">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_HORSE_MEDICINE</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_HORSE_MEDICINE_USED</Name>
+		  <Rate value=".40" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_POTENT_HORSE_MEDICINE</Name>
+		  <Rate value=".00" />
+          <Type>Item</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_HORSE_STIMULANT</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_HORSE_STIMULANT_USED</Name>
+		  <Rate value=".40" />
+          <Type>Item</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_POTENT_HORSE_STIMULANT</Name>
+		  <Rate value=".00" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="HORSE_CONSUMABLES_BASIC" name="HORSE CONSUMABLES BASIC">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_HORSE_MEDICINE</Name>
+		  <Rate value=".00" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_HORSE_MEDICINE_USED</Name>
+		  <Rate value=".50" />
+          <Type>Item</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_HORSE_STIMULANT</Name>
+		  <Rate value=".00" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_HORSE_STIMULANT_USED</Name>
+		  <Rate value=".50" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+				
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	<!-- |||||||||| RECIPES |||||||||| -->
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	
+	<Item key="RECIPE_ITEMS" name="RECIPE ITEMS">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>HERB_LOOT_RANDOM</Name>
+		  <Rate value="1.0" />
+		  <Type>Table</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	<!-- |||||||||| PELTS |||||||||| -->
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+		
+	
+	<Item key="ANIMAL_PELTS_SMALL" name="ANIMAL PELTS SMALL">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>PROVISION_BADGER_PELT</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_RABBIT_PELT</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_OPOSSUM_FUR</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_RACCOON_FUR</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_SKUNK_FUR</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_SNAKE_SKIN</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+		
+	<Item key="ANIMAL_PELTS_SMALL_PERFECT" name="ANIMAL PELTS SMALL PERFECT">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>PROVISION_BADGER_PELT_PRISTINE</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_RABBIT_PELT_PRISTINE</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_OPOSSUM_FUR_PRISTINE</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_RACCOON_FUR_PRISTINE</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_SKUNK_FUR_PRISTINE</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_SNAKE_SKIN_PRISTINE</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+			
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	<!-- ||||||||||       HERBS       |||||||||| -->
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	
+	<Item key="HERBS" name="HERBS">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_HERB_GINSENG</Name>
+		  <Min value="1"/>
+          <Max value="1"/>
+		  <Rate value=".10" />
+          <Type>Collectible</Type>
+		</Item>
+	  	<Item>
+		  <Name>CONSUMABLE_HERB_CURRANT</Name>
+		  <Min value="1"/>
+          <Max value="1"/>
+		  <Rate value=".10" />
+          <Type>Collectible</Type>
+		</Item>
+	  	<Item>
+		  <Name>CONSUMABLE_HERB_BURDOCK_ROOT</Name>
+		  <Min value="1"/>
+          <Max value="1"/>
+		  <Rate value=".20" />
+          <Type>Collectible</Type>
+		</Item>
+	  	<Item>
+		  <Name>CONSUMABLE_HERB_ENGLISH_MACE</Name>
+		  <Min value="1"/>
+          <Max value="1"/>
+		  <Rate value=".10" />
+          <Type>Collectible</Type>
+		</Item>
+	  	<Item>
+		  <Name>CONSUMABLE_HERB_SAGE</Name>
+		  <Min value="1"/>
+          <Max value="1"/>
+		  <Rate value=".10" />
+          <Type>Collectible</Type>
+		</Item>
+	  	<Item>
+		  <Name>CONSUMABLE_HERB_INDIAN_TOBACCO</Name>
+		  <Min value="1"/>
+          <Max value="1"/>
+		  <Rate value=".10" />
+          <Type>Collectible</Type>
+		</Item>
+	  	<Item>
+		  <Name>CONSUMABLE_HERB_MILKWEED</Name>
+		  <Min value="1"/>
+          <Max value="1"/>
+		  <Rate value=".10" />
+          <Type>Collectible</Type>
+		</Item>
+	  	<Item>
+		  <Name>CONSUMABLE_HERB_VIOLET_SNOWDROP</Name>
+		  <Min value="1"/>
+          <Max value="1"/>
+		  <Rate value=".10" />
+          <Type>Collectible</Type>
+		</Item>
+	  	<Item>
+		  <Name>CONSUMABLE_HERB_YARROW</Name>
+		  <Min value="1"/>	
+          <Max value="1"/>
+		  <Rate value=".10" />
+          <Type>Collectible</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	<!-- |||||||||| WAGON/COACH |||||||||| -->
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	
+	 <Item key="COACH_ITEMS" name="COACH ITEMS">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>MONEY_MONEYCLIP</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>HEALTH_AND_OR_DEADEYE_ITEMS</Name>
+		  <Rate value=".25" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>ALCOHOL_ITEMS</Name>
+		  <Rate value=".30" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>FOOD_ITEMS_CAN</Name>
+		  <Rate value=".40" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEM_CONTAINERS</Name>
+		  <Rate value=".75" />
+		  <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+
+	 <Item key="WAGON_ITEMS" name="WAGON ITEMS">
+	  <Type>AggregateDrop</Type>
+	  <Entries>
+		<Item>
+		  <Name>MONEY_COINPURSE</Name>
+		  <Rate value="1.0" />
+		  <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>FOOD_ITEMS_CAN</Name>
+		  <Rate value=".60" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>ALCOHOL_ITEMS</Name>
+		  <Rate value=".50" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>THROWABLE_AMMO</Name>
+		  <Rate value=".20" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEM_CONTAINERS</Name>
+		  <Rate value=".75" />
+		  <Type>Table</Type>
+		</Item>
+	  </Entries>
+	</Item>
+			
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	<!-- |||||||||| PAMPHELTS / TRINKETS|||||||||| -->
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	
+	<Item key="PAMPHLETS" name="PAMPHLETS">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+ 		<Item>
+		  <Name>DOCUMENT_PAMPHLET_MOLOTOV</Name>
+		  <Rate value=".20" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>DOCUMENT_PAMPHLET_IMPROVED_THROW_KNIFE</Name>
+		  <Rate value=".20" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>DOCUMENT_PAMPHLET_POISON_THROWING_KNIFE</Name>
+		  <Rate value=".20" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>DOCUMENT_PAMPHLET_VOLATILE_DYNAMITE</Name>
+		  <Rate value=".20" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>DOCUMENT_PAMPHLET_VOLATILE_MOLOTOV</Name>
+		  <Rate value=".20" />
+		  <Type>Item</Type>
+		</Item>
+	  </Entries>
+	</Item>
+			
+		
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	<!-- ||| WEAPON AMMO PROP PICKUP TABLES |||| -->
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	
+	
+	<Item key="REVOLVER_AMMO_BOX" name="REVOLVER_AMMO_BOX">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_REVOLVER</Name>
+		  <Min value="20"/>
+          <Max value="20"/>
+		  <Rate value="1.0" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="REVOLVER_AMMO_BOX_USED" name="REVOLVER_AMMO_BOX_USED">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_REVOLVER</Name>
+		  <Min value="5"/>
+          <Max value="9"/>
+		  <Rate value="1.0" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="REVOLVER_AMMO_BOX_EXPRESS" name="REVOLVER_AMMO_BOX_EXPRESS">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_REVOLVER_EXPRESS</Name>
+		  <Min value="20"/>
+          <Max value="20"/>
+		  <Rate value="1.0" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="REVOLVER_AMMO_BOX_HIGH_VELOCITY" name="REVOLVER_AMMO_BOX_HIGH_VELOCITY">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_REVOLVER_HIGH_VELOCITY</Name>
+		  <Min value="20"/>
+          <Max value="20"/>
+		  <Rate value="1.0" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="PISTOL_AMMO_BOX" name="PISTOL_AMMO_BOX">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_PISTOL</Name>
+		  <Min value="12"/>
+          <Max value="12"/>
+		  <Rate value="1.0" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="PISTOL_AMMO_BOX_USED" name="PISTOL_AMMO_BOX_USED">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_PISTOL</Name>
+		  <Min value="5"/>
+          <Max value="9"/>
+		  <Rate value="1" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="PISTOL_AMMO_BOX_EXPRESS" name="PISTOL_AMMO_BOX_EXPRESS">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_PISTOL_EXPRESS</Name>
+		  <Min value="12"/>
+          <Max value="12"/>
+		  <Rate value="1" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="PISTOL_AMMO_BOX_HIGH_VELOCITY" name="PISTOL_AMMO_BOX">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_PISTOL_HIGH_VELOCITY</Name>
+		  <Min value="12"/>
+          <Max value="12"/>
+		  <Rate value="1" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="RIFLE_AMMO_BOX" name="RIFLE_AMMO_BOX">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_RIFLE</Name>
+		  <Min value="15"/>
+          <Max value="15"/>
+		  <Rate value="1" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="RIFLE_AMMO_BOX_USED" name="RIFLE_AMMO_BOX_USED">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_RIFLE</Name>
+		  <Min value="5"/>
+          <Max value="9"/>
+		  <Rate value="1" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="RIFLE_AMMO_BOX_EXPRESS" name="RIFLE_AMMO_BOX_EXPRESS">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_RIFLE_EXPRESS</Name>
+		  <Min value="15"/>
+          <Max value="15"/>
+		  <Rate value="1" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="RIFLE_AMMO_BOX_HIGH_VELOCITY" name="RIFLE_AMMO_BOX_HIGH_VELOCITY">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_RIFLE_HIGH_VELOCITY</Name>
+		  <Min value="15"/>
+          <Max value="15"/>
+		  <Rate value="1" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="REPEATER_AMMO_BOX" name="REPEATER_AMMO_BOX">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_REPEATER</Name>
+		  <Min value="20"/>
+          <Max value="20"/>
+		  <Rate value="1" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="REPEATER_AMMO_BOX_USED" name="REPEATER_AMMO_BOX_USED">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_REPEATER</Name>
+		  <Min value="5"/>
+          <Max value="9"/>
+		  <Rate value="1" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="REPEATER_AMMO_BOX_EXPRESS" name="REPEATER_AMMO_BOX_EXPRESS">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_REPEATER_EXPRESS</Name>
+		  <Min value="20"/>
+          <Max value="20"/>
+		  <Rate value="1" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="REPEATER_AMMO_BOX_HIGH_VELOCITY" name="REPEATER_AMMO_BOX_HIGH_VELOCITY">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_REPEATER_HIGH_VELOCITY</Name>
+		  <Min value="20"/>
+          <Max value="20"/>
+		  <Rate value="1" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="SHOTGUN_AMMO_BOX" name="SHOTGUN_AMMO_BOX">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_SHOTGUN</Name>
+		  <Min value="10"/>
+          <Max value="10"/>
+		  <Rate value="1" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="SHOTGUN_AMMO_BOX_USED" name="SHOTGUN_AMMO_BOX_USED">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_SHOTGUN</Name>
+		  <Min value="5"/>
+          <Max value="9"/>
+		  <Rate value="1" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="SHOTGUN_AMMO_BOX_SLUG" name="SHOTGUN_AMMO_BOX_SLUG">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_SHOTGUN_SLUG</Name>
+		  <Min value="10"/>
+          <Max value="10"/>
+		  <Rate value="1" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="22_AMMO_BOX" name="22_AMMO_BOX">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_22</Name>
+		  <Min value="10"/>
+          <Max value="10"/>
+		  <Rate value="1" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="ARROW_BUNDLE" name="ARROW_BUNDLE">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_ARROW</Name>
+		  <Min value="3"/>
+          <Max value="3"/>
+		  <Rate value="1" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="THROWING_KNIVES_POISON_BUNDLE" name="THROWING_KNIVES_POISON_BUNDLE">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>AMMO_THROWING_KNIVES_POISON</Name>
+		  <Min value="3"/>
+          <Max value="3"/>
+		  <Rate value="1" />
+          <Type>Ammo</Type>
+		</Item>
+	 </Entries>
+    </Item>
+
+	<Item key="BAIT_CRICKETS" name="BAIT_CRICKETS">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>UPGRADE_FSH_BAIT_CRICKET</Name>
+		  <Min value="5"/>
+          <Max value="5"/>
+		  <Rate value="1" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="BAIT_WORMS" name="BAIT_WORMS">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>UPGRADE_FSH_BAIT_WORM</Name>
+		  <Min value="5"/>
+          <Max value="5"/>
+		  <Rate value="1" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	<!-- |||||| FLAVOR ITEM GROUP TABLES ||||||| -->
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+				
+	<Item key="ARTHUR_WANTED" name="ARTHUR_WANTED">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	 	<Item>
+		  <Name>DOCUMENT_ARTHUR_HAS_POSTER_1</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="LOOTER_HAS_ARTHUR_WANTED_POSTER_AND_IS_WANTED" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>DOCUMENT_ARTHUR_HAS_POSTER_2</Name>
+		  <Rate value="1.0" />
+		  <RewardCondition ref="LOOTER_HAS_ARTHUR_WANTED_POSTER_AND_IS_WANTED" />
+          <Type>Item</Type>
+		</Item>
+	    <Item>
+		  <Name>DOCUMENT_ARTHUR_MINOR_BOUNTY_1</Name>
+		  <Rate value=".5" />
+		  <RewardCondition ref="LOOTER_HAS_MINOR_BOUNTY" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>DOCUMENT_ARTHUR_MINOR_BOUNTY_2</Name>
+		  <Rate value=".5" />
+		  <RewardCondition ref="LOOTER_HAS_MINOR_BOUNTY" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>DOCUMENT_ARTHUR_HIGH_BOUNTY_1</Name>
+		  <Rate value=".5" />
+		  <RewardCondition ref="LOOTER_HAS_HIGH_BOUNTY" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>DOCUMENT_ARTHUR_HIGH_BOUNTY_2</Name>
+		  <Rate value=".5" />
+		  <RewardCondition ref="LOOTER_HAS_HIGH_BOUNTY" />
+          <Type>Item</Type>
+		</Item>
+	  </Entries>
+    </Item>
+	
+	<!-- |||||||||||||||||||||||||||||||||||||||||||||||| -->
+	<!-- |||||| LOOT TABLES FOR COMPANION LOOTING ||||||| -->
+	<!-- |||||||||||||||||||||||||||||||||||||||||||||||| -->
+	
+	<Item key="COMPANION_LOOTING_CONTAINER">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	  	 <Item>
+		  <Name>CONSUMABLE_SNAKE_OIL_USED</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CHEWING_TOBACCO_USED</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_HORSE_STIMULANT</Name>
+		  <Rate value=".00" />
+		  <Type>Item</Type>
+		</Item>
+	    <Item>
+		  <Name>CONSUMABLE_MEDICINE_USED</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+	    <Item>
+		  <Name>ALCOHOL_ITEMS</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEM_CONTAINERS</Name>
+		  <Rate value=".10" />
+		  <Type>Table</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="COMPANION_LOOTING_SMALL_CONTAINER">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>ALCOHOL_ITEMS</Name>
+		  <Rate value=".30" />
+		  <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CHEWING_TOBACCO_USED</Name>
+		  <Rate value=".30" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>JEWELRY_ITEM_CONTAINERS</Name>
+		  <Rate value=".15" />
+		  <Type>Table</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="COMPANION_LOOTING_AMMO">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>REVOLVER_AMMO_BOX_USED</Name>
+		  <Rate value=".20" />
+          <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>PISTOL_AMMO_BOX_USED</Name>
+		  <Rate value=".15" />
+          <Type>Table</Type>
+		</Item>
+	    <Item>
+		  <Name>RIFLE_AMMO_BOX_USED</Name>
+		  <Rate value=".20" />
+          <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>SHOTGUN_AMMO_BOX_USED</Name>
+		  <Rate value=".15" />
+          <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>REPEATER_AMMO_BOX_USED</Name>
+		  <Rate value=".20" />
+          <Type>Table</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="COMPANION_LOOTING_MEDICINE">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_MEDICINE_USED</Name>
+		  <Rate value=".65" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_POTENT_MEDICINE</Name>
+		  <Rate value=".00" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_TONIC_USED</Name>
+		  <Rate value=".35" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_POTENT_TONIC</Name>
+		  <Rate value=".00" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="COMPANION_LOOTING_FEMALE_BODY">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_COCAINE_CHEWING_GUM_USED</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_RING_SILVER</Name>
+		  <Rate value=".40" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_GOLDRING</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_NECKLACE_SILVER</Name>
+		  <Rate value=".40" />
+		  <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>PROVISION_NECKLACE_GOLD</Name>
+		  <Rate value=".10" />
+		  <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="COMPANION_LOOTING_MALE_BODY">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>ALCOHOL_ITEMS</Name>
+		  <Rate value=".30" />
+          <Type>Table</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_CHEWING_TOBACCO_USED</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_COCAINE_CHEWING_GUM_USED</Name>
+		  <Rate value=".20" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_SNAKE_OIL_USED</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_MEDICINE_USED</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_HORSE_STIMULANT</Name>
+		  <Rate value=".10" />
+          <Type>Item</Type>
+		</Item>
+	</Entries>
+    </Item>
+	
+	<Item key="CATFISH_JACKSON_DADS_ROOM_ARMOIRE">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>CONSUMABLE_GIN</Name>
+		  <Rate value="1.0" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_HORSE_STIMULANT</Name>
+		  <Rate value="1.0" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="CATFISH_JACKSON_SONS_ROOM_ARMOIRE">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	    <Item>
+		  <Name>CONSUMABLE_SNAKE_OIL</Name>
+		  <Rate value="1.0" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_MEDICINE</Name>
+		  <Rate value="1.0" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	<!-- |||||| MP- PROPBABLY NEED TO REMOVE FROM SP TABLES ||||||| -->
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	
+	<Item key="MULTIPLAYER_ONLY_ITEMS" name="MP ONLY ITEMS">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	  </Entries>
+    </Item>
+	
+	
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	<!-- |||||| ANIMAL ITEM GROUP TABLES ||||||| -->
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	
+	<Item key="ALLIGATOR" name="ALLIGATOR">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+		  <Name>PROVISION_ALLIGATOR_TOOTH</Name>
+		  <Min value="1"/>
+          <Max value="3"/>
+		  <Rate value=".3" />
+          <Type>Collectible</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="BEAR" name="BEAR">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+	      <Name>PROVISION_BEAR_CLAW</Name>
+          <Min value="1"/>
+          <Max value="3"/>
+          <Rate value="1.0"/>
+          <Type>Collectible</Type>
+        </Item>
+	 </Entries>
+    </Item>
+
+	<Item key="BOAR" name="BOAR">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	      <Item>
+		   <Name>PROVISION_BOAR_TUSK</Name>
+           <Min value="1"/>
+           <Max value="2"/>
+           <Rate value="1.0"/>
+           <Type>Collectible</Type>
+	      </Item>
+	 </Entries>
+    </Item>
+		
+	  <Item key="BUCK" name="BUCK">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	    <Item>
+          <Name>PROVISION_BUCK_ANTLERS</Name>
+          <Rate value="1.0"/>
+          <Type>Collectible</Type>
+        </Item>
+	 </Entries>
+    </Item>
+	  
+	<Item key="BUFFALO" name="BUFFALO">
+      <Type>AggregateDrop</Type>
+      <Entries>
+	     <Item>
+          <Name>PROVISION_BUFFALO_HORN</Name>
+          <Rate value="1.0"/>
+          <Type>Collectible</Type>
+        </Item>
+	 </Entries>
+    </Item>  
+	  
+	 <Item key="BULL" name="BULL">
+      <Type>AggregateDrop</Type>
+      <Entries>
+		<Item>
+          <Name>PROVISION_BULL_HORNS</Name>
+          <Rate value="1.0"/>
+          <Type>Collectible</Type>
+        </Item>
+	 </Entries>
+    </Item> 
+	
+	<Item key="COUGAR" name="COUGAR">
+      <Type>AggregateDrop</Type>
+      <Entries>
+        <Item>
+          <Name>PROVISION_COUGAR_FANG</Name>
+          <Min value="1"/>
+          <Max value="2"/>
+          <Rate value="1.0"/>
+          <Type>Collectible</Type>
+        </Item>
+	 </Entries>
+    </Item> 
+	
+<Item key="ELK" name="ELK">
+      <Type>AggregateDrop</Type>
+      <Entries>
+         <Item>
+          <Name>PROVISION_ELK_ANTLERS</Name>
+          <Min value="1"/>
+          <Max value="2"/>
+          <Rate value="1.0"/>
+          <Type>Collectible</Type>
+        </Item>
+	 </Entries>
+    </Item> 
+	
+	<Item key="OX" name="OX">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+        <Item>
+          <Name>PROVISION_OXEN_HORN</Name>
+          <Min value="1"/>
+          <Max value="2"/>
+          <Rate value="1.0"/>
+          <Type>Collectible</Type>
+        </Item>
+	 </Entries>
+    </Item> 
+	
+	<Item key="PANTHER1" name="Panther1">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+        <Item>
+          <Name>PROVISION_BIG_GAME_MEAT</Name>
+          <Rate value="1.0"/>
+          <Type>Collectible</Type>
+		</Item>
+	 </Entries>
+    </Item> 
+	
+
+		
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	<!-- ||||||||||   SPECIALIZED       |||||||| -->
+	<!-- ||||||||||||||||||||||||||||||||||||||| -->
+	
+	<Item key="HUNTING_ITEMS" name="HUNTING ITEMS">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>CONSUMABLE_COVER_SCENT</Name>
+		  <Rate value="0.40" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_HERBIVORE_BAIT</Name>
+		  <Rate value="0.30" />
+          <Type>Item</Type>
+		</Item>
+		<Item>
+		  <Name>CONSUMABLE_PREDATOR_BAIT</Name>
+		  <Rate value="0.30" />
+		  <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="JEWELRY_ITEM_CONTAINERS" name="JEWELRY ITEM CONTAINERS">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>LARGE_JEWELRY_ITEM_CONTAINERS</Name>
+		  <Rate value="0.25" />
+          <Type>Table</Type>
+		</Item>
+	  	<Item>
+		  <Name>SMALL_JEWELRY_ITEM_CONTAINERS</Name>
+		  <Rate value="0.75" />
+          <Type>Table</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="LARGE_JEWELRY_ITEM_CONTAINERS" name="LARGE_JEWELRY ITEM CONTAINERS">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>PROVISION_JEWELRY_BOX_LRG_FNCY_01</Name>
+		  <Rate value="0.10" />
+          <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>PROVISION_JEWELRY_BOX_LRG_FNCY_02</Name>
+		  <Rate value="0.10" />
+          <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>PROVISION_JEWELRY_BOX_LRG_PLN_01</Name>
+		  <Rate value="0.15" />
+          <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>PROVISION_JEWELRY_BOX_LRG_PLN_02</Name>
+		  <Rate value="0.15" />
+          <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>PROVISION_JEWELRY_BOX_LRG_POOR_01</Name>
+		  <Rate value="0.25" />
+          <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>PROVISION_JEWELRY_BOX_LRG_POOR_02</Name>
+		  <Rate value="0.25" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+	
+	<Item key="SMALL_JEWELRY_ITEM_CONTAINERS" name="SMALL_JEWELRY ITEM CONTAINERS">
+      <Type>ContinuousLinearDrop</Type>
+      <Entries>
+	  	<Item>
+		  <Name>PROVISION_JEWELRY_BOX_SML_FNCY_01</Name>
+		  <Rate value="0.10" />
+          <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>PROVISION_JEWELRY_BOX_SML_FNCY_02</Name>
+		  <Rate value="0.10" />
+          <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>PROVISION_JEWELRY_BOX_SML_PLN_01</Name>
+		  <Rate value="0.15" />
+          <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>PROVISION_JEWELRY_BOX_SML_PLN_02</Name>
+		  <Rate value="0.15" />
+          <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>PROVISION_JEWELRY_BOX_SML_POOR_01</Name>
+		  <Rate value="0.25" />
+          <Type>Item</Type>
+		</Item>
+	  	<Item>
+		  <Name>PROVISION_JEWELRY_BOX_SML_POOR_02</Name>
+		  <Rate value="0.25" />
+          <Type>Item</Type>
+		</Item>
+	 </Entries>
+    </Item>
+
+
+
+	
+  </LootTables>
+</CLootTableCollection>

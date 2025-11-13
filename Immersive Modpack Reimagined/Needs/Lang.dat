@@ -1,0 +1,20 @@
+prompts.stop=Stop
+prompts.drink=Drink
+prompts.wash=Wash Yourself
+prompts.refill=Refill Canteen
+prompts.drinkCanteen=Drink from canteen
+prompts.canteenEmptyPrompt=Your canteen is empty
+prompts.fullCanteenPrompt=Your canteen is full
+prompts.notThirstyPrompt=You are not thirsty
+
+prompts.urinate=Urinate
+prompts.back=Back
+prompts.sleep=Sleep
+prompts.2hr=2 Hour Nap
+prompts.4hr=4 Hour Nap
+prompts.8hr=8 Hour Nap
+prompts.getUp=Get Up
+
+prompts.walkPrompt=Walk
+prompts.runPrompt=Run
+

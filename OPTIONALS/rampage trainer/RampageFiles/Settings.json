@@ -1,0 +1,70 @@
+{
+    "Main Color": {
+        "R": 138,
+        "G": 3,
+        "B": 3
+    },
+    "Title Text Color": {
+        "R": 255,
+        "G": 255,
+        "B": 255
+    },
+    "Header Color": {
+        "R": 138,
+        "G": 3,
+        "B": 3
+    },
+    "Scroller Color": {
+        "R": 138,
+        "G": 3,
+        "B": 3
+    },
+    "Selected Text Color": {
+        "R": 255,
+        "G": 255,
+        "B": 255
+    },
+    "Footer Color": {
+        "R": 0,
+        "G": 0,
+        "B": 0
+    },
+    "Controls": {
+        "Controller Support": true,
+        "Sounds": true,
+        "Apply Seasonal Content": true,
+        "Scroll Speed": 120,
+        "Number Speed": 120
+    },
+    "UI": {
+        "Title Font": 0,
+        "Body Font": 0,
+        "Enable Header": false,
+        "Header State": 0,
+        "Window Activators": false,
+        "Teleport Map": true,
+        "Teleport Animation": 3,
+        "Spawner Previews": true,
+        "Welcome Screen": true,
+        "Skip Model Changer Warning": false,
+        "Centered Title": true,
+        "Smooth Scroller": true,
+        "Scroll Smoothness": 4,
+        "Color Cycle": false,
+        "Ink Rendering": false,
+        "Max Options": 12,
+        "Language": "Default"
+    },
+    "Position": {
+        "Menu X": 0.02999,
+        "Menu Y": 0.01999
+    },
+    "Keys": {
+        "Open Key": 116,
+        "Open Gamepad": 0,
+        "Open Key Info": "F5"
+    },
+    "Toggles": {
+        "Sync Config": false
+    }
+}

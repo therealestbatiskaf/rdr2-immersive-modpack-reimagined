@@ -1,0 +1,118 @@
+<EasyInstall>
+ <Name>Extended Player Animations</Name>
+ <Author>iAbokai</Author>
+ <Version>2.5.3</Version>
+ <Link>https://www.nexusmods.com/reddeadredemption2/mods/1420</Link>
+ <Metadata/>
+ <Resources>
+       <!--Miscellaneous Fixes-->
+  <Resource>
+   <StreamingFiles>Miscellaneous/An Honest Bandana</StreamingFiles>
+   <StreamingFiles>Miscellaneous/Animal Fall Fix</StreamingFiles>
+   <StreamingFiles>Miscellaneous/Bath Fix</StreamingFiles>
+   <StreamingFiles>Miscellaneous/Chopping Wood Fix</StreamingFiles>
+   <StreamingFiles>Miscellaneous/Concave Climb Exit Fix</StreamingFiles>
+   <StreamingFiles>Miscellaneous/Online Idles</StreamingFiles>
+   <StreamingFiles>Miscellaneous/Poker Face Fix</StreamingFiles>
+   <StreamingFiles>Miscellaneous/Restored Deep Water Idle</StreamingFiles>
+   <StreamingFiles>Miscellaneous/Restored Intimidate Locomotion</StreamingFiles>
+   <StreamingFiles>Miscellaneous/Restored Skinning Sounds</StreamingFiles>
+   <StreamingFiles>Miscellaneous/Who the Hell is Banditicus Maskwall</StreamingFiles>
+  </Resource>
+       <!--Base-->
+  <Resource>
+   <FileReplacement>
+    <GamePath>update:/x64/data/loco/collections/archetypes/human_male.ymt</GamePath>
+    <FilePath>human_male.ymt</FilePath>
+   </FileReplacement>
+   <FileReplacement>
+    <GamePath>update:/x64/data/loco/collections/archetypes/human_character.ymt</GamePath>
+    <FilePath>human_character.ymt</FilePath>
+   </FileReplacement>
+   <FileReplacement>
+    <GamePath>update:/x64/data/loco/collections/motiontypes.ymt</GamePath>
+    <FilePath>motiontypes.ymt</FilePath>
+   </FileReplacement>
+   <FileReplacement>
+    <GamePath>update:/x64/data/loco/collections/motions.ymt</GamePath>
+    <FilePath>motions.ymt</FilePath>
+   </FileReplacement>
+   <FileReplacement>
+    <GamePath>update:/common/packs/base/data/ai/weaponanimations/default.meta</GamePath>
+    <FilePath>default.meta</FilePath>
+   </FileReplacement>
+   <FileReplacement>
+    <GamePath>update:/common/packs/base/data/ai/weaponanimations/directswap.meta</GamePath>
+    <FilePath>directswap.meta</FilePath>
+   </FileReplacement>
+   <FileReplacement>
+    <GamePath>update:/common/data/ai/aimupperbodydata.meta</GamePath>
+    <FilePath>aimupperbodydata.meta</FilePath>
+   </FileReplacement>
+   <FileReplacement>
+    <GamePath>update:/x64/data/loco/collections/conditions.ymt</GamePath>
+    <FilePath>conditions.ymt</FilePath>
+   </FileReplacement>
+  </Resource>
+       <!--Upper_Body_Animations-->
+  <Resource>
+   <FileReplacement>
+    <GamePath>update:/x64/data/anim/clip_sets/clip_sets.ymt</GamePath>
+    <FilePath>Upper_Body_Animations/clip_sets.ymt</FilePath>
+   </FileReplacement>
+   <FileReplacement>
+    <GamePath>update:/x64/data/loco/collections/archetypes/human_character_upper.ymt</GamePath>
+    <FilePath>Upper_Body_Animations/human_character_upper.ymt</FilePath>
+   </FileReplacement>
+   <FileReplacement>
+    <GamePath>update:/x64/data/loco/collections/archetypes/human_male_upper.ymt</GamePath>
+    <FilePath>Upper_Body_Animations/human_male_upper.ymt</FilePath>
+   </FileReplacement>	   
+   <FileReplacement>
+    <GamePath>update:/x64/data/metadata/ik/bodyblendtemplates.ymt</GamePath> 
+    <FilePath>Upper_Body_Animations/bodyblendtemplates.ymt</FilePath>
+   </FileReplacement>
+   <FileReplacement>
+     <GamePath>update:/common/data/anim/facial_clipset_groups/facial_clipset_groups.xml</GamePath>
+     <FilePath>Upper_Body_Animations/facial_clipset_groups.xml</FilePath>
+   </FileReplacement>
+  </Resource>
+       <!--Aiming_Animations-->
+  <Resource>
+   <FileReplacement>
+    <GamePath>update:/x64/packs/base/data/metapeds.ymt</GamePath>
+    <FilePath>Aiming_Animations/metapeds.ymt</FilePath>
+   </FileReplacement>
+  </Resource>
+       <!--NPC_Aiming_Animations-->
+  <Resource>
+   <FileReplacement>
+    <GamePath>update:/common/packs/base/data/ai/weaponanimations/injured.meta</GamePath>
+    <FilePath>NPC_Aiming_Animations/injured.meta</FilePath>
+   </FileReplacement>
+   <FileReplacement>
+    <GamePath>update:/common/packs/base/data/ai/weaponanimations/gang.meta</GamePath>
+    <FilePath>NPC_Aiming_Animations/gang.meta</FilePath>
+   </FileReplacement>
+   <FileReplacement>
+    <GamePath>update:/common/packs/base/data/ai/weaponanimations/cowboy.meta</GamePath>
+    <FilePath>NPC_Aiming_Animations/cowboy.meta</FilePath>
+   </FileReplacement>
+   <FileReplacement>
+    <GamePath>update:/common/data/ai/aimposedata.meta</GamePath>
+    <FilePath>NPC_Aiming_Animations/aimposedata.meta</FilePath>
+   </FileReplacement>
+  </Resource>
+       <!--Random-->
+  <Resource>
+   <FileReplacement>
+    <GamePath>update:/common/data/ai/strafeanimations.meta</GamePath>
+    <FilePath>strafeanimations.meta</FilePath>
+   </FileReplacement>
+   <FileReplacement>
+    <GamePath>common:/data/pedgesturesettings.meta</GamePath>
+    <FilePath>pedgesturesettings.meta</FilePath>
+   </FileReplacement>
+  </Resource>
+ </Resources>
+</EasyInstall>

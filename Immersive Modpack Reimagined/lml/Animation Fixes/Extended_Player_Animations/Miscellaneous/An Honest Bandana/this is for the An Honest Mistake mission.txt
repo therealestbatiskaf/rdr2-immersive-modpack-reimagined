@@ -1,0 +1,9 @@
+This sorta fixes the invisible beard issue with Uncle during the "An Honest Mistake" mission.
+
+And also adds a few things to a couple of cutscenes and in-game animations during this mission...
+
+
+
+The reason why this issue happens in the first place, is because the scripted trigger that adds the bandana to uncle's neck is still activated during this mission, so when Uncle tries to cover up his face, his bandana immediately gets taken off. So, of course, the ideal way of fixing this is by turning off said trigger, but unfortunately, I have no idea how to do that, so I instead opted to just keep applying the bandana on his face until he reaches the barn...
+
+This issue can also be fixed by simply removing the bandana overlay outfit in "cs_uncle.ymt", but that'd sorta ruin some of the dynamism that the overlay outfit offers...

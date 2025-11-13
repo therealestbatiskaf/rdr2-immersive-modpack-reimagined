@@ -1,0 +1,1 @@
+When you're chopping wood, characters' hats will slightly change orientation before swinging, this file prevents just that.

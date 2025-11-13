@@ -1,0 +1,17 @@
+<EasyInstall>
+    <Name>CenterMass</Name>
+    <Author>Walrus159</Author>
+    <Version>1.1</Version>
+    <Link></Link>
+    <Metadata>
+    </Metadata>
+
+    <Resources>
+        <Resource>
+            <FileReplacement>
+                <GamePath>update:/common/data/ai/peddamageinfo.meta</GamePath>
+                <FilePath>peddamageinfo.meta</FilePath>
+            </FileReplacement>
+        </Resource>
+    </Resources>
+</EasyInstall>

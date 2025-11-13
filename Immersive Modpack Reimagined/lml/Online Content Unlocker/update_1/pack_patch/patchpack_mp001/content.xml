@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDataFileMgr__ContentsOfDataFileXml>
+	<disabledFiles/>
+	<includedXmlFiles/>
+	<includedDataFiles/>
+	<dataFiles>
+		<Item>
+			<filename>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/interiors/mp_sis_basement_int.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+			<contents>CONTENTS_DLC_MAP_DATA</contents>
+		</Item>
+		<Item>
+			<filename>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/interiors/mp_charcreate_int.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+			<contents>CONTENTS_DLC_MAP_DATA</contents>
+		</Item>
+		<Item>
+			<filename>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/area/ambient_camps/amb_camps_hen_mp.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+			<contents>CONTENTS_DLC_MAP_DATA</contents>
+		</Item>
+		<Item>
+			<filename>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/terrain/mp_lobby_01.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+			<contents>CONTENTS_DLC_MAP_DATA</contents>
+		</Item>
+		<Item>
+			<filename>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/terrain/mp_lobby_01_placement.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+			<contents>CONTENTS_DLC_MAP_DATA</contents>
+		</Item>
+		<Item>
+			<filename>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/props/lev_des/mp001_lev_des_mp.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<contents>CONTENTS_DLC_MAP_DATA</contents>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+		</Item>
+		<Item>
+			<filename>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/props/lev_des/mp001_lev_des_mp.ityp</filename>
+			<fileType>DLC_ITYP_REQUEST</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+			<contents>CONTENTS_PROPS</contents>
+		</Item>
+		<Item>
+			<filename>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/props/lev_des/mp001_set_pieces.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<contents>CONTENTS_DLC_MAP_DATA</contents>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+		</Item>
+		<Item>
+			<filename>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/props/lev_des/mp001_set_pieces.ityp</filename>
+			<fileType>DLC_ITYP_REQUEST</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+			<contents>CONTENTS_PROPS</contents>
+		</Item>
+		<Item>
+			<filename>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/props/propgroups.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<contents>CONTENTS_PROPS</contents>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+			<loadCompletely value="true"/>
+		</Item>
+		<Item>
+			<filename>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/terrain/instance_placement/mp_lobby_01_instance_placement.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+			<contents>CONTENTS_DLC_MAP_DATA</contents>
+		</Item>
+		<Item>
+			<filename>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/terrain/instance_placement/mplobby_01_static_collision.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="true"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+		</Item>
+		<Item>
+			<filename>dlc_patchpack_mp001:/common/data/overlayinfo.xml</filename>
+			<fileType>OVERLAY_INFO_FILE</fileType>
+			<overlay value="false"/>
+			<disabled value="true"/>
+			<persistent value="false"/>
+		</Item>
+		<Item>
+			<filename>dlc_patchpack_mp001:/common/non_final/anim/motions</filename>
+			<fileType>MOTIONDBG_FOLDER</fileType>
+			<disabled value="true"/>
+			<devOnly value="true"/>
+		</Item>
+	</dataFiles>
+	<contentChangeSets>
+		<Item>
+			<changeSetName>PATCHPACK_MP001_OVERLAYINFO</changeSetName>
+			<filesToInvalidate/>
+			<filesToDisable/>
+			<filesToEnable>
+				<Item>dlc_patchpack_mp001:/common/data/overlayinfo.xml</Item>
+			</filesToEnable>
+		</Item>
+		<Item>
+			<changeSetName>PATCHPACK_MP001_MAP_CHANGE</changeSetName>
+			<mapChangeSetData>
+				<Item>
+					<associatedMap>MO_JIM_L11</associatedMap>
+					<filesToInvalidate/>
+					<filesToDisable/>
+					<filesToEnable>
+						<Item>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/interiors/mp_charcreate_int.rpf</Item>
+						<Item>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/interiors/mp_sis_basement_int.rpf</Item>
+						<Item>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/area/ambient_camps/amb_camps_hen_mp.rpf</Item>
+						<Item>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/terrain/mp_lobby_01.rpf</Item>
+						<Item>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/terrain/mp_lobby_01_placement.rpf</Item>
+						<Item>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/terrain/instance_placement/mp_lobby_01_instance_placement.rpf</Item>
+						<Item>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/terrain/instance_placement/mplobby_01_static_collision.rpf</Item>
+					</filesToEnable>
+				</Item>
+			</mapChangeSetData>
+			<filesToInvalidate/>
+			<filesToDisable/>
+			<filesToEnable/>
+			<txdToLoad/>
+			<txdToUnload/>
+			<residentResources/>
+			<unregisterResources/>
+		</Item>
+		<Item>
+			<changeSetName>PATCHPACK_MP001_EARLY</changeSetName>
+			<filesToInvalidate/>
+			<filesToDisable/>
+			<filesToEnable>
+				<!-- PROPS -->
+				<Item>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/props/propgroups.rpf</Item>
+				<Item>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/props/lev_des/mp001_lev_des_mp.rpf</Item>
+				<Item>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/props/lev_des/mp001_lev_des_mp.ityp</Item>
+				<Item>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/props/lev_des/mp001_set_pieces.rpf</Item>
+				<Item>dlc_patchpack_mp001:/%PLATFORM%/levels/rdr3/props/lev_des/mp001_set_pieces.ityp</Item>
+			</filesToEnable>
+			<executionConditions/>
+		</Item>
+		<Item dev_only="true">
+			<changeSetName>PATCHPACK_MP001_ANIM_DEBUG_DATA</changeSetName>
+			<filesToInvalidate/>
+			<filesToDisable/>
+			<filesToEnable>
+				<Item>dlc_patchpack_mp001:/common/non_final/anim/motions</Item>
+			</filesToEnable>
+		</Item>
+	</contentChangeSets>
+	<patchFiles/>
+</CDataFileMgr__ContentsOfDataFileXml>

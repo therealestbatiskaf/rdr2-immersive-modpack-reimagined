@@ -1,0 +1,1769 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MetaPedSettings>
+ <categoryTags>
+  <maleTags>
+   <Item>SP_DUMMY</Item>
+  </maleTags>
+  <debugMaleTags/>
+  <femaleTags>
+   <Item>SP_DUMMY</Item>
+  </femaleTags>
+  <debugFemaleTags/>
+  <teenTags>
+   <Item>SP_DUMMY</Item>
+  </teenTags>
+  <debugTeenTags/>
+  <animalTags>
+   <Item>SP_DUMMY</Item>
+  </animalTags>
+  <debugAnimalTags/>
+ </categoryTags>
+ <expressions>
+  <expressionIds/>
+  <randomExpressions/>
+ </expressions>
+ <gore>
+  <pedTemplates/>
+ </gore>
+ <tints>
+  <palettes/>
+  <paletteSlods/>
+ </tints>
+ <lights>
+  <lights/>
+  <assetLights/>
+ </lights>
+ <assetBundles>
+  <collisionData>
+    <Item key="0x77AD6F1B">
+     <offset x="0.00000000" y="-0.10000000" z="0.00000000"/>
+     <rot x="0.51845900" y="-0.48055600" z="0.51845900" w="0.48110800"/>
+     <typeFlags>CF_OBJECT_TYPE {BITSET,UNKNOWN_BIT_INDEX:45}</typeFlags>
+     <includeFlags>CF_CAMERA_TEST {BITSET,UNKNOWN_BIT_INDEX:54}</includeFlags>
+     <collisionModel>MP001_COLLISION_EXPLORERGEAR_RIGHT</collisionModel>
+     <attachBone>ID_SKEL_SPINE2</attachBone>
+     <type>SADDLE</type>
+     <enableOnPed value="true"/>
+     <UNK_MEMBER_0x20564C8D value="false"/>
+     <UNK_MEMBER_0x120F33A7 content="vector3_array">
+          0.00000000	0.00000000	0.00000000
+          0.00000000	0.00000000	0.00000000
+          0.00000000	0.00000000	0.00000000
+          0.00000000	0.00000000	0.00000000
+     </UNK_MEMBER_0x120F33A7>
+     <UNK_MEMBER_0x803678E8 content="vector4_array">
+          0.00000000	0.00000000	0.00000000	0.00000000
+          0.00000000	0.00000000	0.00000000	0.00000000
+          0.00000000	0.00000000	0.00000000	0.00000000
+          0.00000000	0.00000000	0.00000000	0.00000000
+     </UNK_MEMBER_0x803678E8>
+    </Item>
+    <Item key="0x8B7AA75C">
+     <offset x="0.00000000" y="-0.10000000" z="0.00000000"/>
+     <rot x="0.51845900" y="-0.48055600" z="0.51845900" w="0.48110800"/>
+     <typeFlags>CF_OBJECT_TYPE {BITSET,UNKNOWN_BIT_INDEX:45}</typeFlags>
+     <includeFlags>CF_CAMERA_TEST {BITSET,UNKNOWN_BIT_INDEX:54}</includeFlags>
+     <collisionModel>MP001_COLLISION_EXPLORERGEAR_LEFT</collisionModel>
+     <attachBone>ID_SKEL_SPINE2</attachBone>
+     <type>SADDLE</type>
+     <enableOnPed value="true"/>
+     <UNK_MEMBER_0x20564C8D value="false"/>
+     <UNK_MEMBER_0x120F33A7 content="vector3_array">
+          0.00000000	0.00000000	0.00000000
+          0.00000000	0.00000000	0.00000000
+          0.00000000	0.00000000	0.00000000
+          0.00000000	0.00000000	0.00000000
+     </UNK_MEMBER_0x120F33A7>
+     <UNK_MEMBER_0x803678E8 content="vector4_array">
+          0.00000000	0.00000000	0.00000000	0.00000000
+          0.00000000	0.00000000	0.00000000	0.00000000
+          0.00000000	0.00000000	0.00000000	0.00000000
+          0.00000000	0.00000000	0.00000000	0.00000000
+     </UNK_MEMBER_0x803678E8>
+    </Item>
+  </collisionData>
+  <bundles>
+   <Item>
+    <name>0x390B3861</name>
+    <tag>0x8B7AA75C</tag>
+    <inventoryItem/>
+    <pedType>MPT_ANIMAL</pedType>
+    <assets>
+     <Item>
+      <drawable>P_C_HORSE_01_ARMOUR_BOX_000</drawable>
+      <albedo>P_C_HORSE_01_ARMOUR_000_C0_000_AB</albedo>
+      <normal>P_C_HORSE_01_ARMOUR_000_C0_000_NM</normal>
+      <material>P_C_HORSE_01_ARMOUR_000_C0_000_M</material>
+      <palette/>
+      <tint0 value="0"/>
+      <tint1 value="0"/>
+      <tint2 value="0"/>
+     </Item>
+    </assets>
+   </Item>
+   <Item>
+    <name>0x9B81C2A3</name>
+    <tag>0x77AD6F1B</tag>
+    <inventoryItem/>
+    <pedType>MPT_ANIMAL</pedType>
+    <assets>
+     <Item>
+      <drawable>P_C_HORSE_01_ARMOUR_BOX_000</drawable>
+      <albedo>P_C_HORSE_01_ARMOUR_000_C0_000_AB</albedo>
+      <normal>P_C_HORSE_01_ARMOUR_000_C0_000_NM</normal>
+      <material>P_C_HORSE_01_ARMOUR_000_C0_000_M</material>
+      <palette/>
+      <tint0 value="0"/>
+      <tint1 value="0"/>
+      <tint2 value="0"/>
+     </Item>
+    </assets>
+   </Item>
+  </bundles>
+ </assetBundles>
+ <weaponAttachTags/>
+ <persistentAssetTags/>
+ <customTagTypes>
+  <Item/>
+  <Item/>
+  <Item/>
+  <Item/>
+  <Item/>
+  <Item/>
+  <Item/>
+  <Item/>
+  <Item/>
+  <Item/>
+  <Item/>
+  <Item/>
+  <Item/>
+  <Item/>
+  <Item/>
+  <Item/>
+  <Item/>
+  <Item/>
+  <Item/>
+  <Item/>
+  <Item/>
+  <Item/>
+ </customTagTypes>
+ <overlayData/>
+ <globalOutfitData>
+  <Item>
+   <outfits/>
+  </Item>
+  <Item>
+   <outfits/>
+  </Item>
+  <Item>
+   <outfits/>
+  </Item>
+  <Item>
+   <outfits/>
+  </Item>
+ </globalOutfitData>
+ <propConversions/>
+ <skinTextureSets/>
+ <firstPersonAlts>
+  <Item key="player_zero_gloves_024_cuff_long">
+   <fpAlt>player_zero_gloves_024_cuff_long_fp</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_zero_gloves_024_cuff_short">
+   <fpAlt>player_zero_gloves_024_cuff_short_fp</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_zero_gloves_024_full">
+   <fpAlt>player_zero_gloves_024_full_fp</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_COAT_000_CLOSED">
+   <fpAlt>PLAYER_THREE_MS1_COAT_000_CLOSED_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_three_ms1_vest_000_co_short_custom_chap">
+   <fpAlt>player_three_ms1_vest_000_co_short_custom_chap_fp</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_three_ms1_vest_000_full_custom_chap">
+   <fpAlt>PLAYER_THREE_MS1_VEST_000_FULL_CUSTOM_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="CS_JOHNMARSTON_MS1_SCARF_001">
+   <fpAlt>sp_neckwear_mr1_dummy</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_000_GLOVE">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_000_GLOVE_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_MASK_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_BANDANALOW</onEquipFx>
+   <priority value="2"/>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_CC">
+   <fpAlt>PLAYER_ZERO_NUDE_UPPER_001_CC_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_CC_GLOVE">
+   <fpAlt>PLAYER_ZERO_NUDE_UPPER_001_CC_GLOVE_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_CC_FINGERLESS">
+   <fpAlt>PLAYER_ZERO_NUDE_UPPER_001_CC_FINGERLESS_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_CC_FINGERLESS_ALT">
+   <fpAlt>PLAYER_ZERO_NUDE_UPPER_001_CC_FINGERLESS_ALT_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_000_LONG_SLEEVE">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_000_LONG_SLEEVE_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_002">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_000_LONG_SLEEVE_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_CC">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_001_CC_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_CC_GLOVE">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_001_CC_GLOVE_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_CC_FINGERLESS">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_001_CC_FINGERLESS_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_CC_FINGERLESS_ALT">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_001_CC_FINGERLESS_ALT_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_CO_SHORT">
+   <fpAlt>PLAYER_ZERO_NUDE_UPPER_001_CO_SHORT_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_CO_SHORT_GLOVE">
+   <fpAlt>PLAYER_ZERO_NUDE_UPPER_001_CO_SHORT_GLOVE_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_CO_SHORT_FINGERLESS">
+   <fpAlt>PLAYER_ZERO_NUDE_UPPER_001_CO_SHORT_FINGERLESS_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_CO_SHORT_FINGERLESS_ALT">
+   <fpAlt>PLAYER_ZERO_NUDE_UPPER_001_CO_SHORT_FINGERLESS_ALT_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_CO_SHORT">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_001_CO_SHORT_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_CO_SHORT_GLOVE">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_001_CO_SHORT_GLOVE_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_CO_SHORT_FINGERLESS">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_001_CO_SHORT_FINGERLESS_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_CO_SHORT_FINGERLESS_ALT">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_001_CO_SHORT_FINGERLESS_ALT_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_zero_nude_upper_001_co_vest">
+   <fpAlt>PLAYER_ZERO_NUDE_UPPER_001_CO_VEST_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_zero_nude_upper_001_co_vest_glove">
+   <fpAlt>PLAYER_ZERO_NUDE_UPPER_001_CO_VEST_GLOVE_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_zero_nude_upper_001_co_vest_fingerless">
+   <fpAlt>PLAYER_ZERO_NUDE_UPPER_001_CO_VEST_FINGERLESS_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_zero_nude_upper_001_co_vest_fingerless_alt">
+   <fpAlt>PLAYER_ZERO_NUDE_UPPER_001_CO_VEST_FINGERLESS_ALT_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_three_ms1_nude_upper_001_co_vest">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_001_CO_VEST_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_three_ms1_nude_upper_001_co_vest_glove">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_001_CO_VEST_GLOVE_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_three_ms1_nude_upper_001_co_vest_fingerless">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_001_CO_VEST_FINGERLESS_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_three_ms1_nude_upper_001_co_vest_fingerless_alt">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_001_CO_VEST_FINGERLESS_ALT_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_zero_nude_upper_001_glove">
+   <fpAlt>player_zero_nude_upper_001_glove_fp</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_FINGERLESS">
+   <fpAlt>PLAYER_ZERO_NUDE_UPPER_001_FINGERLESS_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_FINGERLESS_ALT">
+   <fpAlt>PLAYER_ZERO_NUDE_UPPER_001_FINGERLESS_ALT_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_FINGERLESS">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_001_FINGERLESS_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_FINGERLESS_ALT">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_001_FINGERLESS_ALT_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_GLOVE">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_001_GLOVE_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_zero_nude_upper_005">
+   <fpAlt>player_zero_nude_upper_000_long_sleeve_fp</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_three_ms1_nude_upper_001">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_001_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_three_ms1_nude_upper_001_vest">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_001_VEST_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_three_ms1_nude_upper_001_vest_fingerless">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_001_VEST_FINGERLESS_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_three_ms1_nude_upper_001_vest_fingerless_alt">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_001_VEST_FINGERLESS_ALT_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_three_ms1_nude_upper_001_vest_glove">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_001_VEST_GLOVE_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_zero_nude_upper_001_vest">
+   <fpAlt>PLAYER_ZERO_NUDE_UPPER_001_VEST_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_zero_nude_upper_001_vest_fingerless">
+   <fpAlt>PLAYER_ZERO_NUDE_UPPER_001_VEST_FINGERLESS_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_zero_nude_upper_001_vest_fingerless_alt">
+   <fpAlt>PLAYER_ZERO_NUDE_UPPER_001_VEST_FINGERLESS_ALT_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_zero_nude_upper_001_vest_glove">
+   <fpAlt>PLAYER_ZERO_NUDE_UPPER_001_VEST_GLOVE_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_000_FINGERLESS">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_000_FINGERLESS_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_000_FINGERLESS_ALT">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_000_FINGERLESS_ALT_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_000_FINGERLESS_ALT">
+   <fpAlt>PLAYER_ZERO_NUDE_UPPER_000_FINGERLESS_ALT_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_000_LONG_SLEEVE_GLOVE">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_000_LONG_SLEEVE_GLOVE_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_000_LONG_SLEEVE_FINGERLESS">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_000_LONG_SLEEVE_FINGERLESS_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_000_LONG_SLEEVE_FINGERLESS_ALT">
+   <fpAlt>PLAYER_ZERO_NUDE_UPPER_000_LONG_SLEEVE_FINGERLESS_ALT_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_000_LONG_SLEEVE_FINGERLESS_ALT">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_000_LONG_SLEEVE_FINGERLESS_ALT_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_000">
+   <fpAlt>PLAYER_THREE_MS1_NUDE_UPPER_000_FP</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_three_ms1_gloves_000_cuff_long">
+   <fpAlt>player_three_ms1_gloves_000_cuff_long_fp</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_three_ms1_gloves_000_cuff_short">
+   <fpAlt>player_three_ms1_gloves_000_cuff_short_fp</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+  <Item key="player_three_ms1_gloves_000_full">
+   <fpAlt>player_three_ms1_gloves_000_full_fp</fpAlt>
+   <onTransitionFx/>
+   <onEquipFx/>
+   <priority value="0"/>
+  </Item>
+
+  <Item key="PLAYER_THREE_MS1_HAT_000">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_HAT_000_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_HAT_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_HAT_001_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_HAT_001_002">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+
+  <Item key="PLAYER_ZERO_HAT_041">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_042">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_043">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_044">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_045">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_046">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_047">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_048">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_050">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_052">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_052">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_054">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_056">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_057">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_058">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_059">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_060">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_061">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_062">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_063">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_064">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_065">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_066">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_067">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_068">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_069">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_070">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_071">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_072">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_073">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_037_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_000_000">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_000_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_000_002">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_000_003">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_000_004">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_000_005">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_000_006">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_000_007">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_000_008">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_000_009">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_000_010">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_000_011">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+
+  <Item key="PLAYER_ZERO_HAT_002_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_003_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_006_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_008_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_009_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_010_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_011_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_013_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_015_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_016_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_027_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_029_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_030_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_032_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_038_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_048_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_070_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="PLAYER_ZERO_HAT_071_001">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+
+  <Item key="HAT_MR1_000">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_002_ALT02">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_004">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_005">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_006_ALT02">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_007_ALT02">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_008">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_012">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_013">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_015">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_016">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_017_ALT02">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_019_ALT01">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_020">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_021">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_025">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_026">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_027">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_041">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_045">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_047_ALT02">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_048">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_050">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_051">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_052">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_053_ALT02">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_055">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_058">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_060">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_063_ALT01">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_068">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_069">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_075">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_079">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_086">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_087">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_088">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_089">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_093">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_100">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_102">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_103">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_104">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_105">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_109">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_111">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_112">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_133">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="CS_FISHCOLLECTOR_MS1_HAT_000">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="CS_VALSHERIFF_MS1_HAT_000">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_135">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="HAT_MR1_125">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+  <Item key="CS_WARVET_MS1_HAT_000">
+   <fpAlt/>
+   <onTransitionFx/>
+   <onEquipFx>1P_HATDARK</onEquipFx>
+   <priority value="1"/>
+  </Item>
+ </firstPersonAlts>
+ <anms/>
+ <anmMappings>
+  <Item key="player_three_ms1_nude_upper_000_glove_fp">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_nude_upper_000_long_sleeve_glove_fp">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_coat_003_open">
+   <owner>player_three_ms1_coat_003_open_c0_000_anm</owner>
+   <wrinkleMask>PLAYER_ZERO_COAT_000_OPEN_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_coat_003_open_custom">
+   <owner>player_three_ms1_coat_003_open_c0_000_anm</owner>
+   <wrinkleMask>PLAYER_ZERO_COAT_000_OPEN_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_coat_003_open_full">
+   <owner>player_three_ms1_coat_003_open_c0_000_anm</owner>
+   <wrinkleMask>PLAYER_ZERO_COAT_000_OPEN_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_coat_003_open_full_custom">
+   <owner>player_three_ms1_coat_003_open_c0_000_anm</owner>
+   <wrinkleMask>PLAYER_ZERO_COAT_000_OPEN_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_vest_001_full">
+   <owner>PLAYER_THREE_MS1_VEST_001_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_VEST_001_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_VEST_002_FULL">
+   <owner>PLAYER_THREE_MS1_VEST_002_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_VEST_002_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_vest_000_full_custom_chap">
+   <owner>PLAYER_THREE_MS1_VEST_000_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_VEST_000_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_COAT_000_CLOSED">
+   <owner>PLAYER_THREE_MS1_COAT_000_OPEN_CUSTOM_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_COAT_000_OPEN_CUSTOM_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_VEST_000_MINIGAME">
+   <owner>PLAYER_THREE_MS1_VEST_000_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_VEST_000_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_shirt_002_o_b_full_bandolier">
+   <owner>PLAYER_THREE_MS1_SHIRT_002_O_B_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_SHIRT_002_O_B_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_SHIRT_002_001_O_B_FULL">
+   <owner>PLAYER_THREE_MS1_SHIRT_002_O_B_FULL_C1_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_SHIRT_002_O_B_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_shirt_002_001_o_b_full_bandolier">
+   <owner>PLAYER_THREE_MS1_SHIRT_002_O_B_FULL_C1_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_SHIRT_002_O_B_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_000_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_VEST_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_VEST_GLOVE_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_VEST_FINGERLESS_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_VEST_FINGERLESS_ALT_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_VEST_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_VEST_GLOVE_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_VEST_FINGERLESS_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_VEST_FINGERLESS_ALT_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_CO_VEST_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_CO_VEST_GLOVE_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_CO_VEST_FINGERLESS_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_CO_VEST_FINGERLESS_ALT_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_CO_VEST_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_CO_VEST_GLOVE_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_CO_VEST_FINGERLESS_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_CO_VEST_FINGERLESS_ALT_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_VEST_002_FULL_CUSTOM_CHAP">
+   <owner>PLAYER_THREE_MS1_VEST_002_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_VEST_002_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_VEST_002_CO_SHORT_CHAP">
+   <owner>PLAYER_THREE_MS1_VEST_002_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_VEST_002_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_VEST_002_CO_CUSTOM_CHAP">
+   <owner>PLAYER_THREE_MS1_VEST_002_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_VEST_002_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_COAT_004_OPEN_FULL_ALT">
+   <owner>PLAYER_ZERO_COAT_004_OPEN_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_COAT_004_OPEN_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_COAT_004_OPEN_ALT">
+   <owner>PLAYER_ZERO_COAT_004_OPEN_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_COAT_004_OPEN_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_COAT_004_OPEN">
+   <owner>CS_JOHNMARSTON_MS1_COAT_007_C0_000_ANM</owner>
+   <wrinkleMask>CS_JOHNMARSTON_MS1_COAT_007_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_COAT_004_OPEN_FULL">
+   <owner>CS_JOHNMARSTON_MS1_COAT_007_C0_000_ANM</owner>
+   <wrinkleMask>CS_JOHNMARSTON_MS1_COAT_007_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_HEAD_001">
+   <owner>player_three_ms1_head_001_c0_000_anm</owner>
+   <wrinkleMask>player_three_ms1_head_001_c0_000_wrinklemask</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_shirt_003_c_b_full_bandolier">
+   <owner>PLAYER_THREE_MS1_SHIRT_003_C_B_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_SHIRT_003_C_B_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_VEST_026_FULL_CHAP">
+   <owner>player_zero_vest_026_c0_000_anm</owner>
+   <wrinkleMask>player_zero_vest_026_c0_000_wrinklemask</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_COAT_011_OPEN_ALT">
+   <owner>PLAYER_ZERO_COAT_011_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_COAT_011_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_COAT_011_OPEN_FULL_ALT">
+   <owner>PLAYER_ZERO_COAT_011_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_COAT_011_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_FINGERLESS_ALT_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_FINGERLESS_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_FINGERLESS_ALT_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_COAT_001_OPEN_FULL_ALT">
+   <owner>PLAYER_ZERO_COAT_001_OPEN_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_COAT_001_OPEN_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_COAT_001_OPEN_ALT">
+   <owner>PLAYER_ZERO_COAT_001_OPEN_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_COAT_001_OPEN_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_COAT_001_OPEN_CUSTOM_ALT">
+   <owner>PLAYER_ZERO_COAT_001_OPEN_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_COAT_001_OPEN_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_COAT_001_OPEN_FULL_CUSTOM_ALT">
+   <owner>PLAYER_ZERO_COAT_001_OPEN_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_COAT_001_OPEN_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_COAT_013_OPEN_ALT">
+   <owner>PLAYER_ZERO_COAT_013_OPEN_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_COAT_013_OPEN_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_COAT_013_OPEN_FULL_ALT">
+   <owner>PLAYER_ZERO_COAT_013_OPEN_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_COAT_013_OPEN_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_000_LONG_SLEEVE_FINGERLESS_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_000_LONG_SLEEVE_FINGERLESS_ALT_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_000_LONG_SLEEVE_FINGERLESS_ALT_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_SHIRT_010_C_R_FULL">
+   <owner>PLAYER_ZERO_SHIRT_005_C_B_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_SHIRT_005_C_B_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_SHIRT_010_O_R_FULL">
+   <owner>PLAYER_ZERO_SHIRT_005_C_B_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_SHIRT_005_C_B_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_shirt_002_o_r_full_bandolier">
+   <owner>PLAYER_THREE_MS1_SHIRT_002_O_R_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_SHIRT_002_O_R_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_SHIRT_002_001_O_R_FULL">
+   <owner>PLAYER_THREE_MS1_SHIRT_002_O_R_FULL_C1_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_SHIRT_002_O_R_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_shirt_002_001_o_r_full_bandolier">
+   <owner>PLAYER_THREE_MS1_SHIRT_002_O_R_FULL_C1_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_SHIRT_002_O_R_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_CC_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_CC_GLOVE_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_CC_FINGERLESS_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_CC_FINGERLESS_ALT_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_CO_SHORT_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_CO_SHORT_GLOVE_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_CO_SHORT_FINGERLESS_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_001_CO_SHORT_FINGERLESS_ALT_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_000_LONG_SLEEVE_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_CC_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_CC_GLOVE_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_CC_FINGERLESS_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_CC_FINGERLESS_ALT_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_CO_SHORT_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_CO_SHORT_GLOVE_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_CO_SHORT_FINGERLESS_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_CO_SHORT_FINGERLESS_ALT_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_vest_000">
+   <owner>PLAYER_THREE_MS1_VEST_000_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_VEST_000_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_zero_vest_019_full_chap">
+   <owner>PLAYER_ZERO_VEST_019_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_VEST_019_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_000_FINGERLESS_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_NUDE_UPPER_000_FINGERLESS_ALT_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_000_FINGERLESS_ALT_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_000_GLOVE_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_shirt_003_o_r_full_bandolier">
+   <owner>PLAYER_THREE_MS1_SHIRT_003_O_R_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_SHIRT_003_O_R_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_shirt_002_c_b_full_bandolier">
+   <owner>PLAYER_THREE_MS1_SHIRT_002_C_B_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_SHIRT_002_C_B_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_SHIRT_002_001_C_B_FULL">
+   <owner>PLAYER_THREE_MS1_SHIRT_002_C_B_FULL_C1_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_SHIRT_002_C_B_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_shirt_002_001_c_b_full_bandolier">
+   <owner>PLAYER_THREE_MS1_SHIRT_002_C_B_FULL_C1_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_SHIRT_002_C_B_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_VEST_003_FULL">
+   <owner>player_three_ms1_vest_003_full_c0_000_anm</owner>
+   <wrinkleMask>player_three_ms1_vest_003_full_c0_000_wrinklemask</wrinkleMask>
+  </Item>
+  <Item key="cs_johnmarston_ms1_vest_004">
+   <owner>player_three_ms1_vest_003_full_c0_000_anm</owner>
+   <wrinkleMask>player_three_ms1_vest_003_full_c0_000_wrinklemask</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_NUDE_UPPER_001_GLOVE_FP">
+   <owner>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_NUDE_UPPER_000_FP_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_shirt_003_o_b_full_bandolier">
+   <owner>PLAYER_THREE_MS1_SHIRT_003_O_B_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_SHIRT_003_O_B_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="cs_johnmarston_ms1_ust_000_c_d_full">
+   <owner>PLAYER_ZERO_UST_000_C_D_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_UST_000_C_D_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_zero_usto_000_o_d_full">
+   <owner>PLAYER_ZERO_USTO_000_O_D_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_USTO_000_O_D_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_UST_000_O_U_FULL">
+   <owner>PLAYER_ZERO_UST_000_C_U_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_UST_000_C_U_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_UST_000_O_D_FULL">
+   <owner>PLAYER_ZERO_UST_000_C_D_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_UST_000_C_D_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_UST_000_C_U_FULL">
+   <owner>PLAYER_ZERO_UST_000_C_U_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_UST_000_C_U_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_zero_ust_000_c_d_vest">
+   <owner>PLAYER_ZERO_UST_000_C_D_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_UST_000_C_D_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_zero_ust_000_o_u_vest">
+   <owner>PLAYER_ZERO_UST_000_C_U_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_UST_000_C_U_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_zero_ust_000_o_d_vest">
+   <owner>PLAYER_ZERO_UST_000_C_D_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_UST_000_C_D_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_zero_ust_000_c_u_vest">
+   <owner>PLAYER_ZERO_UST_000_C_U_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_UST_000_C_U_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_zero_ust_000_c_d_vest_cowboy">
+   <owner>PLAYER_ZERO_UST_000_C_D_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_UST_000_C_D_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_zero_ust_000_o_u_vest_cowboy">
+   <owner>PLAYER_ZERO_UST_000_C_U_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_UST_000_C_U_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_zero_ust_000_o_d_vest_cowboy">
+   <owner>PLAYER_ZERO_UST_000_C_D_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_UST_000_C_D_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_zero_ust_000_c_u_vest_cowboy">
+   <owner>PLAYER_ZERO_UST_000_C_U_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_UST_000_C_U_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_zero_ust_000_c_d_vest_opened">
+   <owner>PLAYER_ZERO_UST_000_C_D_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_UST_000_C_D_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_zero_ust_000_o_u_vest_opened">
+   <owner>PLAYER_ZERO_UST_000_C_U_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_UST_000_C_U_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_zero_ust_000_o_d_vest_opened">
+   <owner>PLAYER_ZERO_UST_000_C_D_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_UST_000_C_D_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_zero_ust_000_c_u_vest_opened">
+   <owner>PLAYER_ZERO_UST_000_C_U_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_UST_000_C_U_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_zero_ust_000_c_d_whole">
+   <owner>player_zero_ust_000_c_d_whole_c0_000_anm</owner>
+   <wrinkleMask>player_zero_ust_000_c_d_whole_c0_000_wrinklemask</wrinkleMask>
+  </Item>
+  <Item key="player_zero_ust_000_o_u_whole">
+   <owner>player_zero_ust_000_c_u_whole_c0_000_anm</owner>
+   <wrinkleMask>player_zero_ust_000_c_u_whole_c0_000_wrinklemask</wrinkleMask>
+  </Item>
+  <Item key="player_zero_ust_000_o_d_whole">
+   <owner>player_zero_ust_000_c_d_whole_c0_000_anm</owner>
+   <wrinkleMask>player_zero_ust_000_c_d_whole_c0_000_wrinklemask</wrinkleMask>
+  </Item>
+  <Item key="player_zero_ust_000_c_u_whole">
+   <owner>player_zero_ust_000_c_u_whole_c0_000_anm</owner>
+   <wrinkleMask>player_zero_ust_000_c_u_whole_c0_000_wrinklemask</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_COAT_016_OPEN_ALT">
+   <owner>PLAYER_ZERO_COAT_016_OPEN_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_COAT_016_OPEN_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_COAT_016_OPEN_FULL_ALT">
+   <owner>PLAYER_ZERO_COAT_016_OPEN_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_COAT_016_OPEN_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_head_000">
+   <owner>player_three_ms1_head_000_c0_000_anm</owner>
+   <wrinkleMask>player_three_ms1_head_000_c0_000_wrinklemask</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_shirt_003_c_r_full_bandolier">
+   <owner>PLAYER_THREE_MS1_SHIRT_003_C_R_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_SHIRT_003_C_R_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_COAT_000_OPEN_ALT">
+   <owner>PLAYER_ZERO_COAT_000_OPEN_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_COAT_000_OPEN_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_ZERO_COAT_000_OPEN_CUSTOM_ALT">
+   <owner>PLAYER_ZERO_COAT_000_OPEN_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_COAT_000_OPEN_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_zero_coat_000_open_full_custom_alt">
+   <owner>PLAYER_ZERO_COAT_000_OPEN_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_COAT_000_OPEN_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_zero_coat_000_open_full_alt">
+   <owner>PLAYER_ZERO_COAT_000_OPEN_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_ZERO_COAT_000_OPEN_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_shirt_002_c_r_full_bandolier">
+   <owner>PLAYER_THREE_MS1_SHIRT_002_C_R_FULL_C0_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_SHIRT_002_C_R_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="PLAYER_THREE_MS1_SHIRT_002_001_C_R_FULL">
+   <owner>PLAYER_THREE_MS1_SHIRT_002_C_R_FULL_C1_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_SHIRT_002_C_R_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+  <Item key="player_three_ms1_shirt_002_001_c_r_full_bandolier">
+   <owner>PLAYER_THREE_MS1_SHIRT_002_C_R_FULL_C1_000_ANM</owner>
+   <wrinkleMask>PLAYER_THREE_MS1_SHIRT_002_C_R_FULL_C0_000_WRINKLEMASK</wrinkleMask>
+  </Item>
+ </anmMappings>
+ <componentDecals/>
+ <discoverableNames/>
+ <undiscoveredNames/>
+ <discoverableNamesMP/>
+ <undiscoveredNamesMP/>
+ <UNK_MEMBER_0x2481E04F/>
+ <UNK_MEMBER_0x1165357B/>
+ <qualityProbability/>
+ <UNK_MEMBER_0x30BED903/>
+ <colorPresets/>
+ <UNK_MEMBER_0x8EBDC741/>
+</MetaPedSettings>

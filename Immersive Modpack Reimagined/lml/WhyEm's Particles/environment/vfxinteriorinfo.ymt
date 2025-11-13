@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CVfxInteriorInfoMgr>
+  <vfxInteriorSetups>
+    <Item key="BRA_MANSION_INT" type="CVfxInteriorSetup">
+      <interiorInfoName>0x824EA138</interiorInfoName>
+      <vfxRoomSetups>
+        <Item key="0x0D58283B" type="CVfxRoomSetup">
+          <interiorInfoName>0x2E48082F</interiorInfoName>
+        </Item>
+        <Item key="0x6650CDEF" type="CVfxRoomSetup">
+          <interiorInfoName>0x2E48082F</interiorInfoName>
+        </Item>
+        <Item key="0x7465C7AF" type="CVfxRoomSetup">
+          <interiorInfoName>0xF7EA4B37</interiorInfoName>
+        </Item>
+        <Item key="0x824510FF" type="CVfxRoomSetup">
+          <interiorInfoName>0xF7EA4B37</interiorInfoName>
+        </Item>
+        <Item key="0x83E9982A" type="CVfxRoomSetup">
+          <interiorInfoName>0x2E48082F</interiorInfoName>
+        </Item>
+        <Item key="0x8497AFCF" type="CVfxRoomSetup">
+          <interiorInfoName>0xFAF77D4A</interiorInfoName>
+        </Item>
+        <Item key="0x879F1CEB" type="CVfxRoomSetup">
+          <interiorInfoName>0x2E48082F</interiorInfoName>
+        </Item>
+        <Item key="0x9E222AC5" type="CVfxRoomSetup">
+          <interiorInfoName>0x2E48082F</interiorInfoName>
+        </Item>
+        <Item key="0xD65A3A40" type="CVfxRoomSetup">
+          <interiorInfoName>0x2E48082F</interiorInfoName>
+        </Item>
+        <Item key="0xDF964CB8" type="CVfxRoomSetup">
+          <interiorInfoName>0x2E48082F</interiorInfoName>
+        </Item>
+        <Item key="0xE9A408A1" type="CVfxRoomSetup">
+          <interiorInfoName>0xFAF77D4A</interiorInfoName>
+        </Item>
+      </vfxRoomSetups>
+    </Item>
+    <Item key="NEW_SALOON01_INT_MAIN" type="CVfxInteriorSetup">
+      <interiorInfoName>0xEF954845</interiorInfoName>
+      <vfxRoomSetups>
+        <Item key="0x1448A2DD" type="CVfxRoomSetup">
+          <interiorInfoName>0xF0FD1322</interiorInfoName>
+        </Item>
+      </vfxRoomSetups>
+    </Item>
+    <Item key="CAL_TOBACCO_INT" type="CVfxInteriorSetup">
+      <interiorInfoName>0xFE01ABCE</interiorInfoName>
+      <vfxRoomSetups/>
+    </Item>
+    <Item key="RHO_GUNSMITH_INT" type="CVfxInteriorSetup">
+      <interiorInfoName>0xF7EA4B37</interiorInfoName>
+      <vfxRoomSetups/>
+    </Item>
+    <Item key="VAL_SALOON_INT" type="CVfxInteriorSetup">
+      <interiorInfoName>0xEF954845</interiorInfoName>
+      <vfxRoomSetups>
+        <Item key="ROOM_SAL_BED03" type="CVfxRoomSetup">
+          <interiorInfoName>0xF7EA4B37</interiorInfoName>
+        </Item>
+      </vfxRoomSetups>
+    </Item>
+    <Item key="COL_SCHOOL_INT" type="CVfxInteriorSetup">
+      <interiorInfoName>0xF0FD1322</interiorInfoName>
+      <vfxRoomSetups/>
+    </Item>
+    <Item key="WAT_CABIN_INT" type="CVfxInteriorSetup">
+      <interiorInfoName>0xF7EA4B37</interiorInfoName>
+      <vfxRoomSetups/>
+    </Item>
+    <Item key="RHO_SALOON_INT" type="CVfxInteriorSetup">
+      <interiorInfoName>0xEF954845</interiorInfoName>
+      <vfxRoomSetups/>
+    </Item>
+    <Item key="NEW_THEATER_INT" type="CVfxInteriorSetup">
+      <interiorInfoName>0xB125D5B6</interiorInfoName>
+      <vfxRoomSetups/>
+    </Item>
+  </vfxInteriorSetups>
+  <vfxInteriorInfos>
+    <Item key="0x2E48082F" type="CVfxInteriorInfo">
+      <UNK_MEMBER_0x4FF9194E>ENV_INTERIORSMOKE</UNK_MEMBER_0x4FF9194E>
+      <UNK_MEMBER_0x6B9326E5 value="30.00000000"/>
+      <UNK_MEMBER_0x44C2C61B value="5.00000000"/>
+      <UNK_MEMBER_0x8F924B5E value="0.80000000"/>
+      <UNK_MEMBER_0x3037E30E value="0.02000000"/>
+      <UNK_MEMBER_0x6F483560 value="1.50000000"/>
+      <UNK_MEMBER_0xF7D569D1 value="0.20000000"/>
+      <UNK_MEMBER_0x3A3D2F64 value="1.00000000"/>
+      <dustPtFxEnabled value="true"/>
+      <UNK_MEMBER_0xF1C6FF2A>ENV_INTERIOR_DUSTY</UNK_MEMBER_0xF1C6FF2A>
+      <dustPtFxEvo value="2.00000000"/>
+      <UNK_MEMBER_0x6789544D value="false"/>
+    </Item>
+    <Item key="0x824EA138" type="CVfxInteriorInfo">
+      <UNK_MEMBER_0x4FF9194E>ENV_INTERIORSMOKE</UNK_MEMBER_0x4FF9194E>
+      <UNK_MEMBER_0x6B9326E5 value="30.00000000"/>
+      <UNK_MEMBER_0x44C2C61B value="5.00000000"/>
+      <UNK_MEMBER_0x8F924B5E value="0.80000000"/>
+      <UNK_MEMBER_0x3037E30E value="0.02000000"/>
+      <UNK_MEMBER_0x6F483560 value="1.50000000"/>
+      <UNK_MEMBER_0xF7D569D1 value="0.20000000"/>
+      <UNK_MEMBER_0x3A3D2F64 value="1.00000000"/>
+      <dustPtFxEnabled value="true"/>
+      <UNK_MEMBER_0xF1C6FF2A>ENV_INTERIOR_DUSTY</UNK_MEMBER_0xF1C6FF2A>
+      <dustPtFxEvo value="2.00000000"/>
+      <UNK_MEMBER_0x6789544D value="false"/>
+    </Item>
+    <Item key="0xB125D5B6" type="CVfxInteriorInfo">
+      <UNK_MEMBER_0x4FF9194E>ENV_INTERIORSMOKE</UNK_MEMBER_0x4FF9194E>
+      <UNK_MEMBER_0x6B9326E5 value="30.00000000"/>
+      <UNK_MEMBER_0x44C2C61B value="5.00000000"/>
+      <UNK_MEMBER_0x8F924B5E value="0.80000000"/>
+      <UNK_MEMBER_0x3037E30E value="0.02000000"/>
+      <UNK_MEMBER_0x6F483560 value="1.50000000"/>
+      <UNK_MEMBER_0xF7D569D1 value="0.20000000"/>
+      <UNK_MEMBER_0x3A3D2F64 value="1.00000000"/>
+      <dustPtFxEnabled value="false"/>
+      <UNK_MEMBER_0xF1C6FF2A>ENV_INTERIOR_DUSTY</UNK_MEMBER_0xF1C6FF2A>
+      <dustPtFxEvo value="1.00000000"/>
+      <UNK_MEMBER_0x6789544D value="false"/>
+    </Item>
+    <Item key="0xEF954845" type="CVfxInteriorInfo">
+      <UNK_MEMBER_0x4FF9194E>ENV_INTERIORSMOKE</UNK_MEMBER_0x4FF9194E>
+      <UNK_MEMBER_0x6B9326E5 value="30.00000000"/>
+      <UNK_MEMBER_0x44C2C61B value="5.00000000"/>
+      <UNK_MEMBER_0x8F924B5E value="0.80000000"/>
+      <UNK_MEMBER_0x3037E30E value="0.02000000"/>
+      <UNK_MEMBER_0x6F483560 value="1.50000000"/>
+      <UNK_MEMBER_0xF7D569D1 value="0.20000000"/>
+      <UNK_MEMBER_0x3A3D2F64 value="1.00000000"/>
+      <dustPtFxEnabled value="true"/>
+      <UNK_MEMBER_0xF1C6FF2A>ENV_INTERIOR_DUSTY</UNK_MEMBER_0xF1C6FF2A>
+      <dustPtFxEvo value="2.00000000"/>
+      <UNK_MEMBER_0x6789544D value="false"/>
+    </Item>
+    <Item key="0xF0FD1322" type="CVfxInteriorInfo">
+      <UNK_MEMBER_0x4FF9194E/>
+      <UNK_MEMBER_0x6B9326E5 value="30.00000000"/>
+      <UNK_MEMBER_0x44C2C61B value="5.00000000"/>
+      <UNK_MEMBER_0x8F924B5E value="0.80000000"/>
+      <UNK_MEMBER_0x3037E30E value="0.02000000"/>
+      <UNK_MEMBER_0x6F483560 value="1.00000000"/>
+      <UNK_MEMBER_0xF7D569D1 value="0.20000000"/>
+      <UNK_MEMBER_0x3A3D2F64 value="1.00000000"/>
+      <dustPtFxEnabled value="false"/>
+      <UNK_MEMBER_0xF1C6FF2A/>
+      <dustPtFxEvo value="1.00000000"/>
+      <UNK_MEMBER_0x6789544D value="false"/>
+    </Item>
+    <Item key="0xF7EA4B37" type="CVfxInteriorInfo">
+      <UNK_MEMBER_0x4FF9194E>ENV_INTERIORSMOKE</UNK_MEMBER_0x4FF9194E>
+      <UNK_MEMBER_0x6B9326E5 value="30.00000000"/>
+      <UNK_MEMBER_0x44C2C61B value="5.00000000"/>
+      <UNK_MEMBER_0x8F924B5E value="0.80000000"/>
+      <UNK_MEMBER_0x3037E30E value="0.02000000"/>
+      <UNK_MEMBER_0x6F483560 value="1.50000000"/>
+      <UNK_MEMBER_0xF7D569D1 value="0.20000000"/>
+      <UNK_MEMBER_0x3A3D2F64 value="1.00000000"/>
+      <dustPtFxEnabled value="true"/>
+      <UNK_MEMBER_0xF1C6FF2A>ENV_INTERIOR_DUSTY</UNK_MEMBER_0xF1C6FF2A>
+      <dustPtFxEvo value="2.00000000"/>
+      <UNK_MEMBER_0x6789544D value="false"/>
+    </Item>
+    <Item key="0xFAF77D4A" type="CVfxInteriorInfo">
+      <UNK_MEMBER_0x4FF9194E>ENV_INTERIORSMOKE</UNK_MEMBER_0x4FF9194E>
+      <UNK_MEMBER_0x6B9326E5 value="30.00000000"/>
+      <UNK_MEMBER_0x44C2C61B value="5.00000000"/>
+      <UNK_MEMBER_0x8F924B5E value="0.80000000"/>
+      <UNK_MEMBER_0x3037E30E value="0.02000000"/>
+      <UNK_MEMBER_0x6F483560 value="1.50000000"/>
+      <UNK_MEMBER_0xF7D569D1 value="0.20000000"/>
+      <UNK_MEMBER_0x3A3D2F64 value="1.00000000"/>
+      <dustPtFxEnabled value="true"/>
+      <UNK_MEMBER_0xF1C6FF2A>ENV_INTERIOR_DUSTY</UNK_MEMBER_0xF1C6FF2A>
+      <dustPtFxEvo value="2.00000000"/>
+      <UNK_MEMBER_0x6789544D value="false"/>
+    </Item>
+    <Item key="0xFE01ABCE" type="CVfxInteriorInfo">
+      <UNK_MEMBER_0x4FF9194E>ENV_INTERIORSMOKE</UNK_MEMBER_0x4FF9194E>
+      <UNK_MEMBER_0x6B9326E5 value="30.00000000"/>
+      <UNK_MEMBER_0x44C2C61B value="5.00000000"/>
+      <UNK_MEMBER_0x8F924B5E value="0.80000000"/>
+      <UNK_MEMBER_0x3037E30E value="0.02000000"/>
+      <UNK_MEMBER_0x6F483560 value="1.50000000"/>
+      <UNK_MEMBER_0xF7D569D1 value="0.20000000"/>
+      <UNK_MEMBER_0x3A3D2F64 value="1.00000000"/>
+      <dustPtFxEnabled value="true"/>
+      <UNK_MEMBER_0xF1C6FF2A>ENV_INTERIOR_DUSTY</UNK_MEMBER_0xF1C6FF2A>
+      <dustPtFxEvo value="2.00000000"/>
+      <UNK_MEMBER_0x6789544D value="true"/>
+    </Item>
+  </vfxInteriorInfos>
+</CVfxInteriorInfoMgr>

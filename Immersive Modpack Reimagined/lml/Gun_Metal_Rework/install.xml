@@ -1,0 +1,17 @@
+<EasyInstall>
+    <Name>Gun_Metal_Rework</Name>
+    <Author>Alsharad / Gunslinger</Author>
+    <Version>1.0</Version>
+    <Link></Link>
+    <Metadata>
+    </Metadata>
+
+    <Resources>
+        <Resource>
+            <FileReplacement>
+                <GamePath>update:/x64/data/metadata/materials/pbrWeaponSurfaces.ymt</GamePath>
+                <FilePath>pbrWeaponSurfaces.ymt</FilePath>
+            </FileReplacement>
+        </Resource>
+    </Resources>
+</EasyInstall>

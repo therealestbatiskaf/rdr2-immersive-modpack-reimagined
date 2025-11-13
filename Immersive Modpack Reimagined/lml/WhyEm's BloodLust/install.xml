@@ -1,0 +1,59 @@
+<EasyInstall>
+	<Name>WhyEm's BloodLust</Name>
+	<Author>WhyEm</Author>
+	<Version>1.0.3.1</Version>
+	<Link/>
+	<Metadata/>
+	<ResourceGroups>
+	<ResourceGroup name="Blood Decals" scriptName="bbits">
+		<Description>Replaces vanila decals with those placed in this folder.</Description>
+		<Resources>
+			<Resource>bbits</Resource>
+		</Resources>
+	</ResourceGroup>
+	<ResourceGroup name="Blood VFX" scriptName="bvfx">
+		<Description>Replaces vanila effects with those placed in this folder</Description>
+		<Resources>
+			<Resource>bvfx</Resource>
+		</Resources>
+	</ResourceGroup>
+	<ResourceGroup name="Blood Bleedouts" scriptName="bout">
+		<Description>Replaces vanila bleedout with those placed in this folder</Description>
+		<Resources>
+			<Resource>bout</Resource>
+		</Resources>
+	</ResourceGroup>
+	</ResourceGroups>
+	<Resources>
+    <Resource name="Blood Decals" scriptName="bbits">
+		<FileReplacement>
+			<GamePath>update:/x64/data/effects/decalinfo.ymt</GamePath>
+			<FilePath>blooddecal/decalinfo.ymt</FilePath>
+		</FileReplacement>
+		<FileReplacement>
+			<GamePath>update:/x64/data/effects/projdecal.ymt</GamePath>
+			<FilePath>blooddecal/projdecal.ymt</FilePath>
+		</FileReplacement>
+	</Resource>
+    <Resource name="Blood VFX" scriptName="bvfx">
+		<FileReplacement>
+			<GamePath>update:/x64/data/effects/vfxbloodinfo.ymt</GamePath>
+			<FilePath>bloodfx/vfxbloodinfo.ymt</FilePath>
+		</FileReplacement>
+		<FileReplacement>
+			<GamePath>update:/x64/data/effects/vfxaniminfo.ymt</GamePath>
+			<FilePath>bloodfx/vfxaniminfo.ymt</FilePath>
+		</FileReplacement>
+		<FileReplacement>
+			<GamePath>update:/x64/data/effects/vfxpedinfo.ymt</GamePath>
+			<FilePath>bloodfx/vfxpedinfo.ymt</FilePath>
+		</FileReplacement>
+	</Resource>
+    <Resource name="Blood Bleedouts" scriptName="bout">
+		<FileReplacement>
+			<GamePath>update:/common/data/ai/peddamageinfo.meta</GamePath>
+			<FilePath>bloodHaemorrhage/peddamageinfo.meta</FilePath>
+		</FileReplacement>
+	</Resource>
+	</Resources>
+</EasyInstall>

@@ -1,0 +1,2337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDamageDataManager>
+  <DamageCleanlinessDatas>
+    <Item key="PS_SMALL" type="sDamageCleanlinessData">
+      <RegionData>
+        <Item key="Limb">
+          <WeaponData>
+            <Item key="AMMO_ARROW_SMALL_GAME">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="WEAPON_RIFLE_VARMINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+        <Item key="Body">
+          <WeaponData>
+            <Item key="AMMO_ARROW_SMALL_GAME">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="WEAPON_RIFLE_VARMINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+        <Item key="Heart">
+          <WeaponData>
+            <Item key="AMMO_ARROW_SMALL_GAME">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="WEAPON_RIFLE_VARMINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+        <Item key="HeadAndBrain">
+          <WeaponData>
+            <Item key="AMMO_ARROW_SMALL_GAME">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="WEAPON_RIFLE_VARMINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+      </RegionData>
+    </Item>
+    <Item key="PS_MEDIUM" type="sDamageCleanlinessData">
+      <RegionData>
+        <Item key="Limb">
+          <WeaponData>
+            <Item key="WEAPON_RIFLE_VARMINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_ARROW">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_ARROW_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_THROWING_KNIVES">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_PISTOL">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_PISTOL_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REVOLVER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REVOLVER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REVOLVER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REVOLVER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+        <Item key="Body">
+          <WeaponData>
+            <Item key="WEAPON_RIFLE_VARMINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_ARROW">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_ARROW_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_THROWING_KNIVES">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_PISTOL">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_PISTOL_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REVOLVER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REVOLVER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REVOLVER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REVOLVER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+		<Item key="NeckAndLungs">
+          <WeaponData>
+            <Item key="WEAPON_RIFLE_VARMINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_ARROW">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_ARROW_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_THROWING_KNIVES">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_PISTOL">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_PISTOL_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REVOLVER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REVOLVER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REVOLVER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REVOLVER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+        <Item key="Heart">
+          <WeaponData>
+            <Item key="AMMO_ARROW">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_ARROW_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="WEAPON_RIFLE_VARMINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_THROWING_KNIVES">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_PISTOL">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_PISTOL_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REVOLVER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REVOLVER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REVOLVER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REVOLVER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+        <Item key="HeadAndBrain">
+          <WeaponData>
+            <Item key="AMMO_ARROW">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_ARROW_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="WEAPON_RIFLE_VARMINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_PISTOL">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_PISTOL_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REVOLVER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REVOLVER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REVOLVER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REVOLVER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+      </RegionData>
+    </Item>
+    <Item key="PS_MEDIUM_LARGE" type="sDamageCleanlinessData">
+      <RegionData>
+	    <Item key="Limb">
+          <WeaponData>
+			<Item key="AMMO_ARROW">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_ARROW_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_ARROW_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+        <Item key="Body">
+          <WeaponData>
+			<Item key="AMMO_ARROW">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_ARROW_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_ARROW_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_THROWING_KNIVES">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_PISTOL">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_PISTOL_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REVOLVER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REVOLVER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REVOLVER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REVOLVER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_RIFLE">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_RIFLE_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+        <Item key="NeckAndLungs">
+          <WeaponData>
+            <Item key="AMMO_ARROW">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_ARROW_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_ARROW_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_THROWING_KNIVES">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_PISTOL_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REVOLVER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REVOLVER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REVOLVER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REVOLVER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_RIFLE_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+        <Item key="Heart">
+          <WeaponData>
+            <Item key="AMMO_ARROW">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_ARROW_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_ARROW_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_THROWING_KNIVES">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_PISTOL_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REVOLVER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REVOLVER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REVOLVER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REVOLVER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_RIFLE_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+        <Item key="HeadAndBrain">
+          <WeaponData>
+            <Item key="AMMO_ARROW">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_ARROW_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_ARROW_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_THROWING_KNIVES">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_PISTOL_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_PISTOL_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REVOLVER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REVOLVER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REVOLVER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REVOLVER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_REPEATER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_RIFLE_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_SHOTGUN_SLUG">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+      </RegionData>
+    </Item>
+    <Item key="PS_LARGE" type="sDamageCleanlinessData">
+      <RegionData>
+	    <Item key="Limb">
+          <WeaponData>
+		    <Item key="AMMO_ARROW_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+		<Item key="Body">
+          <WeaponData>
+			<Item key="AMMO_ARROW">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_ARROW_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_ARROW_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_RIFLE">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_RIFLE_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_SHOTGUN_SLUG">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+        <Item key="NeckAndLungs">
+          <WeaponData>
+            <Item key="AMMO_ARROW">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_ARROW_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_ARROW_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_THROWING_KNIVES_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_RIFLE_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_SHOTGUN_SLUG">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+        <Item key="Heart">
+          <WeaponData>
+            <Item key="AMMO_ARROW">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_ARROW_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_ARROW_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_THROWING_KNIVES_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_RIFLE_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_SHOTGUN_SLUG">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+        <Item key="HeadAndBrain">
+          <WeaponData>
+            <Item key="AMMO_ARROW">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_ARROW_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_ARROW_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_THROWING_KNIVES_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_RIFLE_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_SHOTGUN_SLUG">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+      </RegionData>
+    </Item>
+    <Item key="PS_EXTRA_LARGE" type="sDamageCleanlinessData">
+      <RegionData>
+	    <Item key="Limb">
+          <WeaponData>
+		    <Item key="AMMO_ARROW_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+		<Item key="Body">
+          <WeaponData>
+		    <Item key="AMMO_ARROW_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_ARROW_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_THROWING_KNIVES_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_RIFLE">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_RIFLE_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_SHOTGUN_SLUG">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Good</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+        <Item key="NeckAndLungs">
+          <WeaponData>
+            <Item key="AMMO_ARROW_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_ARROW_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_THROWING_KNIVES_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_RIFLE_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_SHOTGUN_SLUG">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+        <Item key="Heart">
+          <WeaponData>
+            <Item key="AMMO_ARROW_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_ARROW_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_THROWING_KNIVES_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_RIFLE_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_SHOTGUN_SLUG">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+        <Item key="HeadAndBrain">
+          <WeaponData>
+            <Item key="AMMO_ARROW_IMPROVED">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_ARROW_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_THROWING_KNIVES_POISON">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_RIFLE_SPLIT_POINT">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+            <Item key="AMMO_RIFLE_HIGH_VELOCITY">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_SHOTGUN_SLUG">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+			<Item key="AMMO_REPEATER_EXPRESS">
+              <CleanlinessResults>
+                <Item>
+                  <MaxBulletHits value="1" />
+                  <MaxDamageCleanliness>Perfect</MaxDamageCleanliness>
+                </Item>
+              </CleanlinessResults>
+            </Item>
+          </WeaponData>
+        </Item>
+      </RegionData>
+    </Item>
+  </DamageCleanlinessDatas>
+</CDamageDataManager>

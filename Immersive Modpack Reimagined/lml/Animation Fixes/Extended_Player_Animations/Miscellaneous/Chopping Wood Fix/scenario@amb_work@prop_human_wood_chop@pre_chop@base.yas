@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<fwAnimSceneData>
+  <sceneOrigin>
+    <matrix content="matrix34">
+	  0.82795700 0.56079200 0.00000000 911.46680000
+	  -0.56079200 0.82795700 0.00000000 263.32130000
+	  0.00000000 0.00000000 1.00000000 117.61230000
+    </matrix>
+  </sceneOrigin>
+  <entities>
+    <Item key="PED" type="0x64D97283">
+      <toolData type="NULL" />
+      <conditions type="NULL" />
+      <evaluationType>0xBAFBD7EA</evaluationType>
+      <debugModelName>CS_GENSTORYMALE</debugModelName>
+      <UNK_MEMBER_0xDC110A02 type="NULL" />
+      <optional value="false" />
+      <transient value="false" />
+      <overrideLifeTime value="false" />
+      <UNK_MEMBER_0x03EFD81F type="NULL" />
+      <UNK_MEMBER_0xE825C15F value="false" />
+      <createEntity value="false" />
+      <physicalFlags />
+      <linkedEntity>
+        <entityId />
+      </linkedEntity>
+      <leadIns />
+      <initialInventory>
+        <inventory />
+      </initialInventory>
+      <pedFlags />
+      <outfit />
+      <subOutfit />
+      <UNK_MEMBER_0xFF8220B9 type="NULL" />
+    </Item>
+    <Item key="P_AXE01X_PH_R_HAND" type="0x44DEE094">
+      <toolData type="NULL" />
+      <conditions type="NULL" />
+      <evaluationType>0xBAFBD7EA</evaluationType>
+      <debugModelName>P_AXE01X</debugModelName>
+      <UNK_MEMBER_0xDC110A02 type="NULL" />
+      <optional value="false" />
+      <transient value="false" />
+      <overrideLifeTime value="false" />
+      <UNK_MEMBER_0x03EFD81F type="NULL" />
+      <UNK_MEMBER_0xE825C15F value="false" />
+      <createEntity value="false" />
+      <physicalFlags />
+      <linkedEntity>
+        <entityId />
+      </linkedEntity>
+      <weaponName />
+      <objectFlags />
+    </Item>
+  </entities>
+  <sections>
+    <Item key="MAIN" type="0x64E8AC67">
+      <UNK_MEMBER_0xC618212A type="NULL" />
+      <UNK_MEMBER_0xBB18B485>
+        <entityId />
+      </UNK_MEMBER_0xBB18B485>
+      <UNK_MEMBER_0x47B47045 value="false" />
+      <loopCount value="1" />
+      <events>
+        <events>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>PED</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="4.30000000" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <clip>
+              <clipDictionaryName>AMB_WORK@PROP_HUMAN_WOOD_CHOP@PRE_CHOP@MALE_A@BASE</clipDictionaryName>
+              <clipName>BASE</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags>AF_NOT_INTERRUPTABLE 0xB46C05A7 0x3A00B430</animFlags>
+            <flags>TAF_NOT_INTERRUPTABLE 0x028D8D60 0xFD520F94</flags>
+            <ragdollBlockingFlags />
+            <ikFlags />
+            <aiFlags />
+            <physFlags />
+            <filter>bodyonly_filter</filter>
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.00000000" />
+            <blendOutDuration value="0.00000000" />
+            <UNK_MEMBER_0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <useSceneOrigin value="true" />
+            <UNK_MEMBER_0x1F1E9763 value="false" />
+            <UNK_MEMBER_0x03EFD81F type="NULL" />
+            <pApproach type="NULL" />
+          </Item>
+          <Item type="0x0CB4F193">
+            <entity>
+              <entityId>P_AXE01X_PH_R_HAND</entityId>
+            </entity>
+            <startTime value="0.00000000" />
+            <endTime value="4.30000000" />
+            <UNK_MEMBER_0x420E8F0C value="4.00000000" />
+            <pChildren type="NULL" />
+            <UNK_MEMBER_0xAB28F89C value="false" />
+            <state>0x9D9DEE9D</state>
+            <toolData type="NULL" />
+            <clip>
+              <clipDictionaryName>AMB_WORK@PROP_HUMAN_WOOD_CHOP@PRE_CHOP@MALE_A@BASE</clipDictionaryName>
+              <clipName>BASE_AXE</clipName>
+            </clip>
+            <fpsClip>
+              <clipDictionaryName />
+              <clipName />
+            </fpsClip>
+            <animFlags>AF_NOT_INTERRUPTABLE 0xB46C05A7 0x3A00B430</animFlags>
+            <flags>TAF_NOT_INTERRUPTABLE 0x028D8D60 0xFD520F94</flags>
+            <ragdollBlockingFlags />
+            <ikFlags />
+            <aiFlags />
+            <physFlags />
+            <filter />
+            <fpsFilter />
+            <bodyDampingTemplate />
+            <blendInDuration value="0.00000000" />
+            <blendOutDuration value="0.00000000" />
+            <UNK_MEMBER_0xEB3388F4 value="-1.00000000" />
+            <offsetTime value="0.00000000" />
+            <rate value="1.00000000" />
+            <useSceneOrigin value="true" />
+            <UNK_MEMBER_0x1F1E9763 value="false" />
+            <UNK_MEMBER_0x03EFD81F type="NULL" />
+            <pApproach type="NULL" />
+          </Item>
+        </events>
+      </events>
+      <locationData>
+        <Item key="PED" type="0xAD5DFE3C">
+          <startPos x="-1.47352400" y="0.00206600" z="1.00000000" />
+          <startRot x="0.00000000" y="0.00000000" z="-0.70710700" w="0.70710700" />
+          <startTime value="0.00000000" />
+          <endPos x="-1.47352400" y="0.00206600" z="1.00000000" />
+          <endRot x="0.00000000" y="0.00000000" z="-0.70710700" w="0.70710700" />
+          <endTime value="4.30000000" />
+        </Item>
+        <Item key="P_AXE01X_PH_R_HAND" type="0xAD5DFE3C">
+          <startPos x="-1.35884000" y="0.30247100" z="0.95116400" />
+          <startRot x="-0.41006700" y="0.70463600" z="-0.52768100" w="-0.23850800" />
+          <startTime value="0.00000000" />
+          <endPos x="-1.35869500" y="0.30225700" z="0.95103900" />
+          <endRot x="-0.40982900" y="0.70477800" z="-0.52749700" w="-0.23890300" />
+          <endTime value="4.30000000" />
+        </Item>
+      </locationData>
+      <UNK_MEMBER_0x0696FE9E type="NULL" />
+    </Item>
+  </sections>
+  <playLists />
+  <flags />
+  <version value="15" />
+  <jenniferInterrelationCollections>0xB418ED04</jenniferInterrelationCollections>
+  <toolData type="NULL" />
+  <compositeScenes />
+  <stateMachine>
+    <initialTransitions />
+    <states />
+    <editorData type="NULL" />
+  </stateMachine>
+  <UNK_MEMBER_0x8FB2F5A4>0xAAEECA68</UNK_MEMBER_0x8FB2F5A4>
+  <UNK_MEMBER_0x0558B627 value="false" />
+</fwAnimSceneData>

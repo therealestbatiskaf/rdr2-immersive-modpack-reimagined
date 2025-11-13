@@ -1,0 +1,292 @@
+< ------- START ====== MENUS ====== START ------- >
+
+0x0F5AE659 = Strapped
+0xF1DE1E49 = Hanging
+0xB01F3232 = Fully Open
+
+0xB920F6EF = Left Parted
+0x834F7AE9 = Side Swept
+locked_length_hairstyles = Extra Styles
+extra = Extra Styles
+CLOTHING_ITEM_JOHN_HAIR = Long Right Parted
+
+CLOTHING_STYLE_P3_SHIRT_003 = Flannel Overshirt
+CLOTHING_STYLE_P3_SHIRT_003_PAGE = Flannel Overshirt
+
+0x413D722F = Remove Off-Hand Holster
+
+0xD6B0C5D6 = No Shirt
+
+Shirt_Undergarment = Undergarment
+Menu_Undergarments = Undergarments
+Page_Undergarments = Undergarments
+Menu_Desc_Undergarments = Choose a undergament
+
+SUB_GROUP_MELEE_LONG_BLADE = Long Blade
+
+CLOTHING_STYLE_UNDERGARMENTS_000 = Union Suit
+CLOTHING_PAGE_UNDERGARMENTS_000 = Union Suit
+
+CLOTHING_STYLE_SCARECROW_HAT_020 = Scarecrow Sombrero
+CLOTHING_PAGE_SCARECROW_HAT_020 = Scarecrow Sombrero
+
+WEAPON_MELEE_LANTERN = Lantern
+
+WEAPON_MELEE_DAVY_LANTERN = Davy Lantern
+
+WEAPON_MW_DAVY_LANT_DESC = A fuel-powered lantern typically found in coal mines.
+
+WHALE_OIL_BRAND = Whale Oil Lanterns
+
+LANTERN_SHOP_DESC = This sturdy metal lantern offers a reliable source of light for the everyday man, featuring a durable glass globe perfectly suited for use at your cabin, campsite, or cottage.
+
+CMPNDM_LAN_REPEATER_JOHN_DESC = Owned by John Marston, this personalized Lancaster Repeater features a unique iron finish and a custom rosewood stock. Its high fire rate and accuracy make it the perfect defense against wolf attacks. This gun has an ammo capacity of fourteen rounds, and can use Regular, High Velocity, Split Point, Express and Explosive repeater ammo.
+
+CLOTHING_STYLE_NECKTIE_001 = Bow Tie
+CLOTHING_STYLE_NECKTIE_001_PAGE = Bow Tie
+CLOTHING_STYLE_NECKTIE_001_DESC = The Bow Tie is the most sensible tie that any man can wear, with a full set of colors to choose from.
+
+CLOTHING_STYLE_GLOVES_024 = Winter Gloves
+CLOTHING_STYLE_GLOVES_024_PAGE = Winter Gloves
+CLOTHING_STYLE_GLOVES_024_DESC = Tightly knit winter gloves fitted for maximum comfort and protection, with a full set of colors to choose from.
+
+CMPNDM_NAVY_REVOLVER_DESC = Revered by the Army and Navy who attest that the cylinder catch and barrel latch make for easy shell extraction and loading in the field when enemies need to be dropped at close range. This revolver has a cylinder capacity of six rounds, and can use Regular, High Velocity, Split Point, Express and Explosive revolver ammo.
+CMPNDM_NAVY_REVOLVER_TIP = A classic navy-used revolver
+
+< ------- END ====== MENUS ====== END ------- >
+
+< ------- START ====== OUTFITS ====== START ------- >
+
+the_overnight = The Elegant Suit
+the_overnight_outfit = The Elegant Suit
+CLOTHING_SP_MAR_OUTFIT_WEDDING_FREEROAM = The Elegant Suit
+
+CLOTHING_SP_MAR_OUTFIT_SHEEP = The Scout
+
+CLOTHING_SP_MAR_OUTFIT_HORSESHOE_OVERLOOK = The Early Steader
+
+CLOTHING_SP_MAR_OUTFIT_OILJOB = The Steader
+
+CLOTHING_SP_MAR_OUTFIT_CLEMENSPOINT = The Buckshot
+
+CLOTHING_SP_MAR_OUTFIT_SUMMER_OUTLAW = The Summer Outlaw
+
+CLOTHING_SP_MAR_OUTFIT_SHADYBELLE = The Outlaw
+
+CLOTHING_SP_MAR_OUTFIT_GUNSLINGER_COLD_WEATHER = The Autumn Cowboy
+CLOTHING_SP_MAR_OUTFIT_GUNSLINGER_WARM_WEATHER = The Summer Cowboy
+
+THE_WINTER_COWBOY = The Winter Cowboy
+THE_WINTER_COWBOY_OUTFIT =  The Winter Cowboy
+CLOTHING_SP_MAR_OUTFIT_COLD_WEATHER_CLOSED = Closed Winter Cowboy
+CLOTHING_SP_MAR_OUTFIT_COLD_WEATHER_OPENED = Opened Winter Cowboy
+
+THE_WINTER_GUNSLINGER = The Winter Gunslinger
+THE_WINTER_GUNSLINGER_OUTFIT = The Winter Gunslinger
+CLOTHING_WINTER_CLOSED_COAT_OUTFIT = Closed Winter Gunslinger
+CLOTHING_WINTER_OPEN_COAT_OUTFIT = Opened Winter Gunslinger
+
+CLOTHING_ISLAND_OUTFIT_FREEROAM = The Stranded
+
+CLOTHING_ROBBERY_OUTFIT_FREEROAM = The Robbery Outfit
+CLOTHING_ROBBERY_OUTFIT_TRAILER_001 = The Hayseed
+
+CLOTHING_COLD_WEATHER_OUTFIT = The Autumn Gunslinger
+
+CLOTHING_WARM_WEATHER_CASUAL_OUTFIT = The Casual Gunslinger
+
+CLOTHING_SP_MAR_OUTFIT_GUNSLINGER_PROTOTYPE = The Herdsman
+
+< ------- END ====== OUTFITS ====== END ------- >
+
+< ------- START ====== CLOTHING ITEMS ====== START ------- >
+
+CLOTHING_ITEM_OFFHAND_HOLSTER_NONE = No Off-Hand Holster
+
+CLOTHING_SP_OFFHAND_013 = Nuevo Paraiso Off-Hand Holster
+
+clothing_p3_player_three_ms1_gloves_001_000 = Western Gloves
+
+CLOTHING_P3_PLAYER_THREE_GLOVES_000_1 = Range Gloves
+
+CLOTHING_P3_PLAYER_THREE_MS1_NECKTIE_000_000 = Elegant Dress Tie
+
+CLOTHING_P3_PLAYER_THREE_MS1_VEST_004_000 = Elegant Vest
+
+clothing_p3_player_three_ms1_hat_001_001 = John's Elegant Hat
+
+clothing_p3_player_three_ms1_vest_003_000 = Double Breasted Lapelled Vest
+
+clothing_p3_player_three_ms1_pants_002_005 = Black Denim Ranch Pants
+
+clothing_p3_player_three_ms1_pants_002_004 = Striped Denim Ranch Pants
+
+CLOTHING_P3_COAT_RANCHER01_VARIATION_01 = Black Rancher Jacket
+
+KIT_BANDANA_JOHN = John's Bandana
+
+CLOTHING_ITEM_P3_LOADOUT_BANDOLIER_03 = Weathered Bandolier
+CLOTHING_ITEM_P3_LOADOUT_BANDOLIER_02 = John's Bandolier
+
+clothing_p3_player_three_ms1_shirt_003_001 = Light Flannel Overshirt
+
+clothing_p3_player_three_ms1_shirt_002_002 = Black Cassimere Shirt
+
+CLOTHING_SP_COAT_HEIST01_VARIATION_01 = Fancy Coat
+
+CLOTHING_ITEM_P3_SCARF_001 = Winter Scarf
+
+CLOTHING_HL_PLAYER_THREE_COAT_002_1 = Classic Shotgun Coat
+
+CLOTHING_HL_PLAYER_THREE_VEST_002_0 = Buckskin Leather Vest
+
+CLOTHING_ITEM_BOOTS_PTHREE_001 = Elegant Boots
+
+CLOTHING_ITEM_BOOTS_PZERO_002 = Midtown Shoes
+
+0xEFA89114 = Undershirt
+
+CLOTHING_HL_PLAYER_THREE_US_001_1 = Beige Under Shirt
+
+CLOTHING_HL_PLAYER_ZERO_US_001_0 = Union Suit
+CLOTHING_HL_PLAYER_ZERO_US_000_0 = Union Suit
+CLOTHING_HL_PLAYER_ZERO_US_000_1 = Union Suit
+CLOTHING_HL_PLAYER_ZERO_US_000_17 = Union Suit
+CLOTHING_HL_PLAYER_ZERO_US_000_18 = Union Suit
+CLOTHING_HL_PLAYER_ZERO_US_000_19 = Union Suit
+CLOTHING_HL_PLAYER_ZERO_US_000_2 = Union Suit
+CLOTHING_HL_PLAYER_ZERO_US_000_20 = Union Suit
+CLOTHING_HL_PLAYER_ZERO_US_000_21 = Union Suit
+CLOTHING_HL_PLAYER_ZERO_US_000_22 = Union Suit
+CLOTHING_HL_PLAYER_ZERO_US_000_29 = Union Suit
+CLOTHING_HL_PLAYER_ZERO_US_000_3 = Union Suit
+CLOTHING_HL_PLAYER_ZERO_US_000_4 = Union Suit
+CLOTHING_HL_PLAYER_ZERO_US_000_5 = Union Suit
+CLOTHING_HL_PLAYER_ZERO_US_000_6 = Union Suit
+CLOTHING_HL_PLAYER_ZERO_US_000_7 = Union Suit
+CLOTHING_HL_PLAYER_ZERO_US_000_8 = Union Suit
+
+CLOTHING_HL_PLAYER_UST_000_0 = Union Suit
+CLOTHING_HL_PLAYER_UST_001_0 = Union Suit
+
+0x1BFA92F4 = Ammunition Belt
+
+CLOTHING_HL_PLAYER_USTO_000_0 = Collarless Pullover Shirt
+
+CLOTHING_P3_PLAYER_THREE_MS1_COAT_001_000 = Elegant Coat
+
+CLOTHING_P3_PLAYER_THREE_MS1_COAT_004_000 = Weathered Scout Jacket
+
+0x8E7B25F4 = Cowboy Vest
+
+KIT_BANDANA_LARGE = Long Bandana
+
+CLOTHING_ITEM_PZ_LOADOUT_BANDOLIER_01 = Arthur's Bandolier
+
+CLOTHING_SP_OFFHAND_000 = Arthur's Off-Hand Holster
+
+CLOTHING_P3_OFFHAND_001 = Weathered Off-Hand Holster
+
+0x0E5E7EBC = Formal Pants
+
+clothing_sp_gunbelt_sony = Grizzlies Gun Belt
+clothing_sp_holster_sony = Grizzlies Holster
+clothing_sp_offhand_sony = Grizzlies Off-Hand Holster
+
+CLOTHING_SP_WARVET_HAT_000 = Veteran's Hat
+
+CLOTHING_HAT_000_POLICE = Saint Denis Police Helmet
+
+CLOTHING_SP_SCARECROW_02_HAT_000_2 = Rare Scarecrow Sombrero
+
+CLOTHING_ITEM_SATCHEL_NONE_ALT = No Satchel
+
+CLOTHING_HL_PLAYER_GLOVES_024_0 = Winter Gloves
+CLOTHING_HL_PLAYER_GLOVES_024_1 = Winter Gloves
+CLOTHING_HL_PLAYER_GLOVES_024_2 = Winter Gloves
+CLOTHING_HL_PLAYER_GLOVES_024_3 = Winter Gloves
+CLOTHING_HL_PLAYER_GLOVES_024_4 = Winter Gloves
+CLOTHING_HL_PLAYER_GLOVES_024_5 = Winter Gloves
+CLOTHING_HL_PLAYER_GLOVES_024_6 = Winter Gloves
+CLOTHING_HL_PLAYER_GLOVES_024_7 = Winter Gloves
+CLOTHING_HL_PLAYER_GLOVES_024_8 = Winter Gloves
+CLOTHING_HL_PLAYER_GLOVES_024_9 = Winter Gloves
+CLOTHING_HL_PLAYER_GLOVES_024_10 = Winter Gloves
+
+CLOTHING_HL_PLAYER_GLOVES_005_1 = Working Gloves
+CLOTHING_HL_PLAYER_GLOVES_005_2 = Working Gloves
+CLOTHING_HL_PLAYER_GLOVES_005_3 = Working Gloves
+CLOTHING_HL_PLAYER_GLOVES_005_4 = Working Gloves
+CLOTHING_HL_PLAYER_GLOVES_005_5 = Working Gloves
+CLOTHING_HL_PLAYER_GLOVES_005_6 = Working Gloves
+CLOTHING_HL_PLAYER_GLOVES_005_7 = Working Gloves
+CLOTHING_HL_PLAYER_GLOVES_005_8 = Working Gloves
+CLOTHING_HL_PLAYER_GLOVES_005_9 = Working Gloves
+CLOTHING_HL_PLAYER_GLOVES_005_10 = Working Gloves
+
+CLOTHING_ITEM_GLOVES_PZERO_000 = Range Gloves
+CLOTHING_HL_PLAYER_GLOVES_000_1 = Range Gloves
+CLOTHING_HL_PLAYER_GLOVES_000_2 = Range Gloves
+CLOTHING_HL_PLAYER_GLOVES_000_3 = Range Gloves
+CLOTHING_HL_PLAYER_GLOVES_000_4 = Range Gloves
+CLOTHING_HL_PLAYER_GLOVES_000_5 = Range Gloves
+CLOTHING_HL_PLAYER_GLOVES_000_6 = Range Gloves
+CLOTHING_HL_PLAYER_GLOVES_000_7 = Range Gloves
+CLOTHING_HL_PLAYER_GLOVES_000_8 = Range Gloves
+CLOTHING_HL_PLAYER_GLOVES_000_9 = Range Gloves
+CLOTHING_HL_PLAYER_GLOVES_000_10 = Range Gloves
+CLOTHING_HL_PLAYER_GLOVES_000_11 = Range Gloves
+CLOTHING_HL_PLAYER_GLOVES_000_12 = Range Gloves
+CLOTHING_HL_PLAYER_GLOVES_000_13 = Range Gloves
+
+clothing_item_sp_collectable_hat_mr1_027 = Sobol Hat
+
+< ------- END ====== CLOTHING ITEMS ====== END ------- >
+
+< ------- START ====== MISCELLANEOUS ====== START ------- >
+
+CLOTHING_REINFORCED_EQUIPMENT_DEER = Horseman Equipment
+
+CLOTHING_REINFORCED_EQUIPMENT_PANTHER = Sharpshooter Equipment
+
+CLOTHING_REINFORCED_EQUIPMENT_SNAKE = Weapons Expert Equipment
+
+CLOTHING_REINFORCED_EQUIPMENT_GATOR = Bandit Equipment
+
+CLOTHING_REINFORCED_EQUIPMENT_BOAR = Gambler Equipment
+
+CLOTHING_REINFORCED_EQUIPMENT_COUGAR = Master Hunter Equipment
+
+CLOTHING_REINFORCED_EQUIPMENT_BEAR = Explorer Equipment
+
+CLOTHING_REINFORCED_EQUIPMENT_BUFFALO = Herbalist Equipment
+
+CLOTHING_REINFORCED_EQUIPMENT_RABBIT = Survivalist Equipment
+
+PROVISION_REINFORCED_EQUIPMENT_DEER_DESC = Reinforced Equipment increase ammo and reduce the amount of maintenance for all weapons.
+
+PROVISION_REINFORCED_EQUIPMENT_PANTHER_DESC = Reinforced Equipment increase ammo and reduce the amount of maintenance for all weapons.
+
+PROVISION_REINFORCED_EQUIPMENT_SNAKE_DESC = Reinforced Equipment increase ammo and reduce the amount of maintenance for all weapons.
+
+PROVISION_REINFORCED_EQUIPMENT_GATOR_DESC = Reinforced Equipment increase ammo and reduce the amount of maintenance for all weapons.
+
+PROVISION_REINFORCED_EQUIPMENT_BOAR_DESC = Reinforced Equipment increase ammo and reduce the amount of maintenance for all weapons.
+
+PROVISION_REINFORCED_EQUIPMENT_COUGAR_DESC = Reinforced Equipment increase ammo and reduce the amount of maintenance for all weapons.
+
+PROVISION_REINFORCED_EQUIPMENT_BEAR_DESC = Reinforced Equipment increase ammo and reduce the amount of maintenance for all weapons.
+
+PROVISION_REINFORCED_EQUIPMENT_BUFFALO_DESC = Reinforced Equipment increase ammo and reduce the amount of maintenance for all weapons.
+
+PROVISION_REINFORCED_EQUIPMENT_RABBIT_DESC = Reinforced Equipment increase ammo and reduce the amount of maintenance for all weapons.
+
+CONSUMABLE_CHEWING_TOBACCO_USED_DESC = Fully restores Dead Eye. Slightly damages Dead Eye Core.
+
+0x2A8956F4 = Fully restores Stamina. Slightly damages Stamina Core.
+
+0xEDFF6C96 = Fully restores Health, Stamina and Dead Eye and Fortifies greatly.
+
+horse_equipment_marston_00_old_saddle_000 = Weathered Classic Saddle
+
+< ------- END ====== MISCELLANEOUS ====== END ------- >

@@ -1,0 +1,3179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDataFileMgr__ContentsOfDataFileXml>
+  <disabledFiles/>
+  <includedXmlFiles/>
+  <includedDataFiles/>
+  <dataFiles>
+    <Item>
+      <filename>dlc_patchPack001:/common/data/overlayinfo.xml</filename>
+      <fileType>OVERLAY_INFO_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <!-- ANIMSCENES -->
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@bou1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@brt3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@cabll.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@cachr.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@cajav.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@caunc.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@calen.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@ccmrb.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@dst5.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@fin2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@fud1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@fus1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@fus2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@gng1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@gng2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@gng3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@gry1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@gry2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@gry3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@gua1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@gua2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@gua3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@ind1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@ind3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@jbo5.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@lsmin.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mar1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mar2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mar4.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mar5.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mar6.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mar7.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mob3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mob4.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mry1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mry3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mud1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mud2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mud3b.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mud4.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mud5.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@nbd1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@nts1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@nts2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@nts3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@ntv1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@ntv2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@ntv3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@odr1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@odr3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@odr4.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@prhm6.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@ptl.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rabi1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rabi2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rabi3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rbch1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rbch2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rbnp1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rbnp2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rbsos.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rcal.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rcmp.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rckpt.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rccig.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rcldn.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rcld2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rchrb.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rcrkf.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rcrle.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rctxd.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rdopn.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rdown.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rdtc1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rdtc2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rdtc3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rdst6.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@redw2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rev1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rfma.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rgng0.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rgun1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rgun5.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rchnt1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rhlp2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rhmr0.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rhntn.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rjck2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rsad1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rktty.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rstr3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rslvc.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rmasn.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rmllr.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rmayr.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rmnr1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rnatv.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rprsn.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rwarv.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rxcf1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@sad2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@sad3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@sad4.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@sal1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@sen1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@sus1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@tre1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@trn1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@trn3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@trn4.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@utp1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@utp2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@wnt1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@wnt4.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/lightrig.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <locked value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@fin1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/mech_skin.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/scenario@randomevent.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@ambient.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@beat.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@common.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@fast_travel.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@hideout.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@proc.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@rcm.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@shows.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@specialped.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@story.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@timelapse.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@vignette.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <!-- ANIM - CUTSCENES -->
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_bou1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_brt3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_cabll.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_cachr.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_cajav.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_caunc.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_calen.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_ccmrb.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_dst5.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_fin1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_fin2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_fud1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_fus1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_fus2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_gng1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_gng2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_gng3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_gry1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_gry2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_gry3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_gua1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_gua2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_gua3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_ind1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_ind3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_jbo5.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_lsmin.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mar1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mar2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mar4.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mar5.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mar6.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mar7.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mob3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mob4.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mry1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mry3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mud1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mud2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mud3b.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mud4.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mud5.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_nbd1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_nts1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_nts2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_nts3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_ntv1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_ntv2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_ntv3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_odr1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_odr3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_odr4.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_prhm6.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_ptl.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rabi1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rabi2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rabi3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rbnp1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rbnp2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rbsos.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rcal.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rcldn.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rcld2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rckpt.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rccig.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rchrb.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rcmp.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rcrkf.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rcrle.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rctxd.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rbch1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rbch2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rdopn.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rdown.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rdtc1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rdtc2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rdtc3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rdst6.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_redw2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rev1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rfma.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rgng0.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rgun1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rgun5.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rhlp2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rhmr0.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rchnt1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rhntn.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rjck2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rsad1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rktty.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rstr3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rslvc.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rmasn.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rmllr.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rmayr.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rmnr1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rnatv.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rprsn.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rwarv.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rxcf1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_sad2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_sad3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_sad4.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_sal1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_sen1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_sus1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_tre1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_trn1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_trn3.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_trn4.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_utp1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_utp2.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_wnt1.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_wnt4.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <!-- ANIM - INGAME -->
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_amb_camp.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_amb_misc.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_amb_player.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_amb_rest_drunk.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_amb_rest_sit.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_amb_work.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_cnv_camp.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_face_creatures.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_animal_interaction.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_hogtie.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_inventory.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_inspection.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_loco_m.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_grapple.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_melee.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_ransack.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_skin.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_swim.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mini_games.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_script_amb.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_script_camp.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_script_common.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_script_re.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_script_story.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_script_rc.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_veh_cart.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_veh_horseback.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_veh_wagon.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_VEH_LO_RES_IDLE.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_creatures_mammal.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_script_shows.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_script_respawn.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_script_proc.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_weapons_special.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <!-- ANIM - MEGADICTIONARIES -->
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_ai_gestures.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_amb_camp.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_amb_generic.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_amb_misc.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_amb_rest.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_amb_player.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_amb_rest_drunk.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_amb_rest_sit.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_amb_work.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_cart_large.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_coach.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_cover.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_grapple.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_wagon.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_doors.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_boat_paddle.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_veh_driveby.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_veh_horseback.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_weapons_shortarms.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_weapons_dual.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_weapons_special.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_loco_m.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_script_common.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <!-- ANIM - MOTIONS -->
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/motions/mech_loco_f.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <locked value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/motions/mech_loco_m.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <locked value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/motions/horse.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <locked value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/motions/horseback.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <locked value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/motions/creatures_mammal.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <locked value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/anim/motions/creatures_mammal_low_lod.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <locked value="true"/>
+      <overlay value="true"/>
+      <contents>CONTENTS_ANIMATION</contents>
+    </Item>
+    <!-- AUDIO -->
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/audio/sfx/DLC_PD01.rpf</filename>
+      <fileType>AUDIO_WAVEPACK</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="false"/>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/audio/dlcpd01_game.dat</filename>
+      <fileType>AUDIO_GAMEDATA</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="false"/>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/audio/dlcpd01_sounds.dat</filename>
+      <fileType>AUDIO_SOUNDDATA</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="false"/>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/audio/dlcpd01_speech2.dat</filename>
+      <fileType>AUDIO_SPEECHDATA</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="false"/>
+    </Item>
+    <!-- MAPS -->
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/terrain/horseavoidance/abcd_92_95_ha.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <contents>CONTENTS_DLC_MAP_DATA</contents>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/terrain/a_water_01_vfx.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <contents>CONTENTS_DLC_MAP_DATA</contents>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/area/nopq_07_10/ftr_e_01.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <contents>CONTENTS_DLC_MAP_DATA</contents>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/area/nopq_07_10/the_01.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <contents>CONTENTS_DLC_MAP_DATA</contents>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/area/nopq_07_10/nopq_7_10_area_lod_combine_collision.rpf</filename>
+      <contents>CONTENTS_DLC_MAP_DATA</contents>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/area/lod/nopq_7_10_area_lod_combine_metadata.rpf</filename>
+      <contents>CONTENTS_DLC_MAP_DATA</contents>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <!-- TODO : remove -->
+      <doPostLoad value="false"/>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/area/rstu_96_99/fom_01.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/area/lod/rstu_96_99_area_lod_combine_metadata.rpf</filename>
+      <contents>CONTENTS_DLC_MAP_DATA</contents>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <!-- TODO : remove -->
+      <doPostLoad value="false"/>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/area/map_mods.rpf</filename>
+      <contents>CONTENTS_DLC_MAP_DATA</contents>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <!-- INTERIORS -->
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/interiors/new_shady_shop_int.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/interiors/q03_04_tunnel_ent_int.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/interiors/q03_04_tunnel_int.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/interiors/q03_04_tunnel_exit_int.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/interiors/cor_factb_int.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/interiors/han_house_int.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="true"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+    <!-- PROPS -->
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/generic/p_curtain.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/generic/p_door.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/generic/p_bathroom.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/lev_des/s_caravan.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/lev_des/s_cs_objects02.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/lev_des/s_lev_des_rend_targ.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/lev_des/s_set_pieces.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/vehicle_props/vehicle_props.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/areas/p_new_01.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/structure/p_stden_cem.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/interior/int_doctor_office.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <overlay value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <!-- PACKS -->
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/packs/base/models/component_models.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <doPostLoad value="false"/>
+      <overlay value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/packs/base/models/component_textures.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <doPostLoad value="false"/>
+      <overlay value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/%PLATFORM%/hd/packs/base/models/component_textures.rpf</filename>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <doPostLoad value="false"/>
+      <overlay value="true"/>
+      <fileType>RPF_FILE</fileType>
+    </Item>
+    <Item>
+      <filename>dlc_patchPack001:/common/non_final/anim/motions</filename>
+      <disabled value="true"/>
+      <devOnly value="true"/>
+      <fileType>MOTIONDBG_FOLDER</fileType>
+    </Item>
+	<Item>
+		<filename>dlc_patchPack001:/common/non_final/anim/clip_dictionary_metadata</filename>
+		<disabled value="true"/>
+		<devOnly value="true"/>
+		<fileType>MEMGRPS_FOLDER</fileType>
+	</Item>
+  </dataFiles>
+  <contentChangeSets>
+    <Item>
+      <changeSetName>PATCHPACK001_EARLY_OPTIONAL</changeSetName>
+      <filesToInvalidate/>
+      <filesToDisable/>
+      <filesToEnable>
+        <Item>dlc_patchPack001:/%PLATFORM%/hd/packs/base/models/component_textures.rpf</Item>
+      </filesToEnable>
+      <executionConditions/>
+    </Item>
+    <Item>
+      <changeSetName>PATCHPACK001_EARLY</changeSetName>
+      <filesToInvalidate/>
+      <filesToDisable/>
+      <filesToEnable>
+        <!-- ANIMSCENES -->
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@bou1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@brt3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@cabll.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@cachr.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@cajav.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@caunc.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@calen.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@ccmrb.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@dst5.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@fin1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@fin2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@fud1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@fus1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@fus2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@gng1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@gng2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@gng3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@gry1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@gry2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@gry3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@gua1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@gua2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@gua3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@ind1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@ind3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@jbo5.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@lsmin.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mar1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mar2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mar4.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mar5.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mar6.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mar7.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mob3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mob4.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mry1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mry3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mud1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mud2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mud3b.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mud4.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@mud5.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@nbd1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@nts1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@nts2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@nts3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@ntv1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@ntv2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@ntv3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@odr1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@odr3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@odr4.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@prhm6.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@ptl.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rabi1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rabi2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rabi3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rbch1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rbch2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rbnp1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rbnp2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rbsos.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rcal.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rchnt1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rchrb.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rckpt.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rccig.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rcldn.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rcld2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rcmp.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rcrkf.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rcrle.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rctxd.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rdopn.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rdown.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rdtc1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rdtc2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rdtc3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rdst6.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@redw2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rev1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rfma.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rgng0.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rgun1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rgun5.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rhlp2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rhmr0.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rhntn.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rjck2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rsad1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rktty.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rstr3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rslvc.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rmasn.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rmllr.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rmayr.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rmnr1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rnatv.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rprsn.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rwarv.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@rxcf1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@sad2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@sad3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@sad4.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@sal1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@sen1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@sus1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@tre1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@trn1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@trn3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@trn4.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@utp1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@utp2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@wnt1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/cuts@wnt4.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/lightrig.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/mech_skin.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/scenario@randomevent.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@ambient.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@beat.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@common.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@fast_travel.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@hideout.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@proc.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@rcm.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@shows.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@specialped.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@story.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@timelapse.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/animscenes/script@vignette.rpf</Item>
+        <!-- ANIM - CUTSCENES -->
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_bou1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_brt3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_cabll.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_cachr.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_cajav.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_caunc.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_calen.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_ccmrb.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_dst5.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_fin1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_fin2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_fud1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_fus1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_fus2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_gng1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_gng2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_gng3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_gry1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_gry2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_gry3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_gua1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_gua2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_gua3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_ind1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_ind3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_jbo5.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_lsmin.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mar1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mar2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mar4.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mar5.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mar6.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mar7.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mob3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mob4.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mry1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mry3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mud1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mud2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mud3b.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mud4.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_mud5.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_nbd1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_nts1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_nts2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_nts3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_ntv1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_ntv2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_ntv3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_odr1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_odr3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_odr4.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_prhm6.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_ptl.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rabi1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rabi2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rabi3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rbch1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rbch2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rbnp1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rbnp2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rbsos.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rcmp.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rcal.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rchnt1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rchrb.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rcldn.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rcld2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rckpt.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rccig.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rcrkf.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rcrle.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rctxd.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rdopn.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rdown.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rdtc1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rdtc2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rdtc3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rdst6.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_redw2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rev1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rfma.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rgng0.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rgun1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rgun5.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rhlp2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rhmr0.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rhntn.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rjck2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rsad1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rktty.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rstr3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rslvc.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rmasn.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rmllr.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rmayr.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rmnr1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rnatv.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rprsn.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rwarv.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_rxcf1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_sad2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_sad3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_sad4.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_sal1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_sen1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_sus1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_tre1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_trn1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_trn3.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_trn4.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_utp1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_utp2.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_wnt1.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/cutscene/cuts_wnt4.rpf</Item>
+        <!-- ANIM - INGAME -->
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_amb_camp.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_amb_misc.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_amb_player.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_amb_rest_drunk.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_amb_rest_sit.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_amb_work.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_cnv_camp.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_face_creatures.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_animal_interaction.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_hogtie.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_inventory.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_inspection.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_loco_m.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_grapple.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_melee.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_ransack.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_skin.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_swim.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mini_games.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_script_amb.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_script_camp.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_script_common.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_script_proc.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_script_rc.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_script_re.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_script_story.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_veh_cart.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_veh_horseback.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_veh_wagon.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_VEH_LO_RES_IDLE.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_creatures_mammal.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_script_shows.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_script_respawn.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/ingame/clip_mech_weapons_special.rpf</Item>
+        <!-- ANIM - MEGADICTIONARIES -->
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_ai_gestures.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_amb_camp.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_amb_misc.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_amb_generic.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_amb_player.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_amb_rest.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_amb_rest_drunk.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_amb_rest_sit.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_amb_work.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_cart_large.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_coach.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_cover.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_grapple.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_wagon.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_doors.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_boat_paddle.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_veh_driveby.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_veh_horseback.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_weapons_shortarms.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_weapons_dual.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_weapons_special.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_mech_loco_m.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/megadictionaries/clip_mega_script_common.rpf</Item>
+        <!-- ANIM - MOTIONS -->
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/motions/mech_loco_f.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/motions/mech_loco_m.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/motions/horse.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/motions/horseback.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/motions/creatures_mammal.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/anim/motions/creatures_mammal_low_lod.rpf</Item>
+        <!-- AUDIO -->
+        <Item>dlc_patchPack001:/%PLATFORM%/audio/sfx/DLC_PD01.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/audio/dlcpd01_game.dat</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/audio/dlcpd01_sounds.dat</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/audio/dlcpd01_speech2.dat</Item>
+        <!-- PACKS -->
+        <Item>dlc_patchPack001:/%PLATFORM%/packs/base/models/component_models.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/packs/base/models/component_textures.rpf</Item>
+      </filesToEnable>
+    </Item>
+    <Item>
+      <changeSetName>PATCHPACK001_OVERLAYINFO</changeSetName>
+      <filesToInvalidate/>
+      <filesToDisable/>
+      <filesToEnable>
+        <Item>dlc_patchPack001:/common/data/overlayinfo.xml</Item>
+      </filesToEnable>
+    </Item>
+    <Item>
+      <changeSetName>PATCHPACK001_MAP_DATA</changeSetName>
+      <filesToInvalidate/>
+      <filesToDisable/>
+      <filesToEnable>
+        <!-- MAPS -->
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/area/lod/rstu_96_99_area_lod_combine_metadata.rpf</Item>
+        <!-- PROPS -->
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/generic/p_bathroom.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/generic/p_curtain.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/generic/p_door.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/lev_des/s_caravan.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/lev_des/s_lev_des_rend_targ.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/lev_des/s_set_pieces.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/vehicle_props/vehicle_props.rpf</Item>
+      </filesToEnable>
+      <executionConditions>
+        <genericConditions>$level=MO_JIM_L11</genericConditions>
+      </executionConditions>
+    </Item>
+    <Item>
+      <changeSetName>PATCHPACK001_CERO_NOPQ_7_10</changeSetName>
+      <filesToInvalidate/>
+      <filesToDisable/>
+      <filesToEnable>
+        <!-- MAPS -->
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/area/lod/nopq_7_10_area_lod_combine_metadata.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/area/nopq_07_10/nopq_7_10_area_lod_combine_collision.rpf</Item>
+      </filesToEnable>
+      <executionConditions>
+        <genericConditions>$level=MO_JIM_L11</genericConditions>
+      </executionConditions>
+    </Item>
+    <Item>
+      <changeSetName>PATCHPACK001_STREAMING_MAP</changeSetName>
+      <filesToInvalidate/>
+      <filesToDisable/>
+      <filesToEnable>
+        <!-- PROPS -->
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/lev_des/s_cs_objects02.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/areas/p_new_01.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/structure/p_stden_cem.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/props/interior/int_doctor_office.rpf</Item>
+        <!-- MAPS -->
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/terrain/horseavoidance/abcd_92_95_ha.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/terrain/a_water_01_vfx.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/area/nopq_07_10/ftr_e_01.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/area/nopq_07_10/the_01.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/area/rstu_96_99/fom_01.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/area/map_mods.rpf</Item>
+        <!-- INTERIORS -->
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/interiors/new_shady_shop_int.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/interiors/q03_04_tunnel_ent_int.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/interiors/q03_04_tunnel_int.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/interiors/q03_04_tunnel_exit_int.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/interiors/cor_factb_int.rpf</Item>
+        <Item>dlc_patchPack001:/%PLATFORM%/levels/rdr3/interiors/han_house_int.rpf</Item>
+      </filesToEnable>
+      <executionConditions>
+        <genericConditions>$level=MO_JIM_L11</genericConditions>
+      </executionConditions>
+    </Item>
+    <Item dev_only="true">
+      <changeSetName>PATCHPACK001_ANIM_DEBUG_DATA</changeSetName>
+      <filesToInvalidate/>
+      <filesToDisable/>
+      <filesToEnable>
+        <Item>dlc_patchPack001:/common/non_final/anim/motions</Item>
+      </filesToEnable>
+    </Item>
+	<Item dev_only="true">
+		<changeSetName>PATCHPACK001_MEMGRPS_DATA</changeSetName>
+		<filesToInvalidate/>
+		<filesToDisable/>
+		<filesToEnable>
+			<Item>dlc_patchPack001:/common/non_final/anim/clip_dictionary_metadata</Item>
+		</filesToEnable>
+	</Item>
+  </contentChangeSets>
+  <patchFiles/>
+</CDataFileMgr__ContentsOfDataFileXml>
